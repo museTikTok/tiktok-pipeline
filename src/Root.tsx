@@ -22,6 +22,7 @@ import {HashimaVideoEn} from './HashimaVideoEn';
 import {HashimaVideoDe} from './HashimaVideoDe';
 import {AntikytheraVideoEn} from './AntikytheraVideoEn';
 import {AntikytheraVideoDe} from './AntikytheraVideoDe';
+import {EasterIslandVideoEn} from './EasterIslandVideoEn';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -297,6 +298,19 @@ const calculateAntikytheraDeMetadata: CalculateMetadataFunction<Record<string, n
 	};
 };
 
+// Easter Island v8 EN is self-contained (words + VO are loaded inside the component);
+// fixed duration 68.47s = 2054 frames (last word 66.94s + 1.5s tail).
+// Kokoro bm_george speed 1.15 VO, subtitles in the TikTok safe zone (bottom: 360).
+// Hook image provided by Axel (plan 1 + thumbnail).
+const calculateEasterIslandEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2054,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -529,6 +543,16 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateAntikytheraDeMetadata}
+			/>
+			<Composition
+				id="EasterIslandVideoEn"
+				component={EasterIslandVideoEn as React.FC<unknown>}
+				durationInFrames={2054}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateEasterIslandEnMetadata}
 			/>
 		</>
 	);

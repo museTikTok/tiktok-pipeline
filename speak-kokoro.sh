@@ -17,10 +17,10 @@ fi
 TMPBASE="/home/hatch/workspace/.tmp"
 [ -d "$TMPBASE" ] || TMPBASE=".tmp"
 mkdir -p "$TMPBASE"
-TMPWAV="$(mktemp "$TMPBASE/kokoro-XXXXXX.wav)"
+TMPWAV="$(mktemp "$TMPBASE/kokoro-XXXXXX.wav")"
 .venv/bin/python kokoro-test/speak_kokoro.py "$LANG" "$TEXT" "$VOICE" "$SPEED" "$TMPWAV"
 # Normalisation -24 dB (normalize-audio.sh) puis stereo par duplication pleine amplitude
-TMPNORM="$(mktemp "$TMPBASE/kokoro-norm-XXXXXX.mp3)"
+TMPNORM="$(mktemp "$TMPBASE/kokoro-norm-XXXXXX.mp3")"
 ./normalize-audio.sh "$TMPWAV" "$TMPNORM" -24
 ffmpeg -y -v error -i "$TMPNORM" -af "pan=stereo|c0=c0|c1=c0" -c:a libmp3lame -b:a 192k "$OUT"
 rm -f "$TMPWAV" "$TMPNORM"

@@ -30,6 +30,11 @@ public/batch6/*
 !public/batch6/v7-clips/
 !public/batch6/v7-en/
 !public/batch6/v7-de/
+!public/batch6/v8-clips/
+!public/batch6/v8-en/
+!public/batch6/v8-en/v8-hook.jpg
+# Raw clip downloads stay on the VM (218 MB, not needed in CI).
+public/batch6/v8-clips/raw/
 # Words JSONs are required by the Remotion bundle: Root.tsx imports every
 # video component, and each one require()s its words JSON at bundle time.
 # (Run 1 failed on the missing v6-de words JSON.) Only the JSONs are
