@@ -545,12 +545,13 @@ export const EasterIslandVideoDe: React.FC = () => {
 
       {/* 5 — Not just heads (14.00-17.88s): S5 "Es sind nicht nur Köpfe. Unter der Erde stecken ganze Körper, mit Armen und Händen." Half-buried moai on the
           quarry slope (A1 t=42s) — the buried shoulders ARE the visual.
-          ANNOTATION (motivated): yellow arrow points DOWN at the buried base on
-          "Erde" (15.84s, delay 55f). */}
+          NO arrow in the DE (differs from the EN): the clip cuts from the quarry
+          slope to a road shot 0.16s after "Erde" (15.84s), so the arrow would
+          point at empty sky for 1.9s — an unmotivated annotation (Tanzplage v1
+          lesson). The EN has the same flaw, unnoticed at validation; the DE
+          fixes it. Rule: if there is nothing to highlight, no arrow. */}
       <Sequence from={S(14)} durationInFrames={S(3.88)}>
-        <ZoomClip src={CLIP('v8-a1-s0506-quarry.mp4')} durationInFrames={S(3.88)} zoom={1.12} startFrom={4}>
-          <Arrow top={700} left={420} rotate={75} delay={55} />
-        </ZoomClip>
+        <ZoomClip src={CLIP('v8-a1-s0506-quarry.mp4')} durationInFrames={S(3.88)} zoom={1.12} startFrom={4} />
       </Sequence>
 
       {/* 6 — The quarry (17.88-21.18s): S6 "Fast alle wurden in einem einzigen Steinbruch gemeißelt — Rano Raraku." Quarry slope, moai head + fallen statues (A1 t=39s).
