@@ -651,10 +651,10 @@ export const EasterIslandVideoEn: React.FC = () => {
       </Sequence>
 
       {/* 15 — The critics (53.58-58.10s): S15 "Critics call it a stunt — and nobody
-          has ever walked an eighty-tonne statue." Fallen moai (B2 t=494s, PF#
+          has ever walked an eighty-tonne statue." Fallen moai on its ahu (B2 t=489s, startFrom 0 so the statue is in frame, PF#
           strip cropped). PaperCard with Van Tilburg's quote. */}
       <Sequence from={S(53.58)} durationInFrames={S(4.52)}>
-        <ZoomClip src={CLIP('v8-b2-fallen.mp4')} durationInFrames={S(4.52)} zoom={1.1} startFrom={5}>
+        <ZoomClip src={CLIP('v8-b2-fallen.mp4')} durationInFrames={S(4.52)} zoom={1.1} startFrom={0}>
           <PaperCard
             title="The critics"
             lines={["'A stunt, not", "an experiment'", '— Van Tilburg']}
