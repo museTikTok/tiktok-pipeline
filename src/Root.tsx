@@ -24,6 +24,8 @@ import {AntikytheraVideoEn} from './AntikytheraVideoEn';
 import {AntikytheraVideoDe} from './AntikytheraVideoDe';
 import {EasterIslandVideoEn} from './EasterIslandVideoEn';
 import {EasterIslandVideoDe} from './EasterIslandVideoDe';
+import {ZodiacVideoEn} from './ZodiacVideoEn';
+import {ZodiacVideoDe} from './ZodiacVideoDe';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -326,6 +328,32 @@ const calculateEasterIslandDeMetadata: CalculateMetadataFunction<Record<string, 
 	};
 };
 
+// Zodiac v9 EN is self-contained (words + VO are loaded inside the component);
+// fixed duration 69.96s = 2099 frames (last word 68.46s + 1.5s tail).
+// Kokoro bm_george speed 1.15 VO, subtitles in the TikTok safe zone (bottom: 360).
+// Hook: the real Z340 cipher card + enlarged hook phrase (plan 1 + thumbnail).
+const calculateZodiacEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2099,
+		props,
+	};
+};
+
+// Zodiac v9 DE is self-contained (words + VO are loaded inside the component);
+// fixed duration 61.98s = 1859 frames (last word 60.48s + 1.5s tail).
+// Kokoro dm_martin speed 1.35 VO, German subtitles fontSize 50 / maxWidth 840
+// (long-word rule: "dreihundertvierzig" = 523 px at size 50, limit 840).
+const calculateZodiacDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1859,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -578,6 +606,26 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateEasterIslandDeMetadata}
+			/>
+			<Composition
+				id="ZodiacVideoEn"
+				component={ZodiacVideoEn as React.FC<unknown>}
+				durationInFrames={2099}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateZodiacEnMetadata}
+			/>
+			<Composition
+				id="ZodiacVideoDe"
+				component={ZodiacVideoDe as React.FC<unknown>}
+				durationInFrames={1859}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateZodiacDeMetadata}
 			/>
 		</>
 	);

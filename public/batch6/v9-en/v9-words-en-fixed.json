@@ -1,0 +1,987 @@
+[
+ {
+  "word": "A",
+  "start": 0.03,
+  "end": 0.04
+ },
+ {
+  "word": "coded",
+  "start": 0.03,
+  "end": 0.3
+ },
+ {
+  "word": "letter.",
+  "start": 0.3,
+  "end": 0.62
+ },
+ {
+  "word": "Nobody",
+  "start": 1.02,
+  "end": 1.24
+ },
+ {
+  "word": "could",
+  "start": 1.24,
+  "end": 1.48
+ },
+ {
+  "word": "read",
+  "start": 1.48,
+  "end": 1.68
+ },
+ {
+  "word": "it",
+  "start": 1.68,
+  "end": 1.84
+ },
+ {
+  "word": "for",
+  "start": 1.84,
+  "end": 1.96
+ },
+ {
+  "word": "fifty-one",
+  "start": 1.96,
+  "end": 2.42
+ },
+ {
+  "word": "years.",
+  "start": 2.42,
+  "end": 2.78
+ },
+ {
+  "word": "In",
+  "start": 3.28,
+  "end": 3.34
+ },
+ {
+  "word": "1969,",
+  "start": 3.34,
+  "end": 4.24
+ },
+ {
+  "word": "a",
+  "start": 5.02,
+  "end": 5.08
+ },
+ {
+  "word": "killer",
+  "start": 5.08,
+  "end": 5.24
+ },
+ {
+  "word": "sent",
+  "start": 5.24,
+  "end": 5.5
+ },
+ {
+  "word": "a",
+  "start": 5.5,
+  "end": 5.62
+ },
+ {
+  "word": "340-symbol",
+  "start": 5.62,
+  "end": 6.84
+ },
+ {
+  "word": "puzzle",
+  "start": 6.84,
+  "end": 7.16
+ },
+ {
+  "word": "to",
+  "start": 7.16,
+  "end": 7.34
+ },
+ {
+  "word": "a",
+  "start": 7.37,
+  "end": 7.38
+ },
+ {
+  "word": "San",
+  "start": 7.37,
+  "end": 7.54
+ },
+ {
+  "word": "Francisco",
+  "start": 7.54,
+  "end": 8.1
+ },
+ {
+  "word": "newspaper",
+  "start": 8.1,
+  "end": 8.58
+ },
+ {
+  "word": "and",
+  "start": 8.58,
+  "end": 9.18
+ },
+ {
+  "word": "signed",
+  "start": 9.18,
+  "end": 9.4
+ },
+ {
+  "word": "it",
+  "start": 9.4,
+  "end": 9.58
+ },
+ {
+  "word": "with",
+  "start": 9.58,
+  "end": 9.68
+ },
+ {
+  "word": "a",
+  "start": 9.68,
+  "end": 9.76
+ },
+ {
+  "word": "crosshair.",
+  "start": 9.76,
+  "end": 10.22
+ },
+ {
+  "word": "It",
+  "start": 10.66,
+  "end": 10.72
+ },
+ {
+  "word": "stayed",
+  "start": 10.72,
+  "end": 10.94
+ },
+ {
+  "word": "unsolved",
+  "start": 10.94,
+  "end": 11.48
+ },
+ {
+  "word": "until",
+  "start": 11.48,
+  "end": 11.76
+ },
+ {
+  "word": "December",
+  "start": 11.76,
+  "end": 12.16
+ },
+ {
+  "word": "2020,",
+  "start": 12.16,
+  "end": 12.98
+ },
+ {
+  "word": "when",
+  "start": 13.34,
+  "end": 13.46
+ },
+ {
+  "word": "three",
+  "start": 13.46,
+  "end": 13.7
+ },
+ {
+  "word": "codebreakers",
+  "start": 13.7,
+  "end": 14.32
+ },
+ {
+  "word": "finally",
+  "start": 14.32,
+  "end": 14.72
+ },
+ {
+  "word": "cracked",
+  "start": 14.72,
+  "end": 15.0
+ },
+ {
+  "word": "it.",
+  "start": 15.0,
+  "end": 15.26
+ },
+ {
+  "word": "But",
+  "start": 15.58,
+  "end": 15.68
+ },
+ {
+  "word": "it",
+  "start": 15.68,
+  "end": 15.76
+ },
+ {
+  "word": "gave",
+  "start": 15.76,
+  "end": 15.9
+ },
+ {
+  "word": "no",
+  "start": 15.9,
+  "end": 16.18
+ },
+ {
+  "word": "name.",
+  "start": 16.18,
+  "end": 16.5
+ },
+ {
+  "word": "And",
+  "start": 16.74,
+  "end": 16.9
+ },
+ {
+  "word": "the",
+  "start": 16.9,
+  "end": 17.0
+ },
+ {
+  "word": "killer",
+  "start": 17.0,
+  "end": 17.22
+ },
+ {
+  "word": "was",
+  "start": 17.22,
+  "end": 17.46
+ },
+ {
+  "word": "never",
+  "start": 17.46,
+  "end": 17.68
+ },
+ {
+  "word": "caught.",
+  "start": 17.68,
+  "end": 18.0
+ },
+ {
+  "word": "It",
+  "start": 18.48,
+  "end": 18.6
+ },
+ {
+  "word": "started",
+  "start": 18.6,
+  "end": 18.9
+ },
+ {
+  "word": "on",
+  "start": 18.9,
+  "end": 19.14
+ },
+ {
+  "word": "December",
+  "start": 19.14,
+  "end": 19.4
+ },
+ {
+  "word": "20th,",
+  "start": 19.4,
+  "end": 19.92
+ },
+ {
+  "word": "1968,",
+  "start": 20.28,
+  "end": 21.46
+ },
+ {
+  "word": "on",
+  "start": 21.86,
+  "end": 21.94
+ },
+ {
+  "word": "a",
+  "start": 21.94,
+  "end": 22.0
+ },
+ {
+  "word": "quiet",
+  "start": 22.0,
+  "end": 22.26
+ },
+ {
+  "word": "road",
+  "start": 22.26,
+  "end": 22.48
+ },
+ {
+  "word": "near",
+  "start": 22.48,
+  "end": 22.78
+ },
+ {
+  "word": "Vallejo,",
+  "start": 22.78,
+  "end": 23.36
+ },
+ {
+  "word": "California.",
+  "start": 23.62,
+  "end": 24.16
+ },
+ {
+  "word": "Two",
+  "start": 24.64,
+  "end": 24.74
+ },
+ {
+  "word": "teenagers,",
+  "start": 24.74,
+  "end": 25.18
+ },
+ {
+  "word": "David",
+  "start": 25.62,
+  "end": 25.86
+ },
+ {
+  "word": "Faraday",
+  "start": 25.86,
+  "end": 26.36
+ },
+ {
+  "word": "and",
+  "start": 26.36,
+  "end": 26.52
+ },
+ {
+  "word": "Betty",
+  "start": 26.52,
+  "end": 26.72
+ },
+ {
+  "word": "Lou",
+  "start": 26.72,
+  "end": 26.94
+ },
+ {
+  "word": "Jensen,",
+  "start": 26.94,
+  "end": 27.32
+ },
+ {
+  "word": "were",
+  "start": 27.7,
+  "end": 27.8
+ },
+ {
+  "word": "shot",
+  "start": 27.8,
+  "end": 28.0
+ },
+ {
+  "word": "dead",
+  "start": 28.0,
+  "end": 28.24
+ },
+ {
+  "word": "in",
+  "start": 28.24,
+  "end": 28.4
+ },
+ {
+  "word": "their",
+  "start": 28.4,
+  "end": 28.52
+ },
+ {
+  "word": "car.",
+  "start": 28.52,
+  "end": 28.78
+ },
+ {
+  "word": "Six",
+  "start": 28.78,
+  "end": 29.46
+ },
+ {
+  "word": "months",
+  "start": 29.46,
+  "end": 29.72
+ },
+ {
+  "word": "later,",
+  "start": 29.72,
+  "end": 30.08
+ },
+ {
+  "word": "on",
+  "start": 30.2,
+  "end": 30.24
+ },
+ {
+  "word": "the",
+  "start": 30.24,
+  "end": 30.34
+ },
+ {
+  "word": "Fourth",
+  "start": 30.34,
+  "end": 30.64
+ },
+ {
+  "word": "of",
+  "start": 30.64,
+  "end": 30.68
+ },
+ {
+  "word": "July,",
+  "start": 30.68,
+  "end": 31.0
+ },
+ {
+  "word": "he",
+  "start": 31.24,
+  "end": 31.3
+ },
+ {
+  "word": "struck",
+  "start": 31.3,
+  "end": 31.48
+ },
+ {
+  "word": "again",
+  "start": 31.48,
+  "end": 31.78
+ },
+ {
+  "word": "Darlene",
+  "start": 32.02,
+  "end": 32.2
+ },
+ {
+  "word": "Ferrin",
+  "start": 32.2,
+  "end": 32.56
+ },
+ {
+  "word": "was",
+  "start": 32.56,
+  "end": 32.72
+ },
+ {
+  "word": "killed,",
+  "start": 32.72,
+  "end": 33.06
+ },
+ {
+  "word": "and",
+  "start": 33.44,
+  "end": 33.52
+ },
+ {
+  "word": "Michael",
+  "start": 33.52,
+  "end": 33.8
+ },
+ {
+  "word": "Mageau",
+  "start": 33.8,
+  "end": 34.24
+ },
+ {
+  "word": "survived.",
+  "start": 34.24,
+  "end": 34.66
+ },
+ {
+  "word": "Then",
+  "start": 35.14,
+  "end": 35.24
+ },
+ {
+  "word": "in",
+  "start": 35.24,
+  "end": 35.34
+ },
+ {
+  "word": "September,",
+  "start": 35.34,
+  "end": 35.84
+ },
+ {
+  "word": "at",
+  "start": 35.84,
+  "end": 36.16
+ },
+ {
+  "word": "Lake",
+  "start": 36.16,
+  "end": 36.22
+ },
+ {
+  "word": "Berryessa,",
+  "start": 36.22,
+  "end": 36.68
+ },
+ {
+  "word": "he",
+  "start": 37.04,
+  "end": 37.14
+ },
+ {
+  "word": "stabbed",
+  "start": 37.14,
+  "end": 37.46
+ },
+ {
+  "word": "Cecelia",
+  "start": 37.46,
+  "end": 37.96
+ },
+ {
+  "word": "Shepard",
+  "start": 37.96,
+  "end": 38.36
+ },
+ {
+  "word": "and",
+  "start": 38.36,
+  "end": 38.48
+ },
+ {
+  "word": "Bryan",
+  "start": 38.48,
+  "end": 38.72
+ },
+ {
+  "word": "Hartnell",
+  "start": 38.72,
+  "end": 39.14
+ },
+ {
+  "word": "she",
+  "start": 39.14,
+  "end": 39.52
+ },
+ {
+  "word": "died,",
+  "start": 39.52,
+  "end": 39.78
+ },
+ {
+  "word": "he",
+  "start": 39.92,
+  "end": 40.0
+ },
+ {
+  "word": "survived.",
+  "start": 40.0,
+  "end": 40.36
+ },
+ {
+  "word": "And",
+  "start": 40.74,
+  "end": 41.02
+ },
+ {
+  "word": "in",
+  "start": 41.02,
+  "end": 41.1
+ },
+ {
+  "word": "October,",
+  "start": 41.1,
+  "end": 41.5
+ },
+ {
+  "word": "he",
+  "start": 41.5,
+  "end": 41.74
+ },
+ {
+  "word": "shot",
+  "start": 41.74,
+  "end": 41.9
+ },
+ {
+  "word": "taxi",
+  "start": 41.9,
+  "end": 42.3
+ },
+ {
+  "word": "driver",
+  "start": 42.3,
+  "end": 42.62
+ },
+ {
+  "word": "Paul",
+  "start": 42.62,
+  "end": 42.9
+ },
+ {
+  "word": "Stine",
+  "start": 42.9,
+  "end": 43.22
+ },
+ {
+  "word": "in",
+  "start": 43.22,
+  "end": 43.46
+ },
+ {
+  "word": "San",
+  "start": 43.46,
+  "end": 43.64
+ },
+ {
+  "word": "Francisco.",
+  "start": 43.64,
+  "end": 44.22
+ },
+ {
+  "word": "Five",
+  "start": 44.78,
+  "end": 44.96
+ },
+ {
+  "word": "people",
+  "start": 44.96,
+  "end": 45.32
+ },
+ {
+  "word": "dead.",
+  "start": 45.32,
+  "end": 45.6
+ },
+ {
+  "word": "Two",
+  "start": 45.9,
+  "end": 46.14
+ },
+ {
+  "word": "survived.",
+  "start": 46.14,
+  "end": 46.56
+ },
+ {
+  "word": "He",
+  "start": 47.1,
+  "end": 47.2
+ },
+ {
+  "word": "wrote",
+  "start": 47.2,
+  "end": 47.36
+ },
+ {
+  "word": "to",
+  "start": 47.36,
+  "end": 47.54
+ },
+ {
+  "word": "the",
+  "start": 47.54,
+  "end": 47.64
+ },
+ {
+  "word": "newspapers",
+  "start": 47.64,
+  "end": 47.92
+ },
+ {
+  "word": "again",
+  "start": 47.92,
+  "end": 48.38
+ },
+ {
+  "word": "and",
+  "start": 48.38,
+  "end": 48.5
+ },
+ {
+  "word": "again:",
+  "start": 48.5,
+  "end": 48.78
+ },
+ {
+  "word": "\"This",
+  "start": 49.14,
+  "end": 49.28
+ },
+ {
+  "word": "is",
+  "start": 49.28,
+  "end": 49.5
+ },
+ {
+  "word": "the",
+  "start": 49.5,
+  "end": 49.64
+ },
+ {
+  "word": "Zodiac",
+  "start": 49.64,
+  "end": 50.08
+ },
+ {
+  "word": "speaking.\"",
+  "start": 50.08,
+  "end": 50.52
+ },
+ {
+  "word": "He",
+  "start": 50.94,
+  "end": 51.12
+ },
+ {
+  "word": "sent",
+  "start": 51.12,
+  "end": 51.3
+ },
+ {
+  "word": "four",
+  "start": 51.3,
+  "end": 51.58
+ },
+ {
+  "word": "codes.",
+  "start": 51.58,
+  "end": 51.96
+ },
+ {
+  "word": "The",
+  "start": 52.34,
+  "end": 52.4
+ },
+ {
+  "word": "first",
+  "start": 52.4,
+  "end": 52.6
+ },
+ {
+  "word": "was",
+  "start": 52.6,
+  "end": 52.8
+ },
+ {
+  "word": "cracked",
+  "start": 52.8,
+  "end": 53.0
+ },
+ {
+  "word": "in",
+  "start": 53.0,
+  "end": 53.22
+ },
+ {
+  "word": "a",
+  "start": 53.22,
+  "end": 53.3
+ },
+ {
+  "word": "week",
+  "start": 53.3,
+  "end": 53.52
+ },
+ {
+  "word": "by",
+  "start": 53.52,
+  "end": 53.9
+ },
+ {
+  "word": "a",
+  "start": 53.9,
+  "end": 54.0
+ },
+ {
+  "word": "schoolteacher",
+  "start": 54.0,
+  "end": 54.56
+ },
+ {
+  "word": "and",
+  "start": 54.56,
+  "end": 54.7
+ },
+ {
+  "word": "his",
+  "start": 54.7,
+  "end": 54.82
+ },
+ {
+  "word": "wife.",
+  "start": 54.82,
+  "end": 55.14
+ },
+ {
+  "word": "The",
+  "start": 55.14,
+  "end": 55.64
+ },
+ {
+  "word": "last",
+  "start": 55.64,
+  "end": 55.8
+ },
+ {
+  "word": "two",
+  "start": 55.8,
+  "end": 56.08
+ },
+ {
+  "word": "codes,",
+  "start": 56.08,
+  "end": 56.44
+ },
+ {
+  "word": "Z13",
+  "start": 56.74,
+  "end": 57.26
+ },
+ {
+  "word": "and",
+  "start": 57.26,
+  "end": 57.52
+ },
+ {
+  "word": "Z32,",
+  "start": 57.52,
+  "end": 58.26
+ },
+ {
+  "word": "have",
+  "start": 58.26,
+  "end": 58.52
+ },
+ {
+  "word": "never",
+  "start": 58.52,
+  "end": 58.72
+ },
+ {
+  "word": "been",
+  "start": 58.72,
+  "end": 58.94
+ },
+ {
+  "word": "solved.",
+  "start": 58.94,
+  "end": 59.38
+ },
+ {
+  "word": "He",
+  "start": 59.74,
+  "end": 59.82
+ },
+ {
+  "word": "claimed",
+  "start": 59.82,
+  "end": 60.14
+ },
+ {
+  "word": "thirty-seven",
+  "start": 60.14,
+  "end": 60.72
+ },
+ {
+  "word": "victims.",
+  "start": 60.72,
+  "end": 61.26
+ },
+ {
+  "word": "Police",
+  "start": 61.6,
+  "end": 61.84
+ },
+ {
+  "word": "confirmed",
+  "start": 61.84,
+  "end": 62.48
+ },
+ {
+  "word": "only",
+  "start": 62.48,
+  "end": 62.74
+ },
+ {
+  "word": "five.",
+  "start": 62.74,
+  "end": 63.16
+ },
+ {
+  "word": "His",
+  "start": 63.46,
+  "end": 63.6
+ },
+ {
+  "word": "name",
+  "start": 63.6,
+  "end": 63.82
+ },
+ {
+  "word": "was",
+  "start": 63.82,
+  "end": 64.04
+ },
+ {
+  "word": "never",
+  "start": 64.04,
+  "end": 64.26
+ },
+ {
+  "word": "found.",
+  "start": 64.26,
+  "end": 64.74
+ },
+ {
+  "word": "The",
+  "start": 65.14,
+  "end": 65.22
+ },
+ {
+  "word": "case",
+  "start": 65.22,
+  "end": 65.44
+ },
+ {
+  "word": "is",
+  "start": 65.44,
+  "end": 65.62
+ },
+ {
+  "word": "still",
+  "start": 65.62,
+  "end": 65.82
+ },
+ {
+  "word": "open",
+  "start": 65.82,
+  "end": 66.2
+ },
+ {
+  "word": "today.",
+  "start": 66.2,
+  "end": 66.58
+ },
+ {
+  "word": "Follow",
+  "start": 67.06,
+  "end": 67.24
+ },
+ {
+  "word": "for",
+  "start": 67.24,
+  "end": 67.46
+ },
+ {
+  "word": "more",
+  "start": 67.46,
+  "end": 67.66
+ },
+ {
+  "word": "ancient",
+  "start": 67.66,
+  "end": 68.06
+ },
+ {
+  "word": "mysteries!",
+  "start": 68.06,
+  "end": 68.46
+ }
+]

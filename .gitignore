@@ -35,6 +35,19 @@ public/batch6/*
 !public/batch6/v8-en/v8-hook.jpg
 !public/batch6/v8-de/
 !public/batch6/v8-de/v8-hook-de.jpg
+!public/batch6/v9-clips/
+!public/batch6/v9-en/
+!public/batch6/v9-de/
+!public/batch6/v9-images/
+!public/batch6/v9-images/*.jpg
+!public/batch6/v9-images/*.png
+# VO speed backup + unfixed words JSONs stay on the VM (not needed in CI).
+public/batch6/v9-de/*-1.15-*.mp3
+public/batch6/v9-en/v9-words-en.json
+public/batch6/v9-de/v9-words-de.json
+public/batch6/v9-images/*.sh
+# Raw clip downloads stay on the VM (~1.7 GB, not needed in CI).
+public/batch6/v9-raw/
 # VO speed backups stay on the VM (not needed in CI).
 public/batch6/v8-de/*-backup.mp3
 # Raw clip downloads stay on the VM (218 MB, not needed in CI).
