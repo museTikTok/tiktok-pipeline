@@ -88,7 +88,8 @@ jobs:
       - name: Install ffmpeg + fonts
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg espeak-ng
+          sudo apt-get install -y -qq ffmpeg espeak-ng python3-numpy
+          # python3-numpy is required by scripts/preflight.sh (dup-frame check).
           mkdir -p ~/.fonts
           cp assets/fonts/*.ttf ~/.fonts/
           # Anton is the subtitle fallback font (not shipped in the repo)
