@@ -1,0 +1,81 @@
+# --- Dependencies (rebuilt in CI: npm ci / pip install) ---
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# --- Browsers (installed in CI: npx remotion browser install) ---
+.browser/
+
+# --- Render outputs & temp dirs ---
+out/
+out=/
+.tmp/
+.tmp-render/
+*.mp4
+*.webm
+*.mov
+!public/**/*.mp4
+*.jpg
+!assets/**/*.jpg
+*.png
+!assets/**/*.png
+
+# --- Public assets NOT needed for the v7 test render ---
+# (other videos' clips stay on the VM; add them here per video when needed)
+public/batch3/
+public/batch4/
+public/batch5/
+public/batch6/*
+!public/batch6/v7-clips/
+!public/batch6/v7-en/
+!public/batch6/v7-de/
+public/batch6/v7-clips/orig-uncropped/
+public/clip1_full.mp4
+public/clip2_full.mp4
+public/kl-*.mp4
+public/kl-*.mp3
+public/ok-*.mp4
+public/ok-*.mp3
+public/st-*.mp4
+public/st-*.mp3
+public/voiceover.mp3
+
+# --- Kokoro test files (models are downloaded in CI, cached) ---
+kokoro-test/*.wav
+kokoro-test/*.mp3
+kokoro-test/*.json
+kokoro-test/__pycache__/
+kokoro-test/*.pth
+kokoro-test/*.onnx
+kokoro-test/*.bin
+kokoro-test/*.pt
+kokoro-test/test*.py
+kokoro-test/compare_trans.py
+kokoro-test/download_kikiri.py
+# convert_kikiri.py + speak_kokoro.py are COMMITTED (needed by the CI Kokoro step).
+
+# --- Model weights & experiments (downloaded in CI when needed) ---
+weights/
+deepfilternet-test/
+item4-florence-grounding/
+siglip2-test/
+*.pt
+*.pth
+*.onnx
+*.bin
+!assets/**/*.bin
+
+# --- Misc local files ---
+.agent/
+.agents/
+.browser/
+.claude/
+agent/
+test/
+thumbnails/
+profile_pic.jpg
+--language
+skills-lock.json
+*.log
+.DS_Store
