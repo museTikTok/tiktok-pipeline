@@ -30,6 +30,32 @@ public/batch6/*
 !public/batch6/v7-clips/
 !public/batch6/v7-en/
 !public/batch6/v7-de/
+# Words JSONs are required by the Remotion bundle: Root.tsx imports every
+# video component, and each one require()s its words JSON at bundle time.
+# (Run 1 failed on the missing v6-de words JSON.) Only the JSONs are
+# whitelisted; the clips and VO of videos 3-6 stay on the VM.
+!public/batch6/v3-words-fixed.json
+!public/batch6/v3-en/
+public/batch6/v3-en/*
+!public/batch6/v3-en/v3-words-en-fixed.json
+!public/batch6/v4-de/
+public/batch6/v4-de/*
+!public/batch6/v4-de/v4-words-de-fixed.json
+!public/batch6/v4-en/
+public/batch6/v4-en/*
+!public/batch6/v4-en/v4-words-en-fixed.json
+!public/batch6/v5-de/
+public/batch6/v5-de/*
+!public/batch6/v5-de/v5-words-de-fixed.json
+!public/batch6/v5-en/
+public/batch6/v5-en/*
+!public/batch6/v5-en/v5-words-en-fixed.json
+!public/batch6/v6-de/
+public/batch6/v6-de/*
+!public/batch6/v6-de/v6-words-de-fixed.json
+!public/batch6/v6-en/
+public/batch6/v6-en/*
+!public/batch6/v6-en/v6-words-en-fixed.json
 public/batch6/v7-clips/orig-uncropped/
 public/clip1_full.mp4
 public/clip2_full.mp4
