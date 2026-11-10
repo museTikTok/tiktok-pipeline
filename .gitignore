@@ -33,6 +33,10 @@ public/batch6/*
 !public/batch6/v8-clips/
 !public/batch6/v8-en/
 !public/batch6/v8-en/v8-hook.jpg
+!public/batch6/v8-de/
+!public/batch6/v8-de/v8-hook-de.jpg
+# VO speed backups stay on the VM (not needed in CI).
+public/batch6/v8-de/*-backup.mp3
 # Raw clip downloads stay on the VM (218 MB, not needed in CI).
 public/batch6/v8-clips/raw/
 # Words JSONs are required by the Remotion bundle: Root.tsx imports every

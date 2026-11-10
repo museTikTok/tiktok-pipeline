@@ -8,6 +8,7 @@
 #   videos      — v7-both (default) renders EN + DE in parallel (matrix, 2 runners),
 #                 v7-en-only / v7-de-only render a single v7 composition.
 #                 v8-en-only renders the Easter Island EN composition (video 8).
+#                 v8-de-only renders the Easter Island DE composition (video 8).
 #   clips       — committed (default): use the pre-converted clips in the repo.
 #                 download: fetch sources from scripts/clips-v7.json and
 #                 pre-convert them (yt-dlp + ffmpeg minterpolate). v7 only.
@@ -34,6 +35,7 @@ on:
           - v7-en-only
           - v7-de-only
           - v8-en-only
+          - v8-de-only
       clips:
         description: 'Clip assets: committed (repo) or download (from sources)'
         required: true
@@ -65,6 +67,7 @@ jobs:
             v7-en-only) echo 'matrix={"composition":["AntikytheraVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             v7-de-only) echo 'matrix={"composition":["AntikytheraVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
             v8-en-only) echo 'matrix={"composition":["EasterIslandVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
+            v8-de-only) echo 'matrix={"composition":["EasterIslandVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
             *)          echo 'matrix={"composition":["AntikytheraVideoEn","AntikytheraVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
           esac
 
@@ -167,13 +170,16 @@ jobs:
         if: inputs.generate_vo
         run: |
           # EN v7: bm_george 1.15 — DE v7: martin 1.3 (1.15 is too slow in German: 93.9 s).
-          # EN v8: bm_george 1.15.
-          # The component reads public/batch6/v7-en/v7-vo-en.mp3, v7-de/v7-vo-de-mix.mp3
-          # or public/batch6/v8-en/v8-vo-en.mp3.
+          # EN v8: bm_george 1.15 — DE v8: martin 1.35 (1.15: 82.2 s, 1.3: 73.8 s,
+          # 1.4: 58.7 s; 1.35 gives 62.50 s, in the 60-70 s target).
+          # The component reads public/batch6/v7-en/v7-vo-en.mp3, v7-de/v7-vo-de-mix.mp3,
+          # public/batch6/v8-en/v8-vo-en.mp3 or public/batch6/v8-de/v8-vo-de.mp3.
           if [ "${{ matrix.composition }}" = "AntikytheraVideoEn" ]; then
             ./speak-kokoro.sh en @public/batch6/v7-en/v7-script-en.txt bm_george 1.15 public/batch6/v7-en/v7-vo-en.mp3
           elif [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then
             ./speak-kokoro.sh en @public/batch6/v8-en/v8-script-en.txt bm_george 1.15 public/batch6/v8-en/v8-vo-en.mp3
+          elif [ "${{ matrix.composition }}" = "EasterIslandVideoDe" ]; then
+            ./speak-kokoro.sh de @public/batch6/v8-de/v8-script-de.txt martin 1.35 public/batch6/v8-de/v8-vo-de.mp3
           else
             ./speak-kokoro.sh de @public/batch6/v7-de/v7-vo-de.txt martin 1.3 public/batch6/v7-de/v7-vo-de.mp3
             # DE component uses the VO+music mix; without music, copy the plain VO over the mix.
@@ -192,8 +198,8 @@ jobs:
       - name: Extract verification frames
         run: |
           mkdir -p out/frames
-          # v8 (68.5 s) needs earlier timestamps than v7 (83 s).
-          if [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then TIMES="2 12 30 45 55 66"; else TIMES="2 25 50 62 70 79"; fi
+          # v8 (68.5 s EN / ~60 s DE) needs earlier timestamps than v7 (83 s).
+          if [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then TIMES="2 12 30 45 55 66"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoDe" ]; then TIMES="2 12 30 45 55 58"; else TIMES="2 25 50 62 70 79"; fi
           for t in $TIMES; do
             ffmpeg -y -v error -ss "$t" -i "out/${{ matrix.composition }}.mp4" -frames:v 1 "out/frames/f${t}.jpg"
           done
