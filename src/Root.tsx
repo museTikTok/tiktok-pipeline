@@ -26,6 +26,8 @@ import {EasterIslandVideoEn} from './EasterIslandVideoEn';
 import {EasterIslandVideoDe} from './EasterIslandVideoDe';
 import {ZodiacVideoEn} from './ZodiacVideoEn';
 import {ZodiacVideoDe} from './ZodiacVideoDe';
+import {MontPeleeVideoEn} from './MontPeleeVideoEn';
+import {MontPeleeVideoDe} from './MontPeleeVideoDe';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -354,6 +356,33 @@ const calculateZodiacDeMetadata: CalculateMetadataFunction<Record<string, never>
 	};
 };
 
+// Mont Pelée v10 EN is self-contained (words + VO are loaded inside the component);
+// fixed duration 67.96s = 2039 frames (last word 66.46s + 1.5s tail).
+// Kokoro bm_george speed 1.15 VO, subtitles in the TikTok safe zone (bottom: 360).
+// Hook: the real eruption column of 16 July 1902 + enlarged hook phrase (plan 1 + thumbnail).
+const calculateMontPeleeEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2039,
+		props,
+	};
+};
+
+// Mont Pelée v10 DE is self-contained (words + VO are loaded inside the component);
+// fixed duration 70.66s = 2120 frames (last word 69.16s + 1.5s tail).
+// Kokoro dm_martin speed 1.15 VO (1.35 gave only 52.6s — too short, rushed),
+// German subtitles fontSize 50 / maxWidth 840
+// (long-word rule: "Dreißigtausend" = 432 px at size 50, limit 840).
+const calculateMontPeleeDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2120,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -626,6 +655,26 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateZodiacDeMetadata}
+			/>
+			<Composition
+				id="MontPeleeVideoEn"
+				component={MontPeleeVideoEn as React.FC<unknown>}
+				durationInFrames={2039}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateMontPeleeEnMetadata}
+			/>
+			<Composition
+				id="MontPeleeVideoDe"
+				component={MontPeleeVideoDe as React.FC<unknown>}
+				durationInFrames={2120}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateMontPeleeDeMetadata}
 			/>
 		</>
 	);

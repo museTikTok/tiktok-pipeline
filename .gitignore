@@ -41,6 +41,15 @@ public/batch6/*
 !public/batch6/v9-images/
 !public/batch6/v9-images/*.jpg
 !public/batch6/v9-images/*.png
+!public/batch6/v10-clips/
+!public/batch6/v10-en/
+!public/batch6/v10-de/
+!public/batch6/v10-images/
+!public/batch6/v10-images/*.jpg
+# VO speed backup + unfixed words JSONs stay on the VM (not needed in CI).
+public/batch6/v10-de/*-1.35.mp3
+public/batch6/v10-en/v10-words-en.json
+public/batch6/v10-de/v10-words-de.json
 # VO speed backup + unfixed words JSONs stay on the VM (not needed in CI).
 public/batch6/v9-de/*-1.15-*.mp3
 public/batch6/v9-en/v9-words-en.json

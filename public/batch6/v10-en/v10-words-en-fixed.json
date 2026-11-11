@@ -1,0 +1,1007 @@
+[
+ {
+  "word": "Thirty",
+  "start": 0.0,
+  "end": 0.27
+ },
+ {
+  "word": "thousand",
+  "start": 0.27,
+  "end": 0.64
+ },
+ {
+  "word": "people",
+  "start": 0.64,
+  "end": 0.92
+ },
+ {
+  "word": "died",
+  "start": 0.92,
+  "end": 1.18
+ },
+ {
+  "word": "in",
+  "start": 1.18,
+  "end": 1.42
+ },
+ {
+  "word": "two",
+  "start": 1.42,
+  "end": 1.62
+ },
+ {
+  "word": "minutes.",
+  "start": 1.62,
+  "end": 1.88
+ },
+ {
+  "word": "Only",
+  "start": 2.34,
+  "end": 2.54
+ },
+ {
+  "word": "two",
+  "start": 2.54,
+  "end": 2.78
+ },
+ {
+  "word": "survived",
+  "start": 2.78,
+  "end": 3.28
+ },
+ {
+  "word": "and",
+  "start": 3.54,
+  "end": 3.72
+ },
+ {
+  "word": "one",
+  "start": 3.72,
+  "end": 3.86
+ },
+ {
+  "word": "of",
+  "start": 3.86,
+  "end": 3.94
+ },
+ {
+  "word": "them",
+  "start": 3.94,
+  "end": 4.08
+ },
+ {
+  "word": "was",
+  "start": 4.08,
+  "end": 4.26
+ },
+ {
+  "word": "locked",
+  "start": 4.26,
+  "end": 4.46
+ },
+ {
+  "word": "in",
+  "start": 4.46,
+  "end": 4.64
+ },
+ {
+  "word": "a",
+  "start": 4.64,
+  "end": 4.72
+ },
+ {
+  "word": "prison",
+  "start": 4.72,
+  "end": 4.98
+ },
+ {
+  "word": "cell.",
+  "start": 4.98,
+  "end": 5.34
+ },
+ {
+  "word": "This",
+  "start": 5.86,
+  "end": 5.98
+ },
+ {
+  "word": "is",
+  "start": 5.98,
+  "end": 6.14
+ },
+ {
+  "word": "Mount",
+  "start": 6.14,
+  "end": 6.34
+ },
+ {
+  "word": "Pel\u00e9e,",
+  "start": 6.34,
+  "end": 6.62
+ },
+ {
+  "word": "the",
+  "start": 6.88,
+  "end": 7.0
+ },
+ {
+  "word": "volcano",
+  "start": 7.0,
+  "end": 7.38
+ },
+ {
+  "word": "that",
+  "start": 7.38,
+  "end": 7.66
+ },
+ {
+  "word": "erased",
+  "start": 7.66,
+  "end": 7.9
+ },
+ {
+  "word": "a",
+  "start": 7.9,
+  "end": 8.2
+ },
+ {
+  "word": "city.",
+  "start": 8.2,
+  "end": 8.52
+ },
+ {
+  "word": "Saint-Pierre",
+  "start": 9.02,
+  "end": 9.44
+ },
+ {
+  "word": "was",
+  "start": 9.44,
+  "end": 9.64
+ },
+ {
+  "word": "the",
+  "start": 9.64,
+  "end": 9.78
+ },
+ {
+  "word": "Caribbean's",
+  "start": 9.78,
+  "end": 10.38
+ },
+ {
+  "word": "richest",
+  "start": 10.38,
+  "end": 10.52
+ },
+ {
+  "word": "city",
+  "start": 10.52,
+  "end": 10.94
+ },
+ {
+  "word": "the",
+  "start": 11.26,
+  "end": 11.34
+ },
+ {
+  "word": "Paris",
+  "start": 11.34,
+  "end": 11.6
+ },
+ {
+  "word": "of",
+  "start": 11.6,
+  "end": 11.78
+ },
+ {
+  "word": "the",
+  "start": 11.78,
+  "end": 11.9
+ },
+ {
+  "word": "Caribbean.",
+  "start": 11.9,
+  "end": 12.38
+ },
+ {
+  "word": "But",
+  "start": 12.78,
+  "end": 12.94
+ },
+ {
+  "word": "above",
+  "start": 12.94,
+  "end": 13.14
+ },
+ {
+  "word": "it",
+  "start": 13.14,
+  "end": 13.24
+ },
+ {
+  "word": "stood",
+  "start": 13.24,
+  "end": 13.46
+ },
+ {
+  "word": "Mount",
+  "start": 13.46,
+  "end": 13.72
+ },
+ {
+  "word": "Pel\u00e9e,",
+  "start": 13.72,
+  "end": 14.04
+ },
+ {
+  "word": "quiet",
+  "start": 14.04,
+  "end": 14.6
+ },
+ {
+  "word": "for",
+  "start": 14.6,
+  "end": 14.78
+ },
+ {
+  "word": "fifty",
+  "start": 14.78,
+  "end": 15.06
+ },
+ {
+  "word": "years.",
+  "start": 15.06,
+  "end": 15.42
+ },
+ {
+  "word": "In",
+  "start": 15.98,
+  "end": 16.06
+ },
+ {
+  "word": "April",
+  "start": 16.06,
+  "end": 16.3
+ },
+ {
+  "word": "1902,",
+  "start": 16.3,
+  "end": 17.28
+ },
+ {
+  "word": "the",
+  "start": 17.58,
+  "end": 17.78
+ },
+ {
+  "word": "mountain",
+  "start": 17.78,
+  "end": 18.0
+ },
+ {
+  "word": "woke",
+  "start": 18.0,
+  "end": 18.26
+ },
+ {
+  "word": "up:",
+  "start": 18.26,
+  "end": 18.62
+ },
+ {
+  "word": "ash,",
+  "start": 18.96,
+  "end": 19.24
+ },
+ {
+  "word": "tremors,",
+  "start": 19.46,
+  "end": 19.8
+ },
+ {
+  "word": "and",
+  "start": 19.86,
+  "end": 20.06
+ },
+ {
+  "word": "sulphur",
+  "start": 20.06,
+  "end": 20.42
+ },
+ {
+  "word": "in",
+  "start": 20.42,
+  "end": 20.64
+ },
+ {
+  "word": "the",
+  "start": 20.64,
+  "end": 20.76
+ },
+ {
+  "word": "air.",
+  "start": 20.76,
+  "end": 21.0
+ },
+ {
+  "word": "Animals",
+  "start": 21.66,
+  "end": 21.71
+ },
+ {
+  "word": "fled",
+  "start": 21.66,
+  "end": 21.96
+ },
+ {
+  "word": "down",
+  "start": 21.96,
+  "end": 22.18
+ },
+ {
+  "word": "the",
+  "start": 22.18,
+  "end": 22.32
+ },
+ {
+  "word": "slopes,",
+  "start": 22.32,
+  "end": 22.66
+ },
+ {
+  "word": "and",
+  "start": 23.0,
+  "end": 23.1
+ },
+ {
+  "word": "a",
+  "start": 23.1,
+  "end": 23.18
+ },
+ {
+  "word": "boiling",
+  "start": 23.18,
+  "end": 23.42
+ },
+ {
+  "word": "mudflow",
+  "start": 23.42,
+  "end": 23.9
+ },
+ {
+  "word": "buried",
+  "start": 23.9,
+  "end": 24.22
+ },
+ {
+  "word": "a",
+  "start": 24.22,
+  "end": 24.34
+ },
+ {
+  "word": "sugar",
+  "start": 24.34,
+  "end": 24.54
+ },
+ {
+  "word": "factory.",
+  "start": 24.54,
+  "end": 25.06
+ },
+ {
+  "word": "But",
+  "start": 25.48,
+  "end": 25.58
+ },
+ {
+  "word": "officials",
+  "start": 25.58,
+  "end": 25.9
+ },
+ {
+  "word": "told",
+  "start": 25.9,
+  "end": 26.22
+ },
+ {
+  "word": "everyone",
+  "start": 26.22,
+  "end": 26.56
+ },
+ {
+  "word": "to",
+  "start": 26.56,
+  "end": 26.78
+ },
+ {
+  "word": "stay",
+  "start": 26.78,
+  "end": 27.06
+ },
+ {
+  "word": "an",
+  "start": 27.36,
+  "end": 27.42
+ },
+ {
+  "word": "election",
+  "start": 27.42,
+  "end": 27.72
+ },
+ {
+  "word": "was",
+  "start": 27.72,
+  "end": 27.98
+ },
+ {
+  "word": "coming.",
+  "start": 27.98,
+  "end": 28.28
+ },
+ {
+  "word": "On",
+  "start": 28.28,
+  "end": 28.86
+ },
+ {
+  "word": "the",
+  "start": 28.86,
+  "end": 28.98
+ },
+ {
+  "word": "morning",
+  "start": 28.98,
+  "end": 29.2
+ },
+ {
+  "word": "of",
+  "start": 29.2,
+  "end": 29.38
+ },
+ {
+  "word": "May",
+  "start": 29.38,
+  "end": 29.5
+ },
+ {
+  "word": "8th,",
+  "start": 29.5,
+  "end": 29.92
+ },
+ {
+  "word": "at",
+  "start": 29.94,
+  "end": 30.02
+ },
+ {
+  "word": "eight",
+  "start": 30.02,
+  "end": 30.16
+ },
+ {
+  "word": "o'clock,",
+  "start": 30.16,
+  "end": 30.52
+ },
+ {
+  "word": "the",
+  "start": 30.78,
+  "end": 30.84
+ },
+ {
+  "word": "mountain",
+  "start": 30.84,
+  "end": 31.06
+ },
+ {
+  "word": "exploded.",
+  "start": 31.06,
+  "end": 31.72
+ },
+ {
+  "word": "A",
+  "start": 32.14,
+  "end": 32.22
+ },
+ {
+  "word": "burning",
+  "start": 32.22,
+  "end": 32.46
+ },
+ {
+  "word": "cloud",
+  "start": 32.46,
+  "end": 32.78
+ },
+ {
+  "word": "raced",
+  "start": 32.78,
+  "end": 33.16
+ },
+ {
+  "word": "down",
+  "start": 33.16,
+  "end": 33.38
+ },
+ {
+  "word": "at",
+  "start": 33.38,
+  "end": 33.52
+ },
+ {
+  "word": "a",
+  "start": 33.52,
+  "end": 33.57
+ },
+ {
+  "word": "hundred",
+  "start": 33.57,
+  "end": 33.93
+ },
+ {
+  "word": "and",
+  "start": 33.93,
+  "end": 34.08
+ },
+ {
+  "word": "sixty",
+  "start": 34.08,
+  "end": 34.33
+ },
+ {
+  "word": "kilometres",
+  "start": 34.33,
+  "end": 34.84
+ },
+ {
+  "word": "an",
+  "start": 34.84,
+  "end": 35.02
+ },
+ {
+  "word": "hour.",
+  "start": 35.02,
+  "end": 35.24
+ },
+ {
+  "word": "It",
+  "start": 35.66,
+  "end": 35.74
+ },
+ {
+  "word": "hit",
+  "start": 35.74,
+  "end": 35.92
+ },
+ {
+  "word": "Saint-Pierre",
+  "start": 35.92,
+  "end": 36.4
+ },
+ {
+  "word": "at",
+  "start": 36.4,
+  "end": 36.6
+ },
+ {
+  "word": "eight",
+  "start": 36.6,
+  "end": 36.83
+ },
+ {
+  "word": "oh",
+  "start": 36.83,
+  "end": 36.92
+ },
+ {
+  "word": "two,",
+  "start": 36.92,
+  "end": 37.1
+ },
+ {
+  "word": "and",
+  "start": 37.36,
+  "end": 37.54
+ },
+ {
+  "word": "in",
+  "start": 37.54,
+  "end": 37.62
+ },
+ {
+  "word": "two",
+  "start": 37.62,
+  "end": 37.84
+ },
+ {
+  "word": "minutes,",
+  "start": 37.84,
+  "end": 38.04
+ },
+ {
+  "word": "the",
+  "start": 38.44,
+  "end": 38.48
+ },
+ {
+  "word": "whole",
+  "start": 38.48,
+  "end": 38.64
+ },
+ {
+  "word": "city",
+  "start": 38.64,
+  "end": 38.96
+ },
+ {
+  "word": "was",
+  "start": 38.96,
+  "end": 39.16
+ },
+ {
+  "word": "gone.",
+  "start": 39.16,
+  "end": 39.42
+ },
+ {
+  "word": "The",
+  "start": 39.96,
+  "end": 40.04
+ },
+ {
+  "word": "only",
+  "start": 40.04,
+  "end": 40.32
+ },
+ {
+  "word": "man",
+  "start": 40.32,
+  "end": 40.56
+ },
+ {
+  "word": "left",
+  "start": 40.56,
+  "end": 40.86
+ },
+ {
+  "word": "alive",
+  "start": 40.86,
+  "end": 41.22
+ },
+ {
+  "word": "was",
+  "start": 41.22,
+  "end": 41.52
+ },
+ {
+  "word": "Ludger",
+  "start": 41.52,
+  "end": 41.87
+ },
+ {
+  "word": "Sylbaris,",
+  "start": 41.87,
+  "end": 42.4
+ },
+ {
+  "word": "a",
+  "start": 42.68,
+  "end": 42.84
+ },
+ {
+  "word": "prisoner",
+  "start": 42.84,
+  "end": 43.14
+ },
+ {
+  "word": "locked",
+  "start": 43.14,
+  "end": 43.42
+ },
+ {
+  "word": "in",
+  "start": 43.42,
+  "end": 43.62
+ },
+ {
+  "word": "a",
+  "start": 43.62,
+  "end": 43.72
+ },
+ {
+  "word": "windowless",
+  "start": 43.72,
+  "end": 44.14
+ },
+ {
+  "word": "stone",
+  "start": 44.14,
+  "end": 44.58
+ },
+ {
+  "word": "cell.",
+  "start": 44.58,
+  "end": 44.84
+ },
+ {
+  "word": "The",
+  "start": 45.28,
+  "end": 45.38
+ },
+ {
+  "word": "thick",
+  "start": 45.38,
+  "end": 45.58
+ },
+ {
+  "word": "walls",
+  "start": 45.58,
+  "end": 45.84
+ },
+ {
+  "word": "saved",
+  "start": 45.84,
+  "end": 46.2
+ },
+ {
+  "word": "him",
+  "start": 46.2,
+  "end": 46.42
+ },
+ {
+  "word": "days",
+  "start": 46.42,
+  "end": 46.74
+ },
+ {
+  "word": "later,",
+  "start": 46.74,
+  "end": 47.14
+ },
+ {
+  "word": "rescuers",
+  "start": 47.52,
+  "end": 47.9
+ },
+ {
+  "word": "heard",
+  "start": 47.9,
+  "end": 48.08
+ },
+ {
+  "word": "him",
+  "start": 48.08,
+  "end": 48.24
+ },
+ {
+  "word": "crying",
+  "start": 48.24,
+  "end": 48.56
+ },
+ {
+  "word": "in",
+  "start": 48.56,
+  "end": 48.8
+ },
+ {
+  "word": "the",
+  "start": 48.8,
+  "end": 48.9
+ },
+ {
+  "word": "ruins.",
+  "start": 48.9,
+  "end": 49.16
+ },
+ {
+  "word": "The",
+  "start": 49.76,
+  "end": 49.86
+ },
+ {
+  "word": "second",
+  "start": 49.86,
+  "end": 50.16
+ },
+ {
+  "word": "survivor",
+  "start": 50.16,
+  "end": 50.66
+ },
+ {
+  "word": "was",
+  "start": 50.66,
+  "end": 50.9
+ },
+ {
+  "word": "L\u00e9on",
+  "start": 50.9,
+  "end": 51.12
+ },
+ {
+  "word": "Comp\u00e8re-L\u00e9andre,",
+  "start": 51.12,
+  "end": 51.98
+ },
+ {
+  "word": "a",
+  "start": 51.98,
+  "end": 52.1
+ },
+ {
+  "word": "shoemaker",
+  "start": 52.1,
+  "end": 52.86
+ },
+ {
+  "word": "from",
+  "start": 52.86,
+  "end": 53.08
+ },
+ {
+  "word": "the",
+  "start": 53.08,
+  "end": 53.22
+ },
+ {
+  "word": "edge",
+  "start": 53.22,
+  "end": 53.44
+ },
+ {
+  "word": "of",
+  "start": 53.44,
+  "end": 53.56
+ },
+ {
+  "word": "the",
+  "start": 53.56,
+  "end": 53.66
+ },
+ {
+  "word": "city.",
+  "start": 53.66,
+  "end": 54.0
+ },
+ {
+  "word": "Saint-Pierre",
+  "start": 54.46,
+  "end": 55.02
+ },
+ {
+  "word": "was",
+  "start": 55.02,
+  "end": 55.24
+ },
+ {
+  "word": "never",
+  "start": 55.24,
+  "end": 55.48
+ },
+ {
+  "word": "rebuilt",
+  "start": 55.48,
+  "end": 55.9
+ },
+ {
+  "word": "Fort-de-France",
+  "start": 56.36,
+  "end": 56.86
+ },
+ {
+  "word": "took",
+  "start": 57.04,
+  "end": 57.12
+ },
+ {
+  "word": "its",
+  "start": 57.12,
+  "end": 57.28
+ },
+ {
+  "word": "place.",
+  "start": 57.28,
+  "end": 57.64
+ },
+ {
+  "word": "When",
+  "start": 57.64,
+  "end": 58.16
+ },
+ {
+  "word": "the",
+  "start": 58.16,
+  "end": 58.28
+ },
+ {
+  "word": "volcano",
+  "start": 58.28,
+  "end": 58.68
+ },
+ {
+  "word": "erupted",
+  "start": 58.68,
+  "end": 59.28
+ },
+ {
+  "word": "again",
+  "start": 59.28,
+  "end": 59.6
+ },
+ {
+  "word": "in",
+  "start": 59.6,
+  "end": 59.86
+ },
+ {
+  "word": "1929,",
+  "start": 59.86,
+  "end": 61.1
+ },
+ {
+  "word": "everyone",
+  "start": 61.46,
+  "end": 62.0
+ },
+ {
+  "word": "was",
+  "start": 62.0,
+  "end": 62.22
+ },
+ {
+  "word": "evacuated,",
+  "start": 62.22,
+  "end": 62.82
+ },
+ {
+  "word": "nobody",
+  "start": 63.2,
+  "end": 63.46
+ },
+ {
+  "word": "died",
+  "start": 63.46,
+  "end": 63.88
+ },
+ {
+  "word": "follow",
+  "start": 64.24,
+  "end": 64.46
+ },
+ {
+  "word": "for",
+  "start": 64.46,
+  "end": 64.68
+ },
+ {
+  "word": "more",
+  "start": 64.68,
+  "end": 64.84
+ },
+ {
+  "word": "stories",
+  "start": 64.84,
+  "end": 65.28
+ },
+ {
+  "word": "history",
+  "start": 65.28,
+  "end": 65.72
+ },
+ {
+  "word": "tried",
+  "start": 65.72,
+  "end": 66.02
+ },
+ {
+  "word": "to",
+  "start": 66.02,
+  "end": 66.2
+ },
+ {
+  "word": "bury!",
+  "start": 66.2,
+  "end": 66.46
+ }
+]
