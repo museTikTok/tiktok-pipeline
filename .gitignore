@@ -59,6 +59,10 @@ public/batch6/test-tickle-en/test-words-en.json
 !public/batch6/test-earth-stops-en/test-vo-en-mix.mp3
 !public/batch6/test-earth-stops-en/test-words-en-fixed.json
 !public/batch6/test-earth-stops-en/test-script-en.txt
+!public/batch6/test-earth-stops-de/
+!public/batch6/test-earth-stops-de/test-vo-de-mix.mp3
+!public/batch6/test-earth-stops-de/test-words-de-fixed.json
+!public/batch6/test-earth-stops-de/test-script-de.txt
 public/batch6/test-earth-stops-clips/05-earth-revolving.mp4
 public/batch6/test-earth-stops-clips/06-earth-rotate-loop.mp4
 public/batch6/test-earth-stops-clips/07-earth-sunrise-space.mp4

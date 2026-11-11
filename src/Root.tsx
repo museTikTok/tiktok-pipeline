@@ -30,6 +30,7 @@ import {MontPeleeVideoEn} from './MontPeleeVideoEn';
 import {MontPeleeVideoDe} from './MontPeleeVideoDe';
 import {TickleVideoEn} from './TickleVideoEn';
 import {EarthStopsVideoEn} from './EarthStopsVideoEn';
+import {EarthStopsVideoDe} from './EarthStopsVideoDe';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -413,6 +414,20 @@ const calculateEarthStopsEnMetadata: CalculateMetadataFunction<Record<string, ne
 	};
 };
 
+// EarthStopsVideoDe — "Did you know" format test #2, VERSION ALLEMANDE (Axel 2026-11-11).
+// Same visuals as the EN v2 (same clips, same corrected hook, same music), German
+// voice + subtitles + on-screen text. Fixed duration 81.7s = 2451 frames
+// (last word 80.20s + 1.5s tail). Kokoro dm_martin speed 1.15 VO (1.35 ran
+// 61.9s = ~230 wpm, too fast; 1.15 gives 80.58s = ~176 wpm, natural band).
+const calculateEarthStopsDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2451,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -725,6 +740,16 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateEarthStopsEnMetadata}
+			/>
+			<Composition
+				id="EarthStopsVideoDe"
+				component={EarthStopsVideoDe as React.FC<unknown>}
+				durationInFrames={2451}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateEarthStopsDeMetadata}
 			/>
 		</>
 	);
