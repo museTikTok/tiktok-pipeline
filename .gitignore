@@ -77,6 +77,10 @@ public/batch6/test-earth-stops-clips/23-wildfire-mountain.mp4
 public/batch6/test-earth-stops-clips/25-rushing-flood.mp4
 public/batch6/test-earth-stops-en/test-music.mp3
 public/batch6/test-earth-stops-en/test-vo-en.mp3
+# v2 hook fix (Axel 2026-11-11): the hook uses the real Blue Marble disc —
+# whitelist ONLY that image (the 2 cracked-earth images stay on the VM).
+!public/batch6/test-earth-stops-images/
+!public/batch6/test-earth-stops-images/blue-marble-apollo17.jpg
 public/batch6/test-earth-stops-en/test-vo-en-10-backup.mp3
 public/batch6/test-earth-stops-en/test-vo-en-115-230w-backup.mp3
 public/batch6/test-earth-stops-en/test-words-en.json
