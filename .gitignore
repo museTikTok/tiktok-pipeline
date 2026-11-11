@@ -46,6 +46,11 @@ public/batch6/*
 !public/batch6/v10-de/
 !public/batch6/v10-images/
 !public/batch6/v10-images/*.jpg
+!public/batch6/test-tickle-en/
+!public/batch6/test-tickle-en/test-vo-en.mp3
+!public/batch6/test-tickle-en/test-words-en-fixed.json
+!public/batch6/test-tickle-en/test-script-en.txt
+public/batch6/test-tickle-en/test-words-en.json
 # VO speed backup + unfixed words JSONs stay on the VM (not needed in CI).
 public/batch6/v10-de/*-1.35.mp3
 public/batch6/v10-en/v10-words-en.json

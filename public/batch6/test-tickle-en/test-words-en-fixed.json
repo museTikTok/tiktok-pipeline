@@ -1,0 +1,802 @@
+[
+ {
+  "word": "Try",
+  "start": 0.0,
+  "end": 0.16
+ },
+ {
+  "word": "to",
+  "start": 0.16,
+  "end": 0.28
+ },
+ {
+  "word": "tickle",
+  "start": 0.28,
+  "end": 0.54
+ },
+ {
+  "word": "yourself",
+  "start": 0.54,
+  "end": 0.78
+ },
+ {
+  "word": "right",
+  "start": 0.78,
+  "end": 1.1
+ },
+ {
+  "word": "now.",
+  "start": 1.1,
+  "end": 1.42
+ },
+ {
+  "word": "Go",
+  "start": 1.56,
+  "end": 1.8
+ },
+ {
+  "word": "on.",
+  "start": 1.8,
+  "end": 2.02
+ },
+ {
+  "word": "Nothing,",
+  "start": 2.12,
+  "end": 2.44
+ },
+ {
+  "word": "right?",
+  "start": 2.44,
+  "end": 2.76
+ },
+ {
+  "word": "But",
+  "start": 3.06,
+  "end": 3.22
+ },
+ {
+  "word": "when",
+  "start": 3.22,
+  "end": 3.34
+ },
+ {
+  "word": "someone",
+  "start": 3.34,
+  "end": 3.6
+ },
+ {
+  "word": "else",
+  "start": 3.6,
+  "end": 3.86
+ },
+ {
+  "word": "does",
+  "start": 3.86,
+  "end": 4.02
+ },
+ {
+  "word": "it,",
+  "start": 4.02,
+  "end": 4.18
+ },
+ {
+  "word": "you",
+  "start": 4.3,
+  "end": 4.36
+ },
+ {
+  "word": "can't",
+  "start": 4.36,
+  "end": 4.62
+ },
+ {
+  "word": "stop",
+  "start": 4.62,
+  "end": 4.82
+ },
+ {
+  "word": "laughing.",
+  "start": 4.82,
+  "end": 5.18
+ },
+ {
+  "word": "Your",
+  "start": 5.68,
+  "end": 5.8
+ },
+ {
+  "word": "brain",
+  "start": 5.8,
+  "end": 6.06
+ },
+ {
+  "word": "is",
+  "start": 6.06,
+  "end": 6.3
+ },
+ {
+  "word": "a",
+  "start": 6.3,
+  "end": 6.38
+ },
+ {
+  "word": "spoiler.",
+  "start": 6.38,
+  "end": 6.8
+ },
+ {
+  "word": "It",
+  "start": 7.16,
+  "end": 7.22
+ },
+ {
+  "word": "ruins",
+  "start": 7.22,
+  "end": 7.5
+ },
+ {
+  "word": "its",
+  "start": 7.5,
+  "end": 7.68
+ },
+ {
+  "word": "own",
+  "start": 7.68,
+  "end": 7.92
+ },
+ {
+  "word": "surprise.",
+  "start": 7.92,
+  "end": 8.42
+ },
+ {
+  "word": "Every",
+  "start": 8.94,
+  "end": 9.12
+ },
+ {
+  "word": "time",
+  "start": 9.12,
+  "end": 9.38
+ },
+ {
+  "word": "you",
+  "start": 9.38,
+  "end": 9.56
+ },
+ {
+  "word": "move,",
+  "start": 9.56,
+  "end": 9.76
+ },
+ {
+  "word": "your",
+  "start": 9.9,
+  "end": 9.94
+ },
+ {
+  "word": "brain",
+  "start": 9.94,
+  "end": 10.16
+ },
+ {
+  "word": "predicts",
+  "start": 10.16,
+  "end": 10.66
+ },
+ {
+  "word": "what",
+  "start": 10.66,
+  "end": 10.8
+ },
+ {
+  "word": "you're",
+  "start": 10.8,
+  "end": 11.02
+ },
+ {
+  "word": "about",
+  "start": 11.02,
+  "end": 11.22
+ },
+ {
+  "word": "to",
+  "start": 11.22,
+  "end": 11.4
+ },
+ {
+  "word": "feel.",
+  "start": 11.4,
+  "end": 11.68
+ },
+ {
+  "word": "It",
+  "start": 12.14,
+  "end": 12.24
+ },
+ {
+  "word": "sends",
+  "start": 12.24,
+  "end": 12.42
+ },
+ {
+  "word": "a",
+  "start": 12.42,
+  "end": 12.56
+ },
+ {
+  "word": "copy",
+  "start": 12.56,
+  "end": 12.76
+ },
+ {
+  "word": "of",
+  "start": 12.76,
+  "end": 12.92
+ },
+ {
+  "word": "the",
+  "start": 12.92,
+  "end": 13.0
+ },
+ {
+  "word": "movement",
+  "start": 13.0,
+  "end": 13.3
+ },
+ {
+  "word": "to",
+  "start": 13.3,
+  "end": 13.5
+ },
+ {
+  "word": "your",
+  "start": 13.5,
+  "end": 13.64
+ },
+ {
+  "word": "cerebellum,",
+  "start": 13.64,
+  "end": 14.32
+ },
+ {
+  "word": "which",
+  "start": 14.32,
+  "end": 14.6
+ },
+ {
+  "word": "predicts",
+  "start": 14.6,
+  "end": 15.04
+ },
+ {
+  "word": "the",
+  "start": 15.04,
+  "end": 15.18
+ },
+ {
+  "word": "touch",
+  "start": 15.18,
+  "end": 15.54
+ },
+ {
+  "word": "and",
+  "start": 15.54,
+  "end": 15.76
+ },
+ {
+  "word": "turns",
+  "start": 15.76,
+  "end": 16.0
+ },
+ {
+  "word": "the",
+  "start": 16.0,
+  "end": 16.2
+ },
+ {
+  "word": "volume",
+  "start": 16.2,
+  "end": 16.5
+ },
+ {
+  "word": "down",
+  "start": 16.5,
+  "end": 16.78
+ },
+ {
+  "word": "before",
+  "start": 16.78,
+  "end": 17.14
+ },
+ {
+  "word": "it",
+  "start": 17.14,
+  "end": 17.34
+ },
+ {
+  "word": "arrives.",
+  "start": 17.34,
+  "end": 17.68
+ },
+ {
+  "word": "But",
+  "start": 18.26,
+  "end": 18.4
+ },
+ {
+  "word": "someone",
+  "start": 18.4,
+  "end": 18.68
+ },
+ {
+  "word": "else's",
+  "start": 18.68,
+  "end": 19.1
+ },
+ {
+  "word": "touch",
+  "start": 19.1,
+  "end": 19.44
+ },
+ {
+  "word": "has",
+  "start": 19.44,
+  "end": 19.56
+ },
+ {
+  "word": "no",
+  "start": 19.56,
+  "end": 19.76
+ },
+ {
+  "word": "warning,",
+  "start": 19.76,
+  "end": 20.18
+ },
+ {
+  "word": "so",
+  "start": 20.38,
+  "end": 20.62
+ },
+ {
+  "word": "it",
+  "start": 20.62,
+  "end": 20.76
+ },
+ {
+  "word": "hits",
+  "start": 20.76,
+  "end": 20.96
+ },
+ {
+  "word": "at",
+  "start": 20.96,
+  "end": 21.1
+ },
+ {
+  "word": "full",
+  "start": 21.1,
+  "end": 21.34
+ },
+ {
+  "word": "blast.",
+  "start": 21.34,
+  "end": 21.68
+ },
+ {
+  "word": "Scientists",
+  "start": 22.4,
+  "end": 22.74
+ },
+ {
+  "word": "proved",
+  "start": 22.74,
+  "end": 23.2
+ },
+ {
+  "word": "it",
+  "start": 23.2,
+  "end": 23.4
+ },
+ {
+  "word": "with",
+  "start": 23.4,
+  "end": 23.56
+ },
+ {
+  "word": "a",
+  "start": 23.56,
+  "end": 23.66
+ },
+ {
+  "word": "tickle",
+  "start": 23.66,
+  "end": 24.0
+ },
+ {
+  "word": "machine.",
+  "start": 24.0,
+  "end": 24.34
+ },
+ {
+  "word": "You",
+  "start": 24.9,
+  "end": 24.98
+ },
+ {
+  "word": "move",
+  "start": 24.98,
+  "end": 25.18
+ },
+ {
+  "word": "a",
+  "start": 25.18,
+  "end": 25.3
+ },
+ {
+  "word": "lever,",
+  "start": 25.3,
+  "end": 25.54
+ },
+ {
+  "word": "a",
+  "start": 25.82,
+  "end": 25.9
+ },
+ {
+  "word": "robot",
+  "start": 25.9,
+  "end": 26.14
+ },
+ {
+  "word": "tickles",
+  "start": 26.14,
+  "end": 26.58
+ },
+ {
+  "word": "your",
+  "start": 26.58,
+  "end": 26.74
+ },
+ {
+  "word": "palm",
+  "start": 26.74,
+  "end": 27.04
+ },
+ {
+  "word": "nothing.",
+  "start": 27.26,
+  "end": 27.52
+ },
+ {
+  "word": "Add",
+  "start": 27.52,
+  "end": 28.1
+ },
+ {
+  "word": "a",
+  "start": 28.1,
+  "end": 28.28
+ },
+ {
+  "word": "delay",
+  "start": 28.28,
+  "end": 28.48
+ },
+ {
+  "word": "of",
+  "start": 28.48,
+  "end": 28.66
+ },
+ {
+  "word": "just",
+  "start": 28.66,
+  "end": 28.82
+ },
+ {
+  "word": "two-tenths",
+  "start": 28.82,
+  "end": 29.38
+ },
+ {
+  "word": "of",
+  "start": 29.38,
+  "end": 29.46
+ },
+ {
+  "word": "a",
+  "start": 29.46,
+  "end": 29.54
+ },
+ {
+  "word": "second,",
+  "start": 29.54,
+  "end": 29.84
+ },
+ {
+  "word": "and",
+  "start": 29.84,
+  "end": 30.26
+ },
+ {
+  "word": "suddenly",
+  "start": 30.26,
+  "end": 30.6
+ },
+ {
+  "word": "you",
+  "start": 30.6,
+  "end": 30.82
+ },
+ {
+  "word": "can",
+  "start": 30.82,
+  "end": 30.96
+ },
+ {
+  "word": "tickle",
+  "start": 30.96,
+  "end": 31.28
+ },
+ {
+  "word": "yourself.",
+  "start": 31.28,
+  "end": 31.7
+ },
+ {
+  "word": "The",
+  "start": 32.2,
+  "end": 32.34
+ },
+ {
+  "word": "prediction",
+  "start": 32.34,
+  "end": 32.68
+ },
+ {
+  "word": "is",
+  "start": 32.68,
+  "end": 32.94
+ },
+ {
+  "word": "wrong,",
+  "start": 32.94,
+  "end": 33.2
+ },
+ {
+  "word": "so",
+  "start": 33.48,
+  "end": 33.66
+ },
+ {
+  "word": "the",
+  "start": 33.66,
+  "end": 33.78
+ },
+ {
+  "word": "brain",
+  "start": 33.78,
+  "end": 33.98
+ },
+ {
+  "word": "stops",
+  "start": 33.98,
+  "end": 34.3
+ },
+ {
+  "word": "cancelling",
+  "start": 34.3,
+  "end": 34.92
+ },
+ {
+  "word": "the",
+  "start": 34.92,
+  "end": 35.04
+ },
+ {
+  "word": "feeling.",
+  "start": 35.04,
+  "end": 35.36
+ },
+ {
+  "word": "And",
+  "start": 35.88,
+  "end": 35.96
+ },
+ {
+  "word": "in",
+  "start": 35.96,
+  "end": 36.06
+ },
+ {
+  "word": "one",
+  "start": 36.06,
+  "end": 36.24
+ },
+ {
+  "word": "study,",
+  "start": 36.24,
+  "end": 36.64
+ },
+ {
+  "word": "people",
+  "start": 36.8,
+  "end": 37.04
+ },
+ {
+  "word": "with",
+  "start": 37.04,
+  "end": 37.24
+ },
+ {
+  "word": "schizophrenia",
+  "start": 37.24,
+  "end": 37.64
+ },
+ {
+  "word": "could",
+  "start": 37.64,
+  "end": 38.1
+ },
+ {
+  "word": "tickle",
+  "start": 38.1,
+  "end": 38.42
+ },
+ {
+  "word": "themselves",
+  "start": 38.42,
+  "end": 38.78
+ },
+ {
+  "word": "their",
+  "start": 39.36,
+  "end": 39.44
+ },
+ {
+  "word": "prediction",
+  "start": 39.44,
+  "end": 39.82
+ },
+ {
+  "word": "system",
+  "start": 39.82,
+  "end": 40.28
+ },
+ {
+  "word": "doesn't",
+  "start": 40.28,
+  "end": 40.68
+ },
+ {
+  "word": "cancel",
+  "start": 40.68,
+  "end": 41.04
+ },
+ {
+  "word": "the",
+  "start": 41.04,
+  "end": 41.26
+ },
+ {
+  "word": "touch.",
+  "start": 41.26,
+  "end": 41.66
+ },
+ {
+  "word": "Your",
+  "start": 42.1,
+  "end": 42.22
+ },
+ {
+  "word": "brain",
+  "start": 42.22,
+  "end": 42.5
+ },
+ {
+  "word": "doesn't",
+  "start": 42.5,
+  "end": 42.9
+ },
+ {
+  "word": "feel",
+  "start": 42.9,
+  "end": 43.1
+ },
+ {
+  "word": "the",
+  "start": 43.1,
+  "end": 43.3
+ },
+ {
+  "word": "world.",
+  "start": 43.3,
+  "end": 43.62
+ },
+ {
+  "word": "It",
+  "start": 44.02,
+  "end": 44.14
+ },
+ {
+  "word": "guesses",
+  "start": 44.14,
+  "end": 44.5
+ },
+ {
+  "word": "it.",
+  "start": 44.5,
+  "end": 44.78
+ },
+ {
+  "word": "And",
+  "start": 45.04,
+  "end": 45.24
+ },
+ {
+  "word": "it",
+  "start": 45.24,
+  "end": 45.36
+ },
+ {
+  "word": "can't",
+  "start": 45.36,
+  "end": 45.6
+ },
+ {
+  "word": "surprise",
+  "start": 45.6,
+  "end": 46.02
+ },
+ {
+  "word": "itself.",
+  "start": 46.02,
+  "end": 46.46
+ },
+ {
+  "word": "Follow",
+  "start": 46.94,
+  "end": 47.14
+ },
+ {
+  "word": "for",
+  "start": 47.14,
+  "end": 47.34
+ },
+ {
+  "word": "more",
+  "start": 47.34,
+  "end": 47.52
+ },
+ {
+  "word": "things",
+  "start": 47.52,
+  "end": 47.92
+ },
+ {
+  "word": "your",
+  "start": 47.92,
+  "end": 48.14
+ },
+ {
+  "word": "brain",
+  "start": 48.14,
+  "end": 48.46
+ },
+ {
+  "word": "hides",
+  "start": 48.46,
+  "end": 48.8
+ },
+ {
+  "word": "from",
+  "start": 48.8,
+  "end": 49.06
+ },
+ {
+  "word": "you.",
+  "start": 49.06,
+  "end": 49.3
+ }
+]

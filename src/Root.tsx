@@ -28,6 +28,7 @@ import {ZodiacVideoEn} from './ZodiacVideoEn';
 import {ZodiacVideoDe} from './ZodiacVideoDe';
 import {MontPeleeVideoEn} from './MontPeleeVideoEn';
 import {MontPeleeVideoDe} from './MontPeleeVideoDe';
+import {TickleVideoEn} from './TickleVideoEn';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -383,6 +384,20 @@ const calculateMontPeleeDeMetadata: CalculateMetadataFunction<Record<string, nev
 	};
 };
 
+// Tickle test (format test "Did you know", EN only, NOT video 11) is
+// self-contained (words + VO are loaded inside the component);
+// fixed duration 50.80s = 1524 frames (last word 49.30s + 1.5s tail).
+// Kokoro bm_george speed 1.0 VO (1.15 ran 44.77s = 214 wpm, rushed;
+// 1.0 gives 49.42s = ~195 wpm). Pure 2D/2.5D animation, no clips.
+const calculateTickleEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1524,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -675,6 +690,16 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateMontPeleeDeMetadata}
+			/>
+			<Composition
+				id="TickleVideoEn"
+				component={TickleVideoEn as React.FC<unknown>}
+				durationInFrames={1524}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateTickleEnMetadata}
 			/>
 		</>
 	);
