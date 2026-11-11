@@ -14,6 +14,7 @@
 #                 v10-both renders the Mount Pelée EN + DE compositions in parallel
 #                 (video 10); v10-en-only / v10-de-only render a single v10 composition.
 #                 test-tickle-en renders the "Did you know" format test (EN only).
+#                 test-earth-stops-en renders the "Did you know" format test #2 (EN only).
 #   clips       — committed (default): use the pre-converted clips in the repo.
 #                 download: fetch sources from scripts/clips-v7.json and
 #                 pre-convert them (yt-dlp + ffmpeg minterpolate). v7 only.
@@ -48,6 +49,7 @@ on:
           - v10-en-only
           - v10-de-only
           - test-tickle-en
+          - test-earth-stops-en
       clips:
         description: 'Clip assets: committed (repo) or download (from sources)'
         required: true
@@ -87,6 +89,7 @@ jobs:
             v10-de-only) echo 'matrix={"composition":["MontPeleeVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
             v10-both) echo 'matrix={"composition":["MontPeleeVideoEn","MontPeleeVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
             test-tickle-en) echo 'matrix={"composition":["TickleVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
+            test-earth-stops-en) echo 'matrix={"composition":["EarthStopsVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             *)          echo 'matrix={"composition":["AntikytheraVideoEn","AntikytheraVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
           esac
 
@@ -220,7 +223,7 @@ jobs:
           # v8 (68.5 s EN / ~60 s DE) needs earlier timestamps than v7 (83 s).
           # v9 (70.0 s EN / 62.0 s DE): same pattern, incl. t=10 s subtitle check.
           # v10 (68.0 s EN / 70.7 s DE): same pattern, incl. t=10 s subtitle check.
-          if [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then TIMES="2 12 30 45 55 66"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoDe" ]; then TIMES="2 12 30 45 55 58"; elif [ "${{ matrix.composition }}" = "ZodiacVideoEn" ]; then TIMES="2 10 30 45 55 67"; elif [ "${{ matrix.composition }}" = "ZodiacVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoDe" ]; then TIMES="2 10 30 45 55 68"; elif [ "${{ matrix.composition }}" = "TickleVideoEn" ]; then TIMES="1 10 20 30 40 48"; else TIMES="2 25 50 62 70 79"; fi
+          if [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then TIMES="2 12 30 45 55 66"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoDe" ]; then TIMES="2 12 30 45 55 58"; elif [ "${{ matrix.composition }}" = "ZodiacVideoEn" ]; then TIMES="2 10 30 45 55 67"; elif [ "${{ matrix.composition }}" = "ZodiacVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoDe" ]; then TIMES="2 10 30 45 55 68"; elif [ "${{ matrix.composition }}" = "TickleVideoEn" ]; then TIMES="1 10 20 30 40 48"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoEn" ]; then TIMES="2 10 25 40 55 62 70"; else TIMES="2 25 50 62 70 79"; fi
           for t in $TIMES; do
             ffmpeg -y -v error -ss "$t" -i "out/${{ matrix.composition }}.mp4" -frames:v 1 "out/frames/f${t}.jpg"
           done

@@ -29,6 +29,7 @@ import {ZodiacVideoDe} from './ZodiacVideoDe';
 import {MontPeleeVideoEn} from './MontPeleeVideoEn';
 import {MontPeleeVideoDe} from './MontPeleeVideoDe';
 import {TickleVideoEn} from './TickleVideoEn';
+import {EarthStopsVideoEn} from './EarthStopsVideoEn';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -398,6 +399,20 @@ const calculateTickleEnMetadata: CalculateMetadataFunction<Record<string, never>
 	};
 };
 
+// EarthStopsVideoEn — "Did you know" format test #2 (Axel 2026-11-11).
+// Self-contained (words + VO+music mix are loaded inside the component);
+// fixed duration 76.74s = 2303 frames (last word 75.24s + 1.5s tail).
+// Kokoro bm_george speed 1.15 VO (1.0 ran 89.0s = ~155 wpm, too slow;
+// 1.15 gives 75.44s = ~169 wpm). Clip-based, 13 shots, music under the VO.
+const calculateEarthStopsEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2303,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -700,6 +715,16 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateTickleEnMetadata}
+			/>
+			<Composition
+				id="EarthStopsVideoEn"
+				component={EarthStopsVideoEn as React.FC<unknown>}
+				durationInFrames={2303}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateEarthStopsEnMetadata}
 			/>
 		</>
 	);

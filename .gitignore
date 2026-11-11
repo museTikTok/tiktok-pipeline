@@ -51,6 +51,35 @@ public/batch6/*
 !public/batch6/test-tickle-en/test-words-en-fixed.json
 !public/batch6/test-tickle-en/test-script-en.txt
 public/batch6/test-tickle-en/test-words-en.json
+# TEST #2 earth-stops (EN only): 12 clips actually used by EarthStopsVideoEn +
+# the VO+music mix + fixed words + script. The 16 unused clips, the raw music,
+# the plain VO and the speed backups stay on the VM.
+!public/batch6/test-earth-stops-clips/
+!public/batch6/test-earth-stops-en/
+!public/batch6/test-earth-stops-en/test-vo-en-mix.mp3
+!public/batch6/test-earth-stops-en/test-words-en-fixed.json
+!public/batch6/test-earth-stops-en/test-script-en.txt
+public/batch6/test-earth-stops-clips/05-earth-revolving.mp4
+public/batch6/test-earth-stops-clips/06-earth-rotate-loop.mp4
+public/batch6/test-earth-stops-clips/07-earth-sunrise-space.mp4
+public/batch6/test-earth-stops-clips/08-storm-timelapse-incoming.mp4
+public/batch6/test-earth-stops-clips/09-storm-clouds-rough-sea.mp4
+public/batch6/test-earth-stops-clips/10-lightning-sky.mp4
+public/batch6/test-earth-stops-clips/11-thunderstorm-night-city.mp4
+public/batch6/test-earth-stops-clips/16-building-collapsing.mp4
+public/batch6/test-earth-stops-clips/17-quake-rubble-drone.mp4
+public/batch6/test-earth-stops-clips/18-quake-city-devastated.mp4
+public/batch6/test-earth-stops-clips/19-lava-slowmo.mp4
+public/batch6/test-earth-stops-clips/20-lava-rocks.mp4
+public/batch6/test-earth-stops-clips/21-lava-splashing.mp4
+public/batch6/test-earth-stops-clips/22-volcano-eruption-distant.mp4
+public/batch6/test-earth-stops-clips/23-wildfire-mountain.mp4
+public/batch6/test-earth-stops-clips/25-rushing-flood.mp4
+public/batch6/test-earth-stops-en/test-music.mp3
+public/batch6/test-earth-stops-en/test-vo-en.mp3
+public/batch6/test-earth-stops-en/test-vo-en-10-backup.mp3
+public/batch6/test-earth-stops-en/test-vo-en-115-230w-backup.mp3
+public/batch6/test-earth-stops-en/test-words-en.json
 # VO speed backup + unfixed words JSONs stay on the VM (not needed in CI).
 public/batch6/v10-de/*-1.35.mp3
 public/batch6/v10-en/v10-words-en.json
