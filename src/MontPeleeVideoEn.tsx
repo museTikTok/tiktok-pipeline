@@ -519,11 +519,12 @@ export const MontPeleeVideoEn: React.FC = () => {
 
       {/* 6 — The mountain wakes up (15.98-21.66s): S6 "In April 1902, the mountain
           woke up: ash, tremors, and sulphur in the air." Edison/Porter 1902:
-          the model volcano smoking over the town (startFrom 6s skips the
-          Portuguese title card). STUDIO RECONSTRUCTION — labelled on screen.
+          the model volcano smoking over the town (startFrom 16s skips the
+          ~15s Portuguese title card — the sourcing note "~0–5s" was wrong,
+          verified on frames 2026-11-11). STUDIO RECONSTRUCTION — labelled on screen.
           ANNOTATION (motivated): "APRIL 1902" chip pops on "April" (16.06s, delay 2f). */}
       <Sequence from={S(15.98)} durationInFrames={S(21.66) - S(15.98)}>
-        <ZoomClip src={CLIP('v10-16-edison-smoking.mp4')} durationInFrames={S(21.66) - S(15.98)} zoom={1.1} startFrom={6}>
+        <ZoomClip src={CLIP('v10-16-edison-smoking.mp4')} durationInFrames={S(21.66) - S(15.98)} zoom={1.1} startFrom={16}>
           <ReLabel />
           <Chip text="APRIL 1902" top={210} delay={2} />
         </ZoomClip>
