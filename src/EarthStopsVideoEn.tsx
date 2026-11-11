@@ -37,6 +37,7 @@ import React from 'react';
 import {
   AbsoluteFill,
   Audio,
+  Img,
   OffthreadVideo,
   Sequence,
   interpolate,
@@ -190,6 +191,174 @@ const BigText: React.FC<{
   );
 };
 
+/** HOOK SHOT v2 (plan 1, 0-6.36s) — the image itself must say "the Earth is
+ * stopping" (Axel, 2026-11-11: hook = visible phrase + intriguing image that
+ * ILLUSTRATES the theme, not the phrase alone). A REAL Blue Marble disc
+ * (Apollo 17, NASA public domain) that spins fast, then BRAKES to a stop
+ * exactly as the VO says "stopped" (5.12s): decelerating rotation
+ * (easeOutCubic, 450° total), motion streaks that fade with the speed, a red
+ * brake ring that grows as it stops, and a live speed counter pill
+ * (1,670 → 0 KM/H, flips to "STOPPED" at ~4.95s). Hook phrase kept BIG on
+ * top, same wording as v1. */
+const HookShot: React.FC<{ durationInFrames: number }> = ({ durationInFrames }) => {
+  const frame = useCurrentFrame();
+  const p = clamp01(frame / Math.max(1, durationInFrames - 1));
+  const ease = 1 - Math.pow(1 - p, 3); // easeOutCubic: fast start, smooth stop
+  const angle = 450 * ease;
+  const speedFactor = Math.pow(1 - p, 2); // normalized angular velocity
+  const speed = Math.round(1670 * speedFactor);
+  const stopped = speedFactor < 0.05; // ~4.95s, on the VO word "stopped" (5.12s)
+  // Red brake-ring flash right at the stop moment (p≈0.76 → 0.90).
+  const flash = interpolate(p, [0.76, 0.81, 0.9], [0, 1, 0]);
+  const ringOpacity = clamp01((1 - speedFactor) * 0.9) + flash * 0.5;
+  const ringScale = 1 + flash * 0.1;
+  // Deterministic star field (fixed seed, no useMemo — recompute is trivial).
+  let seed = 42;
+  const rnd = () => {
+    seed = (seed * 16807) % 2147483647;
+    return seed / 2147483647;
+  };
+  const stars = Array.from({ length: 70 }, () => ({
+    x: rnd() * 1080,
+    y: rnd() * 1920,
+    r: 1 + rnd() * 2.2,
+    o: 0.25 + rnd() * 0.6,
+  }));
+  const DISC = 500;
+  const discLeft = (1080 - DISC) / 2;
+  const discTop = 770;
+  return (
+    <AbsoluteFill
+      style={{
+        background:
+          'radial-gradient(circle at 50% 55%, #0a1626 0%, #02040a 55%, #000 100%)',
+      }}
+    >
+      {/* Stars */}
+      {stars.map((s, i) => (
+        <div
+          key={i}
+          style={{
+            position: 'absolute',
+            left: s.x,
+            top: s.y,
+            width: s.r * 2,
+            height: s.r * 2,
+            borderRadius: '50%',
+            background: '#fff',
+            opacity: s.o,
+          }}
+        />
+      ))}
+      {/* Motion streaks — dashed rings spinning with the planet, fading as it stops */}
+      <div
+        style={{
+          position: 'absolute',
+          left: discLeft - 30,
+          top: discTop - 30,
+          width: DISC + 60,
+          height: DISC + 60,
+          transform: `rotate(${angle}deg)`,
+          opacity: 0.9 * speedFactor,
+        }}
+      >
+        <svg width={DISC + 60} height={DISC + 60}>
+          <circle
+            cx={(DISC + 60) / 2}
+            cy={(DISC + 60) / 2}
+            r={DISC / 2 + 18}
+            fill="none"
+            stroke="rgba(255,255,255,0.9)"
+            strokeWidth={7}
+            strokeDasharray="90 170"
+            strokeLinecap="round"
+          />
+          <circle
+            cx={(DISC + 60) / 2}
+            cy={(DISC + 60) / 2}
+            r={DISC / 2 + 34}
+            fill="none"
+            stroke="rgba(255,255,255,0.55)"
+            strokeWidth={5}
+            strokeDasharray="60 220"
+            strokeLinecap="round"
+          />
+        </svg>
+      </div>
+      {/* Red brake ring — grows as the planet stops, flashes at the stop moment */}
+      <div
+        style={{
+          position: 'absolute',
+          left: discLeft - 20,
+          top: discTop - 20,
+          width: DISC + 40,
+          height: DISC + 40,
+          borderRadius: '50%',
+          border: '8px solid #ff2d2d',
+          opacity: ringOpacity,
+          transform: `scale(${ringScale})`,
+          boxShadow: `0 0 34px rgba(255,45,45,${0.65 * ringOpacity}), inset 0 0 24px rgba(255,45,45,${0.3 * ringOpacity})`,
+          zIndex: 3,
+        }}
+      />
+      {/* The Earth disc — real Blue Marble, rotating with decelerating speed */}
+      <div
+        style={{
+          position: 'absolute',
+          left: discLeft,
+          top: discTop,
+          width: DISC,
+          height: DISC,
+          borderRadius: '50%',
+          overflow: 'hidden',
+          boxShadow: '0 0 60px rgba(80,140,255,0.45)',
+          zIndex: 2,
+        }}
+      >
+        <div
+          style={{
+            width: '100%',
+            height: '100%',
+            // scale 1.33: the Blue Marble disc spans ~75% of the photo, so
+            // without it the disc sits small inside the mask with a black ring.
+            transform: `rotate(${angle}deg) scale(1.33)`,
+          }}
+        >
+          <Img
+            src={staticFile('batch6/test-earth-stops-images/blue-marble-apollo17.jpg')}
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          />
+        </div>
+      </div>
+      {/* Live speed counter pill — counts 1,670 → 0, flips to STOPPED on "stopped" */}
+      <div
+        style={{
+          position: 'absolute',
+          top: 1240,
+          left: '50%',
+          transform: 'translateX(-50%)',
+          background: stopped ? '#c1121f' : 'rgba(0,0,0,0.72)',
+          color: '#fff',
+          fontFamily: FONT,
+          fontSize: 36,
+          letterSpacing: 2,
+          padding: '12px 30px',
+          borderRadius: 999,
+          whiteSpace: 'nowrap',
+          zIndex: 6,
+          border: '2px solid rgba(255,255,255,0.35)',
+        }}
+      >
+        {stopped ? '■ STOPPED — 0 KM/H' : `BRAKING — ${speed.toLocaleString('en-US')} KM/H`}
+      </div>
+      {/* Hook phrase — same wording as v1, BIG on top */}
+      <BigText text="YOU'RE FLYING AT" top={280} color="#fff" fontSize={88} />
+      <BigText text="1,670 KM/H" top={400} color="#ffd60a" fontSize={150} delay={10} />
+      <BigText text="AND YOU CAN'T FEEL IT" top={640} color="#fff" fontSize={64} delay={20} />
+    </AbsoluteFill>
+  );
+};
+
 /** Branding — account name, top-left, neon, small, slightly transparent. */
 const Branding: React.FC = () => (
   <div
@@ -276,23 +445,15 @@ export const EarthStopsVideoEn: React.FC = () => {
     <AbsoluteFill style={{ backgroundColor: '#000' }}>
       {/* 1 — HOOK / THUMBNAIL FIRST (0-6.36s): S1 "Right now, you're flying east at
           1,670 kilometres an hour — and you can't feel it. What if it stopped.
-          Instantly." Real ISS footage: Earth rushing below from orbit (desert then
-          turquoise coast). Enlarged hook text; "AND YOU CAN'T FEEL IT" pops on
-          "can't" (~4.0s, delay 120f). */}
+          Instantly." v2 (Axel 2026-11-11: hook = phrase + image that ILLUSTRATES
+          the theme): real Blue Marble Earth disc that spins fast then BRAKES to
+          a stop on the VO word "stopped" (5.12s) — decelerating rotation, fading
+          speed streaks, red brake ring, live counter 1,670 → 0 KM/H. Hook phrase
+          kept BIG on top (all three lines full-size by ~0.7s, delay 20f — the
+          v1 pop on "can't" at 4.0s left the third line unreadably small during
+          the hook's first seconds). */}
       <Sequence from={S(0)} durationInFrames={S(6.36)}>
-        <ZoomClip src={CLIP('02-iss-desert-coast.mp4')} durationInFrames={S(6.36)} zoom={1.08}>
-          <div
-            style={{
-              position: 'absolute',
-              inset: 0,
-              background:
-                'linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 35%, rgba(0,0,0,0.2) 65%, rgba(0,0,0,0.6) 100%)',
-            }}
-          />
-          <BigText text="YOU'RE FLYING AT" top={300} color="#fff" fontSize={88} />
-          <BigText text="1,670 KM/H" top={420} color="#ffd60a" fontSize={150} delay={10} />
-          <BigText text="AND YOU CAN'T FEEL IT" top={640} color="#fff" fontSize={64} delay={120} />
-        </ZoomClip>
+        <HookShot durationInFrames={S(6.36)} />
       </Sequence>
 
       {/* 2 — SUDDEN STOP, inertia (6.72-14.30s): S2 "The ground would stop. But you
