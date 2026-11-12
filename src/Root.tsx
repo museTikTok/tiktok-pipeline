@@ -30,6 +30,7 @@ import {MontPeleeVideoEn} from './MontPeleeVideoEn';
 import {MontPeleeVideoDe} from './MontPeleeVideoDe';
 import {YamaguchiVideoEn} from './YamaguchiVideoEn';
 import {YamaguchiVideoDe} from './YamaguchiVideoDe';
+import {CrimeWatchVideoEn} from './CrimeWatchVideoEn';
 import {TickleVideoEn} from './TickleVideoEn';
 import {EarthStopsVideoEn} from './EarthStopsVideoEn';
 import {EarthStopsVideoDe} from './EarthStopsVideoDe';
@@ -384,6 +385,23 @@ const calculateMontPeleeDeMetadata: CalculateMetadataFunction<Record<string, nev
 }) => {
 	return {
 		durationInFrames: 2120,
+		props,
+	};
+};
+
+// Crime Watch Karim v12 EN is self-contained (words + VO are loaded inside the component);
+// fixed duration 69.86s = 2096 frames (last word 68.36s + 1.5s tail).
+// Kokoro bm_george speed 1.15 VO (68.64s), subtitles in the TikTok safe zone (bottom: 360).
+// Hook: the real police mugshot of Daniel Karim + enlarged hook phrase (plan 1 + thumbnail).
+// EN ONLY (Axel decision 2026-11-12, no DE version).
+// Dynamic transitions + animation (Axel 2026-11-12): varied shot entrances
+// (slide/zoom/fade, not just hard cuts), Ken Burns zooms, floating paper cards,
+// motivated chips/circles/arrows, visual change every 3-5 s.
+const calculateCrimeWatchEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2096,
 		props,
 	};
 };
@@ -769,6 +787,16 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateYamaguchiDeMetadata}
+			/>
+			<Composition
+				id="CrimeWatchVideoEn"
+				component={CrimeWatchVideoEn as React.FC<unknown>}
+				durationInFrames={2096}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateCrimeWatchEnMetadata}
 			/>
 			<Composition
 				id="TickleVideoEn"
