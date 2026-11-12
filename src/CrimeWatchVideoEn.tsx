@@ -522,8 +522,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
           street + the mugshot as a floating paper card + arrow pointing at it.
           ANNOTATIONS (motivated): "DANIEL KARIM" chip pops on "Daniel" (4.26s,
           delay 15f); arrow pops on "Karim" (4.56s, delay 24f). */}
-      <Sequence from={S(3.76)} durationInFrames={S(7.3) - S(3.76)}>
-        <ZoomClip src={CLIP('v12-02-sheffield-street.mp4')} durationInFrames={S(7.3) - S(3.76)} zoom={1.1} enter="slideL" startFrom={0}>
+      <Sequence from={S(3.76)} durationInFrames={S(7.72) - S(3.76)}>
+        <ZoomClip src={CLIP('v12-02-sheffield-street.mp4')} durationInFrames={S(7.72) - S(3.76)} zoom={1.1} enter="slideL" startFrom={0}>
           <ArchiveCard img={MUGSHOT} caption="Daniel Karim, 34 — Wincobank Close, Sheffield" top={300} imgH={560} />
           <Chip text="DANIEL KARIM" top={210} delay={15} />
           <ArrowDown left={500} top={1005} delay={24} />
@@ -533,8 +533,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
       {/* 3 — Watched (7.72-10.38s): S3 "For almost four years, police watched
           his every move." Police patrol / surveillance street clip.
           ANNOTATION (motivated): "ALMOST 4 YEARS" chip pops on "four" (8.14s, delay 13f). */}
-      <Sequence from={S(7.72)} durationInFrames={S(10.38) - S(7.72)}>
-        <ZoomClip src={CLIP('v12-03-police-surveillance.mp4')} durationInFrames={S(10.38) - S(7.72)} zoom={1.12} enter="slideR" startFrom={0}>
+      <Sequence from={S(7.72)} durationInFrames={S(10.76) - S(7.72)}>
+        <ZoomClip src={CLIP('v12-03-police-surveillance.mp4')} durationInFrames={S(10.76) - S(7.72)} zoom={1.12} enter="slideR" startFrom={0}>
           <Chip text="ALMOST 4 YEARS" top={210} delay={13} />
         </ZoomClip>
       </Sequence>
@@ -542,8 +542,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
       {/* 4 — Rotherham (10.76-14.16s): S4 "Detectives in Rotherham built the
           case, street by street, dealer by dealer." Rotherham street clip.
           ANNOTATION (motivated): "ROTHERHAM" chip pops on "Rotherham" (11.36s, delay 18f). */}
-      <Sequence from={S(10.76)} durationInFrames={S(14.16) - S(10.76)}>
-        <ZoomClip src={CLIP('v12-04-rotherham-street.mp4')} durationInFrames={S(14.16) - S(10.76)} zoom={1.1} enter="fade" startFrom={0}>
+      <Sequence from={S(10.76)} durationInFrames={S(14.64) - S(10.76)}>
+        <ZoomClip src={CLIP('v12-04-rotherham-street.mp4')} durationInFrames={S(14.64) - S(10.76)} zoom={1.1} enter="fade" startFrom={0}>
           <Chip text="ROTHERHAM" top={210} delay={18} />
         </ZoomClip>
       </Sequence>
@@ -551,8 +551,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
       {/* 5 — The network (14.64-19.12s): S5 "From 2019, he ran a network of
           street dealers across Rotherham and Sheffield." City street at night.
           ANNOTATION (motivated): "STREET DEALERS" chip pops on "dealers" (17.08s, delay 73f). */}
-      <Sequence from={S(14.64)} durationInFrames={S(19.12) - S(14.64)}>
-        <ZoomClip src={CLIP('v12-05-city-night.mp4')} durationInFrames={S(19.12) - S(14.64)} zoom={1.12} panX={-30} enter="slideL" startFrom={0}>
+      <Sequence from={S(14.64)} durationInFrames={S(19.48) - S(14.64)}>
+        <ZoomClip src={CLIP('v12-05-city-night.mp4')} durationInFrames={S(19.48) - S(14.64)} zoom={1.12} panX={-30} enter="slideL" startFrom={0}>
           <Chip text="STREET DEALERS" top={210} delay={73} />
         </ZoomClip>
       </Sequence>
@@ -561,8 +561,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
           one million pounds of Class A drugs." Seized drugs / evidence clip.
           ANNOTATIONS (motivated): "£1M" circle pops on "million" (21.58s,
           delay 63f); "CLASS A" chip pops on "Class" (22.42s, delay 88f). */}
-      <Sequence from={S(19.48)} durationInFrames={S(23.26) - S(19.48)}>
-        <ZoomClip src={CLIP('v12-06-drugs-seizure.mp4')} durationInFrames={S(23.26) - S(19.48)} zoom={1.1} enter="zoom" startFrom={0}>
+      <Sequence from={S(19.48)} durationInFrames={S(23.68) - S(19.48)}>
+        <ZoomClip src={CLIP('v12-06-drugs-seizure.mp4')} durationInFrames={S(23.68) - S(19.48)} zoom={1.1} enter="zoom" startFrom={0}>
           <CircleNum num="£1M" top={900} left={430} delay={63} />
           <Chip text="CLASS A" top={210} delay={88} />
         </ZoomClip>
@@ -571,8 +571,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
       {/* 7 — The arrest (23.68-26.62s): S7 "Then, in 2022, officers arrested
           him." Handcuffs / arrest clip.
           ANNOTATION (motivated): "2022" chip pops on "2022" (24.08s, delay 12f). */}
-      <Sequence from={S(23.68)} durationInFrames={S(26.62) - S(23.68)}>
-        <ZoomClip src={CLIP('v12-07-arrest-handcuffs.mp4')} durationInFrames={S(26.62) - S(23.68)} zoom={1.12} enter="slideR" startFrom={0}>
+      <Sequence from={S(23.68)} durationInFrames={S(26.98) - S(23.68)}>
+        <ZoomClip src={CLIP('v12-07-arrest-handcuffs.mp4')} durationInFrames={S(26.98) - S(23.68)} zoom={1.12} enter="slideR" startFrom={0}>
           <Chip text="2022" top={210} delay={12} />
         </ZoomClip>
       </Sequence>
@@ -580,8 +580,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
       {/* 8 — Guilty plea (26.98-30.56s): S8 "He pleaded guilty to two counts of
           conspiracy to supply Class A drugs." Courtroom: judge in robes.
           ANNOTATION (motivated): "GUILTY" chip pops on "guilty" (27.36s, delay 11f). */}
-      <Sequence from={S(26.98)} durationInFrames={S(30.56) - S(26.98)}>
-        <ZoomClip src={CLIP('v12-08-courtroom-judge.mp4')} durationInFrames={S(30.56) - S(26.98)} zoom={1.1} enter="fade" startFrom={0}>
+      <Sequence from={S(26.98)} durationInFrames={S(31.04) - S(26.98)}>
+        <ZoomClip src={CLIP('v12-08-courtroom-judge.mp4')} durationInFrames={S(31.04) - S(26.98)} zoom={1.1} enter="fade" startFrom={0}>
           <Chip text="GUILTY" top={210} delay={11} />
         </ZoomClip>
       </Sequence>
@@ -598,8 +598,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
       {/* 9b — The sentence (33.68-36.54s): S9 part 2 "Derby Crown Court jailed
           him for 19 years and 8 months." Prison cell block. WHIP WIPE entrance.
           ANNOTATION (motivated): "19 YEARS 8 MONTHS" chip pops on "19" (35.08s, delay 42f). */}
-      <Sequence from={S(33.68)} durationInFrames={S(36.54) - S(33.68)}>
-        <ZoomClip src={CLIP('v12-09-prison-cell.mp4')} durationInFrames={S(36.54) - S(33.68)} zoom={1.1} enter="zoom" startFrom={0}>
+      <Sequence from={S(33.68)} durationInFrames={S(37.16) - S(33.68)}>
+        <ZoomClip src={CLIP('v12-09-prison-cell.mp4')} durationInFrames={S(37.16) - S(33.68)} zoom={1.1} enter="zoom" startFrom={0}>
           <WipeBar />
           <Chip text="19 YEARS 8 MONTHS" top={210} delay={42} />
         </ZoomClip>
@@ -610,8 +610,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
           Police officer on patrol.
           ANNOTATIONS (motivated): "NICOLA SHIMWELL" chip pops on "Nicola"
           (38.20s, delay 31f); "TOP DOWN" chip pops on "top" (41.44s, delay 128f). */}
-      <Sequence from={S(37.16)} durationInFrames={S(41.98) - S(37.16)}>
-        <ZoomClip src={CLIP('v12-10-police-officer.mp4')} durationInFrames={S(41.98) - S(37.16)} zoom={1.12} panX={30} enter="slideR" startFrom={0}>
+      <Sequence from={S(37.16)} durationInFrames={S(42.48) - S(37.16)}>
+        <ZoomClip src={CLIP('v12-10-police-officer.mp4')} durationInFrames={S(42.48) - S(37.16)} zoom={1.12} panX={30} enter="slideR" startFrom={0}>
           <Chip text="NICOLA SHIMWELL" top={210} delay={31} />
           <Chip text="TOP DOWN" top={330} delay={128} />
         </ZoomClip>
@@ -621,8 +621,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
           profited from funnelling harmful drugs onto the streets." Sheffield
           aerial + the mugshot as a floating police-file card.
           No chip — the card carries the beat. */}
-      <Sequence from={S(42.48)} durationInFrames={S(47.12) - S(42.48)}>
-        <ZoomClip src={CLIP('v12-11-sheffield-aerial.mp4')} durationInFrames={S(47.12) - S(42.48)} zoom={1.1} enter="fade" startFrom={0}>
+      <Sequence from={S(42.48)} durationInFrames={S(47.54) - S(42.48)}>
+        <ZoomClip src={CLIP('v12-11-sheffield-aerial.mp4')} durationInFrames={S(47.54) - S(42.48)} zoom={1.1} enter="fade" startFrom={0}>
           <ArchiveCard img={MUGSHOT} caption="D. Karim — OCG leader, South Yorkshire" top={300} imgH={520} delay={10} />
         </ZoomClip>
       </Sequence>
@@ -630,8 +630,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
       {/* 12 — Jahanghir (47.54-51.52s): S12 "His associates fell too. Omaan
           Jahanghir, 29, got eleven years." Prison wing.
           ANNOTATION (motivated): "11 YEARS" chip pops on "eleven" (50.82s, delay 98f). */}
-      <Sequence from={S(47.54)} durationInFrames={S(51.52) - S(47.54)}>
-        <ZoomClip src={CLIP('v12-12-prison-wing.mp4')} durationInFrames={S(51.52) - S(47.54)} zoom={1.1} enter="slideL" startFrom={0}>
+      <Sequence from={S(47.54)} durationInFrames={S(51.98) - S(47.54)}>
+        <ZoomClip src={CLIP('v12-12-prison-wing.mp4')} durationInFrames={S(51.98) - S(47.54)} zoom={1.1} enter="slideL" startFrom={0}>
           <Chip text="11 YEARS" top={210} delay={98} />
         </ZoomClip>
       </Sequence>
@@ -663,8 +663,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
           him — more than 35 years behind bars between them all." Prison cell
           block, later segment (same clip as 9b, startFrom 3s).
           ANNOTATION (motivated): "35+" circle pops on "35" (60.04s, delay 72f). */}
-      <Sequence from={S(57.64)} durationInFrames={S(62.44) - S(57.64)}>
-        <ZoomClip src={CLIP('v12-09-prison-cell.mp4')} durationInFrames={S(62.44) - S(57.64)} zoom={1.1} enter="fade" startFrom={3}>
+      <Sequence from={S(57.64)} durationInFrames={S(62.78) - S(57.64)}>
+        <ZoomClip src={CLIP('v12-09-prison-cell.mp4')} durationInFrames={S(62.78) - S(57.64)} zoom={1.1} enter="fade" startFrom={3}>
           <CircleNum num="35+" top={900} left={430} delay={72} />
         </ZoomClip>
       </Sequence>
@@ -672,8 +672,8 @@ export const CrimeWatchVideoEn: React.FC = () => {
       {/* 15 — The warning (62.78-65.68s): S15 "Her warning was clear: anyone
           dealing drugs will be targeted." Police car, blue lights at night.
           ANNOTATION (motivated): "TARGETED" chip pops on "targeted" (65.24s, delay 74f). */}
-      <Sequence from={S(62.78)} durationInFrames={S(65.68) - S(62.78)}>
-        <ZoomClip src={CLIP('v12-15-police-car-night.mp4')} durationInFrames={S(65.68) - S(62.78)} zoom={1.12} enter="slideL" startFrom={0}>
+      <Sequence from={S(62.78)} durationInFrames={S(66.2) - S(62.78)}>
+        <ZoomClip src={CLIP('v12-15-police-car-night.mp4')} durationInFrames={S(66.2) - S(62.78)} zoom={1.12} enter="slideL" startFrom={0}>
           <Chip text="TARGETED" top={210} delay={74} />
         </ZoomClip>
       </Sequence>
