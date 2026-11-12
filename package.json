@@ -12,6 +12,8 @@
   "dependencies": {
     "@remotion/cli": "^4.0.539",
     "@remotion/renderer": "^4.0.539",
+    "gsap": "^3.15.1",
+    "lucide-react": "^1.72.0",
     "remotion": "^4.0.539"
   }
 }

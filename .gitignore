@@ -46,6 +46,14 @@ public/batch6/*
 !public/batch6/v10-de/
 !public/batch6/v10-images/
 !public/batch6/v10-images/*.jpg
+!public/batch6/v11-clips/
+!public/batch6/v11-en/
+!public/batch6/v11-de/
+!public/batch6/v11-images/
+!public/batch6/v11-images/*.jpg
+!public/batch6/v11-images/*.png
+public/batch6/v11-en/v11-words-en.json
+public/batch6/v11-de/v11-words-de.json
 !public/batch6/test-tickle-en/
 !public/batch6/test-tickle-en/test-vo-en.mp3
 !public/batch6/test-tickle-en/test-words-en-fixed.json

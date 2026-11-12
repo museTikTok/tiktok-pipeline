@@ -28,6 +28,8 @@ import {ZodiacVideoEn} from './ZodiacVideoEn';
 import {ZodiacVideoDe} from './ZodiacVideoDe';
 import {MontPeleeVideoEn} from './MontPeleeVideoEn';
 import {MontPeleeVideoDe} from './MontPeleeVideoDe';
+import {YamaguchiVideoEn} from './YamaguchiVideoEn';
+import {YamaguchiVideoDe} from './YamaguchiVideoDe';
 import {TickleVideoEn} from './TickleVideoEn';
 import {EarthStopsVideoEn} from './EarthStopsVideoEn';
 import {EarthStopsVideoDe} from './EarthStopsVideoDe';
@@ -386,6 +388,33 @@ const calculateMontPeleeDeMetadata: CalculateMetadataFunction<Record<string, nev
 	};
 };
 
+// Yamaguchi v11 EN is self-contained (words + VO are loaded inside the component);
+// fixed duration 67.04s = 2011 frames (last word 65.54s + 1.5s tail).
+// Kokoro bm_george speed 1.15 VO, subtitles in the TikTok safe zone (bottom: 360).
+// Hook: the real Nagasaki mushroom cloud (Lt. Charles Levy, 9 Aug 1945) + enlarged hook phrase (plan 1 + thumbnail).
+const calculateYamaguchiEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2011,
+		props,
+	};
+};
+
+// Yamaguchi v11 DE is self-contained (words + VO are loaded inside the component);
+// fixed duration 65.62s = 1969 frames (last word 64.12s + 1.5s tail).
+// Kokoro dm_martin speed 1.15 VO (no deviation needed — 64.50s VO lands in range),
+// German subtitles fontSize 50 / maxWidth 840
+// (long-word rule: "Doppelüberlebenden" = 562 px at size 50, limit 840).
+const calculateYamaguchiDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1969,
+		props,
+	};
+};
+
 // Tickle test (format test "Did you know", EN only, NOT video 11) is
 // self-contained (words + VO are loaded inside the component);
 // fixed duration 50.80s = 1524 frames (last word 49.30s + 1.5s tail).
@@ -720,6 +749,26 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateMontPeleeDeMetadata}
+			/>
+			<Composition
+				id="YamaguchiVideoEn"
+				component={YamaguchiVideoEn as React.FC<unknown>}
+				durationInFrames={2011}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateYamaguchiEnMetadata}
+			/>
+			<Composition
+				id="YamaguchiVideoDe"
+				component={YamaguchiVideoDe as React.FC<unknown>}
+				durationInFrames={1969}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateYamaguchiDeMetadata}
 			/>
 			<Composition
 				id="TickleVideoEn"
