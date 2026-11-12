@@ -48,7 +48,7 @@ const MAP = staticFile('batch6/v11-images/map-japan-hiroshima-nagasaki-crop.jpg'
 const HIR_CLOUD = staticFile('batch6/v11-images/hiroshima-cloud-1945.jpg');
 const NAG_CLOUD = staticFile('batch6/v11-images/nagasaki-mushroom-cloud-1945.jpg');
 const AFTERMATH = staticFile('batch6/v11-images/hiroshima-aftermath-1945-cropped.jpg');
-const CLIP = (name: string) => staticFile(`batch6/v10-clips/${name}`);
+const CLIP = (name: string) => staticFile(`batch6/v11-clips/${name}`);
 
 // ---------- helpers ----------
 const clamp01 = (x: number) => Math.max(0, Math.min(1, x));
@@ -460,7 +460,7 @@ const Caption: React.FC = () => {
 // S10 33.90-38.34 | S11 38.34-43.08 | S12 43.08-48.34 | S13 48.34-51.70 |
 // S14 51.70-56.98 | S15 56.98-61.20 | S16 61.20-69.16 (+1.5s tail = 70.66s = 2120 frames)
 // Shot boundaries = sentence starts (shot n ends where sentence n+1 starts),
-// so every cut lands on a VO pause. Clips: public/batch6/v10-clips/.
+// so every cut lands on a VO pause. Clips: public/batch6/v11-clips/.
 const S = (s: number) => Math.round(s * 30);
 
 export const YamaguchiVideoDe: React.FC = () => {
