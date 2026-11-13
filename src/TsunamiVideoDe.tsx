@@ -287,7 +287,7 @@ const SHOTS: Shot[] = [
   { from: 48.1, clip: 'v13-05-noaa-propagation-vert.mp4', startFrom: 30, zoom: 1.06, enter: 'fade' },
   // 12 — S12 (52.72-56.48s): "Es gab kein Warnsystem. Keine Sirenen. Keine
   // Zeit zu fliehen." Khao Lak: tourists fleeing uphill through the jungle.
-  { from: 52.72, clip: 'v13-07-khaolak-fleeing.mp4', startFrom: 12, zoom: 1.08, enter: 'slideL', audioVol: 0.6 },
+  { from: 52.72, clip: 'v13-03-banda-aceh-flood.mp4', startFrom: 4.5, zoom: 1.1, panX: 30, enter: 'slideL', audioVol: 0.27 },
   // 13a — S13 part 1 (56.48-58.62s): "Als das Wasser zurückging," Khao Lak
   // AFTERMATH (Ove Olsson 243-250s): zoom from the hill over the devastated
   // coast. Same location as the hook (v13-01). No people, no bodies.
