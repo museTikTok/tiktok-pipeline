@@ -409,7 +409,7 @@ const calculateCrimeWatchEnMetadata: CalculateMetadataFunction<Record<string, ne
 };
 
 // Tsunami 2004 v13 EN is self-contained (phrases + VO are loaded inside the
-// component); fixed duration 65.82s = 1975 frames (last word 64.32s + 1.5s tail).
+// component); fixed duration 65.72s = 1972 frames (last word 64.22s + 1.5s tail, hook v2).
 // GRAVE subject — @cursednature1 system (see studies in
 // ~/workspace/tiktok/reference-videos/study-cursednature1-*.md): hook = real
 // shocking archive footage from t=0 + white flash, punch-out at ~3.2s, 1 sentence
@@ -422,13 +422,13 @@ const calculateTsunamiEnMetadata: CalculateMetadataFunction<Record<string, never
 	props,
 }) => {
 	return {
-		durationInFrames: 1975,
+		durationInFrames: 1972,
 		props,
 	};
 };
 
 // Tsunami 2004 v13 DE is self-contained (phrases + VO are loaded inside the
-// component); fixed duration 68.70s = 2061 frames (last word 67.20s + 1.5s tail).
+// component); fixed duration 68.00s = 2040 frames (last word 66.50s + 1.5s tail, hook v2).
 // Same @cursednature1 system as the EN version. White bold phrase subtitles
 // 56px (German words are longer — longest phrase verified on rendered frames);
 // overlays "9,1" and "227.898". Kokoro dm_martin speed 1.0.
@@ -436,7 +436,7 @@ const calculateTsunamiDeMetadata: CalculateMetadataFunction<Record<string, never
 	props,
 }) => {
 	return {
-		durationInFrames: 2061,
+		durationInFrames: 2040,
 		props,
 	};
 };
@@ -836,7 +836,7 @@ export const RemotionRoot: React.FC = () => {
 			<Composition
 				id="TsunamiVideoEn"
 				component={TsunamiVideoEn as React.FC<unknown>}
-				durationInFrames={1975}
+				durationInFrames={1972}
 				fps={30}
 				width={1080}
 				height={1920}
@@ -846,7 +846,7 @@ export const RemotionRoot: React.FC = () => {
 			<Composition
 				id="TsunamiVideoDe"
 				component={TsunamiVideoDe as React.FC<unknown>}
-				durationInFrames={2061}
+				durationInFrames={2040}
 				fps={30}
 				width={1080}
 				height={1920}
