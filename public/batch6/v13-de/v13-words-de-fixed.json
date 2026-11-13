@@ -1,0 +1,812 @@
+[
+ {
+  "word": "Das",
+  "start": 0.0,
+  "end": 0.36
+ },
+ {
+  "word": "Meer",
+  "start": 0.36,
+  "end": 0.6
+ },
+ {
+  "word": "verschwand.",
+  "start": 0.6,
+  "end": 1.28
+ },
+ {
+  "word": "Dann",
+  "start": 1.6,
+  "end": 1.66
+ },
+ {
+  "word": "kam",
+  "start": 1.66,
+  "end": 1.9
+ },
+ {
+  "word": "es",
+  "start": 1.9,
+  "end": 2.1
+ },
+ {
+  "word": "als",
+  "start": 2.1,
+  "end": 2.34
+ },
+ {
+  "word": "Mauer",
+  "start": 2.34,
+  "end": 2.6
+ },
+ {
+  "word": "zur\u00fcck.",
+  "start": 2.6,
+  "end": 2.92
+ },
+ {
+  "word": "Am",
+  "start": 3.54,
+  "end": 3.62
+ },
+ {
+  "word": "26.",
+  "start": 3.62,
+  "end": 4.34
+ },
+ {
+  "word": "Dezember",
+  "start": 4.86,
+  "end": 5.48
+ },
+ {
+  "word": "2004",
+  "start": 5.48,
+  "end": 6.28
+ },
+ {
+  "word": "riss",
+  "start": 6.28,
+  "end": 6.84
+ },
+ {
+  "word": "der",
+  "start": 6.84,
+  "end": 6.94
+ },
+ {
+  "word": "Meeresboden",
+  "start": 6.94,
+  "end": 7.52
+ },
+ {
+  "word": "vor",
+  "start": 7.52,
+  "end": 7.74
+ },
+ {
+  "word": "Sumatra",
+  "start": 7.74,
+  "end": 8.2
+ },
+ {
+  "word": "in",
+  "start": 8.2,
+  "end": 8.56
+ },
+ {
+  "word": "einem",
+  "start": 8.56,
+  "end": 8.82
+ },
+ {
+  "word": "Erdbeben",
+  "start": 8.82,
+  "end": 9.34
+ },
+ {
+  "word": "der",
+  "start": 9.34,
+  "end": 9.46
+ },
+ {
+  "word": "St\u00e4rke",
+  "start": 9.46,
+  "end": 9.82
+ },
+ {
+  "word": "9,1",
+  "start": 9.82,
+  "end": 10.34
+ },
+ {
+  "word": "auf.",
+  "start": 10.34,
+  "end": 10.62
+ },
+ {
+  "word": "Das",
+  "start": 11.24,
+  "end": 11.36
+ },
+ {
+  "word": "Beben",
+  "start": 11.36,
+  "end": 11.66
+ },
+ {
+  "word": "dauerte",
+  "start": 11.66,
+  "end": 12.1
+ },
+ {
+  "word": "fast",
+  "start": 12.1,
+  "end": 12.36
+ },
+ {
+  "word": "zehn",
+  "start": 12.36,
+  "end": 12.72
+ },
+ {
+  "word": "Minuten,",
+  "start": 12.72,
+  "end": 13.08
+ },
+ {
+  "word": "das",
+  "start": 13.44,
+  "end": 13.56
+ },
+ {
+  "word": "l\u00e4ngste,",
+  "start": 13.56,
+  "end": 14.02
+ },
+ {
+  "word": "das",
+  "start": 14.18,
+  "end": 14.36
+ },
+ {
+  "word": "je",
+  "start": 14.36,
+  "end": 14.52
+ },
+ {
+  "word": "gemessen",
+  "start": 14.52,
+  "end": 14.82
+ },
+ {
+  "word": "wurde.",
+  "start": 14.82,
+  "end": 15.22
+ },
+ {
+  "word": "Im",
+  "start": 15.8,
+  "end": 15.92
+ },
+ {
+  "word": "tiefen",
+  "start": 15.92,
+  "end": 16.36
+ },
+ {
+  "word": "Ozean",
+  "start": 16.36,
+  "end": 16.84
+ },
+ {
+  "word": "bewegte",
+  "start": 16.84,
+  "end": 17.38
+ },
+ {
+  "word": "sich",
+  "start": 17.38,
+  "end": 17.52
+ },
+ {
+  "word": "die",
+  "start": 17.52,
+  "end": 17.68
+ },
+ {
+  "word": "Welle",
+  "start": 17.68,
+  "end": 18.04
+ },
+ {
+  "word": "mit",
+  "start": 18.04,
+  "end": 18.24
+ },
+ {
+  "word": "der",
+  "start": 18.24,
+  "end": 18.38
+ },
+ {
+  "word": "Geschwindigkeit",
+  "start": 18.38,
+  "end": 19.0
+ },
+ {
+  "word": "eines",
+  "start": 19.0,
+  "end": 19.36
+ },
+ {
+  "word": "D\u00fcsenjets.",
+  "start": 19.36,
+  "end": 19.92
+ },
+ {
+  "word": "An",
+  "start": 20.56,
+  "end": 20.64
+ },
+ {
+  "word": "den",
+  "start": 20.64,
+  "end": 20.76
+ },
+ {
+  "word": "Str\u00e4nden",
+  "start": 20.76,
+  "end": 21.24
+ },
+ {
+  "word": "Thailands",
+  "start": 21.24,
+  "end": 21.64
+ },
+ {
+  "word": "zog",
+  "start": 21.64,
+  "end": 22.04
+ },
+ {
+  "word": "sich",
+  "start": 22.04,
+  "end": 22.26
+ },
+ {
+  "word": "das",
+  "start": 22.26,
+  "end": 22.42
+ },
+ {
+  "word": "Wasser",
+  "start": 22.42,
+  "end": 22.66
+ },
+ {
+  "word": "zur\u00fcck",
+  "start": 22.66,
+  "end": 23.06
+ },
+ {
+  "word": "und",
+  "start": 23.06,
+  "end": 23.6
+ },
+ {
+  "word": "legte",
+  "start": 23.6,
+  "end": 23.9
+ },
+ {
+  "word": "den",
+  "start": 23.9,
+  "end": 24.02
+ },
+ {
+  "word": "Meeresboden",
+  "start": 24.02,
+  "end": 24.58
+ },
+ {
+  "word": "frei.",
+  "start": 24.58,
+  "end": 24.86
+ },
+ {
+  "word": "Die",
+  "start": 25.44,
+  "end": 25.6
+ },
+ {
+  "word": "Menschen",
+  "start": 25.6,
+  "end": 25.92
+ },
+ {
+  "word": "gingen",
+  "start": 25.92,
+  "end": 26.2
+ },
+ {
+  "word": "hinaus,",
+  "start": 26.2,
+  "end": 26.68
+ },
+ {
+  "word": "um",
+  "start": 26.68,
+  "end": 26.82
+ },
+ {
+  "word": "zu",
+  "start": 26.82,
+  "end": 26.96
+ },
+ {
+  "word": "schauen.",
+  "start": 26.96,
+  "end": 27.52
+ },
+ {
+  "word": "Dann",
+  "start": 27.94,
+  "end": 28.14
+ },
+ {
+  "word": "kam",
+  "start": 28.14,
+  "end": 28.36
+ },
+ {
+  "word": "die",
+  "start": 28.36,
+  "end": 28.52
+ },
+ {
+  "word": "Welle.",
+  "start": 28.52,
+  "end": 28.82
+ },
+ {
+  "word": "In",
+  "start": 28.82,
+  "end": 29.48
+ },
+ {
+  "word": "Khao",
+  "start": 29.48,
+  "end": 29.84
+ },
+ {
+  "word": "Lak",
+  "start": 29.84,
+  "end": 30.06
+ },
+ {
+  "word": "st\u00fcrzte",
+  "start": 30.06,
+  "end": 30.52
+ },
+ {
+  "word": "eine",
+  "start": 30.52,
+  "end": 30.8
+ },
+ {
+  "word": "Wasserwand",
+  "start": 30.8,
+  "end": 31.34
+ },
+ {
+  "word": "\u00fcber",
+  "start": 31.34,
+  "end": 31.64
+ },
+ {
+  "word": "den",
+  "start": 31.64,
+  "end": 31.78
+ },
+ {
+  "word": "Strand",
+  "start": 31.78,
+  "end": 32.04
+ },
+ {
+  "word": "und",
+  "start": 32.04,
+  "end": 32.44
+ },
+ {
+  "word": "riss",
+  "start": 32.44,
+  "end": 32.62
+ },
+ {
+  "word": "alles",
+  "start": 32.62,
+  "end": 32.9
+ },
+ {
+  "word": "mit",
+  "start": 32.9,
+  "end": 33.12
+ },
+ {
+  "word": "sich.",
+  "start": 33.12,
+  "end": 33.42
+ },
+ {
+  "word": "Das",
+  "start": 33.94,
+  "end": 34.04
+ },
+ {
+  "word": "Wasser",
+  "start": 34.04,
+  "end": 34.38
+ },
+ {
+  "word": "kam",
+  "start": 34.38,
+  "end": 34.64
+ },
+ {
+  "word": "stundenlang",
+  "start": 34.64,
+  "end": 35.28
+ },
+ {
+  "word": "weiter,",
+  "start": 35.28,
+  "end": 35.7
+ },
+ {
+  "word": "ein",
+  "start": 35.96,
+  "end": 36.06
+ },
+ {
+  "word": "schwarzer",
+  "start": 36.06,
+  "end": 36.52
+ },
+ {
+  "word": "Fluss",
+  "start": 36.52,
+  "end": 36.84
+ },
+ {
+  "word": "aus",
+  "start": 36.84,
+  "end": 37.0
+ },
+ {
+  "word": "Autos,",
+  "start": 37.0,
+  "end": 37.5
+ },
+ {
+  "word": "B\u00e4umen",
+  "start": 37.7,
+  "end": 38.0
+ },
+ {
+  "word": "und",
+  "start": 38.0,
+  "end": 38.24
+ },
+ {
+  "word": "Beton.",
+  "start": 38.24,
+  "end": 38.58
+ },
+ {
+  "word": "In",
+  "start": 39.18,
+  "end": 39.32
+ },
+ {
+  "word": "Banda",
+  "start": 39.32,
+  "end": 39.74
+ },
+ {
+  "word": "Aceh",
+  "start": 39.74,
+  "end": 40.08
+ },
+ {
+  "word": "l\u00f6schten",
+  "start": 40.18,
+  "end": 40.54
+ },
+ {
+  "word": "bis",
+  "start": 40.54,
+  "end": 40.76
+ },
+ {
+  "word": "zu",
+  "start": 40.76,
+  "end": 40.96
+ },
+ {
+  "word": "drei\u00dfig",
+  "start": 40.96,
+  "end": 41.34
+ },
+ {
+  "word": "Meter",
+  "start": 41.34,
+  "end": 41.68
+ },
+ {
+  "word": "hohe",
+  "start": 41.68,
+  "end": 42.0
+ },
+ {
+  "word": "Wellen",
+  "start": 42.0,
+  "end": 42.3
+ },
+ {
+  "word": "ganze",
+  "start": 42.3,
+  "end": 42.64
+ },
+ {
+  "word": "Viertel",
+  "start": 42.64,
+  "end": 43.04
+ },
+ {
+  "word": "aus.",
+  "start": 43.04,
+  "end": 43.28
+ },
+ {
+  "word": "In",
+  "start": 43.94,
+  "end": 44.04
+ },
+ {
+  "word": "Sri",
+  "start": 44.04,
+  "end": 44.24
+ },
+ {
+  "word": "Lanka",
+  "start": 44.24,
+  "end": 44.5
+ },
+ {
+  "word": "riss",
+  "start": 44.5,
+  "end": 44.82
+ },
+ {
+  "word": "die",
+  "start": 44.82,
+  "end": 45.0
+ },
+ {
+  "word": "Welle",
+  "start": 45.0,
+  "end": 45.34
+ },
+ {
+  "word": "einen",
+  "start": 45.34,
+  "end": 45.58
+ },
+ {
+  "word": "voll",
+  "start": 45.58,
+  "end": 45.9
+ },
+ {
+  "word": "besetzten",
+  "start": 45.9,
+  "end": 46.52
+ },
+ {
+  "word": "Zug",
+  "start": 46.52,
+  "end": 46.74
+ },
+ {
+  "word": "von",
+  "start": 46.74,
+  "end": 47.0
+ },
+ {
+  "word": "den",
+  "start": 47.0,
+  "end": 47.16
+ },
+ {
+  "word": "Schienen.",
+  "start": 47.16,
+  "end": 47.48
+ },
+ {
+  "word": "Der",
+  "start": 48.1,
+  "end": 48.22
+ },
+ {
+  "word": "Tsunami",
+  "start": 48.22,
+  "end": 48.64
+ },
+ {
+  "word": "raste",
+  "start": 48.64,
+  "end": 49.1
+ },
+ {
+  "word": "\u00fcber",
+  "start": 49.1,
+  "end": 49.42
+ },
+ {
+  "word": "den",
+  "start": 49.42,
+  "end": 49.58
+ },
+ {
+  "word": "Indischen",
+  "start": 49.58,
+  "end": 49.98
+ },
+ {
+  "word": "Ozean",
+  "start": 49.98,
+  "end": 50.54
+ },
+ {
+  "word": "und",
+  "start": 50.54,
+  "end": 50.92
+ },
+ {
+  "word": "erreichte",
+  "start": 50.92,
+  "end": 51.36
+ },
+ {
+  "word": "vierzehn",
+  "start": 51.36,
+  "end": 51.76
+ },
+ {
+  "word": "L\u00e4nder.",
+  "start": 51.76,
+  "end": 52.08
+ },
+ {
+  "word": "Es",
+  "start": 52.72,
+  "end": 52.88
+ },
+ {
+  "word": "gab",
+  "start": 52.88,
+  "end": 53.06
+ },
+ {
+  "word": "kein",
+  "start": 53.06,
+  "end": 53.42
+ },
+ {
+  "word": "Warnsystem.",
+  "start": 53.42,
+  "end": 54.14
+ },
+ {
+  "word": "Keine",
+  "start": 54.46,
+  "end": 54.62
+ },
+ {
+  "word": "Sirenen.",
+  "start": 54.62,
+  "end": 55.1
+ },
+ {
+  "word": "Keine",
+  "start": 55.44,
+  "end": 55.6
+ },
+ {
+  "word": "Zeit",
+  "start": 55.6,
+  "end": 55.92
+ },
+ {
+  "word": "zu",
+  "start": 55.92,
+  "end": 56.18
+ },
+ {
+  "word": "fliehen.",
+  "start": 56.18,
+  "end": 56.48
+ },
+ {
+  "word": "Als",
+  "start": 56.48,
+  "end": 57.18
+ },
+ {
+  "word": "das",
+  "start": 57.18,
+  "end": 57.4
+ },
+ {
+  "word": "Wasser",
+  "start": 57.4,
+  "end": 57.66
+ },
+ {
+  "word": "zur\u00fcckging,",
+  "start": 57.66,
+  "end": 58.24
+ },
+ {
+  "word": "waren",
+  "start": 58.62,
+  "end": 58.76
+ },
+ {
+  "word": "227.898",
+  "start": 58.76,
+  "end": 61.22
+ },
+ {
+  "word": "Menschen",
+  "start": 61.22,
+  "end": 61.88
+ },
+ {
+  "word": "tot.",
+  "start": 61.88,
+  "end": 62.28
+ },
+ {
+  "word": "227.898",
+  "start": 64.22,
+  "end": 65.82
+ },
+ {
+  "word": "Menschen",
+  "start": 65.82,
+  "end": 66.18
+ },
+ {
+  "word": "kamen",
+  "start": 66.18,
+  "end": 66.62
+ },
+ {
+  "word": "nie",
+  "start": 66.62,
+  "end": 66.7
+ },
+ {
+  "word": "nach",
+  "start": 66.7,
+  "end": 66.86
+ },
+ {
+  "word": "Hause.",
+  "start": 66.86,
+  "end": 67.2
+ }
+]

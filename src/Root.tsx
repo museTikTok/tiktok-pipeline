@@ -31,6 +31,8 @@ import {MontPeleeVideoDe} from './MontPeleeVideoDe';
 import {YamaguchiVideoEn} from './YamaguchiVideoEn';
 import {YamaguchiVideoDe} from './YamaguchiVideoDe';
 import {CrimeWatchVideoEn} from './CrimeWatchVideoEn';
+import {TsunamiVideoEn} from './TsunamiVideoEn';
+import {TsunamiVideoDe} from './TsunamiVideoDe';
 import {TickleVideoEn} from './TickleVideoEn';
 import {EarthStopsVideoEn} from './EarthStopsVideoEn';
 import {EarthStopsVideoDe} from './EarthStopsVideoDe';
@@ -402,6 +404,39 @@ const calculateCrimeWatchEnMetadata: CalculateMetadataFunction<Record<string, ne
 }) => {
 	return {
 		durationInFrames: 2096,
+		props,
+	};
+};
+
+// Tsunami 2004 v13 EN is self-contained (phrases + VO are loaded inside the
+// component); fixed duration 65.82s = 1975 frames (last word 64.32s + 1.5s tail).
+// GRAVE subject — @cursednature1 system (see studies in
+// ~/workspace/tiktok/reference-videos/study-cursednature1-*.md): hook = real
+// shocking archive footage from t=0 + white flash, punch-out at ~3.2s, 1 sentence
+// = 1 shot cut on the VO pause, 2 giant overlays ("9.1", "227,898"), archive
+// audio under the VO, bookend on the hook footage.
+// TESTS (Axel 2026-11-12): WHITE BOLD phrase subtitles (documentary style,
+// NOT Titan One yellow karaoke); NO branding on the hook (handle from 3 s);
+// Kokoro bm_george speed 1.0 (solemn); mix ~-20/-21 dB.
+const calculateTsunamiEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1975,
+		props,
+	};
+};
+
+// Tsunami 2004 v13 DE is self-contained (phrases + VO are loaded inside the
+// component); fixed duration 68.70s = 2061 frames (last word 67.20s + 1.5s tail).
+// Same @cursednature1 system as the EN version. White bold phrase subtitles
+// 56px (German words are longer — longest phrase verified on rendered frames);
+// overlays "9,1" and "227.898". Kokoro dm_martin speed 1.0.
+const calculateTsunamiDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2061,
 		props,
 	};
 };
@@ -797,6 +832,26 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateCrimeWatchEnMetadata}
+			/>
+			<Composition
+				id="TsunamiVideoEn"
+				component={TsunamiVideoEn as React.FC<unknown>}
+				durationInFrames={1975}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateTsunamiEnMetadata}
+			/>
+			<Composition
+				id="TsunamiVideoDe"
+				component={TsunamiVideoDe as React.FC<unknown>}
+				durationInFrames={2061}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateTsunamiDeMetadata}
 			/>
 			<Composition
 				id="TickleVideoEn"

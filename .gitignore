@@ -60,6 +60,11 @@ public/batch6/v11-de/v11-words-de.json
 !public/batch6/v12-images/*.jpg
 !public/batch6/v12-images/*.png
 public/batch6/v12-en/v12-words-en.json
+!public/batch6/v13-clips/
+!public/batch6/v13-en/
+!public/batch6/v13-de/
+public/batch6/v13-en/v13-words-en.json
+public/batch6/v13-de/v13-words-de.json
 !public/batch6/test-tickle-en/
 !public/batch6/test-tickle-en/test-vo-en.mp3
 !public/batch6/test-tickle-en/test-words-en-fixed.json

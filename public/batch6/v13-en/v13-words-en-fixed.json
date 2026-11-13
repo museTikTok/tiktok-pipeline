@@ -1,0 +1,807 @@
+[
+ {
+  "word": "The",
+  "start": 0.0,
+  "end": 0.1
+ },
+ {
+  "word": "sea",
+  "start": 0.1,
+  "end": 0.3
+ },
+ {
+  "word": "vanished.",
+  "start": 0.3,
+  "end": 0.78
+ },
+ {
+  "word": "Then",
+  "start": 1.12,
+  "end": 1.34
+ },
+ {
+  "word": "it",
+  "start": 1.34,
+  "end": 1.46
+ },
+ {
+  "word": "returned",
+  "start": 1.46,
+  "end": 1.84
+ },
+ {
+  "word": "as",
+  "start": 1.84,
+  "end": 2.18
+ },
+ {
+  "word": "a",
+  "start": 2.18,
+  "end": 2.26
+ },
+ {
+  "word": "wall.",
+  "start": 2.26,
+  "end": 2.56
+ },
+ {
+  "word": "On",
+  "start": 3.18,
+  "end": 3.28
+ },
+ {
+  "word": "December",
+  "start": 3.28,
+  "end": 3.6
+ },
+ {
+  "word": "26th,",
+  "start": 3.6,
+  "end": 4.34
+ },
+ {
+  "word": "2004,",
+  "start": 4.74,
+  "end": 5.66
+ },
+ {
+  "word": "the",
+  "start": 6.12,
+  "end": 6.2
+ },
+ {
+  "word": "ocean",
+  "start": 6.2,
+  "end": 6.48
+ },
+ {
+  "word": "floor",
+  "start": 6.48,
+  "end": 6.84
+ },
+ {
+  "word": "off",
+  "start": 6.84,
+  "end": 7.12
+ },
+ {
+  "word": "Sumatra",
+  "start": 7.12,
+  "end": 7.54
+ },
+ {
+  "word": "tore",
+  "start": 7.54,
+  "end": 7.95
+ },
+ {
+  "word": "open",
+  "start": 7.95,
+  "end": 8.36
+ },
+ {
+  "word": "in",
+  "start": 8.36,
+  "end": 8.56
+ },
+ {
+  "word": "a",
+  "start": 8.56,
+  "end": 8.64
+ },
+ {
+  "word": "magnitude",
+  "start": 8.64,
+  "end": 9.12
+ },
+ {
+  "word": "9.1",
+  "start": 9.12,
+  "end": 10.24
+ },
+ {
+  "word": "earthquake.",
+  "start": 10.24,
+  "end": 10.78
+ },
+ {
+  "word": "The",
+  "start": 11.18,
+  "end": 11.48
+ },
+ {
+  "word": "shaking",
+  "start": 11.48,
+  "end": 11.84
+ },
+ {
+  "word": "lasted",
+  "start": 11.84,
+  "end": 12.18
+ },
+ {
+  "word": "almost",
+  "start": 12.18,
+  "end": 12.68
+ },
+ {
+  "word": "ten",
+  "start": 12.68,
+  "end": 12.98
+ },
+ {
+  "word": "minutes,",
+  "start": 12.98,
+  "end": 13.28
+ },
+ {
+  "word": "the",
+  "start": 13.76,
+  "end": 13.84
+ },
+ {
+  "word": "longest",
+  "start": 13.84,
+  "end": 14.14
+ },
+ {
+  "word": "ever",
+  "start": 14.14,
+  "end": 14.46
+ },
+ {
+  "word": "recorded.",
+  "start": 14.46,
+  "end": 14.98
+ },
+ {
+  "word": "In",
+  "start": 15.52,
+  "end": 15.7
+ },
+ {
+  "word": "the",
+  "start": 15.7,
+  "end": 15.8
+ },
+ {
+  "word": "deep",
+  "start": 15.8,
+  "end": 15.98
+ },
+ {
+  "word": "ocean,",
+  "start": 15.98,
+  "end": 16.44
+ },
+ {
+  "word": "the",
+  "start": 16.86,
+  "end": 16.94
+ },
+ {
+  "word": "wave",
+  "start": 16.94,
+  "end": 17.2
+ },
+ {
+  "word": "moved",
+  "start": 17.2,
+  "end": 17.62
+ },
+ {
+  "word": "at",
+  "start": 17.62,
+  "end": 17.74
+ },
+ {
+  "word": "the",
+  "start": 17.74,
+  "end": 17.86
+ },
+ {
+  "word": "speed",
+  "start": 17.86,
+  "end": 18.14
+ },
+ {
+  "word": "of",
+  "start": 18.14,
+  "end": 18.52
+ },
+ {
+  "word": "a",
+  "start": 18.52,
+  "end": 18.58
+ },
+ {
+  "word": "jet",
+  "start": 18.58,
+  "end": 18.84
+ },
+ {
+  "word": "airliner.",
+  "start": 18.84,
+  "end": 19.46
+ },
+ {
+  "word": "Across",
+  "start": 19.86,
+  "end": 20.04
+ },
+ {
+  "word": "the",
+  "start": 20.04,
+  "end": 20.24
+ },
+ {
+  "word": "beaches",
+  "start": 20.24,
+  "end": 20.52
+ },
+ {
+  "word": "of",
+  "start": 20.52,
+  "end": 20.68
+ },
+ {
+  "word": "Thailand,",
+  "start": 20.68,
+  "end": 21.0
+ },
+ {
+  "word": "the",
+  "start": 21.3,
+  "end": 21.48
+ },
+ {
+  "word": "water",
+  "start": 21.48,
+  "end": 21.7
+ },
+ {
+  "word": "pulled",
+  "start": 21.7,
+  "end": 22.04
+ },
+ {
+  "word": "back,",
+  "start": 22.04,
+  "end": 22.46
+ },
+ {
+  "word": "exposing",
+  "start": 22.68,
+  "end": 23.16
+ },
+ {
+  "word": "the",
+  "start": 23.16,
+  "end": 23.36
+ },
+ {
+  "word": "sea",
+  "start": 23.36,
+  "end": 23.56
+ },
+ {
+  "word": "floor.",
+  "start": 23.56,
+  "end": 23.96
+ },
+ {
+  "word": "People",
+  "start": 23.96,
+  "end": 24.6
+ },
+ {
+  "word": "walked",
+  "start": 24.6,
+  "end": 24.98
+ },
+ {
+  "word": "out",
+  "start": 24.98,
+  "end": 25.18
+ },
+ {
+  "word": "to",
+  "start": 25.18,
+  "end": 25.32
+ },
+ {
+  "word": "look.",
+  "start": 25.32,
+  "end": 25.5
+ },
+ {
+  "word": "Then",
+  "start": 25.9,
+  "end": 26.12
+ },
+ {
+  "word": "the",
+  "start": 26.12,
+  "end": 26.26
+ },
+ {
+  "word": "wave",
+  "start": 26.26,
+  "end": 26.44
+ },
+ {
+  "word": "arrived.",
+  "start": 26.44,
+  "end": 27.06
+ },
+ {
+  "word": "In",
+  "start": 27.5,
+  "end": 27.56
+ },
+ {
+  "word": "Khao",
+  "start": 27.56,
+  "end": 27.92
+ },
+ {
+  "word": "Lak,",
+  "start": 27.92,
+  "end": 28.28
+ },
+ {
+  "word": "a",
+  "start": 28.48,
+  "end": 28.56
+ },
+ {
+  "word": "wall",
+  "start": 28.56,
+  "end": 28.74
+ },
+ {
+  "word": "of",
+  "start": 28.74,
+  "end": 28.9
+ },
+ {
+  "word": "water",
+  "start": 28.9,
+  "end": 29.16
+ },
+ {
+  "word": "crashed",
+  "start": 29.16,
+  "end": 29.52
+ },
+ {
+  "word": "over",
+  "start": 29.52,
+  "end": 29.7
+ },
+ {
+  "word": "the",
+  "start": 29.7,
+  "end": 29.82
+ },
+ {
+  "word": "beach,",
+  "start": 29.82,
+  "end": 30.14
+ },
+ {
+  "word": "sweeping",
+  "start": 30.48,
+  "end": 30.7
+ },
+ {
+  "word": "away",
+  "start": 30.7,
+  "end": 30.98
+ },
+ {
+  "word": "everything",
+  "start": 30.98,
+  "end": 31.5
+ },
+ {
+  "word": "in",
+  "start": 31.5,
+  "end": 31.72
+ },
+ {
+  "word": "its",
+  "start": 31.72,
+  "end": 31.9
+ },
+ {
+  "word": "path.",
+  "start": 31.9,
+  "end": 32.2
+ },
+ {
+  "word": "The",
+  "start": 32.64,
+  "end": 32.82
+ },
+ {
+  "word": "water",
+  "start": 32.82,
+  "end": 33.02
+ },
+ {
+  "word": "kept",
+  "start": 33.02,
+  "end": 33.24
+ },
+ {
+  "word": "coming",
+  "start": 33.24,
+  "end": 33.56
+ },
+ {
+  "word": "for",
+  "start": 33.56,
+  "end": 33.78
+ },
+ {
+  "word": "hours,",
+  "start": 33.78,
+  "end": 34.14
+ },
+ {
+  "word": "a",
+  "start": 34.58,
+  "end": 34.64
+ },
+ {
+  "word": "black",
+  "start": 34.64,
+  "end": 34.84
+ },
+ {
+  "word": "river",
+  "start": 34.84,
+  "end": 35.16
+ },
+ {
+  "word": "of",
+  "start": 35.16,
+  "end": 35.38
+ },
+ {
+  "word": "cars,",
+  "start": 35.38,
+  "end": 35.72
+ },
+ {
+  "word": "trees,",
+  "start": 36.14,
+  "end": 36.26
+ },
+ {
+  "word": "and",
+  "start": 36.6,
+  "end": 36.66
+ },
+ {
+  "word": "concrete.",
+  "start": 36.66,
+  "end": 37.2
+ },
+ {
+  "word": "In",
+  "start": 37.74,
+  "end": 37.86
+ },
+ {
+  "word": "Banda",
+  "start": 37.86,
+  "end": 38.28
+ },
+ {
+  "word": "Aceh,",
+  "start": 38.28,
+  "end": 38.7
+ },
+ {
+  "word": "waves",
+  "start": 39.04,
+  "end": 39.18
+ },
+ {
+  "word": "up",
+  "start": 39.18,
+  "end": 39.4
+ },
+ {
+  "word": "to",
+  "start": 39.4,
+  "end": 39.56
+ },
+ {
+  "word": "thirty",
+  "start": 39.56,
+  "end": 39.92
+ },
+ {
+  "word": "metres",
+  "start": 39.92,
+  "end": 40.26
+ },
+ {
+  "word": "high",
+  "start": 40.26,
+  "end": 40.66
+ },
+ {
+  "word": "erased",
+  "start": 40.84,
+  "end": 41.26
+ },
+ {
+  "word": "whole",
+  "start": 41.26,
+  "end": 41.54
+ },
+ {
+  "word": "neighbourhoods.",
+  "start": 41.54,
+  "end": 41.94
+ },
+ {
+  "word": "In",
+  "start": 42.54,
+  "end": 42.68
+ },
+ {
+  "word": "Sri",
+  "start": 42.68,
+  "end": 42.84
+ },
+ {
+  "word": "Lanka,",
+  "start": 42.84,
+  "end": 43.18
+ },
+ {
+  "word": "the",
+  "start": 43.44,
+  "end": 43.56
+ },
+ {
+  "word": "wave",
+  "start": 43.56,
+  "end": 43.82
+ },
+ {
+  "word": "swept",
+  "start": 43.82,
+  "end": 44.08
+ },
+ {
+  "word": "a",
+  "start": 44.08,
+  "end": 44.3
+ },
+ {
+  "word": "crowded",
+  "start": 44.3,
+  "end": 44.64
+ },
+ {
+  "word": "train",
+  "start": 44.64,
+  "end": 45.02
+ },
+ {
+  "word": "off",
+  "start": 45.02,
+  "end": 45.28
+ },
+ {
+  "word": "its",
+  "start": 45.28,
+  "end": 45.5
+ },
+ {
+  "word": "tracks.",
+  "start": 45.5,
+  "end": 45.92
+ },
+ {
+  "word": "The",
+  "start": 46.42,
+  "end": 46.54
+ },
+ {
+  "word": "tsunami",
+  "start": 46.54,
+  "end": 46.82
+ },
+ {
+  "word": "raced",
+  "start": 46.82,
+  "end": 47.3
+ },
+ {
+  "word": "across",
+  "start": 47.3,
+  "end": 47.58
+ },
+ {
+  "word": "the",
+  "start": 47.58,
+  "end": 47.82
+ },
+ {
+  "word": "Indian",
+  "start": 47.82,
+  "end": 48.12
+ },
+ {
+  "word": "Ocean,",
+  "start": 48.12,
+  "end": 48.56
+ },
+ {
+  "word": "reaching",
+  "start": 48.56,
+  "end": 49.08
+ },
+ {
+  "word": "fourteen",
+  "start": 49.08,
+  "end": 49.56
+ },
+ {
+  "word": "countries.",
+  "start": 49.56,
+  "end": 50.12
+ },
+ {
+  "word": "There",
+  "start": 50.48,
+  "end": 50.76
+ },
+ {
+  "word": "was",
+  "start": 50.76,
+  "end": 50.84
+ },
+ {
+  "word": "no",
+  "start": 50.84,
+  "end": 51.02
+ },
+ {
+  "word": "warning",
+  "start": 51.02,
+  "end": 51.36
+ },
+ {
+  "word": "system.",
+  "start": 51.36,
+  "end": 51.84
+ },
+ {
+  "word": "No",
+  "start": 52.3,
+  "end": 52.44
+ },
+ {
+  "word": "sirens.",
+  "start": 52.44,
+  "end": 52.96
+ },
+ {
+  "word": "No",
+  "start": 53.46,
+  "end": 53.6
+ },
+ {
+  "word": "time",
+  "start": 53.6,
+  "end": 53.9
+ },
+ {
+  "word": "to",
+  "start": 53.9,
+  "end": 54.1
+ },
+ {
+  "word": "run.",
+  "start": 54.1,
+  "end": 54.38
+ },
+ {
+  "word": "When",
+  "start": 54.8,
+  "end": 54.96
+ },
+ {
+  "word": "the",
+  "start": 54.96,
+  "end": 55.04
+ },
+ {
+  "word": "water",
+  "start": 55.04,
+  "end": 55.28
+ },
+ {
+  "word": "went",
+  "start": 55.28,
+  "end": 55.52
+ },
+ {
+  "word": "back,",
+  "start": 55.52,
+  "end": 55.92
+ },
+ {
+  "word": "227,898",
+  "start": 56.18,
+  "end": 58.7
+ },
+ {
+  "word": "people",
+  "start": 58.7,
+  "end": 59.3
+ },
+ {
+  "word": "were",
+  "start": 59.3,
+  "end": 59.5
+ },
+ {
+  "word": "dead.",
+  "start": 59.5,
+  "end": 59.74
+ },
+ {
+  "word": "227,898",
+  "start": 60.8,
+  "end": 62.9
+ },
+ {
+  "word": "people",
+  "start": 62.9,
+  "end": 63.42
+ },
+ {
+  "word": "never",
+  "start": 63.42,
+  "end": 63.68
+ },
+ {
+  "word": "came",
+  "start": 63.68,
+  "end": 63.94
+ },
+ {
+  "word": "home.",
+  "start": 63.94,
+  "end": 64.32
+ }
+]
