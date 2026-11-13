@@ -87,6 +87,7 @@ const ZoomClip: React.FC<{
         <OffthreadVideo
           src={src}
           startFrom={Math.round(startFrom * 30)}
+          muted
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
       </div>
