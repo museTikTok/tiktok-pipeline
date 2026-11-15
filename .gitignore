@@ -75,6 +75,13 @@ public/batch6/v14-de/pompeii-words-de.json
 !public/batch6/v15-images/
 !public/batch6/v15-images/*.jpg
 !public/batch6/v15-images/*.png
+# GTA 6 hype edit (EN only, no VO): 19 clips + launch-trailer music +
+# end-card background. Raw trailers (68 MB) stay on the VM.
+!public/batch6/gta6-clips/
+!public/batch6/gta6-clips/*.mp4
+!public/batch6/gta6-clips/*.mp3
+!public/batch6/gta6-clips/*.jpg
+public/batch6/gta6-clips/raw/
 # Raw clip downloads stay on the VM (441 MB, not needed in CI).
 public/batch6/v14-tmp/
 !public/batch6/test-tickle-en/

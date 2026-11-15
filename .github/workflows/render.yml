@@ -27,6 +27,8 @@
 #                 test-tickle-en renders the "Did you know" format test (EN only).
 #                 test-earth-stops-en renders the "Did you know" format test #2 (EN only).
 #                 test-earth-stops-de renders the "Did you know" format test #2 (DE only).
+#                 gta6-en-only renders the GTA 6 hype edit (EN only, no VO,
+#                 launch-trailer music).
 #   clips       — committed (default): use the pre-converted clips in the repo.
 #                 download: fetch sources from scripts/clips-v7.json and
 #                 pre-convert them (yt-dlp + ffmpeg minterpolate). v7 only.
@@ -74,6 +76,7 @@ on:
           - test-tickle-en
           - test-earth-stops-en
           - test-earth-stops-de
+          - gta6-en-only
       clips:
         description: 'Clip assets: committed (repo) or download (from sources)'
         required: true
@@ -126,6 +129,7 @@ jobs:
             test-tickle-en) echo 'matrix={"composition":["TickleVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             test-earth-stops-en) echo 'matrix={"composition":["EarthStopsVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             test-earth-stops-de) echo 'matrix={"composition":["EarthStopsVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
+            gta6-en-only) echo 'matrix={"composition":["Gta6EditEn"]}' >> "$GITHUB_OUTPUT" ;;
             *)          echo 'matrix={"composition":["AntikytheraVideoEn","AntikytheraVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
           esac
 

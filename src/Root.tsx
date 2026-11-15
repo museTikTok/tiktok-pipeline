@@ -40,6 +40,7 @@ import {TickleVideoEn} from './TickleVideoEn';
 import {EarthStopsVideoEn} from './EarthStopsVideoEn';
 import {EarthStopsVideoDe} from './EarthStopsVideoDe';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
+import {Gta6EditEn} from './Gta6EditEn';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
 const calculateMetadata: CalculateMetadataFunction<CaptionVideoProps> = ({
@@ -565,6 +566,19 @@ const calculateEarthStopsDeMetadata: CalculateMetadataFunction<Record<string, ne
 	};
 };
 
+// Gta6EditEn — GTA 6 hype edit, EN ONLY (Axel 2026-11-15).
+// Fixed duration 35.00s = 1050 frames. NO voiceover: launch-trailer music
+// (T3 audio 50-85s, loudnormed) + real trailer footage cut on the beat
+// (123 BPM). Hook = GTA VI logo over the sunset skyline + "4 DAYS LEFT".
+const calculateGta6EditEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1050,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -967,6 +981,16 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateEarthStopsDeMetadata}
+			/>
+			<Composition
+				id="Gta6EditEn"
+				component={Gta6EditEn as React.FC<unknown>}
+				durationInFrames={1050}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6EditEnMetadata}
 			/>
 		</>
 	);
