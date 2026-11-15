@@ -24,6 +24,17 @@
 // AVOIDED (verified on stills): T1/T2 end cards with outdated dates
 // ("COMING 2025", "MAY 26, 2026"); phone-UI clips; strip-club interiors;
 // the @HighRollerzMag watermark frame (T1 ~68s); ESRB warning (T2 0s).
+// v2 (2026-11-15): Axel REJECTED v1 — Jason's face was out of frame
+// (only his nose tip) and the hook logo was cropped left/right. Fixes:
+// hook = contained 16:9 (logo entire, same pattern as the title card);
+// Jason = objectPosition 88% (face x 1180-1740 measured, window
+// 1155-1762) + zoom 1 + no punch. Plan-by-plan v1 audit found 5 more
+// shots with the same crop defect, all fixed the same way: robbery
+// (Lucia halved at the left edge -> 40%), bikejump (rider sliding out
+// left -> 35%), gun (only an arm in frame -> 88%), masked (explosion
+// halved at the right edge -> 73%), plane (seaplane entirely out of
+// frame -> 79%). All other shots were verified whole in v1 and are
+// untouched. Same 12 shots, same music, same 35.00 s, same end card.
 import React from 'react';
 import {
   AbsoluteFill,
@@ -53,7 +64,14 @@ const S = (s: number) => Math.round(s * 30);
  * is a separate <Audio> track — never double audio), Ken Burns zoom +
  * quick entrance punch. `rate` = playbackRate (slow-mo < 1, e.g. the duo
  * embrace at 0.389; near-1.0 rates are imperceptible speed tweaks so the
- * source exactly fills the beat-snapped shot). */
+ * source exactly fills the beat-snapped shot).
+ * `objectPosition` pans the 9:16 cover window across the 16:9 source
+ * (v2, 2026-11-15 — measured on source stills, window = 607 source px
+ * wide, start = objectPosition% x 1313): the centered window only shows
+ * source x 656-1264, so ANY subject outside that band is cut. The v1
+ * `origin` trick only shifted the window ~30 px — useless. Use
+ * objectPosition + zoom={1} + punch={false} when the subject must sit
+ * whole inside the window (zoom would shrink the window further). */
 const ClipShot: React.FC<{
   src: string;
   durationInFrames: number;
@@ -62,6 +80,7 @@ const ClipShot: React.FC<{
   zoomOut?: boolean;
   origin?: string;
   punch?: boolean;
+  objectPosition?: string;
   children?: React.ReactNode;
 }> = ({
   src,
@@ -71,6 +90,7 @@ const ClipShot: React.FC<{
   zoomOut = false,
   origin = '50% 50%',
   punch = true,
+  objectPosition = '50% 50%',
   children,
 }) => {
   const frame = useCurrentFrame();
@@ -94,7 +114,7 @@ const ClipShot: React.FC<{
           src={src}
           muted
           playbackRate={rate}
-          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition }}
         />
       </div>
       {children}
@@ -356,23 +376,25 @@ export const Gta6EditEn: React.FC = () => {
     <AbsoluteFill style={{ backgroundColor: '#000' }}>
       {/* 1 — HOOK (0-2.67s): T3 23.1-25.6, GTA VI logo over the sunset
           Vice City skyline. "4 DAYS LEFT" on top — no branding on the
-          hook. Slow zoom, rate 0.937. */}
+          hook. Slow zoom, rate 0.937.
+          v2 (2026-11-15): the cover crop cut the logo left/right (v1:
+          "grand" clipped left, "theft" clipped right — Axel rejected).
+          The hook now uses the same CONTAINED pattern as the title card
+          (S11): the full 16:9 frame, logo ENTIRE, over a blurred cover
+          fill of the same footage. Label sits above the contained video. */}
       <Sequence from={S(0)} durationInFrames={S(2.67)}>
-        <ClipShot
+        <TitleCardShot
           src={CLIP('g01-hook.mp4')}
           durationInFrames={S(2.67)}
           rate={0.937}
-          zoom={1.07}
-          origin="50% 40%"
-        >
-          <Label
-            top={170}
-            lines={[
-              { text: '4 DAYS', color: '#fff', size: 112 },
-              { text: 'LEFT', color: '#ffd60a', size: 148 },
-            ]}
-          />
-        </ClipShot>
+        />
+        <Label
+          top={170}
+          lines={[
+            { text: '4 DAYS', color: '#fff', size: 112 },
+            { text: 'LEFT', color: '#ffd60a', size: 148 },
+          ]}
+        />
       </Sequence>
 
       {/* 2 — LUCIA (2.67-5.06s): T2 62.5-65.0, Lucia walks out of prison
@@ -407,28 +429,46 @@ export const Gta6EditEn: React.FC = () => {
       </Sequence>
 
       {/* 4 — JASON (6.97-9.82s): T2 28.2-30.7, Jason driving, sunglasses,
-          tank top. Cut on the beat. */}
+          tank top. Cut on the beat.
+          v2 (2026-11-15): v1 showed ONLY his nose tip at the right edge
+          (Axel rejected). Measured on source stills: his face spans
+          source x 1180-1740 (nose 1180-1215, back of head 1700-1740,
+          drifting right through the clip) — the centered window
+          (656-1264) missed it entirely, and the v1 origin="30%" only
+          shifted the window ~30 px. Fix: objectPosition 88% (window
+          1155-1762, face whole with ~25 px margins) + zoom 1 + no punch
+          (any zoom would shrink the window back onto his nose). */}
       <Sequence from={S(6.97)} durationInFrames={S(9.82) - S(6.97)}>
         <ClipShot
           src={CLIP('g04-jason.mp4')}
           durationInFrames={S(9.82) - S(6.97)}
           rate={0.912}
-          zoom={1.09}
-          origin="30% 50%"
+          zoom={1}
+          punch={false}
+          objectPosition="88% 50%"
         >
           <Label lines={[{ text: 'JASON', color: '#ffd60a', size: 132 }]} />
         </ClipShot>
       </Sequence>
 
       {/* 5a — ROBBERY (9.82-11.24s): T1 68.7-70.1, Lucia & Jason masked
-          in the store. Whoosh SFX on the cut. */}
+          in the store. Whoosh SFX on the cut.
+          v2 (2026-11-15): THIRD defect of the same kind, found on the
+          plan-by-plan v1 audit — v1 at t=10.5 showed Lucia (foreground,
+          red bandana) cut in HALF at the left edge, only her right eye
+          visible. Measured: her face spans source x 540-860 (drifting
+          left as the camera pushes in), Jason behind at 950-1300 — both
+          faces cannot fit one 607 px window, so the foreground subject
+          wins: objectPosition 40% (window 525-1132, her face whole
+          throughout) + zoom 1 + no punch. */}
       <Sequence from={S(9.82)} durationInFrames={S(11.24) - S(9.82)}>
         <ClipShot
           src={CLIP('g05a-robbery.mp4')}
           durationInFrames={S(11.24) - S(9.82)}
           rate={0.986}
-          zoom={1.08}
-          origin="50% 40%"
+          zoom={1}
+          punch={false}
+          objectPosition="40% 50%"
         />
       </Sequence>
 
@@ -513,12 +553,27 @@ export const Gta6EditEn: React.FC = () => {
           punch
         />
       </Sequence>
+      {/* v2 (2026-11-15): the plan-by-plan v1 audit found 4 more micros
+          with the same crop defect — subject cut at the edge or absent:
+          bikejump (rider half out at the left edge, sliding out during
+          the 0.48 s), gun (only the gunman's ARM visible — neither gun
+          nor face in frame), masked (explosion sliced in half at the
+          right edge), plane (seaplane COMPLETELY out of frame, only a
+          wingtip sliver). Each micro now pans its window onto its
+          subject (measured on source stills, zoom 1.16 window = 523
+          source px): bikejump 35% (rider x 560-990 through the clip),
+          gun 88% (face x 1400-1700), masked 73% (explosion x 1080-1450),
+          plane 79% (plane x 1140-1520). punch={false} on the fixed
+          micros so the entrance pop cannot shrink the window back onto
+          the subject's edge. Police / heli / swamp / bikes micros were
+          verified whole in v1 and are untouched. */}
       <Sequence from={S(22.18)} durationInFrames={S(22.64) - S(22.18)}>
         <ClipShot
           src={CLIP('g09d-bikejump.mp4')}
           durationInFrames={S(22.64) - S(22.18)}
           zoom={1.16}
-          punch
+          punch={false}
+          objectPosition="35% 50%"
         />
       </Sequence>
       <Sequence from={S(22.64)} durationInFrames={S(23.13) - S(22.64)}>
@@ -534,7 +589,8 @@ export const Gta6EditEn: React.FC = () => {
           src={CLIP('g09f-gun.mp4')}
           durationInFrames={S(23.61) - S(23.13)}
           zoom={1.16}
-          punch
+          punch={false}
+          objectPosition="88% 50%"
         />
       </Sequence>
       <Sequence from={S(23.61)} durationInFrames={S(24.1) - S(23.61)}>
@@ -542,7 +598,8 @@ export const Gta6EditEn: React.FC = () => {
           src={CLIP('g09g-masked.mp4')}
           durationInFrames={S(24.1) - S(23.61)}
           zoom={1.16}
-          punch
+          punch={false}
+          objectPosition="73% 50%"
         />
       </Sequence>
       <Sequence from={S(24.1)} durationInFrames={S(24.57) - S(24.1)}>
@@ -550,7 +607,8 @@ export const Gta6EditEn: React.FC = () => {
           src={CLIP('g09h-plane.mp4')}
           durationInFrames={S(24.57) - S(24.1)}
           zoom={1.16}
-          punch
+          punch={false}
+          objectPosition="79% 50%"
         />
       </Sequence>
 
