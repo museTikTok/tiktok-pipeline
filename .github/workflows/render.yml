@@ -22,6 +22,8 @@
 #                 v14-both renders the Pompeii EN + DE compositions in parallel
 #                 (video 14, max 40 s each); v14-en-only / v14-de-only render a
 #                 single v14 composition.
+#                 v15-en-only renders the Harding EN composition (video 15,
+#                 EN only — Axel decision 2026-11-14, no DE version).
 #                 test-tickle-en renders the "Did you know" format test (EN only).
 #                 test-earth-stops-en renders the "Did you know" format test #2 (EN only).
 #                 test-earth-stops-de renders the "Did you know" format test #2 (DE only).
@@ -68,6 +70,7 @@ on:
           - v14-both
           - v14-en-only
           - v14-de-only
+          - v15-en-only
           - test-tickle-en
           - test-earth-stops-en
           - test-earth-stops-de
@@ -119,6 +122,7 @@ jobs:
             v14-en-only) echo 'matrix={"composition":["PompeiiVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             v14-de-only) echo 'matrix={"composition":["PompeiiVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
             v14-both) echo 'matrix={"composition":["PompeiiVideoEn","PompeiiVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
+            v15-en-only) echo 'matrix={"composition":["HardingVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             test-tickle-en) echo 'matrix={"composition":["TickleVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             test-earth-stops-en) echo 'matrix={"composition":["EarthStopsVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             test-earth-stops-de) echo 'matrix={"composition":["EarthStopsVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
@@ -259,7 +263,9 @@ jobs:
           # v12 (Crime Watch Karim EN, 69.9 s): same pattern, incl. t=10 s subtitle check.
           # v13 (Tsunami 2004: 65.8 s EN / 68.7 s DE): same pattern, incl. t=10 s
           # subtitle check; t=2 s = hook (white flash + no branding) check.
-          if [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then TIMES="2 12 30 45 55 66"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoDe" ]; then TIMES="2 12 30 45 55 58"; elif [ "${{ matrix.composition }}" = "ZodiacVideoEn" ]; then TIMES="2 10 30 45 55 67"; elif [ "${{ matrix.composition }}" = "ZodiacVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoDe" ]; then TIMES="2 10 30 45 55 68"; elif [ "${{ matrix.composition }}" = "YamaguchiVideoEn" ]; then TIMES="2 10 30 45 55 62"; elif [ "${{ matrix.composition }}" = "YamaguchiVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "CrimeWatchVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "TsunamiVideoEn" ]; then TIMES="2 10 30 45 55 62"; elif [ "${{ matrix.composition }}" = "TsunamiVideoDe" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "PompeiiVideoEn" ]; then TIMES="1 2 5 12 15 25 37"; elif [ "${{ matrix.composition }}" = "PompeiiVideoDe" ]; then TIMES="1 2 5 12 15 25 37"; elif [ "${{ matrix.composition }}" = "TickleVideoEn" ]; then TIMES="1 10 20 30 40 48"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoEn" ]; then TIMES="2 10 25 40 55 62 70"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoDe" ]; then TIMES="2 10 27 45 57 67 76"; else TIMES="2 25 50 62 70 79"; fi
+          # v14 (Pompeii: 39.4 s EN / 39.9 s DE): same pattern, incl. t=1 s hook check.
+          # v15 (Harding EN, 67.2 s): same pattern, incl. t=65 s CTA card check.
+          if [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then TIMES="2 12 30 45 55 66"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoDe" ]; then TIMES="2 12 30 45 55 58"; elif [ "${{ matrix.composition }}" = "ZodiacVideoEn" ]; then TIMES="2 10 30 45 55 67"; elif [ "${{ matrix.composition }}" = "ZodiacVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoDe" ]; then TIMES="2 10 30 45 55 68"; elif [ "${{ matrix.composition }}" = "YamaguchiVideoEn" ]; then TIMES="2 10 30 45 55 62"; elif [ "${{ matrix.composition }}" = "YamaguchiVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "CrimeWatchVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "HardingVideoEn" ]; then TIMES="1 2 10 30 45 55 65"; elif [ "${{ matrix.composition }}" = "TsunamiVideoEn" ]; then TIMES="2 10 30 45 55 62"; elif [ "${{ matrix.composition }}" = "TsunamiVideoDe" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "PompeiiVideoEn" ]; then TIMES="1 2 5 12 15 25 37"; elif [ "${{ matrix.composition }}" = "PompeiiVideoDe" ]; then TIMES="1 2 5 12 15 25 37"; elif [ "${{ matrix.composition }}" = "TickleVideoEn" ]; then TIMES="1 10 20 30 40 48"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoEn" ]; then TIMES="2 10 25 40 55 62 70"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoDe" ]; then TIMES="2 10 27 45 57 67 76"; else TIMES="2 25 50 62 70 79"; fi
           for t in $TIMES; do
             ffmpeg -y -v error -ss "$t" -i "out/${{ matrix.composition }}.mp4" -frames:v 1 "out/frames/f${t}.jpg"
           done

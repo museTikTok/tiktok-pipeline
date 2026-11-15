@@ -1,0 +1,957 @@
+[
+ {
+  "word": "He",
+  "start": 0.0,
+  "end": 0.08
+ },
+ {
+  "word": "lived",
+  "start": 0.08,
+  "end": 0.26
+ },
+ {
+  "word": "like",
+  "start": 0.26,
+  "end": 0.42
+ },
+ {
+  "word": "a",
+  "start": 0.42,
+  "end": 0.56
+ },
+ {
+  "word": "king",
+  "start": 0.56,
+  "end": 0.74
+ },
+ {
+  "word": "in",
+  "start": 0.74,
+  "end": 0.98
+ },
+ {
+  "word": "Dubai.",
+  "start": 0.98,
+  "end": 1.28
+ },
+ {
+  "word": "His",
+  "start": 1.82,
+  "end": 1.88
+ },
+ {
+  "word": "own",
+  "start": 1.88,
+  "end": 2.1
+ },
+ {
+  "word": "phone",
+  "start": 2.1,
+  "end": 2.5
+ },
+ {
+  "word": "sent",
+  "start": 2.5,
+  "end": 2.72
+ },
+ {
+  "word": "him",
+  "start": 2.72,
+  "end": 2.9
+ },
+ {
+  "word": "to",
+  "start": 2.9,
+  "end": 3.0
+ },
+ {
+  "word": "prison",
+  "start": 3.0,
+  "end": 3.26
+ },
+ {
+  "word": "for",
+  "start": 3.26,
+  "end": 3.46
+ },
+ {
+  "word": "life.",
+  "start": 3.46,
+  "end": 3.78
+ },
+ {
+  "word": "James",
+  "start": 4.24,
+  "end": 4.46
+ },
+ {
+  "word": "Harding,",
+  "start": 4.46,
+  "end": 4.86
+ },
+ {
+  "word": "thirty-four,",
+  "start": 4.92,
+  "end": 5.36
+ },
+ {
+  "word": "called",
+  "start": 5.58,
+  "end": 5.7
+ },
+ {
+  "word": "himself",
+  "start": 5.7,
+  "end": 6.0
+ },
+ {
+  "word": "a",
+  "start": 6.0,
+  "end": 6.16
+ },
+ {
+  "word": "watch",
+  "start": 6.16,
+  "end": 6.4
+ },
+ {
+  "word": "dealer.",
+  "start": 6.4,
+  "end": 6.66
+ },
+ {
+  "word": "Five-star",
+  "start": 7.1,
+  "end": 7.52
+ },
+ {
+  "word": "hotels.",
+  "start": 7.52,
+  "end": 8.0
+ },
+ {
+  "word": "A",
+  "start": 8.38,
+  "end": 8.44
+ },
+ {
+  "word": "Bugatti.",
+  "start": 8.44,
+  "end": 8.86
+ },
+ {
+  "word": "A",
+  "start": 9.26,
+  "end": 9.32
+ },
+ {
+  "word": "Lamborghini.",
+  "start": 9.32,
+  "end": 9.94
+ },
+ {
+  "word": "A",
+  "start": 10.26,
+  "end": 10.36
+ },
+ {
+  "word": "villa",
+  "start": 10.36,
+  "end": 10.56
+ },
+ {
+  "word": "in",
+  "start": 10.56,
+  "end": 10.8
+ },
+ {
+  "word": "Al",
+  "start": 10.8,
+  "end": 10.95
+ },
+ {
+  "word": "Barari.",
+  "start": 10.95,
+  "end": 11.46
+ },
+ {
+  "word": "But",
+  "start": 11.8,
+  "end": 11.9
+ },
+ {
+  "word": "behind",
+  "start": 11.9,
+  "end": 12.14
+ },
+ {
+  "word": "the",
+  "start": 12.14,
+  "end": 12.3
+ },
+ {
+  "word": "luxury,",
+  "start": 12.3,
+  "end": 12.64
+ },
+ {
+  "word": "he",
+  "start": 12.92,
+  "end": 12.98
+ },
+ {
+  "word": "ran",
+  "start": 12.98,
+  "end": 13.12
+ },
+ {
+  "word": "a",
+  "start": 13.12,
+  "end": 13.28
+ },
+ {
+  "word": "cocaine",
+  "start": 13.28,
+  "end": 13.56
+ },
+ {
+  "word": "empire",
+  "start": 13.56,
+  "end": 14.04
+ },
+ {
+  "word": "worth",
+  "start": 14.04,
+  "end": 14.42
+ },
+ {
+  "word": "a",
+  "start": 14.42,
+  "end": 14.5
+ },
+ {
+  "word": "hundred",
+  "start": 14.5,
+  "end": 14.78
+ },
+ {
+  "word": "million",
+  "start": 14.78,
+  "end": 15.16
+ },
+ {
+  "word": "pounds.",
+  "start": 15.16,
+  "end": 15.6
+ },
+ {
+  "word": "In",
+  "start": 15.88,
+  "end": 16.14
+ },
+ {
+  "word": "just",
+  "start": 16.14,
+  "end": 16.24
+ },
+ {
+  "word": "ten",
+  "start": 16.24,
+  "end": 16.56
+ },
+ {
+  "word": "weeks,",
+  "start": 16.56,
+  "end": 16.82
+ },
+ {
+  "word": "his",
+  "start": 17.1,
+  "end": 17.24
+ },
+ {
+  "word": "network",
+  "start": 17.24,
+  "end": 17.56
+ },
+ {
+  "word": "moved",
+  "start": 17.56,
+  "end": 18.02
+ },
+ {
+  "word": "a",
+  "start": 18.02,
+  "end": 18.08
+ },
+ {
+  "word": "tonne",
+  "start": 18.08,
+  "end": 18.28
+ },
+ {
+  "word": "of",
+  "start": 18.28,
+  "end": 18.42
+ },
+ {
+  "word": "cocaine",
+  "start": 18.42,
+  "end": 18.74
+ },
+ {
+  "word": "into",
+  "start": 18.74,
+  "end": 19.06
+ },
+ {
+  "word": "Britain.",
+  "start": 19.06,
+  "end": 19.38
+ },
+ {
+  "word": "Five",
+  "start": 19.92,
+  "end": 20.14
+ },
+ {
+  "word": "million",
+  "start": 20.14,
+  "end": 20.48
+ },
+ {
+  "word": "pounds",
+  "start": 20.48,
+  "end": 20.88
+ },
+ {
+  "word": "in",
+  "start": 20.88,
+  "end": 21.12
+ },
+ {
+  "word": "profit.",
+  "start": 21.12,
+  "end": 21.46
+ },
+ {
+  "word": "Thirty",
+  "start": 21.98,
+  "end": 22.14
+ },
+ {
+  "word": "million",
+  "start": 22.14,
+  "end": 22.5
+ },
+ {
+  "word": "on",
+  "start": 22.5,
+  "end": 22.66
+ },
+ {
+  "word": "the",
+  "start": 22.66,
+  "end": 22.78
+ },
+ {
+  "word": "street.",
+  "start": 22.78,
+  "end": 23.1
+ },
+ {
+  "word": "On",
+  "start": 23.46,
+  "end": 23.56
+ },
+ {
+  "word": "EncroChat,",
+  "start": 23.56,
+  "end": 24.16
+ },
+ {
+  "word": "he",
+  "start": 24.34,
+  "end": 24.4
+ },
+ {
+  "word": "was",
+  "start": 24.4,
+  "end": 24.5
+ },
+ {
+  "word": "the",
+  "start": 24.5,
+  "end": 24.6
+ },
+ {
+  "word": "tops",
+  "start": 24.6,
+  "end": 24.9
+ },
+ {
+  "word": "king.",
+  "start": 24.9,
+  "end": 25.1
+ },
+ {
+  "word": "His",
+  "start": 25.54,
+  "end": 25.62
+ },
+ {
+  "word": "right",
+  "start": 25.62,
+  "end": 25.8
+ },
+ {
+  "word": "hand,",
+  "start": 25.8,
+  "end": 26.16
+ },
+ {
+  "word": "Jayes",
+  "start": 26.3,
+  "end": 26.56
+ },
+ {
+  "word": "Kharouti,",
+  "start": 26.56,
+  "end": 26.74
+ },
+ {
+  "word": "was",
+  "start": 27.04,
+  "end": 27.18
+ },
+ {
+  "word": "best",
+  "start": 27.18,
+  "end": 27.4
+ },
+ {
+  "word": "tops.",
+  "start": 27.4,
+  "end": 27.74
+ },
+ {
+  "word": "They",
+  "start": 27.74,
+  "end": 28.28
+ },
+ {
+  "word": "believed",
+  "start": 28.28,
+  "end": 28.54
+ },
+ {
+  "word": "their",
+  "start": 28.54,
+  "end": 28.78
+ },
+ {
+  "word": "messages",
+  "start": 28.78,
+  "end": 29.18
+ },
+ {
+  "word": "were",
+  "start": 29.18,
+  "end": 29.44
+ },
+ {
+  "word": "untouchable.",
+  "start": 29.44,
+  "end": 29.98
+ },
+ {
+  "word": "They",
+  "start": 30.32,
+  "end": 30.34
+ },
+ {
+  "word": "were",
+  "start": 30.34,
+  "end": 30.44
+ },
+ {
+  "word": "wrong.",
+  "start": 30.44,
+  "end": 30.68
+ },
+ {
+  "word": "French",
+  "start": 31.06,
+  "end": 31.22
+ },
+ {
+  "word": "police",
+  "start": 31.22,
+  "end": 31.5
+ },
+ {
+  "word": "had",
+  "start": 31.5,
+  "end": 31.68
+ },
+ {
+  "word": "already",
+  "start": 31.68,
+  "end": 31.94
+ },
+ {
+  "word": "cracked",
+  "start": 31.94,
+  "end": 32.24
+ },
+ {
+  "word": "EncroChat.",
+  "start": 32.24,
+  "end": 32.98
+ },
+ {
+  "word": "Scotland",
+  "start": 33.68,
+  "end": 33.73
+ },
+ {
+  "word": "Yard",
+  "start": 33.68,
+  "end": 34.08
+ },
+ {
+  "word": "was",
+  "start": 34.08,
+  "end": 34.22
+ },
+ {
+  "word": "reading",
+  "start": 34.22,
+  "end": 34.54
+ },
+ {
+  "word": "every",
+  "start": 34.54,
+  "end": 34.86
+ },
+ {
+  "word": "word.",
+  "start": 34.86,
+  "end": 35.2
+ },
+ {
+  "word": "Then",
+  "start": 35.52,
+  "end": 35.64
+ },
+ {
+  "word": "came",
+  "start": 35.64,
+  "end": 35.86
+ },
+ {
+  "word": "the",
+  "start": 35.86,
+  "end": 36.02
+ },
+ {
+  "word": "murder",
+  "start": 36.02,
+  "end": 36.2
+ },
+ {
+  "word": "plot.",
+  "start": 36.2,
+  "end": 36.56
+ },
+ {
+  "word": "A",
+  "start": 36.73,
+  "end": 36.83
+ },
+ {
+  "word": "rival",
+  "start": 36.9,
+  "end": 37.3
+ },
+ {
+  "word": "courier",
+  "start": 37.3,
+  "end": 37.68
+ },
+ {
+  "word": "had",
+  "start": 37.68,
+  "end": 37.84
+ },
+ {
+  "word": "to",
+  "start": 37.84,
+  "end": 37.96
+ },
+ {
+  "word": "be",
+  "start": 37.96,
+  "end": 38.04
+ },
+ {
+  "word": "permanently",
+  "start": 38.04,
+  "end": 38.4
+ },
+ {
+  "word": "out",
+  "start": 38.4,
+  "end": 38.74
+ },
+ {
+  "word": "of",
+  "start": 38.74,
+  "end": 38.84
+ },
+ {
+  "word": "business.",
+  "start": 38.84,
+  "end": 39.22
+ },
+ {
+  "word": "A",
+  "start": 39.7,
+  "end": 39.82
+ },
+ {
+  "word": "hitman.",
+  "start": 39.82,
+  "end": 40.1
+ },
+ {
+  "word": "A",
+  "start": 40.34,
+  "end": 40.44
+ },
+ {
+  "word": "Glock.",
+  "start": 40.44,
+  "end": 40.82
+ },
+ {
+  "word": "A",
+  "start": 41.06,
+  "end": 41.1
+ },
+ {
+  "word": "hundred",
+  "start": 41.1,
+  "end": 41.34
+ },
+ {
+  "word": "thousand",
+  "start": 41.34,
+  "end": 41.78
+ },
+ {
+  "word": "pounds",
+  "start": 41.78,
+  "end": 42.22
+ },
+ {
+  "word": "raised",
+  "start": 42.22,
+  "end": 42.74
+ },
+ {
+  "word": "to",
+  "start": 42.74,
+  "end": 42.96
+ },
+ {
+  "word": "a",
+  "start": 42.96,
+  "end": 43.04
+ },
+ {
+  "word": "hundred",
+  "start": 43.04,
+  "end": 43.34
+ },
+ {
+  "word": "and",
+  "start": 43.34,
+  "end": 43.54
+ },
+ {
+  "word": "twenty.",
+  "start": 43.54,
+  "end": 43.9
+ },
+ {
+  "word": "On",
+  "start": 44.18,
+  "end": 44.38
+ },
+ {
+  "word": "the",
+  "start": 44.38,
+  "end": 44.44
+ },
+ {
+  "word": "twenty-seventh",
+  "start": 44.44,
+  "end": 45.1
+ },
+ {
+  "word": "of",
+  "start": 45.1,
+  "end": 45.14
+ },
+ {
+  "word": "December,",
+  "start": 45.14,
+  "end": 45.52
+ },
+ {
+  "word": "twenty",
+  "start": 45.67,
+  "end": 45.76
+ },
+ {
+  "word": "twenty-one,",
+  "start": 45.82,
+  "end": 46.46
+ },
+ {
+  "word": "he",
+  "start": 46.46,
+  "end": 46.96
+ },
+ {
+  "word": "was",
+  "start": 46.96,
+  "end": 47.08
+ },
+ {
+  "word": "arrested",
+  "start": 47.08,
+  "end": 47.44
+ },
+ {
+  "word": "at",
+  "start": 47.44,
+  "end": 47.64
+ },
+ {
+  "word": "Geneva",
+  "start": 47.64,
+  "end": 47.98
+ },
+ {
+  "word": "airport.",
+  "start": 47.98,
+  "end": 48.52
+ },
+ {
+  "word": "Extradited",
+  "start": 49.06,
+  "end": 49.6
+ },
+ {
+  "word": "in",
+  "start": 49.6,
+  "end": 49.82
+ },
+ {
+  "word": "May",
+  "start": 49.82,
+  "end": 50.0
+ },
+ {
+  "word": "twenty",
+  "start": 50.02,
+  "end": 50.05
+ },
+ {
+  "word": "twenty-two,",
+  "start": 50.02,
+  "end": 50.52
+ },
+ {
+  "word": "he",
+  "start": 50.52,
+  "end": 51.24
+ },
+ {
+  "word": "faced",
+  "start": 51.24,
+  "end": 51.5
+ },
+ {
+  "word": "trial",
+  "start": 51.5,
+  "end": 51.8
+ },
+ {
+  "word": "at",
+  "start": 51.8,
+  "end": 52.0
+ },
+ {
+  "word": "the",
+  "start": 52.0,
+  "end": 52.12
+ },
+ {
+  "word": "Old",
+  "start": 52.12,
+  "end": 52.32
+ },
+ {
+  "word": "Bailey.",
+  "start": 52.32,
+  "end": 52.64
+ },
+ {
+  "word": "Judge",
+  "start": 53.2,
+  "end": 53.38
+ },
+ {
+  "word": "Anthony",
+  "start": 53.38,
+  "end": 53.78
+ },
+ {
+  "word": "Leonard",
+  "start": 53.78,
+  "end": 54.02
+ },
+ {
+  "word": "sentenced",
+  "start": 54.02,
+  "end": 54.46
+ },
+ {
+  "word": "him",
+  "start": 54.46,
+  "end": 54.82
+ },
+ {
+  "word": "to",
+  "start": 54.82,
+  "end": 54.96
+ },
+ {
+  "word": "life",
+  "start": 54.96,
+  "end": 55.26
+ },
+ {
+  "word": "thirty-two",
+  "start": 55.72,
+  "end": 55.94
+ },
+ {
+  "word": "years",
+  "start": 55.94,
+  "end": 56.34
+ },
+ {
+  "word": "minimum.",
+  "start": 56.34,
+  "end": 56.74
+ },
+ {
+  "word": "Kharouti",
+  "start": 57.08,
+  "end": 57.38
+ },
+ {
+  "word": "got",
+  "start": 57.7,
+  "end": 57.84
+ },
+ {
+  "word": "life",
+  "start": 57.84,
+  "end": 58.06
+ },
+ {
+  "word": "too.",
+  "start": 58.06,
+  "end": 58.36
+ },
+ {
+  "word": "Twenty-six",
+  "start": 58.36,
+  "end": 59.08
+ },
+ {
+  "word": "years",
+  "start": 59.08,
+  "end": 59.52
+ },
+ {
+  "word": "minimum.",
+  "start": 59.52,
+  "end": 59.96
+ },
+ {
+  "word": "His",
+  "start": 60.38,
+  "end": 60.48
+ },
+ {
+  "word": "own",
+  "start": 60.48,
+  "end": 60.68
+ },
+ {
+  "word": "selfies",
+  "start": 60.68,
+  "end": 61.08
+ },
+ {
+  "word": "helped",
+  "start": 61.08,
+  "end": 61.5
+ },
+ {
+  "word": "convict",
+  "start": 61.5,
+  "end": 61.98
+ },
+ {
+  "word": "him.",
+  "start": 61.98,
+  "end": 62.22
+ },
+ {
+  "word": "Would",
+  "start": 62.36,
+  "end": 62.66
+ },
+ {
+  "word": "you",
+  "start": 62.66,
+  "end": 62.74
+ },
+ {
+  "word": "trust",
+  "start": 62.74,
+  "end": 63.0
+ },
+ {
+  "word": "an",
+  "start": 63.0,
+  "end": 63.18
+ },
+ {
+  "word": "encrypted",
+  "start": 63.18,
+  "end": 63.6
+ },
+ {
+  "word": "phone?",
+  "start": 63.6,
+  "end": 63.98
+ }
+]

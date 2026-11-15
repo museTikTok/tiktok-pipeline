@@ -31,6 +31,7 @@ import {MontPeleeVideoDe} from './MontPeleeVideoDe';
 import {YamaguchiVideoEn} from './YamaguchiVideoEn';
 import {YamaguchiVideoDe} from './YamaguchiVideoDe';
 import {CrimeWatchVideoEn} from './CrimeWatchVideoEn';
+import {HardingVideoEn} from './HardingVideoEn';
 import {TsunamiVideoEn} from './TsunamiVideoEn';
 import {TsunamiVideoDe} from './TsunamiVideoDe';
 import {PompeiiVideoEn} from './PompeiiVideoEn';
@@ -406,6 +407,24 @@ const calculateCrimeWatchEnMetadata: CalculateMetadataFunction<Record<string, ne
 }) => {
 	return {
 		durationInFrames: 2096,
+		props,
+	};
+};
+
+// Harding v15 EN is self-contained (words + VO + looped drone are loaded
+// inside the component); fixed duration 67.23s = 2017 frames (VO 67.23s:
+// narration 64.24s + 0.6s silence + CTA 2.39s from 64.84s).
+// Kokoro bm_george speed 1.15 (narration) / 1.3 (CTA, enthusiastic).
+// Crime dossier style (v12): hook = real arrest photo + giant phrase,
+// tabloid collage, detective board, ONE glissée transition (EncroChat
+// revelation, S10), real arrest clip as landscape insert (S16),
+// CTA card at 64.84s (no subscriber count), drone -11 dB under the VO.
+// EN ONLY (Axel decision 2026-11-14, like v12).
+const calculateHardingEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2017,
 		props,
 	};
 };
@@ -868,6 +887,16 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateCrimeWatchEnMetadata}
+			/>
+			<Composition
+				id="HardingVideoEn"
+				component={HardingVideoEn as React.FC<unknown>}
+				durationInFrames={2017}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateHardingEnMetadata}
 			/>
 			<Composition
 				id="TsunamiVideoEn"
