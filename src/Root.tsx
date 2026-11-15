@@ -33,6 +33,8 @@ import {YamaguchiVideoDe} from './YamaguchiVideoDe';
 import {CrimeWatchVideoEn} from './CrimeWatchVideoEn';
 import {TsunamiVideoEn} from './TsunamiVideoEn';
 import {TsunamiVideoDe} from './TsunamiVideoDe';
+import {PompeiiVideoEn} from './PompeiiVideoEn';
+import {PompeiiVideoDe} from './PompeiiVideoDe';
 import {TickleVideoEn} from './TickleVideoEn';
 import {EarthStopsVideoEn} from './EarthStopsVideoEn';
 import {EarthStopsVideoDe} from './EarthStopsVideoDe';
@@ -437,6 +439,40 @@ const calculateTsunamiDeMetadata: CalculateMetadataFunction<Record<string, never
 }) => {
 	return {
 		durationInFrames: 2040,
+		props,
+	};
+};
+
+// Pompeii v14 EN is self-contained (phrases + VO are loaded inside the
+// component); fixed duration 39.42s = 1183 frames (last word 37.92s + 1.5s tail).
+// GRAVE subject — @cursednature1 system (see TsunamiVideoEn): hook = real
+// plaster cast from t=0 + white flash, punch-out at ~2.84s, 1 sentence
+// = 1 shot cut on the VO pause, 2 giant overlays ("33 KM",
+// "100 000× HIROSHIMA"), archive audio under the VO, bookend on the hook
+// cast, CTA card (Axel exception, S11). White bold phrase subtitles 60px;
+// NO branding on the hook (handle from 3 s); Kokoro bm_george speed 1.0;
+// VO boosted +3.5 dB to -21.4 dB (v13 precedent), mix target ~-20 dB.
+// Max 40 s constraint (Axel 2026-11-15).
+const calculatePompeiiEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1183,
+		props,
+	};
+};
+
+// Pompeii v14 DE is self-contained (phrases + VO are loaded inside the
+// component); fixed duration 39.94s = 1198 frames (last word 38.44s + 1.5s tail).
+// Same @cursednature1 system as the EN version. White bold phrase subtitles
+// 50px / maxWidth 840 (long-word rule: "fünfzehnhundert" = 470.6 px);
+// overlays "33 KM" and "100.000× HIROSHIMA". Kokoro dm_martin speed 1.0;
+// VO boosted +3.5 dB to -21.4 dB. Max 40 s constraint.
+const calculatePompeiiDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1198,
 		props,
 	};
 };
@@ -852,6 +888,26 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateTsunamiDeMetadata}
+			/>
+			<Composition
+				id="PompeiiVideoEn"
+				component={PompeiiVideoEn as React.FC<unknown>}
+				durationInFrames={1183}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculatePompeiiEnMetadata}
+			/>
+			<Composition
+				id="PompeiiVideoDe"
+				component={PompeiiVideoDe as React.FC<unknown>}
+				durationInFrames={1198}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculatePompeiiDeMetadata}
 			/>
 			<Composition
 				id="TickleVideoEn"

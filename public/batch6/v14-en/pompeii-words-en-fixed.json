@@ -1,0 +1,487 @@
+[
+ {
+  "word": "They",
+  "start": 0.0,
+  "end": 0.08
+ },
+ {
+  "word": "had",
+  "start": 0.08,
+  "end": 0.24
+ },
+ {
+  "word": "eighteen",
+  "start": 0.24,
+  "end": 0.58
+ },
+ {
+  "word": "hours",
+  "start": 0.58,
+  "end": 0.92
+ },
+ {
+  "word": "to",
+  "start": 0.92,
+  "end": 1.14
+ },
+ {
+  "word": "leave.",
+  "start": 1.14,
+  "end": 1.38
+ },
+ {
+  "word": "Most",
+  "start": 1.66,
+  "end": 1.84
+ },
+ {
+  "word": "stayed.",
+  "start": 1.84,
+  "end": 2.36
+ },
+ {
+  "word": "In",
+  "start": 2.84,
+  "end": 2.94
+ },
+ {
+  "word": "the",
+  "start": 2.94,
+  "end": 3.06
+ },
+ {
+  "word": "year",
+  "start": 3.06,
+  "end": 3.22
+ },
+ {
+  "word": "79,",
+  "start": 3.22,
+  "end": 3.84
+ },
+ {
+  "word": "Pompeii",
+  "start": 4.32,
+  "end": 4.76
+ },
+ {
+  "word": "was",
+  "start": 4.76,
+  "end": 4.86
+ },
+ {
+  "word": "a",
+  "start": 4.86,
+  "end": 4.98
+ },
+ {
+  "word": "busy",
+  "start": 4.98,
+  "end": 5.22
+ },
+ {
+  "word": "Roman",
+  "start": 5.22,
+  "end": 5.54
+ },
+ {
+  "word": "city",
+  "start": 5.54,
+  "end": 5.94
+ },
+ {
+  "word": "beneath",
+  "start": 5.94,
+  "end": 6.32
+ },
+ {
+  "word": "a",
+  "start": 6.32,
+  "end": 6.52
+ },
+ {
+  "word": "mountain.",
+  "start": 6.52,
+  "end": 6.92
+ },
+ {
+  "word": "That",
+  "start": 6.92,
+  "end": 7.52
+ },
+ {
+  "word": "mountain",
+  "start": 7.52,
+  "end": 7.94
+ },
+ {
+  "word": "was",
+  "start": 7.94,
+  "end": 8.22
+ },
+ {
+  "word": "Vesuvius.",
+  "start": 8.22,
+  "end": 8.9
+ },
+ {
+  "word": "One",
+  "start": 9.28,
+  "end": 9.46
+ },
+ {
+  "word": "morning,",
+  "start": 9.46,
+  "end": 9.86
+ },
+ {
+  "word": "it",
+  "start": 10.12,
+  "end": 10.16
+ },
+ {
+  "word": "woke.",
+  "start": 10.16,
+  "end": 10.36
+ },
+ {
+  "word": "A",
+  "start": 10.98,
+  "end": 11.06
+ },
+ {
+  "word": "column",
+  "start": 11.06,
+  "end": 11.3
+ },
+ {
+  "word": "of",
+  "start": 11.3,
+  "end": 11.56
+ },
+ {
+  "word": "ash",
+  "start": 11.56,
+  "end": 11.8
+ },
+ {
+  "word": "rose",
+  "start": 11.8,
+  "end": 12.04
+ },
+ {
+  "word": "thirty-three",
+  "start": 12.04,
+  "end": 12.72
+ },
+ {
+  "word": "kilometres",
+  "start": 12.72,
+  "end": 13.14
+ },
+ {
+  "word": "high.",
+  "start": 13.14,
+  "end": 13.68
+ },
+ {
+  "word": "The",
+  "start": 14.22,
+  "end": 14.28
+ },
+ {
+  "word": "energy",
+  "start": 14.28,
+  "end": 14.66
+ },
+ {
+  "word": "of",
+  "start": 14.66,
+  "end": 14.86
+ },
+ {
+  "word": "a",
+  "start": 14.88,
+  "end": 14.9
+ },
+ {
+  "word": "hundred",
+  "start": 14.88,
+  "end": 15.28
+ },
+ {
+  "word": "thousand",
+  "start": 15.28,
+  "end": 15.82
+ },
+ {
+  "word": "Hiroshimas.",
+  "start": 15.82,
+  "end": 16.6
+ },
+ {
+  "word": "Then",
+  "start": 16.6,
+  "end": 17.12
+ },
+ {
+  "word": "came",
+  "start": 17.12,
+  "end": 17.32
+ },
+ {
+  "word": "the",
+  "start": 17.32,
+  "end": 17.52
+ },
+ {
+  "word": "surge",
+  "start": 17.52,
+  "end": 17.86
+ },
+ {
+  "word": "seven",
+  "start": 17.86,
+  "end": 18.24
+ },
+ {
+  "word": "hundred",
+  "start": 18.24,
+  "end": 18.78
+ },
+ {
+  "word": "degrees,",
+  "start": 18.78,
+  "end": 19.24
+ },
+ {
+  "word": "faster",
+  "start": 19.24,
+  "end": 20.12
+ },
+ {
+  "word": "than",
+  "start": 20.12,
+  "end": 20.36
+ },
+ {
+  "word": "a",
+  "start": 20.36,
+  "end": 20.54
+ },
+ {
+  "word": "car.",
+  "start": 20.54,
+  "end": 20.74
+ },
+ {
+  "word": "In",
+  "start": 21.24,
+  "end": 21.34
+ },
+ {
+  "word": "hours,",
+  "start": 21.34,
+  "end": 21.66
+ },
+ {
+  "word": "it",
+  "start": 21.86,
+  "end": 21.9
+ },
+ {
+  "word": "buried",
+  "start": 21.9,
+  "end": 22.18
+ },
+ {
+  "word": "Pompeii,",
+  "start": 22.18,
+  "end": 22.88
+ },
+ {
+  "word": "Herculaneum,",
+  "start": 23.12,
+  "end": 23.6
+ },
+ {
+  "word": "and",
+  "start": 23.6,
+  "end": 23.86
+ },
+ {
+  "word": "two",
+  "start": 23.86,
+  "end": 24.08
+ },
+ {
+  "word": "more.",
+  "start": 24.08,
+  "end": 24.4
+ },
+ {
+  "word": "Centuries",
+  "start": 24.98,
+  "end": 25.34
+ },
+ {
+  "word": "later,",
+  "start": 25.34,
+  "end": 25.78
+ },
+ {
+  "word": "archaeologists",
+  "start": 26.0,
+  "end": 26.72
+ },
+ {
+  "word": "filled",
+  "start": 26.72,
+  "end": 27.06
+ },
+ {
+  "word": "the",
+  "start": 27.06,
+  "end": 27.24
+ },
+ {
+  "word": "voids",
+  "start": 27.24,
+  "end": 27.64
+ },
+ {
+  "word": "with",
+  "start": 27.64,
+  "end": 27.82
+ },
+ {
+  "word": "plaster.",
+  "start": 27.82,
+  "end": 28.24
+ },
+ {
+  "word": "More",
+  "start": 28.58,
+  "end": 28.9
+ },
+ {
+  "word": "than",
+  "start": 28.9,
+  "end": 29.06
+ },
+ {
+  "word": "fifteen",
+  "start": 29.06,
+  "end": 29.4
+ },
+ {
+  "word": "hundred",
+  "start": 29.4,
+  "end": 29.74
+ },
+ {
+  "word": "were",
+  "start": 29.74,
+  "end": 30.02
+ },
+ {
+  "word": "found.",
+  "start": 30.02,
+  "end": 30.44
+ },
+ {
+  "word": "The",
+  "start": 30.92,
+  "end": 30.98
+ },
+ {
+  "word": "true",
+  "start": 30.98,
+  "end": 31.14
+ },
+ {
+  "word": "number",
+  "start": 31.14,
+  "end": 31.44
+ },
+ {
+  "word": "is",
+  "start": 31.44,
+  "end": 31.68
+ },
+ {
+  "word": "unknown.",
+  "start": 31.68,
+  "end": 32.04
+ },
+ {
+  "word": "They",
+  "start": 32.62,
+  "end": 32.72
+ },
+ {
+  "word": "had",
+  "start": 32.72,
+  "end": 32.88
+ },
+ {
+  "word": "eighteen",
+  "start": 32.88,
+  "end": 33.3
+ },
+ {
+  "word": "hours.",
+  "start": 33.3,
+  "end": 33.64
+ },
+ {
+  "word": "Only",
+  "start": 34.08,
+  "end": 34.34
+ },
+ {
+  "word": "3",
+  "start": 34.34,
+  "end": 34.66
+ },
+ {
+  "word": "of",
+  "start": 34.66,
+  "end": 34.78
+ },
+ {
+  "word": "us",
+  "start": 34.78,
+  "end": 34.94
+ },
+ {
+  "word": "here.",
+  "start": 34.94,
+  "end": 35.26
+ },
+ {
+  "word": "Follow",
+  "start": 35.7,
+  "end": 35.86
+ },
+ {
+  "word": "to",
+  "start": 35.86,
+  "end": 36.08
+ },
+ {
+  "word": "join",
+  "start": 36.08,
+  "end": 36.4
+ },
+ {
+  "word": "the",
+  "start": 36.4,
+  "end": 36.58
+ },
+ {
+  "word": "10,000.",
+  "start": 36.58,
+  "end": 37.92
+ }
+]

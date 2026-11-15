@@ -65,6 +65,13 @@ public/batch6/v12-en/v12-words-en.json
 !public/batch6/v13-de/
 public/batch6/v13-en/v13-words-en.json
 public/batch6/v13-de/v13-words-de.json
+!public/batch6/v14-clips/
+!public/batch6/v14-en/
+!public/batch6/v14-de/
+public/batch6/v14-en/pompeii-words-en.json
+public/batch6/v14-de/pompeii-words-de.json
+# Raw clip downloads stay on the VM (441 MB, not needed in CI).
+public/batch6/v14-tmp/
 !public/batch6/test-tickle-en/
 !public/batch6/test-tickle-en/test-vo-en.mp3
 !public/batch6/test-tickle-en/test-words-en-fixed.json

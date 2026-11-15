@@ -1,0 +1,422 @@
+[
+ {
+  "word": "Sie",
+  "start": 0.0,
+  "end": 0.4
+ },
+ {
+  "word": "hatten",
+  "start": 0.4,
+  "end": 0.6
+ },
+ {
+  "word": "achtzehn",
+  "start": 0.6,
+  "end": 1.02
+ },
+ {
+  "word": "Stunden.",
+  "start": 1.02,
+  "end": 1.48
+ },
+ {
+  "word": "Die",
+  "start": 1.68,
+  "end": 1.88
+ },
+ {
+  "word": "meisten",
+  "start": 1.88,
+  "end": 2.24
+ },
+ {
+  "word": "blieben.",
+  "start": 2.24,
+  "end": 2.66
+ },
+ {
+  "word": "Im",
+  "start": 3.28,
+  "end": 3.4
+ },
+ {
+  "word": "Jahr",
+  "start": 3.4,
+  "end": 3.62
+ },
+ {
+  "word": "79",
+  "start": 3.62,
+  "end": 4.16
+ },
+ {
+  "word": "lag",
+  "start": 4.16,
+  "end": 4.86
+ },
+ {
+  "word": "Pompeji",
+  "start": 4.86,
+  "end": 5.48
+ },
+ {
+  "word": "im",
+  "start": 5.48,
+  "end": 5.64
+ },
+ {
+  "word": "Schatten",
+  "start": 5.64,
+  "end": 5.96
+ },
+ {
+  "word": "eines",
+  "start": 5.96,
+  "end": 6.26
+ },
+ {
+  "word": "Berges.",
+  "start": 6.26,
+  "end": 6.68
+ },
+ {
+  "word": "Der",
+  "start": 7.28,
+  "end": 7.4
+ },
+ {
+  "word": "Vesuv.",
+  "start": 7.4,
+  "end": 7.9
+ },
+ {
+  "word": "Eines",
+  "start": 7.9,
+  "end": 8.38
+ },
+ {
+  "word": "Morgens",
+  "start": 8.38,
+  "end": 8.92
+ },
+ {
+  "word": "erwachte",
+  "start": 8.92,
+  "end": 9.36
+ },
+ {
+  "word": "er.",
+  "start": 9.36,
+  "end": 9.58
+ },
+ {
+  "word": "Eine",
+  "start": 10.1,
+  "end": 10.32
+ },
+ {
+  "word": "Asches\u00e4ule",
+  "start": 10.32,
+  "end": 11.0
+ },
+ {
+  "word": "stieg",
+  "start": 11.0,
+  "end": 11.36
+ },
+ {
+  "word": "dreiunddrei\u00dfig",
+  "start": 11.36,
+  "end": 12.04
+ },
+ {
+  "word": "Kilometer",
+  "start": 12.04,
+  "end": 12.78
+ },
+ {
+  "word": "hoch.",
+  "start": 12.78,
+  "end": 13.12
+ },
+ {
+  "word": "Die",
+  "start": 13.62,
+  "end": 13.76
+ },
+ {
+  "word": "Energie",
+  "start": 13.76,
+  "end": 14.18
+ },
+ {
+  "word": "von",
+  "start": 14.18,
+  "end": 14.5
+ },
+ {
+  "word": "hunderttausend",
+  "start": 14.86,
+  "end": 15.26
+ },
+ {
+  "word": "Hiroshimas.",
+  "start": 15.26,
+  "end": 15.84
+ },
+ {
+  "word": "Dann",
+  "start": 16.16,
+  "end": 16.78
+ },
+ {
+  "word": "kam",
+  "start": 16.78,
+  "end": 17.0
+ },
+ {
+  "word": "die",
+  "start": 17.0,
+  "end": 17.16
+ },
+ {
+  "word": "Glutwolke",
+  "start": 17.16,
+  "end": 17.76
+ },
+ {
+  "word": "siebenhundert",
+  "start": 17.76,
+  "end": 18.36
+ },
+ {
+  "word": "Grad,",
+  "start": 18.36,
+  "end": 18.86
+ },
+ {
+  "word": "schneller",
+  "start": 18.86,
+  "end": 19.46
+ },
+ {
+  "word": "als",
+  "start": 19.46,
+  "end": 19.8
+ },
+ {
+  "word": "ein",
+  "start": 19.8,
+  "end": 19.98
+ },
+ {
+  "word": "Auto.",
+  "start": 19.98,
+  "end": 20.3
+ },
+ {
+  "word": "In",
+  "start": 20.86,
+  "end": 21.0
+ },
+ {
+  "word": "Stunden",
+  "start": 21.0,
+  "end": 21.36
+ },
+ {
+  "word": "begrub",
+  "start": 21.36,
+  "end": 21.78
+ },
+ {
+  "word": "sie",
+  "start": 21.78,
+  "end": 21.94
+ },
+ {
+  "word": "Pompeji,",
+  "start": 21.94,
+  "end": 22.46
+ },
+ {
+  "word": "Herculaneum",
+  "start": 22.78,
+  "end": 23.32
+ },
+ {
+  "word": "und",
+  "start": 23.32,
+  "end": 23.6
+ },
+ {
+  "word": "zwei",
+  "start": 23.6,
+  "end": 23.9
+ },
+ {
+  "word": "weitere.",
+  "start": 23.9,
+  "end": 24.3
+ },
+ {
+  "word": "Sp\u00e4ter",
+  "start": 24.88,
+  "end": 25.3
+ },
+ {
+  "word": "f\u00fcllten",
+  "start": 25.3,
+  "end": 25.7
+ },
+ {
+  "word": "Arch\u00e4ologen",
+  "start": 25.7,
+  "end": 26.54
+ },
+ {
+  "word": "die",
+  "start": 26.54,
+  "end": 26.66
+ },
+ {
+  "word": "Hohlr\u00e4ume",
+  "start": 26.66,
+  "end": 27.18
+ },
+ {
+  "word": "der",
+  "start": 27.18,
+  "end": 27.34
+ },
+ {
+  "word": "K\u00f6rper",
+  "start": 27.34,
+  "end": 27.68
+ },
+ {
+  "word": "mit",
+  "start": 27.68,
+  "end": 27.92
+ },
+ {
+  "word": "Gips.",
+  "start": 27.92,
+  "end": 28.26
+ },
+ {
+  "word": "Mehr",
+  "start": 28.26,
+  "end": 29.04
+ },
+ {
+  "word": "als",
+  "start": 29.04,
+  "end": 29.34
+ },
+ {
+  "word": "f\u00fcnfzehnhundert",
+  "start": 29.34,
+  "end": 29.76
+ },
+ {
+  "word": "wurden",
+  "start": 29.76,
+  "end": 30.38
+ },
+ {
+  "word": "gefunden.",
+  "start": 30.38,
+  "end": 30.8
+ },
+ {
+  "word": "Die",
+  "start": 31.3,
+  "end": 31.38
+ },
+ {
+  "word": "wahre",
+  "start": 31.38,
+  "end": 31.7
+ },
+ {
+  "word": "Zahl",
+  "start": 31.7,
+  "end": 31.92
+ },
+ {
+  "word": "bleibt",
+  "start": 31.92,
+  "end": 32.34
+ },
+ {
+  "word": "unbekannt.",
+  "start": 32.34,
+  "end": 32.88
+ },
+ {
+  "word": "Sie",
+  "start": 33.48,
+  "end": 33.68
+ },
+ {
+  "word": "hatten",
+  "start": 33.68,
+  "end": 33.88
+ },
+ {
+  "word": "achtzehn",
+  "start": 33.88,
+  "end": 34.32
+ },
+ {
+  "word": "Stunden.",
+  "start": 34.32,
+  "end": 34.8
+ },
+ {
+  "word": "Wir",
+  "start": 35.4,
+  "end": 35.62
+ },
+ {
+  "word": "sind",
+  "start": 35.62,
+  "end": 35.88
+ },
+ {
+  "word": "erst",
+  "start": 35.88,
+  "end": 36.16
+ },
+ {
+  "word": "3",
+  "start": 36.16,
+  "end": 36.5
+ },
+ {
+  "word": "hier.",
+  "start": 36.5,
+  "end": 36.8
+ },
+ {
+  "word": "Folge",
+  "start": 37.26,
+  "end": 37.46
+ },
+ {
+  "word": "uns",
+  "start": 37.46,
+  "end": 37.7
+ },
+ {
+  "word": "zu",
+  "start": 37.7,
+  "end": 37.86
+ },
+ {
+  "word": "10.000.",
+  "start": 37.86,
+  "end": 38.44
+ }
+]
