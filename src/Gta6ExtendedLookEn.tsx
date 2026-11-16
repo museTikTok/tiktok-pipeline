@@ -199,7 +199,21 @@ const FinalCard: React.FC<{ durationInFrames: number }> = ({ durationInFrames })
     extrapolateRight: 'clamp',
   });
   const grow = spring({ frame, fps, config: { damping: 13, stiffness: 85 } });
-  const logoScale = 0.55 + 0.45 * clamp01(grow);
+  // After the grow-in, the logo keeps slowly zooming (1.0 -> 1.12) so
+  // the card never sits static: a static tail reads as duplicated
+  // frames after H.264 quantization (the grain alone does not survive
+  // the encode — CI preflight measured 8.0% dups on v1, 2026-11-16).
+  // 6% drift only lifted the centre-crop MAD from 0.37 to 0.51 on
+  // stills — too thin a margin after encoding, so 12%.
+  const drift = interpolate(frame, [50, durationInFrames - 1], [1, 1.12], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
+  const logoScale = (0.55 + 0.45 * clamp01(grow)) * drift;
+  const bgScale = interpolate(frame, [0, durationInFrames - 1], [1.05, 1.18], {
+    extrapolateLeft: 'clamp',
+    extrapolateRight: 'clamp',
+  });
   const logoOpacity = interpolate(frame, [0, 15], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
@@ -220,7 +234,7 @@ const FinalCard: React.FC<{ durationInFrames: number }> = ({ durationInFrames })
             position: 'absolute',
             inset: -60,
             filter: 'blur(28px) brightness(0.55)',
-            transform: 'scale(1.05)',
+            transform: `scale(${bgScale})`,
             backgroundColor: '#0a0618',
           }}
         >
