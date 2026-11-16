@@ -479,10 +479,13 @@ export const BoxJellyfishVideoEn: React.FC = () => {
           — in the water, practically invisible." Small jelly near a jetty
           post (v16-09), barely visible — that IS the point. The jelly
           sits RIGHT in the source frame -> objectPosition 75%.
-          RED CIRCLE pops on "invisible" (14.04s, delay 88). */}
+          RED CIRCLE pops on "transparent" (12.95s, delay 55) — v2 fix: at
+          14.04s the bell had already drifted out of the circle; at
+          12.95s the faint bell is still inside it (verified frame
+          t=13.14), then it slips away — which IS the point. */}
       <Sequence from={S(11.12)} durationInFrames={S(15.16) - S(11.12)}>
         <ClipShot clip="v16-09-boxjelly-post.mp4" durationInFrames={S(15.16) - S(11.12)} startFrom={0} zoom={1.14} objectPosition="75% 50%">
-          <RedCircle left={270} top={850} width={560} height={460} delay={88} />
+          <RedCircle left={180} top={840} width={620} height={470} delay={55} />
         </ClipShot>
       </Sequence>
 
@@ -530,7 +533,7 @@ export const BoxJellyfishVideoEn: React.FC = () => {
             top={620}
             delay={88}
             lines={[
-              { text: '2–5 MINUTES', color: '#ffd60a', size: 150 },
+              { text: '2–5 MINUTES', color: '#ffd60a', size: 110 },
               { text: 'TO STOP A HEART', color: '#fff', size: 56 },
             ]}
           />
@@ -580,7 +583,7 @@ export const BoxJellyfishVideoEn: React.FC = () => {
           CROSSES appearing on the VO words: "rub" (delay 6), "fresh"
           (delay 43), "pee" (delay 76). */}
       <Sequence from={S(46.74)} durationInFrames={S(51.28) - S(46.74)}>
-        <ClipShot clip="v16-11-vinegar-sign.mp4" durationInFrames={S(51.28) - S(46.74)} startFrom={0} zoom={1.1} dark={0.45}>
+        <ClipShot clip="v16-11-vinegar-sign.mp4" durationInFrames={S(51.28) - S(46.74)} startFrom={0} zoom={1.1} dark={0.68}>
           <CrossRow text="RUB" top={700} delay={6} />
           <CrossRow text="FRESH WATER" top={900} delay={43} />
           <CrossRow text="PEE ON IT" top={1100} delay={76} />

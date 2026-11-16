@@ -456,10 +456,12 @@ export const BoxJellyfishVideoDe: React.FC = () => {
           im Wasser praktisch unsichtbar." Small jelly near a jetty post
           (v16-09), barely visible — that IS the point. ObjectPosition
           75% (jelly right in the source frame). RED CIRCLE pops on
-          "unsichtbar" (11.52s, delay 65). */}
+          "durchsichtig" (11.36s, delay 60) — v2 fix: same as EN, the bell
+          drifts out of frame by 11.5s; the circle must pop while the
+          faint bell is still inside it. */}
       <Sequence from={S(9.36)} durationInFrames={S(12.36) - S(9.36)}>
         <ClipShot clip="v16-09-boxjelly-post.mp4" durationInFrames={S(12.36) - S(9.36)} startFrom={0} zoom={1.14} objectPosition="75% 50%">
-          <RedCircle left={270} top={850} width={560} height={460} delay={65} />
+          <RedCircle left={180} top={840} width={620} height={470} delay={60} />
         </ClipShot>
       </Sequence>
 
@@ -503,7 +505,7 @@ export const BoxJellyfishVideoDe: React.FC = () => {
             top={620}
             delay={104}
             lines={[
-              { text: '2–5 MINUTEN', color: '#ffd60a', size: 150 },
+              { text: '2–5 MINUTEN', color: '#ffd60a', size: 110 },
               { text: 'BIS ZUM HERZSTILLSTAND', color: '#fff', size: 48 },
             ]}
           />
@@ -551,7 +553,7 @@ export const BoxJellyfishVideoDe: React.FC = () => {
           CROSSES on the VO words: "reiben" (delay 7), "Süßwasser"
           (delay 34), "pinkeln" (delay 75). */}
       <Sequence from={S(44.04)} durationInFrames={S(48.74) - S(44.04)}>
-        <ClipShot clip="v16-11-vinegar-sign.mp4" durationInFrames={S(48.74) - S(44.04)} startFrom={0} zoom={1.1} dark={0.45}>
+        <ClipShot clip="v16-11-vinegar-sign.mp4" durationInFrames={S(48.74) - S(44.04)} startFrom={0} zoom={1.1} dark={0.68}>
           <CrossRow text="REIBEN" top={700} delay={7} />
           <CrossRow text="SÜSSWASSER" top={900} delay={34} />
           <CrossRow text="PINKELN" top={1100} delay={75} />
