@@ -1,5 +1,5 @@
 // Gta6EditEn — GTA 6 hype edit, ENGLISH ONLY (Axel 2026-11-15).
-// "4 days before Vice City" — GTA 6 releases Thursday 19 November 2026.
+// "3 days before Vice City" — GTA 6 releases Thursday 19 November 2026.
 // NO voiceover: real trailer footage cut on the beat of the launch-trailer
 // track ("Flower in a Hurricane", Justice feat. Tame Impala, SZA &
 // King Gizzard) — music = T3 audio 50.0-85.0s, loudnormed I=-16 TP=-1.5.
@@ -15,7 +15,9 @@
 // S07 15.53-18.39 bar | S08 18.39-20.76 boats | S09 20.76-24.57 rapid x8 |
 // S10 24.57-27.42 duo slow-mo | S11 27.42-31.25 title card |
 // S12 31.25-35.00 end card. Every shot runs to the start of the next one
-// (no black holes). Branding @brainfeeder_uk neon top-left AFTER 3 s only.
+// (no black holes). NO branding anywhere (Axel 2026-11-16): no profile
+// handle is rendered on any frame — the neon overlay and the handle on
+// the end card were removed in v3.
 // Textes EN, Titan One, blanc/jaune, vérifiés sur frames rendues.
 // BOUNDARIES VERIFIED FRAME BY FRAME (2026-11-15): T1 neon street ends
 // 34.15 (club crowd from 34.2), T2 neon exterior ends ~127.9 (strip club
@@ -24,7 +26,9 @@
 // AVOIDED (verified on stills): T1/T2 end cards with outdated dates
 // ("COMING 2025", "MAY 26, 2026"); phone-UI clips; strip-club interiors;
 // the @HighRollerzMag watermark frame (T1 ~68s); ESRB warning (T2 0s).
-// v2 (2026-11-15): Axel REJECTED v1 — Jason's face was out of frame
+// v3 (2026-11-16): Axel ordered NO profile handle anywhere in the video
+// — the neon handle overlay and the end-card handle are deleted. Countdown
+// updated to "3 DAYS LEFT" (Monday 16 Nov, release Thursday 19 Nov).
 // (only his nose tip) and the hook logo was cropped left/right. Fixes:
 // hook = contained 16:9 (logo entire, same pattern as the title card);
 // Jason = objectPosition 88% (face x 1180-1740 measured, window
@@ -50,7 +54,6 @@ import {
 } from 'remotion';
 
 const FONT = "'Titan One', 'Anton', sans-serif";
-const MONO = "'Monoton', cursive";
 
 const CLIP = (name: string) => staticFile(`batch6/gta6-clips/${name}`);
 const MUSIC = staticFile('batch6/gta6-clips/gta6-music.mp3');
@@ -182,28 +185,6 @@ const Flash: React.FC = () => {
   );
 };
 
-/** Branding — neon handle, top-left, small, slightly transparent.
- * Rendered only from 3 s (Sequence in the main component). */
-const Branding: React.FC = () => (
-  <div
-    style={{
-      position: 'absolute',
-      top: 44,
-      left: 36,
-      zIndex: 40,
-      fontFamily: MONO,
-      fontSize: 40,
-      color: '#7df9ff',
-      opacity: 0.78,
-      textShadow:
-        '0 0 8px #00e5ff, 0 0 22px #00e5ff, 0 0 44px rgba(0,229,255,0.7)',
-      letterSpacing: 1,
-    }}
-  >
-    @brainfeeder_uk
-  </div>
-);
-
 /** Film grain — animated (seed = frame) so no two frames are identical. */
 const Grain: React.FC = () => {
   const frame = useCurrentFrame();
@@ -282,7 +263,8 @@ const TitleCardShot: React.FC<{
 };
 
 /** End card (31.25-35s): Vice City night aerial (the hook city, blurred +
- * darkened) + FOLLOW. NO subscriber count (Axel rule 2026-11-15). */
+ * darkened) + FOLLOW. NO subscriber count (Axel rule 2026-11-15), NO
+ * profile handle (Axel rule 2026-11-16, v3). */
 const EndCard: React.FC<{ durationInFrames: number }> = ({ durationInFrames }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -353,19 +335,6 @@ const EndCard: React.FC<{ durationInFrames: number }> = ({ durationInFrames }) =
             ▶ FOLLOW
           </span>
         </div>
-        <div
-          style={{
-            marginTop: 46,
-            fontFamily: MONO,
-            fontSize: 42,
-            color: '#7df9ff',
-            textShadow:
-              '0 0 8px #00e5ff, 0 0 22px #00e5ff, 0 0 44px rgba(0,229,255,0.7)',
-            letterSpacing: 1,
-          }}
-        >
-          @brainfeeder_uk
-        </div>
       </div>
     </AbsoluteFill>
   );
@@ -375,7 +344,7 @@ export const Gta6EditEn: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: '#000' }}>
       {/* 1 — HOOK (0-2.67s): T3 23.1-25.6, GTA VI logo over the sunset
-          Vice City skyline. "4 DAYS LEFT" on top — no branding on the
+          Vice City skyline. "3 DAYS LEFT" on top — no branding on the
           hook. Slow zoom, rate 0.937.
           v2 (2026-11-15): the cover crop cut the logo left/right (v1:
           "grand" clipped left, "theft" clipped right — Axel rejected).
@@ -391,7 +360,7 @@ export const Gta6EditEn: React.FC = () => {
         <Label
           top={170}
           lines={[
-            { text: '4 DAYS', color: '#fff', size: 112 },
+            { text: '3 DAYS', color: '#fff', size: 112 },
             { text: 'LEFT', color: '#ffd60a', size: 148 },
           ]}
         />
@@ -641,8 +610,8 @@ export const Gta6EditEn: React.FC = () => {
         />
       </Sequence>
 
-      {/* 12 — END CARD (31.25-35.00s): designed card, FOLLOW + handle,
-          no subscriber count. */}
+      {/* 12 — END CARD (31.25-35.00s): designed card, FOLLOW only,
+          no handle, no subscriber count. */}
       <Sequence from={S(31.25)} durationInFrames={1050 - S(31.25)}>
         <EndCard durationInFrames={1050 - S(31.25)} />
       </Sequence>
@@ -660,11 +629,6 @@ export const Gta6EditEn: React.FC = () => {
       </Sequence>
 
       <Grain />
-      {/* Branding from 3 s only — nothing on the hook; ends at the end
-          card (which carries its own handle). */}
-      <Sequence from={S(3)} durationInFrames={S(31.25) - S(3)}>
-        <Branding />
-      </Sequence>
     </AbsoluteFill>
   );
 };
