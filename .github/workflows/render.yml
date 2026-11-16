@@ -29,6 +29,9 @@
 #                 test-earth-stops-de renders the "Did you know" format test #2 (DE only).
 #                 gta6-en-only renders the GTA 6 hype edit (EN only, no VO,
 #                 launch-trailer music).
+#                 v16-both renders the Box jellyfish EN + DE compositions in
+#                 parallel (video 16); v16-en-only / v16-de-only render a
+#                 single v16 composition.
 #   clips       — committed (default): use the pre-converted clips in the repo.
 #                 download: fetch sources from scripts/clips-v7.json and
 #                 pre-convert them (yt-dlp + ffmpeg minterpolate). v7 only.
@@ -77,6 +80,9 @@ on:
           - test-earth-stops-en
           - test-earth-stops-de
           - gta6-en-only
+          - v16-both
+          - v16-en-only
+          - v16-de-only
       clips:
         description: 'Clip assets: committed (repo) or download (from sources)'
         required: true
@@ -130,6 +136,9 @@ jobs:
             test-earth-stops-en) echo 'matrix={"composition":["EarthStopsVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
             test-earth-stops-de) echo 'matrix={"composition":["EarthStopsVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
             gta6-en-only) echo 'matrix={"composition":["Gta6EditEn"]}' >> "$GITHUB_OUTPUT" ;;
+            v16-en-only) echo 'matrix={"composition":["BoxJellyfishVideoEn"]}' >> "$GITHUB_OUTPUT" ;;
+            v16-de-only) echo 'matrix={"composition":["BoxJellyfishVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
+            v16-both) echo 'matrix={"composition":["BoxJellyfishVideoEn","BoxJellyfishVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
             *)          echo 'matrix={"composition":["AntikytheraVideoEn","AntikytheraVideoDe"]}' >> "$GITHUB_OUTPUT" ;;
           esac
 
@@ -269,10 +278,12 @@ jobs:
           # subtitle check; t=2 s = hook (white flash + no branding) check.
           # v14 (Pompeii: 39.4 s EN / 39.9 s DE): same pattern, incl. t=1 s hook check.
           # v15 (Harding EN, 67.2 s): same pattern, incl. t=65 s CTA card check.
+          # v16 (Box jellyfish: 61.8 s EN / 61.7 s DE): same pattern, incl.
+          # t=60 s CTA card check; default times 70/79 would be past the end.
           # GTA 6 edit (EN only, 35.0 s): hook t=1/2, Lucia t=4, robbery t=10,
           # Leonida t=14, rapid montage t=22, duo t=26, title card t=29,
           # end card t=33.
-          if [ "${{ matrix.composition }}" = "Gta6EditEn" ]; then TIMES="1 2 4 10 14 22 26 29 33"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then TIMES="2 12 30 45 55 66"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoDe" ]; then TIMES="2 12 30 45 55 58"; elif [ "${{ matrix.composition }}" = "ZodiacVideoEn" ]; then TIMES="2 10 30 45 55 67"; elif [ "${{ matrix.composition }}" = "ZodiacVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoDe" ]; then TIMES="2 10 30 45 55 68"; elif [ "${{ matrix.composition }}" = "YamaguchiVideoEn" ]; then TIMES="2 10 30 45 55 62"; elif [ "${{ matrix.composition }}" = "YamaguchiVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "CrimeWatchVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "HardingVideoEn" ]; then TIMES="1 2 10 30 45 55 65"; elif [ "${{ matrix.composition }}" = "TsunamiVideoEn" ]; then TIMES="2 10 30 45 55 62"; elif [ "${{ matrix.composition }}" = "TsunamiVideoDe" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "PompeiiVideoEn" ]; then TIMES="1 2 5 12 15 25 37"; elif [ "${{ matrix.composition }}" = "PompeiiVideoDe" ]; then TIMES="1 2 5 12 15 25 37"; elif [ "${{ matrix.composition }}" = "TickleVideoEn" ]; then TIMES="1 10 20 30 40 48"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoEn" ]; then TIMES="2 10 25 40 55 62 70"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoDe" ]; then TIMES="2 10 27 45 57 67 76"; else TIMES="2 25 50 62 70 79"; fi
+          if [ "${{ matrix.composition }}" = "Gta6EditEn" ]; then TIMES="1 2 4 10 14 22 26 29 33"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoEn" ]; then TIMES="2 12 30 45 55 66"; elif [ "${{ matrix.composition }}" = "EasterIslandVideoDe" ]; then TIMES="2 12 30 45 55 58"; elif [ "${{ matrix.composition }}" = "ZodiacVideoEn" ]; then TIMES="2 10 30 45 55 67"; elif [ "${{ matrix.composition }}" = "ZodiacVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "MontPeleeVideoDe" ]; then TIMES="2 10 30 45 55 68"; elif [ "${{ matrix.composition }}" = "YamaguchiVideoEn" ]; then TIMES="2 10 30 45 55 62"; elif [ "${{ matrix.composition }}" = "YamaguchiVideoDe" ]; then TIMES="2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "CrimeWatchVideoEn" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "HardingVideoEn" ]; then TIMES="1 2 10 30 45 55 65"; elif [ "${{ matrix.composition }}" = "BoxJellyfishVideoEn" ]; then TIMES="1 2 10 30 45 55 60"; elif [ "${{ matrix.composition }}" = "BoxJellyfishVideoDe" ]; then TIMES="1 2 10 26 45 55 60"; elif [ "${{ matrix.composition }}" = "TsunamiVideoEn" ]; then TIMES="2 10 30 45 55 62"; elif [ "${{ matrix.composition }}" = "TsunamiVideoDe" ]; then TIMES="2 10 30 45 55 66"; elif [ "${{ matrix.composition }}" = "PompeiiVideoEn" ]; then TIMES="1 2 5 12 15 25 37"; elif [ "${{ matrix.composition }}" = "PompeiiVideoDe" ]; then TIMES="1 2 5 12 15 25 37"; elif [ "${{ matrix.composition }}" = "TickleVideoEn" ]; then TIMES="1 10 20 30 40 48"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoEn" ]; then TIMES="2 10 25 40 55 62 70"; elif [ "${{ matrix.composition }}" = "EarthStopsVideoDe" ]; then TIMES="2 10 27 45 57 67 76"; else TIMES="2 25 50 62 70 79"; fi
           for t in $TIMES; do
             ffmpeg -y -v error -ss "$t" -i "out/${{ matrix.composition }}.mp4" -frames:v 1 "out/frames/f${t}.jpg"
           done

@@ -75,6 +75,11 @@ public/batch6/v14-de/pompeii-words-de.json
 !public/batch6/v15-images/
 !public/batch6/v15-images/*.jpg
 !public/batch6/v15-images/*.png
+# Video 16 Box jellyfish (EN + DE, 2026-11-16): 14 used clips only —
+# backups v16-22/23 (NatGeo/ABC rights risk) and v16-24/25 stay on the VM.
+!public/batch6/v16-clips/
+!public/batch6/v16-en/
+!public/batch6/v16-de/
 # GTA 6 hype edit (EN only, no VO): 19 clips + launch-trailer music +
 # end-card background. Raw trailers (68 MB) stay on the VM.
 !public/batch6/gta6-clips/

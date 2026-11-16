@@ -1,0 +1,957 @@
+[
+ {
+  "word": "Du",
+  "start": 0.0,
+  "end": 0.28
+ },
+ {
+  "word": "kannst",
+  "start": 0.28,
+  "end": 0.44
+ },
+ {
+  "word": "sie",
+  "start": 0.44,
+  "end": 0.66
+ },
+ {
+  "word": "nicht",
+  "start": 0.66,
+  "end": 0.84
+ },
+ {
+  "word": "sehen.",
+  "start": 0.84,
+  "end": 1.14
+ },
+ {
+  "word": "Aber",
+  "start": 1.48,
+  "end": 1.64
+ },
+ {
+  "word": "sie",
+  "start": 1.64,
+  "end": 1.78
+ },
+ {
+  "word": "kann",
+  "start": 1.78,
+  "end": 1.88
+ },
+ {
+  "word": "dich",
+  "start": 1.88,
+  "end": 2.02
+ },
+ {
+  "word": "in",
+  "start": 2.02,
+  "end": 2.18
+ },
+ {
+  "word": "wenigen",
+  "start": 2.18,
+  "end": 2.52
+ },
+ {
+  "word": "Minuten",
+  "start": 2.52,
+  "end": 2.74
+ },
+ {
+  "word": "töten.",
+  "start": 2.74,
+  "end": 3.18
+ },
+ {
+  "word": "Das",
+  "start": 3.5,
+  "end": 3.58
+ },
+ {
+  "word": "ist",
+  "start": 3.58,
+  "end": 3.68
+ },
+ {
+  "word": "die",
+  "start": 3.68,
+  "end": 3.84
+ },
+ {
+  "word": "Würfelqualle,",
+  "start": 3.84,
+  "end": 4.56
+ },
+ {
+  "word": "Chironex",
+  "start": 4.56,
+  "end": 5.0
+ },
+ {
+  "word": "fleckeri",
+  "start": 5.0,
+  "end": 5.44
+ },
+ {
+  "word": "das",
+  "start": 5.44,
+  "end": 5.6
+ },
+ {
+  "word": "giftigste",
+  "start": 5.6,
+  "end": 6.16
+ },
+ {
+  "word": "Tier",
+  "start": 6.16,
+  "end": 6.32
+ },
+ {
+  "word": "im",
+  "start": 6.32,
+  "end": 6.48
+ },
+ {
+  "word": "Meer.",
+  "start": 6.48,
+  "end": 6.64
+ },
+ {
+  "word": "Sie",
+  "start": 6.96,
+  "end": 7.04
+ },
+ {
+  "word": "lebt",
+  "start": 7.04,
+  "end": 7.26
+ },
+ {
+  "word": "vor",
+  "start": 7.26,
+  "end": 7.4
+ },
+ {
+  "word": "Nordaustralien",
+  "start": 7.4,
+  "end": 8.06
+ },
+ {
+  "word": "und",
+  "start": 8.06,
+  "end": 8.22
+ },
+ {
+  "word": "im",
+  "start": 8.22,
+  "end": 8.42
+ },
+ {
+  "word": "Indo-Pazifik.",
+  "start": 8.42,
+  "end": 9.1
+ },
+ {
+  "word": "Fast",
+  "start": 9.36,
+  "end": 9.62
+ },
+ {
+  "word": "völlig",
+  "start": 9.62,
+  "end": 9.98
+ },
+ {
+  "word": "durchsichtig",
+  "start": 9.98,
+  "end": 10.56
+ },
+ {
+  "word": "im",
+  "start": 10.56,
+  "end": 10.8
+ },
+ {
+  "word": "Wasser",
+  "start": 10.8,
+  "end": 11.06
+ },
+ {
+  "word": "praktisch",
+  "start": 11.06,
+  "end": 11.52
+ },
+ {
+  "word": "unsichtbar.",
+  "start": 11.52,
+  "end": 11.96
+ },
+ {
+  "word": "Ihr",
+  "start": 12.36,
+  "end": 12.44
+ },
+ {
+  "word": "Schirm",
+  "start": 12.44,
+  "end": 12.68
+ },
+ {
+  "word": "ist",
+  "start": 12.68,
+  "end": 12.84
+ },
+ {
+  "word": "so",
+  "start": 12.84,
+  "end": 13.06
+ },
+ {
+  "word": "groß",
+  "start": 13.06,
+  "end": 13.3
+ },
+ {
+  "word": "wie",
+  "start": 13.3,
+  "end": 13.5
+ },
+ {
+  "word": "ein",
+  "start": 13.5,
+  "end": 13.64
+ },
+ {
+  "word": "Basketball,",
+  "start": 13.64,
+  "end": 14.18
+ },
+ {
+  "word": "ihre",
+  "start": 14.42,
+  "end": 14.54
+ },
+ {
+  "word": "Tentakel",
+  "start": 14.54,
+  "end": 15.04
+ },
+ {
+  "word": "drei",
+  "start": 15.04,
+  "end": 15.3
+ },
+ {
+  "word": "Meter",
+  "start": 15.3,
+  "end": 15.54
+ },
+ {
+  "word": "lang.",
+  "start": 15.54,
+  "end": 15.74
+ },
+ {
+  "word": "Sechzig",
+  "start": 16.18,
+  "end": 16.48
+ },
+ {
+  "word": "Tentakel,",
+  "start": 16.48,
+  "end": 17.24
+ },
+ {
+  "word": "bedeckt",
+  "start": 17.24,
+  "end": 17.6
+ },
+ {
+  "word": "mit",
+  "start": 17.6,
+  "end": 17.78
+ },
+ {
+  "word": "Millionen",
+  "start": 17.78,
+  "end": 18.04
+ },
+ {
+  "word": "winziger",
+  "start": 18.04,
+  "end": 18.56
+ },
+ {
+  "word": "Harpunen,",
+  "start": 18.56,
+  "end": 19.0
+ },
+ {
+  "word": "geladen",
+  "start": 19.0,
+  "end": 19.38
+ },
+ {
+  "word": "mit",
+  "start": 19.38,
+  "end": 19.6
+ },
+ {
+  "word": "Gift.",
+  "start": 19.6,
+  "end": 19.72
+ },
+ {
+  "word": "Sie",
+  "start": 20.12,
+  "end": 20.18
+ },
+ {
+  "word": "treibt",
+  "start": 20.18,
+  "end": 20.5
+ },
+ {
+  "word": "nicht.",
+  "start": 20.5,
+  "end": 20.68
+ },
+ {
+  "word": "Sie",
+  "start": 20.96,
+  "end": 21.06
+ },
+ {
+  "word": "schwimmt.",
+  "start": 21.06,
+  "end": 21.32
+ },
+ {
+  "word": "Sie",
+  "start": 21.56,
+  "end": 21.64
+ },
+ {
+  "word": "jagt.",
+  "start": 21.64,
+  "end": 21.9
+ },
+ {
+  "word": "Und",
+  "start": 21.9,
+  "end": 22.26
+ },
+ {
+  "word": "sie",
+  "start": 22.26,
+  "end": 22.38
+ },
+ {
+  "word": "hat",
+  "start": 22.38,
+  "end": 22.48
+ },
+ {
+  "word": "vierundzwanzig",
+  "start": 22.48,
+  "end": 22.96
+ },
+ {
+  "word": "Augen.",
+  "start": 22.96,
+  "end": 23.4
+ },
+ {
+  "word": "Eine",
+  "start": 23.68,
+  "end": 23.9
+ },
+ {
+  "word": "Berührung",
+  "start": 23.9,
+  "end": 24.3
+ },
+ {
+  "word": "genügt,",
+  "start": 24.3,
+  "end": 24.72
+ },
+ {
+  "word": "und",
+  "start": 24.72,
+  "end": 24.96
+ },
+ {
+  "word": "das",
+  "start": 24.96,
+  "end": 25.1
+ },
+ {
+  "word": "Gift",
+  "start": 25.1,
+  "end": 25.3
+ },
+ {
+  "word": "greift",
+  "start": 25.3,
+  "end": 25.74
+ },
+ {
+  "word": "dein",
+  "start": 25.74,
+  "end": 25.9
+ },
+ {
+  "word": "Herz",
+  "start": 25.9,
+  "end": 26.16
+ },
+ {
+  "word": "an.",
+  "start": 26.16,
+  "end": 26.38
+ },
+ {
+  "word": "Es",
+  "start": 26.66,
+  "end": 26.74
+ },
+ {
+  "word": "kann",
+  "start": 26.74,
+  "end": 26.88
+ },
+ {
+  "word": "es",
+  "start": 26.88,
+  "end": 27.04
+ },
+ {
+  "word": "in",
+  "start": 27.04,
+  "end": 27.14
+ },
+ {
+  "word": "zwei",
+  "start": 27.14,
+  "end": 27.44
+ },
+ {
+  "word": "bis",
+  "start": 27.44,
+  "end": 27.62
+ },
+ {
+  "word": "fünf",
+  "start": 27.62,
+  "end": 27.84
+ },
+ {
+  "word": "Minuten",
+  "start": 27.84,
+  "end": 28.12
+ },
+ {
+  "word": "stoppen.",
+  "start": 28.12,
+  "end": 28.58
+ },
+ {
+  "word": "Allein",
+  "start": 28.58,
+  "end": 29.24
+ },
+ {
+  "word": "in",
+  "start": 29.24,
+  "end": 29.34
+ },
+ {
+  "word": "Australien",
+  "start": 29.34,
+  "end": 29.86
+ },
+ {
+  "word": "hat",
+  "start": 29.86,
+  "end": 29.96
+ },
+ {
+  "word": "sie",
+  "start": 29.96,
+  "end": 30.08
+ },
+ {
+  "word": "mehr",
+  "start": 30.08,
+  "end": 30.24
+ },
+ {
+  "word": "als",
+  "start": 30.24,
+  "end": 30.4
+ },
+ {
+  "word": "sechzig",
+  "start": 30.4,
+  "end": 30.72
+ },
+ {
+  "word": "Menschen",
+  "start": 30.72,
+  "end": 31.04
+ },
+ {
+  "word": "getötet.",
+  "start": 31.04,
+  "end": 31.48
+ },
+ {
+  "word": "Ihre",
+  "start": 31.96,
+  "end": 32.1
+ },
+ {
+  "word": "winzige",
+  "start": 32.1,
+  "end": 32.48
+ },
+ {
+  "word": "Cousine,",
+  "start": 32.48,
+  "end": 32.9
+ },
+ {
+  "word": "die",
+  "start": 32.94,
+  "end": 33.12
+ },
+ {
+  "word": "Irukandji-Qualle,",
+  "start": 33.12,
+  "end": 33.94
+ },
+ {
+  "word": "ist",
+  "start": 34.18,
+  "end": 34.26
+ },
+ {
+  "word": "nur",
+  "start": 34.26,
+  "end": 34.46
+ },
+ {
+  "word": "einen",
+  "start": 34.46,
+  "end": 34.6
+ },
+ {
+  "word": "Zentimeter",
+  "start": 34.6,
+  "end": 35.06
+ },
+ {
+  "word": "groß",
+  "start": 35.06,
+  "end": 35.36
+ },
+ {
+  "word": "ihr",
+  "start": 35.68,
+  "end": 35.76
+ },
+ {
+  "word": "Schmerz",
+  "start": 35.76,
+  "end": 36.1
+ },
+ {
+  "word": "kommt",
+  "start": 36.1,
+  "end": 36.28
+ },
+ {
+  "word": "erst",
+  "start": 36.28,
+  "end": 36.56
+ },
+ {
+  "word": "dreißig",
+  "start": 36.56,
+  "end": 36.98
+ },
+ {
+  "word": "Minuten",
+  "start": 36.98,
+  "end": 37.22
+ },
+ {
+  "word": "später.",
+  "start": 37.22,
+  "end": 37.68
+ },
+ {
+  "word": "Aber",
+  "start": 38.2,
+  "end": 38.34
+ },
+ {
+  "word": "es",
+  "start": 38.34,
+  "end": 38.48
+ },
+ {
+  "word": "gibt",
+  "start": 38.48,
+  "end": 38.62
+ },
+ {
+  "word": "eine",
+  "start": 38.62,
+  "end": 38.9
+ },
+ {
+  "word": "Sache,",
+  "start": 38.9,
+  "end": 39.12
+ },
+ {
+  "word": "die",
+  "start": 39.24,
+  "end": 39.34
+ },
+ {
+  "word": "dich",
+  "start": 39.34,
+  "end": 39.5
+ },
+ {
+  "word": "retten",
+  "start": 39.5,
+  "end": 39.76
+ },
+ {
+  "word": "kann.",
+  "start": 39.76,
+  "end": 39.92
+ },
+ {
+  "word": "Essig.",
+  "start": 40.22,
+  "end": 40.5
+ },
+ {
+  "word": "Gieß",
+  "start": 40.86,
+  "end": 40.9
+ },
+ {
+  "word": "ihn",
+  "start": 40.9,
+  "end": 41.04
+ },
+ {
+  "word": "dreißig",
+  "start": 41.04,
+  "end": 41.38
+ },
+ {
+  "word": "Sekunden",
+  "start": 41.38,
+  "end": 41.86
+ },
+ {
+  "word": "über",
+  "start": 41.86,
+  "end": 42.04
+ },
+ {
+  "word": "den",
+  "start": 42.04,
+  "end": 42.16
+ },
+ {
+  "word": "Stich.",
+  "start": 42.16,
+  "end": 42.42
+ },
+ {
+  "word": "Er",
+  "start": 42.74,
+  "end": 42.83
+ },
+ {
+  "word": "stoppt",
+  "start": 42.83,
+  "end": 43.08
+ },
+ {
+  "word": "die",
+  "start": 43.08,
+  "end": 43.16
+ },
+ {
+  "word": "Nesselzellen.",
+  "start": 43.16,
+  "end": 43.68
+ },
+ {
+  "word": "Niemals",
+  "start": 44.04,
+  "end": 44.26
+ },
+ {
+  "word": "reiben.",
+  "start": 44.26,
+  "end": 44.62
+ },
+ {
+  "word": "Niemals",
+  "start": 44.9,
+  "end": 45.18
+ },
+ {
+  "word": "Süßwasser.",
+  "start": 45.18,
+  "end": 45.66
+ },
+ {
+  "word": "Niemals",
+  "start": 46.0,
+  "end": 46.26
+ },
+ {
+  "word": "darauf",
+  "start": 46.26,
+  "end": 46.54
+ },
+ {
+  "word": "pinkeln",
+  "start": 46.54,
+  "end": 47.02
+ },
+ {
+  "word": "das",
+  "start": 47.22,
+  "end": 47.28
+ },
+ {
+  "word": "macht",
+  "start": 47.28,
+  "end": 47.52
+ },
+ {
+  "word": "es",
+  "start": 47.52,
+  "end": 47.68
+ },
+ {
+  "word": "nur",
+  "start": 47.68,
+  "end": 47.86
+ },
+ {
+  "word": "schlimmer.",
+  "start": 47.86,
+  "end": 48.2
+ },
+ {
+  "word": "Ruf",
+  "start": 48.74,
+  "end": 48.94
+ },
+ {
+  "word": "den",
+  "start": 48.94,
+  "end": 49.12
+ },
+ {
+  "word": "Notruf",
+  "start": 49.12,
+  "end": 49.56
+ },
+ {
+  "word": "in",
+  "start": 49.56,
+  "end": 49.82
+ },
+ {
+  "word": "Australien",
+  "start": 49.82,
+  "end": 50.38
+ },
+ {
+  "word": "die",
+  "start": 50.38,
+  "end": 50.48
+ },
+ {
+  "word": "Triple",
+  "start": 50.48,
+  "end": 50.88
+ },
+ {
+  "word": "Zero",
+  "start": 50.88,
+  "end": 51.14
+ },
+ {
+  "word": "und",
+  "start": 51.14,
+  "end": 51.54
+ },
+ {
+  "word": "raus",
+  "start": 51.54,
+  "end": 51.74
+ },
+ {
+  "word": "aus",
+  "start": 51.74,
+  "end": 52.0
+ },
+ {
+  "word": "dem",
+  "start": 52.0,
+  "end": 52.16
+ },
+ {
+  "word": "Wasser,",
+  "start": 52.16,
+  "end": 52.44
+ },
+ {
+  "word": "schnell.",
+  "start": 52.44,
+  "end": 52.8
+ },
+ {
+  "word": "Von",
+  "start": 53.28,
+  "end": 53.4
+ },
+ {
+  "word": "November",
+  "start": 53.4,
+  "end": 53.68
+ },
+ {
+  "word": "bis",
+  "start": 53.68,
+  "end": 54.0
+ },
+ {
+  "word": "Mai,",
+  "start": 54.0,
+  "end": 54.22
+ },
+ {
+  "word": "in",
+  "start": 54.22,
+  "end": 54.48
+ },
+ {
+  "word": "der",
+  "start": 54.48,
+  "end": 54.58
+ },
+ {
+  "word": "Quallensaison,",
+  "start": 54.58,
+  "end": 55.3
+ },
+ {
+  "word": "gehören",
+  "start": 55.3,
+  "end": 55.72
+ },
+ {
+  "word": "diese",
+  "start": 55.72,
+  "end": 55.96
+ },
+ {
+  "word": "Gewässer",
+  "start": 55.96,
+  "end": 56.36
+ },
+ {
+  "word": "ihr.",
+  "start": 56.36,
+  "end": 56.46
+ },
+ {
+  "word": "Würdest",
+  "start": 56.8,
+  "end": 57.04
+ },
+ {
+  "word": "du",
+  "start": 57.04,
+  "end": 57.18
+ },
+ {
+  "word": "hier",
+  "start": 57.18,
+  "end": 57.32
+ },
+ {
+  "word": "schwimmen?",
+  "start": 57.32,
+  "end": 57.56
+ },
+ {
+  "word": "Folg",
+  "start": 58.55,
+  "end": 59.09
+ },
+ {
+  "word": "mir",
+  "start": 59.09,
+  "end": 59.19
+ },
+ {
+  "word": "für",
+  "start": 59.19,
+  "end": 59.33
+ },
+ {
+  "word": "mehr",
+  "start": 59.33,
+  "end": 59.55
+ },
+ {
+  "word": "von",
+  "start": 59.55,
+  "end": 59.75
+ },
+ {
+  "word": "den",
+  "start": 59.75,
+  "end": 59.89
+ },
+ {
+  "word": "tödlichsten",
+  "start": 59.89,
+  "end": 60.47
+ },
+ {
+  "word": "Kreaturen",
+  "start": 60.47,
+  "end": 60.95
+ },
+ {
+  "word": "der",
+  "start": 60.95,
+  "end": 61.11
+ },
+ {
+  "word": "Natur.",
+  "start": 61.11,
+  "end": 61.35
+ }
+]

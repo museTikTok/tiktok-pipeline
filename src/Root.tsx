@@ -41,6 +41,8 @@ import {EarthStopsVideoEn} from './EarthStopsVideoEn';
 import {EarthStopsVideoDe} from './EarthStopsVideoDe';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 import {Gta6EditEn} from './Gta6EditEn';
+import {BoxJellyfishVideoEn} from './BoxJellyfishVideoEn';
+import {BoxJellyfishVideoDe} from './BoxJellyfishVideoDe';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
 const calculateMetadata: CalculateMetadataFunction<CaptionVideoProps> = ({
@@ -579,6 +581,37 @@ const calculateGta6EditEnMetadata: CalculateMetadataFunction<Record<string, neve
 	};
 };
 
+
+// BoxJellyfishVideoEn — video 16, EN (Axel 2026-11-16).
+// Self-contained (words + VO + CTA audio are loaded inside the component);
+// fixed duration 61.83s = 1855 frames (narration 58.76s + 0.6s silence +
+// CTA 2.47s from 59.36s). Kokoro bm_george speed 1.15 (narration) / 1.3
+// (CTA, enthusiastic). Standard documentary series: Titan One yellow
+// word-by-word subtitles (EN fontSize 62), neon branding @brainfeeder_uk
+// after 3 s, real clips only, red danger annotations (motivated only).
+const calculateBoxJellyfishEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1855,
+		props,
+	};
+};
+
+// BoxJellyfishVideoDe — video 16, DE (parallel with EN).
+// Fixed duration 61.65s = 1850 frames (narration 57.95s + 0.6s silence +
+// CTA 3.10s from 58.55s). Kokoro dm_martin speed 1.15 / 1.3 (CTA).
+// German subtitles fontSize 50 / maxWidth 840 (long-word rule:
+// "Irukandji-Qualle" = 449 px < 840 px). Branding @brainfeeder_de.
+const calculateBoxJellyfishDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1850,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -991,6 +1024,27 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateGta6EditEnMetadata}
+			/>
+
+			<Composition
+				id="BoxJellyfishVideoEn"
+				component={BoxJellyfishVideoEn as React.FC<unknown>}
+				durationInFrames={1855}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateBoxJellyfishEnMetadata}
+			/>
+			<Composition
+				id="BoxJellyfishVideoDe"
+				component={BoxJellyfishVideoDe as React.FC<unknown>}
+				durationInFrames={1850}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateBoxJellyfishDeMetadata}
 			/>
 		</>
 	);
