@@ -42,6 +42,7 @@ import {EarthStopsVideoDe} from './EarthStopsVideoDe';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 import {Gta6EditEn} from './Gta6EditEn';
 import {Gta6Script9En} from './Gta6Script9En';
+import {Gta6ExtendedLookEn} from './Gta6ExtendedLookEn';
 import {BoxJellyfishVideoEn} from './BoxJellyfishVideoEn';
 import {BoxJellyfishVideoDe} from './BoxJellyfishVideoDe';
 
@@ -599,6 +600,20 @@ const calculateGta6Script9EnMetadata: CalculateMetadataFunction<Record<string, n
 };
 
 
+// Gta6ExtendedLookEn — GTA 6 edit #2 "Extended Look" (Axel 2026-11-16).
+// Fixed duration 44.40s = 1332 frames (91 beats at 123 BPM).
+// EN ONLY, no voiceover: official Extended Look gameplay cut on the
+// Justice drop (47.7-92.1 s of the single) + logo end card.
+const calculateGta6ExtendedLookEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1332,
+		props,
+	};
+};
+
+
 // BoxJellyfishVideoEn — video 16, EN (Axel 2026-11-16).
 // Self-contained (words + VO + CTA audio are loaded inside the component);
 // fixed duration 61.83s = 1855 frames (narration 58.76s + 0.6s silence +
@@ -1053,6 +1068,16 @@ export const RemotionRoot: React.FC = () => {
 				calculateMetadata={calculateGta6Script9EnMetadata}
 			/>
 
+			<Composition
+				id="Gta6ExtendedLookEn"
+				component={Gta6ExtendedLookEn as React.FC<unknown>}
+				durationInFrames={1332}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6ExtendedLookEnMetadata}
+			/>
 			<Composition
 				id="BoxJellyfishVideoEn"
 				component={BoxJellyfishVideoEn as React.FC<unknown>}

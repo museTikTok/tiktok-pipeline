@@ -98,6 +98,13 @@ public/batch6/gta6-clips/raw/
 !public/batch6/gta6-s9-memes/
 !public/batch6/gta6-s9-memes/*.mp4
 !public/batch6/gta6-s9-memes/*.md
+# GTA 6 edit #2 "Extended Look" (EN only, no VO): 12 validated el-* clips
+# (1080p 30fps CFR) + Justice drop + logo still from the official reveal
+# (t=379 s) + riser tail. The 14.1 GB source stays on the VM.
+!public/batch6/gta6-el2/
+!public/batch6/gta6-el2/*.mp4
+!public/batch6/gta6-el2/*.mp3
+!public/batch6/gta6-el2/*.jpg
 # Raw clip downloads stay on the VM (441 MB, not needed in CI).
 public/batch6/v14-tmp/
 !public/batch6/test-tickle-en/
