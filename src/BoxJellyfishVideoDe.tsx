@@ -39,6 +39,7 @@ const WORDS: Word[] = require('../public/batch6/v16-de/v16-words-de.json');
 
 const VO = staticFile('batch6/v16-de/v16-vo-de.mp3');
 const CTA_AUDIO = staticFile('batch6/v16-de/v16-vo-de-cta.mp3');
+const HEARTBEAT = staticFile('batch6/v16-heartbeat.wav');
 const CLIP = (name: string) => staticFile(`batch6/v16-clips/${name}`);
 const SFX = (name: string) => staticFile(`sfx/${name}`);
 
@@ -498,7 +499,9 @@ export const BoxJellyfishVideoDe: React.FC = () => {
           Gift greift dein Herz an. Es kann es in zwei bis fünf Minuten
           stoppen." Big jelly near a diver (v16-06, startFrom 10.0,
           objectPosition 20%). Overlay "2–5 MINUTEN" on "zwei" (27.14s,
-          delay 104). Sub-drop SFX = low heartbeat thump. */}
+          delay 104). Sub-drop SFX = low heartbeat thump + v2 echter
+          Herzschlag-SFX synchron mit dem Overlay (27.14s, Lautstärke
+          0,45). */}
       <Sequence from={S(23.68)} durationInFrames={S(28.58) - S(23.68)}>
         <ClipShot clip="v16-06-thailand-diver.mp4" durationInFrames={S(28.58) - S(23.68)} startFrom={10} zoom={1.12} objectPosition="20% 50%">
           <BigOverlay
@@ -644,6 +647,13 @@ export const BoxJellyfishVideoDe: React.FC = () => {
       </Sequence>
       <Sequence from={S(23.68)} durationInFrames={S(1)}>
         <Audio src={SFX('sub-drop-cinematic.mp3')} volume={0.55} />
+      </Sequence>
+      {/* v2 (Sounddesign 7 -> 8+): echter Herzschlag-SFX, synchron mit
+          dem Overlay "2–5 MINUTEN / BIS ZUM HERZSTILLSTAND" (erscheint
+          27.14s, delay 104). 3 Lub-Dub-Schläge über 2,55 s, Lautstärke
+          0,45 — unter der VO. */}
+      <Sequence from={S(27.14)} durationInFrames={S(2.6)}>
+        <Audio src={HEARTBEAT} volume={0.45} />
       </Sequence>
       <Sequence from={S(37.8)} durationInFrames={S(0.6)}>
         <Audio src={SFX('whoosh-short.mp3')} volume={0.45} />

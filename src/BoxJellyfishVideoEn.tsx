@@ -59,6 +59,7 @@ const WORDS: Word[] = require('../public/batch6/v16-en/v16-words-en.json');
 
 const VO = staticFile('batch6/v16-en/v16-vo-en.mp3');
 const CTA_AUDIO = staticFile('batch6/v16-en/v16-vo-en-cta.mp3');
+const HEARTBEAT = staticFile('batch6/v16-heartbeat.wav');
 const CLIP = (name: string) => staticFile(`batch6/v16-clips/${name}`);
 const SFX = (name: string) => staticFile(`sfx/${name}`);
 
@@ -526,7 +527,8 @@ export const BoxJellyfishVideoEn: React.FC = () => {
           Most mobile window (startFrom 10.0 — the bell enters from the
           left and is sharpest late); objectPosition 20% keeps the bell
           in the crop. Overlay "2–5 MINUTES" on "two" (30.68s, delay
-          88). Sub-drop SFX = low heartbeat thump. */}
+          88). Sub-drop SFX = low heartbeat thump + v2 real heartbeat
+          SFX synced with the overlay (30.68s, volume 0.45). */}
       <Sequence from={S(27.76)} durationInFrames={S(32.08) - S(27.76)}>
         <ClipShot clip="v16-06-thailand-diver.mp4" durationInFrames={S(32.08) - S(27.76)} startFrom={10} zoom={1.12} objectPosition="20% 50%">
           <BigOverlay
@@ -677,6 +679,12 @@ export const BoxJellyfishVideoEn: React.FC = () => {
       </Sequence>
       <Sequence from={S(27.76)} durationInFrames={S(1)}>
         <Audio src={SFX('sub-drop-cinematic.mp3')} volume={0.55} />
+      </Sequence>
+      {/* v2 (sound design 7 -> 8+): real heartbeat SFX, synced with the
+          "2–5 MINUTES / TO STOP A HEART" overlay (appears 30.68s, delay
+          88). 3 lub-dub beats over 2.55 s, volume 0.45 — under the VO. */}
+      <Sequence from={S(30.68)} durationInFrames={S(2.6)}>
+        <Audio src={HEARTBEAT} volume={0.45} />
       </Sequence>
       <Sequence from={S(40.3)} durationInFrames={S(0.6)}>
         <Audio src={SFX('whoosh-short.mp3')} volume={0.45} />
