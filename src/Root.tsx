@@ -41,6 +41,7 @@ import {EarthStopsVideoEn} from './EarthStopsVideoEn';
 import {EarthStopsVideoDe} from './EarthStopsVideoDe';
 import {TanzplageVideoDe} from './TanzplageVideoDe';
 import {Gta6EditEn} from './Gta6EditEn';
+import {Gta6Script9En} from './Gta6Script9En';
 import {BoxJellyfishVideoEn} from './BoxJellyfishVideoEn';
 import {BoxJellyfishVideoDe} from './BoxJellyfishVideoDe';
 
@@ -581,6 +582,22 @@ const calculateGta6EditEnMetadata: CalculateMetadataFunction<Record<string, neve
 	};
 };
 
+// Gta6Script9En — GTA 6 edit, script 9 "He typed his code live. A viewer
+// stole it." (Axel 2026-11-16). Fixed duration 34.00s = 1020 frames.
+// EN ONLY, no voiceover: Kreepa "Oh No" 0-10s + Justice "Flower in a
+// Hurricane" from the drop (0:48 of the single) 10-34s. Real streamer
+// live + Lucia prison release (trailer 2, complete 16:9 on blurred fill,
+// no crop) + meme reaction cards (green-screen templates keyed onto
+// black in ffmpeg). NO handle anywhere (v3 rule).
+const calculateGta6Script9EnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1020,
+		props,
+	};
+};
+
 
 // BoxJellyfishVideoEn — video 16, EN (Axel 2026-11-16).
 // Self-contained (words + VO + CTA audio are loaded inside the component);
@@ -1024,6 +1041,16 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateGta6EditEnMetadata}
+			/>
+			<Composition
+				id="Gta6Script9En"
+				component={Gta6Script9En as React.FC<unknown>}
+				durationInFrames={1020}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6Script9EnMetadata}
 			/>
 
 			<Composition

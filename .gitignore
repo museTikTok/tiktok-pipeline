@@ -88,6 +88,16 @@ public/batch6/v14-de/pompeii-words-de.json
 !public/batch6/gta6-clips/*.mp3
 !public/batch6/gta6-clips/*.jpg
 public/batch6/gta6-clips/raw/
+# GTA 6 script 9 edit (EN only, no VO): streamer clip + Lucia + music +
+# freeze frame + meme overlays (green-screen templates keyed onto black
+# in ffmpeg — this ffmpeg build cannot encode VP9 alpha, verified 2026-11-16).
+!public/batch6/gta6-s9/
+!public/batch6/gta6-s9/*.mp4
+!public/batch6/gta6-s9/*.mp3
+!public/batch6/gta6-s9/*.jpg
+!public/batch6/gta6-s9-memes/
+!public/batch6/gta6-s9-memes/*.mp4
+!public/batch6/gta6-s9-memes/*.md
 # Raw clip downloads stay on the VM (441 MB, not needed in CI).
 public/batch6/v14-tmp/
 !public/batch6/test-tickle-en/
