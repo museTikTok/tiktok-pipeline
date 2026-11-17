@@ -99,6 +99,11 @@ public/batch6/v14-de/pompeii-words-de.json
 !public/batch6/v18-en/
 !public/batch6/v18-de/
 public/batch6/v18-raw/
+# GTA 6 PC video (main chat, 2026-11-17): only the component + words JSON
+# are committed so the repo builds (Root.tsx imports it); its 43 MB of
+# clips/music stay on the VM (VM render only, published 2026-11-17).
+!public/batch6/gta6-pc/
+!public/batch6/gta6-pc/words-en.json
 public/batch6/v17-raw/
 # GTA 6 hype edit (EN only, no VO): 19 clips + launch-trailer music +
 # end-card background. Raw trailers (68 MB) stay on the VM.

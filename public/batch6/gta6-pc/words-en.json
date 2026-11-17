@@ -1,0 +1,807 @@
+[
+ {
+  "word": "Is",
+  "start": 0.0,
+  "end": 0.1
+ },
+ {
+  "word": "GTA",
+  "start": 0.1,
+  "end": 0.42
+ },
+ {
+  "word": "6",
+  "start": 0.42,
+  "end": 0.78
+ },
+ {
+  "word": "coming",
+  "start": 0.78,
+  "end": 1.12
+ },
+ {
+  "word": "to",
+  "start": 1.12,
+  "end": 1.32
+ },
+ {
+  "word": "PC?",
+  "start": 1.32,
+  "end": 1.7
+ },
+ {
+  "word": "Thursday,",
+  "start": 1.7,
+  "end": 2.42
+ },
+ {
+  "word": "November",
+  "start": 2.66,
+  "end": 2.88
+ },
+ {
+  "word": "19th,",
+  "start": 2.88,
+  "end": 3.88
+ },
+ {
+  "word": "GTA",
+  "start": 3.88,
+  "end": 4.14
+ },
+ {
+  "word": "6",
+  "start": 4.14,
+  "end": 4.56
+ },
+ {
+  "word": "launches",
+  "start": 4.56,
+  "end": 4.9
+ },
+ {
+  "word": "PlayStation",
+  "start": 4.9,
+  "end": 5.7
+ },
+ {
+  "word": "5",
+  "start": 5.7,
+  "end": 6.06
+ },
+ {
+  "word": "and",
+  "start": 6.06,
+  "end": 6.32
+ },
+ {
+  "word": "Xbox",
+  "start": 6.32,
+  "end": 6.64
+ },
+ {
+  "word": "only.",
+  "start": 6.64,
+  "end": 7.22
+ },
+ {
+  "word": "Rockstar",
+  "start": 7.66,
+  "end": 7.94
+ },
+ {
+  "word": "has",
+  "start": 7.94,
+  "end": 8.1
+ },
+ {
+  "word": "announced",
+  "start": 8.1,
+  "end": 8.34
+ },
+ {
+  "word": "no",
+  "start": 8.34,
+  "end": 8.62
+ },
+ {
+  "word": "PC",
+  "start": 8.62,
+  "end": 8.98
+ },
+ {
+  "word": "date",
+  "start": 8.98,
+  "end": 9.32
+ },
+ {
+  "word": "at",
+  "start": 9.32,
+  "end": 9.48
+ },
+ {
+  "word": "all.",
+  "start": 9.48,
+  "end": 9.76
+ },
+ {
+  "word": "No",
+  "start": 10.1,
+  "end": 10.24
+ },
+ {
+  "word": "Steam",
+  "start": 10.24,
+  "end": 10.5
+ },
+ {
+  "word": "page,",
+  "start": 10.5,
+  "end": 10.88
+ },
+ {
+  "word": "no",
+  "start": 10.88,
+  "end": 11.22
+ },
+ {
+  "word": "pre-order,",
+  "start": 11.22,
+  "end": 11.64
+ },
+ {
+  "word": "nothing.",
+  "start": 11.64,
+  "end": 12.04
+ },
+ {
+  "word": "One",
+  "start": 12.3,
+  "end": 12.66
+ },
+ {
+  "word": "report",
+  "start": 12.66,
+  "end": 12.96
+ },
+ {
+  "word": "says",
+  "start": 12.96,
+  "end": 13.28
+ },
+ {
+  "word": "early",
+  "start": 13.28,
+  "end": 13.62
+ },
+ {
+  "word": "2027.",
+  "start": 13.62,
+  "end": 14.9
+ },
+ {
+  "word": "But",
+  "start": 15.08,
+  "end": 15.46
+ },
+ {
+  "word": "that's",
+  "start": 15.46,
+  "end": 15.72
+ },
+ {
+  "word": "a",
+  "start": 15.72,
+  "end": 15.76
+ },
+ {
+  "word": "report",
+  "start": 15.76,
+  "end": 16.06
+ },
+ {
+  "word": "not",
+  "start": 16.06,
+  "end": 16.5
+ },
+ {
+  "word": "an",
+  "start": 16.5,
+  "end": 16.6
+ },
+ {
+  "word": "announcement.",
+  "start": 16.6,
+  "end": 17.06
+ },
+ {
+  "word": "And",
+  "start": 17.3,
+  "end": 17.66
+ },
+ {
+  "word": "history",
+  "start": 17.66,
+  "end": 17.92
+ },
+ {
+  "word": "says:",
+  "start": 17.92,
+  "end": 18.42
+ },
+ {
+  "word": "wait.",
+  "start": 18.52,
+  "end": 18.86
+ },
+ {
+  "word": "GTA",
+  "start": 19.62,
+  "end": 19.7
+ },
+ {
+  "word": "5",
+  "start": 19.7,
+  "end": 20.22
+ },
+ {
+  "word": "took",
+  "start": 20.22,
+  "end": 20.42
+ },
+ {
+  "word": "nineteen",
+  "start": 20.42,
+  "end": 20.76
+ },
+ {
+  "word": "months",
+  "start": 20.76,
+  "end": 21.08
+ },
+ {
+  "word": "to",
+  "start": 21.08,
+  "end": 21.34
+ },
+ {
+  "word": "reach",
+  "start": 21.34,
+  "end": 21.5
+ },
+ {
+  "word": "PC.",
+  "start": 21.5,
+  "end": 21.98
+ },
+ {
+  "word": "Red",
+  "start": 22.48,
+  "end": 22.7
+ },
+ {
+  "word": "Dead",
+  "start": 22.7,
+  "end": 22.9
+ },
+ {
+  "word": "2",
+  "start": 22.9,
+  "end": 23.18
+ },
+ {
+  "word": "took",
+  "start": 23.18,
+  "end": 23.4
+ },
+ {
+  "word": "thirteen.",
+  "start": 23.4,
+  "end": 23.84
+ },
+ {
+  "word": "If",
+  "start": 24.06,
+  "end": 24.36
+ },
+ {
+  "word": "that",
+  "start": 24.36,
+  "end": 24.5
+ },
+ {
+  "word": "pattern",
+  "start": 24.5,
+  "end": 24.76
+ },
+ {
+  "word": "holds,",
+  "start": 24.76,
+  "end": 25.14
+ },
+ {
+  "word": "we're",
+  "start": 25.14,
+  "end": 25.48
+ },
+ {
+  "word": "looking",
+  "start": 25.48,
+  "end": 25.7
+ },
+ {
+  "word": "at",
+  "start": 25.7,
+  "end": 25.84
+ },
+ {
+  "word": "2027",
+  "start": 25.84,
+  "end": 27.12
+ },
+ {
+  "word": "maybe",
+  "start": 27.36,
+  "end": 27.66
+ },
+ {
+  "word": "2028.",
+  "start": 27.66,
+  "end": 28.94
+ },
+ {
+  "word": "Why",
+  "start": 29.34,
+  "end": 29.42
+ },
+ {
+  "word": "the",
+  "start": 29.42,
+  "end": 29.56
+ },
+ {
+  "word": "wait?",
+  "start": 29.56,
+  "end": 29.82
+ },
+ {
+  "word": "Consoles",
+  "start": 30.12,
+  "end": 30.4
+ },
+ {
+  "word": "first",
+  "start": 30.4,
+  "end": 30.86
+ },
+ {
+  "word": "that's",
+  "start": 31.22,
+  "end": 31.46
+ },
+ {
+  "word": "Rockstar's",
+  "start": 31.46,
+  "end": 31.98
+ },
+ {
+  "word": "core",
+  "start": 31.98,
+  "end": 32.12
+ },
+ {
+  "word": "audience.",
+  "start": 32.12,
+  "end": 32.64
+ },
+ {
+  "word": "A",
+  "start": 33.12,
+  "end": 33.18
+ },
+ {
+  "word": "second",
+  "start": 33.18,
+  "end": 33.48
+ },
+ {
+  "word": "launch",
+  "start": 33.48,
+  "end": 33.72
+ },
+ {
+  "word": "means",
+  "start": 33.72,
+  "end": 34.04
+ },
+ {
+  "word": "a",
+  "start": 34.04,
+  "end": 34.22
+ },
+ {
+  "word": "second",
+  "start": 34.22,
+  "end": 34.52
+ },
+ {
+  "word": "payday.",
+  "start": 34.52,
+  "end": 34.96
+ },
+ {
+  "word": "And",
+  "start": 35.4,
+  "end": 35.48
+ },
+ {
+  "word": "a",
+  "start": 35.48,
+  "end": 35.56
+ },
+ {
+  "word": "PC",
+  "start": 35.56,
+  "end": 35.84
+ },
+ {
+  "word": "port",
+  "start": 35.84,
+  "end": 36.2
+ },
+ {
+  "word": "takes",
+  "start": 36.2,
+  "end": 36.38
+ },
+ {
+  "word": "time",
+  "start": 36.38,
+  "end": 36.76
+ },
+ {
+  "word": "to",
+  "start": 36.76,
+  "end": 36.94
+ },
+ {
+  "word": "optimize",
+  "start": 36.94,
+  "end": 37.42
+ },
+ {
+  "word": "thousands",
+  "start": 37.42,
+  "end": 38.24
+ },
+ {
+  "word": "of",
+  "start": 38.24,
+  "end": 38.46
+ },
+ {
+  "word": "hardware",
+  "start": 38.46,
+  "end": 38.84
+ },
+ {
+  "word": "combinations,",
+  "start": 38.84,
+  "end": 39.36
+ },
+ {
+  "word": "and",
+  "start": 39.36,
+  "end": 40.02
+ },
+ {
+  "word": "pirates",
+  "start": 40.02,
+  "end": 40.36
+ },
+ {
+  "word": "to",
+  "start": 40.36,
+  "end": 40.62
+ },
+ {
+  "word": "keep",
+  "start": 40.62,
+  "end": 40.8
+ },
+ {
+  "word": "out.",
+  "start": 40.8,
+  "end": 41.12
+ },
+ {
+  "word": "Meanwhile,",
+  "start": 41.52,
+  "end": 41.82
+ },
+ {
+  "word": "scammers",
+  "start": 41.9,
+  "end": 42.32
+ },
+ {
+  "word": "are",
+  "start": 42.32,
+  "end": 42.5
+ },
+ {
+  "word": "already",
+  "start": 42.5,
+  "end": 42.78
+ },
+ {
+  "word": "selling",
+  "start": 42.78,
+  "end": 43.16
+ },
+ {
+  "word": "it.",
+  "start": 43.16,
+  "end": 43.38
+ },
+ {
+  "word": "Fake",
+  "start": 43.74,
+  "end": 43.92
+ },
+ {
+  "word": "\"GTA",
+  "start": 43.92,
+  "end": 44.5
+ },
+ {
+  "word": "6",
+  "start": 44.5,
+  "end": 44.9
+ },
+ {
+  "word": "PC",
+  "start": 44.9,
+  "end": 45.26
+ },
+ {
+  "word": "download\"",
+  "start": 45.26,
+  "end": 45.76
+ },
+ {
+  "word": "links",
+  "start": 45.76,
+  "end": 46.32
+ },
+ {
+  "word": "hide",
+  "start": 46.32,
+  "end": 46.56
+ },
+ {
+  "word": "a",
+  "start": 46.56,
+  "end": 46.66
+ },
+ {
+  "word": "password",
+  "start": 46.66,
+  "end": 47.0
+ },
+ {
+  "word": "stealer.",
+  "start": 47.0,
+  "end": 47.56
+ },
+ {
+  "word": "A",
+  "start": 47.86,
+  "end": 47.96
+ },
+ {
+  "word": "file",
+  "start": 47.96,
+  "end": 48.24
+ },
+ {
+  "word": "of",
+  "start": 48.24,
+  "end": 48.38
+ },
+ {
+  "word": "796",
+  "start": 48.38,
+  "end": 49.48
+ },
+ {
+  "word": "kilobytes",
+  "start": 49.48,
+  "end": 50.04
+ },
+ {
+  "word": "pretending",
+  "start": 50.04,
+  "end": 50.48
+ },
+ {
+  "word": "to",
+  "start": 50.48,
+  "end": 50.72
+ },
+ {
+  "word": "be",
+  "start": 50.72,
+  "end": 50.84
+ },
+ {
+  "word": "a",
+  "start": 50.84,
+  "end": 50.92
+ },
+ {
+  "word": "212-gigabyte",
+  "start": 50.92,
+  "end": 52.28
+ },
+ {
+  "word": "game.",
+  "start": 52.28,
+  "end": 52.62
+ },
+ {
+  "word": "There",
+  "start": 53.08,
+  "end": 53.16
+ },
+ {
+  "word": "is",
+  "start": 53.16,
+  "end": 53.28
+ },
+ {
+  "word": "no",
+  "start": 53.28,
+  "end": 53.46
+ },
+ {
+  "word": "beta,",
+  "start": 53.46,
+  "end": 53.82
+ },
+ {
+  "word": "no",
+  "start": 54.16,
+  "end": 54.28
+ },
+ {
+  "word": "demo,",
+  "start": 54.28,
+  "end": 54.62
+ },
+ {
+  "word": "no",
+  "start": 54.94,
+  "end": 55.08
+ },
+ {
+  "word": "early",
+  "start": 55.08,
+  "end": 55.38
+ },
+ {
+  "word": "access.",
+  "start": 55.38,
+  "end": 55.76
+ },
+ {
+  "word": "Any",
+  "start": 56.3,
+  "end": 56.4
+ },
+ {
+  "word": "PC",
+  "start": 56.4,
+  "end": 56.74
+ },
+ {
+  "word": "download",
+  "start": 56.74,
+  "end": 57.16
+ },
+ {
+  "word": "link",
+  "start": 57.16,
+  "end": 57.48
+ },
+ {
+  "word": "today",
+  "start": 57.48,
+  "end": 57.78
+ },
+ {
+  "word": "is",
+  "start": 57.78,
+  "end": 58.06
+ },
+ {
+  "word": "a",
+  "start": 58.06,
+  "end": 58.14
+ },
+ {
+  "word": "scam.",
+  "start": 58.14,
+  "end": 58.48
+ },
+ {
+  "word": "So",
+  "start": 59.0,
+  "end": 59.08
+ },
+ {
+  "word": "watch",
+  "start": 59.08,
+  "end": 59.38
+ },
+ {
+  "word": "Rockstar's",
+  "start": 59.38,
+  "end": 59.98
+ },
+ {
+  "word": "own",
+  "start": 59.98,
+  "end": 60.12
+ },
+ {
+  "word": "announcements",
+  "start": 60.12,
+  "end": 60.6
+ },
+ {
+  "word": "that's",
+  "start": 60.6,
+  "end": 61.32
+ },
+ {
+  "word": "the",
+  "start": 61.32,
+  "end": 61.38
+ },
+ {
+  "word": "only",
+  "start": 61.38,
+  "end": 61.66
+ },
+ {
+  "word": "place",
+  "start": 61.66,
+  "end": 61.98
+ },
+ {
+  "word": "the",
+  "start": 61.98,
+  "end": 62.18
+ },
+ {
+  "word": "real",
+  "start": 62.18,
+  "end": 62.38
+ },
+ {
+  "word": "date",
+  "start": 62.38,
+  "end": 62.66
+ },
+ {
+  "word": "will",
+  "start": 62.66,
+  "end": 62.88
+ },
+ {
+  "word": "appear.",
+  "start": 62.88,
+  "end": 63.14
+ }
+]
