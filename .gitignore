@@ -81,6 +81,16 @@ public/batch6/v14-de/pompeii-words-de.json
 !public/batch6/v16-en/
 !public/batch6/v16-de/
 !public/batch6/v16-heartbeat.wav
+# Video 17 Great Smog of London (EN + DE, 2026-11-17): all 51 clips/photos
+# in v17-clips/ are used or referenced (incl. the 2 archive audios, which
+# stay on the VM for reference only — NOT used in the render, VO only).
+# Raw downloads (v17-raw/, 259 MB) stay on the VM.
+!public/batch6/v17-clips/
+!public/batch6/v17-clips/*.jpg
+!public/batch6/v17-clips/*.png
+!public/batch6/v17-en/
+!public/batch6/v17-de/
+public/batch6/v17-raw/
 # GTA 6 hype edit (EN only, no VO): 19 clips + launch-trailer music +
 # end-card background. Raw trailers (68 MB) stay on the VM.
 !public/batch6/gta6-clips/

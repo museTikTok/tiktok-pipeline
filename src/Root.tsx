@@ -45,6 +45,8 @@ import {Gta6Script9En} from './Gta6Script9En';
 import {Gta6ExtendedLookEn} from './Gta6ExtendedLookEn';
 import {BoxJellyfishVideoEn} from './BoxJellyfishVideoEn';
 import {BoxJellyfishVideoDe} from './BoxJellyfishVideoDe';
+import {SmogVideoEn} from './SmogVideoEn';
+import {SmogVideoDe} from './SmogVideoDe';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
 const calculateMetadata: CalculateMetadataFunction<CaptionVideoProps> = ({
@@ -644,6 +646,43 @@ const calculateBoxJellyfishDeMetadata: CalculateMetadataFunction<Record<string, 
 	};
 };
 
+// SmogVideoEn — video 17, The Great Smog of London, Dec 1952 (Axel 2026-11-17).
+// Self-contained (phrases + VO + CTA audio are loaded inside the component);
+// fixed duration 66.26s = 1988 frames (narration 62.67s + 0.6s silence +
+// CTA 2.99s from 63.27s). Kokoro bm_george speed 1.0 (narration) / 1.3
+// (CTA, enthusiastic). GRAVE subject — @cursednature1 system (v13/v14):
+// hook = real 1952 Nelson's Column photo + giant phrase, punch-out ~2.3s,
+// 1 sentence = 1 shot cut on the VO pause, 2 giant overlays ("1,000 TONNES",
+// "12,000"), bookend on the hook photo, CTA card (no subscriber count).
+// White bold phrase subtitles 60px; NO branding on the hook (handle from
+// 3 s); VO ONLY — no music, no drone, no archive audio (both archive audios
+// rejected after verification: Pathé = narration, Guardian = unconfirmed
+// rumble). PLEIN CADRE: every visual full frame on a blurred fill, no crop.
+// VO -21.8 dB boosted +0.5 dB (~-21.3 dB mix).
+const calculateSmogEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1988,
+		props,
+	};
+};
+
+// SmogVideoDe — video 17, DE (parallel with EN).
+// Fixed duration 65.80s = 1974 frames (narration 61.92s + 0.6s silence +
+// CTA 3.28s from 62.52s). Kokoro dm_martin speed 1.0 / 1.3 (CTA).
+// German subtitles fontSize 50 / maxWidth 840 (long-word rule:
+// "Großbritannien" = 431 px < 840 px). Branding @brainfeeder_de.
+// Overlays "1.000 TONNEN" and "12.000".
+const calculateSmogDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1974,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -1097,6 +1136,26 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateBoxJellyfishDeMetadata}
+			/>
+			<Composition
+				id="SmogVideoEn"
+				component={SmogVideoEn as React.FC<unknown>}
+				durationInFrames={1988}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateSmogEnMetadata}
+			/>
+			<Composition
+				id="SmogVideoDe"
+				component={SmogVideoDe as React.FC<unknown>}
+				durationInFrames={1974}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateSmogDeMetadata}
 			/>
 		</>
 	);
