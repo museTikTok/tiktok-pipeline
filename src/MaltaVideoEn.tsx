@@ -559,10 +559,10 @@ export const MaltaVideoEn: React.FC = () => {
 
       {/* 9 — S8 (28.12-33.12s): "But the animals weren't so lucky — race
           horses, dairy cows, birds were killed." Guardian roadside drive
-          (G3, startFrom 0.6): fields + rubble-stone walls. NO badge —
+          (G3, startFrom 2.7 — skips the Guardian baked caption box, clip 0.1-2.6s): fields + rubble-stone walls. NO badge —
           no animal imagery, per the brief. */}
       <Sequence from={S(28.12)} durationInFrames={S(33.12) - S(28.12)}>
-        <ClipShot clip="v18-g3.mp4" durationInFrames={S(33.12) - S(28.12)} startFrom={0.6} zoom={1.08} />
+        <ClipShot clip="v18-g3.mp4" durationInFrames={S(33.12) - S(28.12)} startFrom={2.7} zoom={1.08} />
       </Sequence>
 
       {/* 10 — S9 (33.12-35.70s): "Over fifty police reports of damage
@@ -589,20 +589,21 @@ export const MaltaVideoEn: React.FC = () => {
       </Sequence>
 
       {/* 12 — S11 (39.06-43.80s): "An illegal electricity cable, running
-          in from a nearby farm, caught fire." G3 drive (startFrom 11.1):
-          the power pole + lines cross the smoke column at ~clip 12.6s.
+          in from a nearby farm, caught fire." G3 drive (startFrom 5.6 —
+          re-cut 2026-11-17: Guardian source freezes after ~38s, so G3 is
+          only 23.4-37.5s; all G3 shots now reuse its 0-13.5s window).
           Chip "ILLEGAL CABLE" on "illegal" (delay 10). */}
       <Sequence from={S(39.06)} durationInFrames={S(43.8) - S(39.06)}>
-        <ClipShot clip="v18-g3.mp4" durationInFrames={S(43.8) - S(39.06)} startFrom={11.1} zoom={1.08}>
+        <ClipShot clip="v18-g3.mp4" durationInFrames={S(43.8) - S(39.06)} startFrom={5.6} zoom={1.08}>
           <Chip text="ILLEGAL CABLE" top={210} delay={10} />
         </ClipShot>
       </Sequence>
 
       {/* 13 — S12 (43.80-47.68s): "The factory used it for twenty-six
           years, with no compliance certificate." G3 drive (startFrom
-          13.0). Giant "26 YEARS" on "twenty-six" (delay 29). */}
+          2.7 — skips the Guardian baked caption box). Giant "26 YEARS" on "twenty-six" (delay 29). */}
       <Sequence from={S(43.8)} durationInFrames={S(47.68) - S(43.8)}>
-        <ClipShot clip="v18-g3.mp4" durationInFrames={S(47.68) - S(43.8)} startFrom={13} zoom={1.08}>
+        <ClipShot clip="v18-g3.mp4" durationInFrames={S(47.68) - S(43.8)} startFrom={2.7} zoom={1.08}>
           <BigOverlay top={700} delay={29} lines={[{ text: '26 YEARS', color: '#ffd60a', size: 150 }]} />
         </ClipShot>
       </Sequence>
@@ -618,9 +619,9 @@ export const MaltaVideoEn: React.FC = () => {
 
       {/* 15 — S14 (51.42-55.56s): "Instead, they buried a temporary
           extension cable underground. It caught fire." G3 drive
-          (startFrom 15.7, the last stretch of the clip). No badge. */}
+          (startFrom 8.9). No badge. */}
       <Sequence from={S(51.42)} durationInFrames={S(55.56) - S(51.42)}>
-        <ClipShot clip="v18-g3.mp4" durationInFrames={S(55.56) - S(51.42)} startFrom={15.7} zoom={1.08} />
+        <ClipShot clip="v18-g3.mp4" durationInFrames={S(55.56) - S(51.42)} startFrom={8.9} zoom={1.08} />
       </Sequence>
 
       {/* 16 — S15 (55.56-59.80s): "Eight to eleven tonnes of explosives
@@ -644,9 +645,9 @@ export const MaltaVideoEn: React.FC = () => {
       </Sequence>
 
       {/* 18 — S17 (63.58-66.14s): "Now, criminal charges are expected."
-          G3 drive end (startFrom 17.0, source 40.4-42.9s). No badge. */}
+          G3 drive (startFrom 6.0). No badge. */}
       <Sequence from={S(63.58)} durationInFrames={S(66.14) - S(63.58)}>
-        <ClipShot clip="v18-g3.mp4" durationInFrames={S(66.14) - S(63.58)} startFrom={17} zoom={1.08} />
+        <ClipShot clip="v18-g3.mp4" durationInFrames={S(66.14) - S(63.58)} startFrom={6} zoom={1.08} />
       </Sequence>
 
       {/* CTA (66.14-69.58s): "Follow for more true stories that sound
