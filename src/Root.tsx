@@ -47,6 +47,10 @@ import {BoxJellyfishVideoEn} from './BoxJellyfishVideoEn';
 import {BoxJellyfishVideoDe} from './BoxJellyfishVideoDe';
 import {SmogVideoEn} from './SmogVideoEn';
 import {SmogVideoDe} from './SmogVideoDe';
+import {MaltaVideoEn} from './MaltaVideoEn';
+import {MaltaVideoDe} from './MaltaVideoDe';
+import {Gta6PcVideoEn} from './Gta6PcVideoEn';
+import {Gta6WweMemeEn} from './Gta6WweMemeEn';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
 const calculateMetadata: CalculateMetadataFunction<CaptionVideoProps> = ({
@@ -683,6 +687,74 @@ const calculateSmogDeMetadata: CalculateMetadataFunction<Record<string, never>> 
 	};
 };
 
+// MaltaVideoEn — video 18, Malta fireworks factory explosion, 1 June 2026
+// (Axel 2026-11-17). Self-contained (words + VO + CTA audio are loaded
+// inside the component); fixed duration 69.58s = 2087 frames (narration
+// 62.54s + 0.6s silence + CTA 2.44s from 66.14s; tail 1.0s after last word).
+// Kokoro bm_george speed 1.15 (narration) / 1.3 (CTA, enthusiastic).
+// HOOK (Axel 2026-11-17): explosion in motion 0-3s, no text/branding;
+// hook phrase on shot 2. Standard BrainFeeder system: Titan One yellow
+// word-by-word subtitles (EN fontSize 62), neon branding @brainfeeder_uk
+// after 3 s, real Guardian + Al Jazeera clips only, map rendered from
+// Natural Earth 10m. Subtitles RAISED to bottom:700 during the AJ shots
+// (baked archive captions below). Real boom audio 0-3s.
+const calculateMaltaEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2087,
+		props,
+	};
+};
+
+// MaltaVideoDe — video 18, DE (parallel with EN).
+// Fixed duration 69.32s = 2080 frames (narration 61.90s + 0.6s silence +
+// CTA 2.82s from 65.50s). Kokoro dm_martin speed 1.15 / 1.3 (CTA).
+// German subtitles fontSize 50 / maxWidth 840 (long-word rule:
+// "Lourdes-Feuerwerksfabrik" = 751 px < 840 px). Branding @brainfeeder_de.
+const calculateMaltaDeMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2080,
+		props,
+	};
+};
+
+// Gta6PcVideoEn — GTA 6 sur PC, vidéo informative (script 1 redirigé, Axel 2026-11-17).
+// Fixed duration 65.63s = 1969 frames (narration 63.37s + 0.6s silence +
+// CTA 1.66s from 63.97s). Kokoro bm_george speed 1.15 (narration) / 1.3
+// (CTA, enthusiastic). Titan One yellow word-by-word subtitles (EN fontSize
+// 62, bottom 360). Music: "Love Is a Long Road" — Tom Petty (intro GTA 6,
+// extracted from trailer 1) under the VO, ~-18 dB under the voice.
+// Memes FULL SCREEN (doubt, scam, bruh, facepalm). NO handle anywhere.
+// Q1 2027 = REPORT GamesBeat, never "PC confirmed".
+const calculateGta6PcEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1969,
+		props,
+	};
+};
+
+// Gta6WweMemeEn — remake du meme WWE "gf/wife vs GTA 6" (Axel 2026-11-17).
+// Fixed duration 17.50s = 525 frames (4 clips WWE à vitesse naturelle +
+// carte de fin 2s — comme la référence, 17s). EN ONLY, no voiceover, no
+// music: audio WWE original (Jey au micro, foule, commentateurs).
+// PLEIN CADRE sur fond flouté uniquement, JAMAIS de crop 9:16 centré
+// (les lutteurs sont aux bords du cadre) ; JAMAIS de zoom sur l'homme au
+// tapis (la victime du superkick est Roman Reigns, pas Jimmy).
+// AUCUN handle dans la vidéo.
+const calculateGta6WweMemeEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 525,
+		props,
+	};
+};
+
 export const RemotionRoot: React.FC = () => {
 	return (
 		<>
@@ -1156,6 +1228,46 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateSmogDeMetadata}
+			/>
+			<Composition
+				id="MaltaVideoEn"
+				component={MaltaVideoEn as React.FC<unknown>}
+				durationInFrames={2087}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateMaltaEnMetadata}
+			/>
+			<Composition
+				id="MaltaVideoDe"
+				component={MaltaVideoDe as React.FC<unknown>}
+				durationInFrames={2080}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateMaltaDeMetadata}
+			/>
+			<Composition
+				id="Gta6PcVideoEn"
+				component={Gta6PcVideoEn as React.FC<unknown>}
+				durationInFrames={1969}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6PcEnMetadata}
+			/>
+			<Composition
+				id="Gta6WweMemeEn"
+				component={Gta6WweMemeEn as React.FC<unknown>}
+				durationInFrames={525}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6WweMemeEnMetadata}
 			/>
 		</>
 	);

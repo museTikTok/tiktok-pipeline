@@ -90,6 +90,15 @@ public/batch6/v14-de/pompeii-words-de.json
 !public/batch6/v17-clips/*.png
 !public/batch6/v17-en/
 !public/batch6/v17-de/
+# Video 18 Malta fireworks factory explosion (EN + DE, 2026-11-17): all 5
+# clips + boom audio + map image + VO/words are used by MaltaVideoEn/De.
+# Raw downloads (v18-raw/, ~25 MB) stay on the VM.
+!public/batch6/v18-clips/
+!public/batch6/v18-images/
+!public/batch6/v18-images/*.png
+!public/batch6/v18-en/
+!public/batch6/v18-de/
+public/batch6/v18-raw/
 public/batch6/v17-raw/
 # GTA 6 hype edit (EN only, no VO): 19 clips + launch-trailer music +
 # end-card background. Raw trailers (68 MB) stay on the VM.
