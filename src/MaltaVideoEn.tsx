@@ -386,14 +386,16 @@ const Grain: React.FC = () => {
  * SAFE ZONE: bottom: 360 normally — but RAISED to bottom: 700 during the
  * Al Jazeera shots (S1 3.05-6.32, S4-S7 15.14-28.12) and the CNN bay shot
  * (S7 24.46-28.12), where the archive's own baked captions sit at
- * y~1330-1650. Suppressed from the CTA (66.14s):
+ * y~1330-1650 — PLUS S16 (59.80-63.58): the A3 "Two men working in fields
+ * nearby were injured." caption runs from source ~13.7s (NOT 22s as first
+ * mapped — v1 render showed the overlap). Suppressed from the CTA (66.14s):
  * the CTA card IS the text. */
 const Caption: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
   if (t >= 66.14) return null;
-  const raised = (t >= 3.05 && t < 6.32) || (t >= 15.14 && t < 28.12);
+  const raised = (t >= 3.05 && t < 6.32) || (t >= 15.14 && t < 28.12) || (t >= 59.8 && t < 63.58);
   const idx = WORDS.findIndex((w) => t >= w.start && t <= w.end + 0.12);
   const i = idx >= 0 ? idx : WORDS.findIndex((w) => w.start > t) - 1;
   if (i < 0) return null;
@@ -641,8 +643,10 @@ export const MaltaVideoEn: React.FC = () => {
 
       {/* 17 — S16 (59.80-63.58s): "The same factory had already exploded
           before — in twenty eighteen." A3 coastal (startFrom 0, source
-          13.7-17.6s: dust column over the bay). Chip "2018" on "twenty"
-          (delay 78). */}
+          13.7-17.6s: dust column over the bay). The baked "Two men..."
+          caption runs here (source ~13.7-17s) — subtitles RAISED (fix
+          2026-11-18: v1 had them at bottom:360, overlapping the baked
+          caption). Chip "2018" on "twenty" (delay 78). */}
       <Sequence from={S(59.8)} durationInFrames={S(63.58) - S(59.8)}>
         <ClipShot clip="v18-aj-a3.mp4" durationInFrames={S(63.58) - S(59.8)} startFrom={0} zoom={1.08}>
           <Chip text="2018" top={210} delay={78} />

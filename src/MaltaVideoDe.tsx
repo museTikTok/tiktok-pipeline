@@ -388,7 +388,9 @@ const Grain: React.FC = () => {
  * SAFE ZONE: bottom: 360 normally — but RAISED to bottom: 700 during the
  * Al Jazeera shots (S1 3.05-6.94, S4-S7 15.84-29.14) and the CNN bay shot
  * (S7 26.02-29.14), where the archive's own baked captions sit at
- * y~1330-1650. Suppressed from the CTA (65.50s):
+ * y~1330-1650 — PLUS S16 (59.40-63.56): the A3 "Two men..." caption runs
+ * from source ~13.7s (NOT 22s as first mapped — v1 render showed the
+ * overlap). Suppressed from the CTA (65.50s):
  * the CTA card IS the text.
  * DE fontSize 50, maxWidth 840 (German compound words are unbreakable). */
 const Caption: React.FC = () => {
@@ -396,7 +398,7 @@ const Caption: React.FC = () => {
   const { fps } = useVideoConfig();
   const t = frame / fps;
   if (t >= 65.5) return null;
-  const raised = (t >= 3.05 && t < 6.94) || (t >= 15.84 && t < 29.14);
+  const raised = (t >= 3.05 && t < 6.94) || (t >= 15.84 && t < 29.14) || (t >= 59.4 && t < 63.56);
   const idx = WORDS.findIndex((w) => t >= w.start && t <= w.end + 0.12);
   const i = idx >= 0 ? idx : WORDS.findIndex((w) => w.start > t) - 1;
   if (i < 0) return null;
@@ -651,6 +653,8 @@ export const MaltaVideoDe: React.FC = () => {
       {/* 17 — S16 (59.40-63.56s): "Dieselbe Fabrik war schon einmal
           explodiert — im Jahr zweitausendachtzehn." A3 coastal
           (startFrom 0, source 13.7-17.9s: dust column over the bay).
+          Die eingebrannte "Two men..."-Unterschrift läuft hier (Quelle
+          ~13.7-17s) — Untertitel HOCH (Fix 2026-11-18: v1 unten, überlappt).
           Chip "2018" on "zweitausendachtzehn" (delay 85). */}
       <Sequence from={S(59.4)} durationInFrames={S(63.56) - S(59.4)}>
         <ClipShot clip="v18-aj-a3.mp4" durationInFrames={S(63.56) - S(59.4)} startFrom={0} zoom={1.08}>
