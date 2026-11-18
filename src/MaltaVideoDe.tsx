@@ -386,8 +386,9 @@ const Grain: React.FC = () => {
 
 /** Word-by-word yellow karaoke subtitles (Titan One).
  * SAFE ZONE: bottom: 360 normally — but RAISED to bottom: 700 during the
- * Al Jazeera shots (S1 3.05-6.94, S4-S7 15.84-29.14), where the archive's
- * own baked captions sit at y~1330-1650. Suppressed from the CTA (65.50s):
+ * Al Jazeera shots (S1 3.05-6.94, S4-S7 15.84-29.14) and the CNN bay shot
+ * (S7 26.02-29.14), where the archive's own baked captions sit at
+ * y~1330-1650. Suppressed from the CTA (65.50s):
  * the CTA card IS the text.
  * DE fontSize 50, maxWidth 840 (German compound words are unbreakable). */
 const Caption: React.FC = () => {
@@ -556,11 +557,16 @@ export const MaltaVideoDe: React.FC = () => {
       </Sequence>
 
       {/* 8 — S7 (26.02-29.14s): "Zwei Männer auf Feldern in der Nähe
-          wurden verletzt — nur leicht." A3 continued (startFrom 8.3,
-          source 22.0-25.1s). Chip "2 VERLETZTE" on "Zwei" (delay 0).
-          Subtitles RAISED (baked caption "Two men..."). */}
+          wurden verletzt — nur leicht." CNN-Bucht (v18-cnn-bay.mp4,
+          Quelle 8.5-12.5s): Pilzwolke + rote Sekundärexplosionen über
+          St Paul's Bay, Autos, Wasser — QUALITÄTSWECHSEL 2026-11-18
+          (Axel-Regel): das AJ-A3-Ende (Quelle 22.0-25.1s) war das
+          weichste Material im Video (Laplacian 50-55); die CNN-1080p-
+          Version derselben Bucht ist schärfer (100-126) und dramatischer.
+          Chip "2 VERLETZTE" on "Zwei" (delay 0). Untertitel HOCH
+          (eingebrannte CNN-Untertitel). */}
       <Sequence from={S(26.02)} durationInFrames={S(29.14) - S(26.02)}>
-        <ClipShot clip="v18-aj-a3.mp4" durationInFrames={S(29.14) - S(26.02)} startFrom={8.3} zoom={1.08}>
+        <ClipShot clip="v18-cnn-bay.mp4" durationInFrames={S(29.14) - S(26.02)} startFrom={0} zoom={1.08}>
           <Chip text="2 VERLETZTE" top={210} delay={0} />
         </ClipShot>
       </Sequence>

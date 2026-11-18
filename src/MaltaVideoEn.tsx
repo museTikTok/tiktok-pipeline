@@ -384,8 +384,9 @@ const Grain: React.FC = () => {
 
 /** Word-by-word yellow karaoke subtitles (Titan One).
  * SAFE ZONE: bottom: 360 normally — but RAISED to bottom: 700 during the
- * Al Jazeera shots (S1 3.05-6.32, S4-S7 15.14-28.12), where the archive's
- * own baked captions sit at y~1330-1650. Suppressed from the CTA (66.14s):
+ * Al Jazeera shots (S1 3.05-6.32, S4-S7 15.14-28.12) and the CNN bay shot
+ * (S7 24.46-28.12), where the archive's own baked captions sit at
+ * y~1330-1650. Suppressed from the CTA (66.14s):
  * the CTA card IS the text. */
 const Caption: React.FC = () => {
   const frame = useCurrentFrame();
@@ -548,11 +549,15 @@ export const MaltaVideoEn: React.FC = () => {
       </Sequence>
 
       {/* 8 — S7 (24.46-28.12s): "Two men working in nearby fields were
-          hurt — only minor injuries." A3 continued (startFrom 8.3,
-          source 22.0-25.7s). Chip "2 INJURED" on "Two" (delay 0).
-          Subtitles RAISED (baked caption "Two men..."). */}
+          hurt — only minor injuries." CNN bay angle (v18-cnn-bay.mp4,
+          source 8.5-12.5s): mushroom cloud + red secondary blasts over
+          St Paul's Bay, cars, water — QUALITY SWAP 2026-11-18 (Axel rule):
+          the AJ A3 tail (source 22.0-25.7s) was the softest footage in the
+          video (Laplacian 50-55); the CNN 1080p version of the same bay
+          view is sharper (100-126) and more dramatic. Chip "2 INJURED"
+          on "Two" (delay 0). Subtitles RAISED (baked CNN caption). */}
       <Sequence from={S(24.46)} durationInFrames={S(28.12) - S(24.46)}>
-        <ClipShot clip="v18-aj-a3.mp4" durationInFrames={S(28.12) - S(24.46)} startFrom={8.3} zoom={1.08}>
+        <ClipShot clip="v18-cnn-bay.mp4" durationInFrames={S(28.12) - S(24.46)} startFrom={0} zoom={1.08}>
           <Chip text="2 INJURED" top={210} delay={0} />
         </ClipShot>
       </Sequence>
