@@ -49,8 +49,16 @@ import {SmogVideoEn} from './SmogVideoEn';
 import {SmogVideoDe} from './SmogVideoDe';
 import {MaltaVideoEn} from './MaltaVideoEn';
 import {MaltaVideoDe} from './MaltaVideoDe';
+import {MothmanVideoEn} from './MothmanVideoEn';
 import {Gta6PcVideoEn} from './Gta6PcVideoEn';
 import {Gta6WweMemeEn} from './Gta6WweMemeEn';
+import {Gta6Script2En} from './Gta6Script2En';
+import {Gta5LastRideEn} from './Gta5LastRideEn';
+import {Gta6FirstLookEn} from './Gta6FirstLookEn';
+import {Gta6GlitchesEn} from './Gta6GlitchesEn';
+import {Gta6GlitchesPart2En} from './Gta6GlitchesPart2En';
+import {Gta6PcRumorsEn} from './Gta6PcRumorsEn';
+import {HaboobVideoEn} from './HaboobVideoEn';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
 const calculateMetadata: CalculateMetadataFunction<CaptionVideoProps> = ({
@@ -721,6 +729,28 @@ const calculateMaltaDeMetadata: CalculateMetadataFunction<Record<string, never>>
 	};
 };
 
+// MothmanVideoEn — video 19, Mothman, Point Pleasant WV 1966-1967
+// (Axel 2026-11-23). ENGLISH ONLY — Axel 2026-11-23 01:14: "Arrête les
+// versions DE jusqu'à nouvel ordre" (no DE version of v19).
+// Self-contained (phrases + VO + CTA audio are loaded inside the component);
+// fixed duration 69.31s = 2080 frames (narration 65.72s + 0.6s silence +
+// CTA 2.99s from 66.32s). Kokoro bm_george speed 1.0 (narration) / 1.3
+// (CTA, enthusiastic). GRAVE subject — @cursednature1 system (v13/v17):
+// hook = real 2025 statue photo + giant phrase, 1 sentence = 1 shot cut
+// on the VO pause, 2 giant overlays ("100+", "46"), bookend on the hook
+// photo, CTA card (no subscriber count). White bold phrase subtitles 60px;
+// NO branding on the hook (handle from 3 s); grave drone at 0.15 under
+// S8-S11 only; VO ONLY otherwise. PLEIN CADRE: every visual full frame on
+// a blurred fill, no crop. VO -24.9 dB boosted +3.6 dB (~-21.3 dB mix).
+const calculateMothmanEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2080,
+		props,
+	};
+};
+
 // Gta6PcVideoEn — GTA 6 sur PC, vidéo informative (script 1 redirigé, Axel 2026-11-17).
 // Fixed duration 65.63s = 1969 frames (narration 63.37s + 0.6s silence +
 // CTA 1.66s from 63.97s). Kokoro bm_george speed 1.15 (narration) / 1.3
@@ -751,6 +781,113 @@ const calculateGta6WweMemeEnMetadata: CalculateMetadataFunction<Record<string, n
 }) => {
 	return {
 		durationInFrames: 525,
+		props,
+	};
+};
+
+// Gta6Script2En — GTA 6 « 4 numbers before Thursday » (script 2, Axel GO 2026-11-18).
+// Fixed duration 33.17s = 995 frames (68 beats at 123 BPM, 1 beat = 0.4878 s).
+// EN ONLY, no voiceover: Justice « Flower in a Hurricane » (drop cut, already on
+// disk from edit n°2) + 15 fresh clips validated by Axel 2026-11-18, cut on the
+// beat, one number = one downbeat. NO handle anywhere. End: « 0 MICROTRANSACTIONS
+// IN THE STORY. THURSDAY. MIDNIGHT. » + FOLLOW.
+const calculateGta6Script2EnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 995,
+		props,
+	};
+};
+
+// Gta5LastRideEn — GTA 5 « The Last Ride » (Axel GO 2026-11-18 15:03).
+// Fixed duration 53.33s = 1600 frames (104 beats at 117.45 BPM, 1 beat =
+// 0.5108 s). EN ONLY, no voiceover: Tom Petty « Love Is a Long Road » (GTA 6
+// trailer 1, already on disk) + 17 shots from the 29 Last Ride clips, cut on
+// the beat. Every on-screen text is illustrated by its clip (Axel's rule).
+// NO handle anywhere. End: « SEE YOU IN VICE CITY. TOMORROW. »
+const calculateGta5LastRideEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1600,
+		props,
+	};
+};
+
+// Gta6FirstLookEn — « First Look of GTA 6 » (Axel, 2026-11-18 soir).
+// Fixed duration 47 s = 1410 frames (5 clips exacts de StiM971, timecodes
+// d'Axel : 9+8+10+10+10 s). EN ONLY, no voiceover: Tom Petty « Love Is a
+// Long Road » + 5 shots, plein cadre + fond flouté (AUCUN recadrage, règle
+// durcie Last Ride v2). NO handle anywhere. End: « GTA 6. TOMORROW. » + FOLLOW.
+const calculateGta6FirstLookEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1410,
+		props,
+	};
+};
+
+// Gta6GlitchesEn — « GTA 6 launch-day glitches » (Axel, 2026-11-19).
+// Fixed duration 48 s = 1440 frames (6 reels Instagram vérifiés + bookend g1).
+// EN ONLY, no voiceover: Tom Petty « Love Is a Long Road » + 7 shots, plein
+// cadre + fond flouté (AUCUN recadrage 9:16, règle durcie Last Ride v2).
+// Exception vérifiée : g4 recadré à la bande gameplay seule (facecam retirée).
+// NO handle anywhere. End: « GTA 6. OUT NOW. » + FOLLOW (bookend camion).
+const calculateGta6GlitchesEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1440,
+		props,
+	};
+};
+
+// Gta6GlitchesPart2En — « GTA 6 glitches PART 2 — IT GETS WORSE » (Axel, 2026-11-20).
+// Fixed duration 61.3 s = 1839 frames (5 glitchs + 6 memes réaction plein
+// écran + bookend chien). EN ONLY, no voiceover: Tom Petty « Love Is a Long
+// Road » + 12 shots, plein cadre + fond flouté (AUCUN recadrage 9:16, règle
+// durcie Last Ride v2). Exceptions vérifiées : p3 recadré à la bande
+// gameplay seule (facecam retirée), r4 recadré-centré sur Travolta.
+// NO handle anywhere. End: « GTA 6. OUT NOW. » + FOLLOW (bookend chien).
+const calculateGta6GlitchesPart2EnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1839,
+		props,
+	};
+};
+
+// Gta6PcRumorsEn — « GTA 6 on PC? The rumors » (Axel, 2026-11-22 19:00).
+// Fixed duration 59.54 s = 1786 frames (narration 57.04 s + 2.5 s tail
+// for the FOLLOW end card). Kokoro bm_george speed 1.15. NO music, NO
+// handle, NO CTA voiceover. RUMOR (GamesBeat Q1 2027) vs CONFIRMED
+// (Nov 19 PS5+Xbox only, Zelnick quotes) vs FAKE (joke-video spec sheet,
+// malware downloads) distinguished on screen with colour-coded pills.
+const calculateGta6PcRumorsEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1786,
+		props,
+	};
+};
+
+// HaboobVideoEn — Facebook Reel "The dust wall that swallowed a city",
+// Phoenix haboob 5 July 2011 (EN ONLY, no series number, no DE version).
+// Fixed duration 50.0 s = 1500 frames (VO 47.50 s + 2.5 s tail).
+// Kokoro bm_george speed 1.0. Real clips/photos of THIS event only;
+// S5 mechanism is a labelled Remotion diagram (no thunderstorm footage
+// of this event exists). NO branding/handle anywhere (brief). White Titan
+// One subtitles, selective yellow key words. Music bed: CC0 Real SFX
+// drone + self-generated wind swell (Pixabay blocked on this VM).
+const calculateHaboobEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1500,
 		props,
 	};
 };
@@ -1250,6 +1387,16 @@ export const RemotionRoot: React.FC = () => {
 				calculateMetadata={calculateMaltaDeMetadata}
 			/>
 			<Composition
+				id="MothmanVideoEn"
+				component={MothmanVideoEn as React.FC<unknown>}
+				durationInFrames={2080}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateMothmanEnMetadata}
+			/>
+			<Composition
 				id="Gta6PcVideoEn"
 				component={Gta6PcVideoEn as React.FC<unknown>}
 				durationInFrames={1969}
@@ -1268,6 +1415,76 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateGta6WweMemeEnMetadata}
+			/>
+			<Composition
+				id="Gta6Script2En"
+				component={Gta6Script2En as React.FC<unknown>}
+				durationInFrames={995}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6Script2EnMetadata}
+			/>
+			<Composition
+				id="Gta5LastRideEn"
+				component={Gta5LastRideEn as React.FC<unknown>}
+				durationInFrames={1600}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta5LastRideEnMetadata}
+			/>
+			<Composition
+				id="Gta6FirstLookEn"
+				component={Gta6FirstLookEn as React.FC<unknown>}
+				durationInFrames={1410}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6FirstLookEnMetadata}
+			/>
+			<Composition
+				id="Gta6GlitchesEn"
+				component={Gta6GlitchesEn as React.FC<unknown>}
+				durationInFrames={1440}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6GlitchesEnMetadata}
+			/>
+			<Composition
+				id="Gta6GlitchesPart2En"
+				component={Gta6GlitchesPart2En as React.FC<unknown>}
+				durationInFrames={1839}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6GlitchesPart2EnMetadata}
+			/>
+			<Composition
+				id="Gta6PcRumorsEn"
+				component={Gta6PcRumorsEn as React.FC<unknown>}
+				durationInFrames={1786}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6PcRumorsEnMetadata}
+			/>
+			<Composition
+				id="HaboobVideoEn"
+				component={HaboobVideoEn as React.FC<unknown>}
+				durationInFrames={1500}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateHaboobEnMetadata}
 			/>
 		</>
 	);

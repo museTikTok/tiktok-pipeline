@@ -99,6 +99,17 @@ public/batch6/v14-de/pompeii-words-de.json
 !public/batch6/v18-en/
 !public/batch6/v18-de/
 public/batch6/v18-raw/
+# Video 19 Mothman, Point Pleasant WV 1966-1967 (EN ONLY, 2026-11-23 — Axel:
+# "Arrête les versions DE jusqu'à nouvel ordre", no DE version). Clips +
+# photos + map image + VO/phrases used by MothmanVideoEn. Raw downloads
+# (v19-raw/, ~150 MB incl. the 2 YouTube documentaries) stay on the VM.
+!public/batch6/v19-clips/
+!public/batch6/v19-clips/*.jpg
+!public/batch6/v19-clips/*.png
+!public/batch6/v19-images/
+!public/batch6/v19-images/*.png
+!public/batch6/v19-en/
+public/batch6/v19-raw/
 # GTA 6 PC video (main chat, 2026-11-17): only the component + words JSON
 # are committed so the repo builds (Root.tsx imports it); its 43 MB of
 # clips/music stay on the VM (VM render only, published 2026-11-17).
@@ -263,3 +274,12 @@ profile_pic.jpg
 skills-lock.json
 *.log
 .DS_Store
+# Facebook Reel — Phoenix haboob (EN only, 2026-11-19): all assets used by
+# HaboobVideoEn (9 clips + VO + words + map + 2 photos + music bed).
+!public/facebook/
+!public/facebook/haboob/
+!public/facebook/haboob/*.mp4
+!public/facebook/haboob/*.mp3
+!public/facebook/haboob/*.jpg
+!public/facebook/haboob/*.json
+!public/facebook/haboob/*.png
