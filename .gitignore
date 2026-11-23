@@ -115,6 +115,15 @@ public/batch6/v19-raw/
 # clips/music stay on the VM (VM render only, published 2026-11-17).
 !public/batch6/gta6-pc/
 !public/batch6/gta6-pc/words-en.json
+# CI build fix (2026-11-23): Root.tsx imports 7 more components whose files
+# were never committed, so every CI bundle failed after v18 (first failure:
+# v19 run 45090721652, "Can't resolve './Gta6Script2En'"). Same precedent as
+# gta6-pc above: commit ONLY the components + their words JSONs so the repo
+# builds; their clips stay on the VM (VM renders only).
+!public/batch6/gta5-last-ride/
+!public/batch6/gta5-last-ride/words-en.json
+!public/batch6/gta6-pc-rumors/
+!public/batch6/gta6-pc-rumors/words-en.json
 public/batch6/v17-raw/
 # GTA 6 hype edit (EN only, no VO): 19 clips + launch-trailer music +
 # end-card background. Raw trailers (68 MB) stay on the VM.

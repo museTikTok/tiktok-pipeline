@@ -1,0 +1,622 @@
+[
+  {
+    "word": "Imagine",
+    "start": 0.0,
+    "end": 0.32
+  },
+  {
+    "word": "watching",
+    "start": 0.32,
+    "end": 0.72
+  },
+  {
+    "word": "an",
+    "start": 0.72,
+    "end": 0.88
+  },
+  {
+    "word": "entire",
+    "start": 0.88,
+    "end": 1.26
+  },
+  {
+    "word": "city",
+    "start": 1.26,
+    "end": 1.56
+  },
+  {
+    "word": "disappear",
+    "start": 1.56,
+    "end": 2.06
+  },
+  {
+    "word": "behind",
+    "start": 2.06,
+    "end": 2.52
+  },
+  {
+    "word": "a",
+    "start": 2.52,
+    "end": 2.72
+  },
+  {
+    "word": "wall",
+    "start": 2.72,
+    "end": 2.9
+  },
+  {
+    "word": "of",
+    "start": 2.9,
+    "end": 3.16
+  },
+  {
+    "word": "dust.",
+    "start": 3.16,
+    "end": 3.4
+  },
+  {
+    "word": "On",
+    "start": 4.06,
+    "end": 4.2
+  },
+  {
+    "word": "July",
+    "start": 4.2,
+    "end": 4.4
+  },
+  {
+    "word": "5,",
+    "start": 4.4,
+    "end": 4.92
+  },
+  {
+    "word": "2011,",
+    "start": 5.16,
+    "end": 5.92
+  },
+  {
+    "word": "a",
+    "start": 6.5,
+    "end": 6.54
+  },
+  {
+    "word": "massive",
+    "start": 6.54,
+    "end": 6.86
+  },
+  {
+    "word": "dust",
+    "start": 6.86,
+    "end": 7.14
+  },
+  {
+    "word": "storm",
+    "start": 7.14,
+    "end": 7.62
+  },
+  {
+    "word": "raced",
+    "start": 7.62,
+    "end": 7.78
+  },
+  {
+    "word": "toward",
+    "start": 7.78,
+    "end": 8.14
+  },
+  {
+    "word": "Phoenix,",
+    "start": 8.14,
+    "end": 8.54
+  },
+  {
+    "word": "Arizona,",
+    "start": 8.92,
+    "end": 9.32
+  },
+  {
+    "word": "what",
+    "start": 9.78,
+    "end": 10.0
+  },
+  {
+    "word": "was",
+    "start": 10.0,
+    "end": 10.14
+  },
+  {
+    "word": "coming",
+    "start": 10.14,
+    "end": 10.4
+  },
+  {
+    "word": "wasn't",
+    "start": 10.4,
+    "end": 10.8
+  },
+  {
+    "word": "an",
+    "start": 10.8,
+    "end": 10.88
+  },
+  {
+    "word": "ordinary",
+    "start": 10.88,
+    "end": 11.34
+  },
+  {
+    "word": "storm.",
+    "start": 11.34,
+    "end": 11.82
+  },
+  {
+    "word": "The",
+    "start": 12.3,
+    "end": 12.42
+  },
+  {
+    "word": "wall",
+    "start": 12.42,
+    "end": 12.66
+  },
+  {
+    "word": "stretched",
+    "start": 12.66,
+    "end": 12.96
+  },
+  {
+    "word": "nearly",
+    "start": 12.96,
+    "end": 13.28
+  },
+  {
+    "word": "100",
+    "start": 13.28,
+    "end": 13.82
+  },
+  {
+    "word": "miles",
+    "start": 13.82,
+    "end": 14.2
+  },
+  {
+    "word": "across,",
+    "start": 14.2,
+    "end": 14.56
+  },
+  {
+    "word": "reached",
+    "start": 15.14,
+    "end": 15.32
+  },
+  {
+    "word": "thousands",
+    "start": 15.32,
+    "end": 15.74
+  },
+  {
+    "word": "of",
+    "start": 15.74,
+    "end": 15.96
+  },
+  {
+    "word": "feet",
+    "start": 15.96,
+    "end": 16.14
+  },
+  {
+    "word": "into",
+    "start": 16.14,
+    "end": 16.38
+  },
+  {
+    "word": "the",
+    "start": 16.38,
+    "end": 16.54
+  },
+  {
+    "word": "sky",
+    "start": 16.54,
+    "end": 16.82
+  },
+  {
+    "word": "and",
+    "start": 16.82,
+    "end": 17.38
+  },
+  {
+    "word": "swept",
+    "start": 17.38,
+    "end": 17.62
+  },
+  {
+    "word": "across",
+    "start": 17.62,
+    "end": 18.0
+  },
+  {
+    "word": "the",
+    "start": 18.0,
+    "end": 18.24
+  },
+  {
+    "word": "region.",
+    "start": 18.24,
+    "end": 18.56
+  },
+  {
+    "word": "As",
+    "start": 19.08,
+    "end": 19.32
+  },
+  {
+    "word": "it",
+    "start": 19.32,
+    "end": 19.42
+  },
+  {
+    "word": "rolled",
+    "start": 19.42,
+    "end": 19.68
+  },
+  {
+    "word": "through",
+    "start": 19.68,
+    "end": 19.96
+  },
+  {
+    "word": "the",
+    "start": 19.96,
+    "end": 20.12
+  },
+  {
+    "word": "city,",
+    "start": 20.12,
+    "end": 20.46
+  },
+  {
+    "word": "visibility",
+    "start": 20.94,
+    "end": 21.24
+  },
+  {
+    "word": "dropped",
+    "start": 21.24,
+    "end": 21.72
+  },
+  {
+    "word": "to",
+    "start": 21.72,
+    "end": 21.96
+  },
+  {
+    "word": "almost",
+    "start": 21.96,
+    "end": 22.26
+  },
+  {
+    "word": "zero",
+    "start": 22.26,
+    "end": 22.68
+  },
+  {
+    "word": "in",
+    "start": 22.68,
+    "end": 23.0
+  },
+  {
+    "word": "some",
+    "start": 23.0,
+    "end": 23.24
+  },
+  {
+    "word": "areas.",
+    "start": 23.24,
+    "end": 23.66
+  },
+  {
+    "word": "Buildings",
+    "start": 24.24,
+    "end": 24.62
+  },
+  {
+    "word": "vanished",
+    "start": 24.62,
+    "end": 24.96
+  },
+  {
+    "word": "behind",
+    "start": 24.96,
+    "end": 25.34
+  },
+  {
+    "word": "the",
+    "start": 25.34,
+    "end": 25.52
+  },
+  {
+    "word": "dust,",
+    "start": 25.52,
+    "end": 25.86
+  },
+  {
+    "word": "and",
+    "start": 26.2,
+    "end": 26.3
+  },
+  {
+    "word": "powerful",
+    "start": 26.3,
+    "end": 26.6
+  },
+  {
+    "word": "winds",
+    "start": 26.6,
+    "end": 26.98
+  },
+  {
+    "word": "swept",
+    "start": 26.98,
+    "end": 27.34
+  },
+  {
+    "word": "through",
+    "start": 27.34,
+    "end": 27.64
+  },
+  {
+    "word": "the",
+    "start": 27.64,
+    "end": 27.78
+  },
+  {
+    "word": "streets,",
+    "start": 27.78,
+    "end": 28.08
+  },
+  {
+    "word": "but",
+    "start": 28.52,
+    "end": 28.7
+  },
+  {
+    "word": "this",
+    "start": 28.7,
+    "end": 28.88
+  },
+  {
+    "word": "wasn't",
+    "start": 28.88,
+    "end": 29.2
+  },
+  {
+    "word": "a",
+    "start": 29.2,
+    "end": 29.26
+  },
+  {
+    "word": "giant",
+    "start": 29.26,
+    "end": 29.58
+  },
+  {
+    "word": "sandstorm",
+    "start": 29.58,
+    "end": 30.14
+  },
+  {
+    "word": "born",
+    "start": 30.14,
+    "end": 30.44
+  },
+  {
+    "word": "out",
+    "start": 30.44,
+    "end": 30.7
+  },
+  {
+    "word": "of",
+    "start": 30.7,
+    "end": 30.82
+  },
+  {
+    "word": "nowhere.",
+    "start": 30.82,
+    "end": 31.18
+  },
+  {
+    "word": "Powerful",
+    "start": 31.76,
+    "end": 32.1
+  },
+  {
+    "word": "thunderstorms",
+    "start": 32.1,
+    "end": 32.88
+  },
+  {
+    "word": "generated",
+    "start": 32.88,
+    "end": 33.38
+  },
+  {
+    "word": "violent",
+    "start": 33.38,
+    "end": 33.92
+  },
+  {
+    "word": "downdrafts.",
+    "start": 33.92,
+    "end": 34.8
+  },
+  {
+    "word": "Those",
+    "start": 35.22,
+    "end": 35.32
+  },
+  {
+    "word": "winds",
+    "start": 35.32,
+    "end": 35.64
+  },
+  {
+    "word": "hit",
+    "start": 35.64,
+    "end": 35.92
+  },
+  {
+    "word": "the",
+    "start": 35.92,
+    "end": 36.08
+  },
+  {
+    "word": "ground,",
+    "start": 36.08,
+    "end": 36.4
+  },
+  {
+    "word": "spread",
+    "start": 36.9,
+    "end": 37.08
+  },
+  {
+    "word": "outward,",
+    "start": 37.08,
+    "end": 37.54
+  },
+  {
+    "word": "and",
+    "start": 37.98,
+    "end": 38.06
+  },
+  {
+    "word": "lifted",
+    "start": 38.06,
+    "end": 38.34
+  },
+  {
+    "word": "enormous",
+    "start": 38.34,
+    "end": 38.78
+  },
+  {
+    "word": "amounts",
+    "start": 38.78,
+    "end": 39.18
+  },
+  {
+    "word": "of",
+    "start": 39.18,
+    "end": 39.42
+  },
+  {
+    "word": "dust",
+    "start": 39.42,
+    "end": 39.64
+  },
+  {
+    "word": "into",
+    "start": 39.64,
+    "end": 40.0
+  },
+  {
+    "word": "the",
+    "start": 40.0,
+    "end": 40.22
+  },
+  {
+    "word": "air.",
+    "start": 40.22,
+    "end": 40.46
+  },
+  {
+    "word": "Meteorologists",
+    "start": 41.1,
+    "end": 41.74
+  },
+  {
+    "word": "call",
+    "start": 41.74,
+    "end": 42.16
+  },
+  {
+    "word": "this",
+    "start": 42.16,
+    "end": 42.4
+  },
+  {
+    "word": "a",
+    "start": 42.4,
+    "end": 42.54
+  },
+  {
+    "word": "haboob,",
+    "start": 42.54,
+    "end": 43.0
+  },
+  {
+    "word": "and",
+    "start": 43.32,
+    "end": 43.48
+  },
+  {
+    "word": "on",
+    "start": 43.48,
+    "end": 43.58
+  },
+  {
+    "word": "that",
+    "start": 43.58,
+    "end": 43.74
+  },
+  {
+    "word": "evening,",
+    "start": 43.74,
+    "end": 44.14
+  },
+  {
+    "word": "one",
+    "start": 44.58,
+    "end": 44.7
+  },
+  {
+    "word": "of",
+    "start": 44.7,
+    "end": 44.8
+  },
+  {
+    "word": "the",
+    "start": 44.8,
+    "end": 44.88
+  },
+  {
+    "word": "most",
+    "start": 44.88,
+    "end": 45.1
+  },
+  {
+    "word": "spectacular",
+    "start": 45.1,
+    "end": 45.62
+  },
+  {
+    "word": "examples",
+    "start": 45.62,
+    "end": 46.3
+  },
+  {
+    "word": "swept",
+    "start": 46.3,
+    "end": 46.78
+  },
+  {
+    "word": "across",
+    "start": 46.78,
+    "end": 47.12
+  },
+  {
+    "word": "Phoenix.",
+    "start": 47.12,
+    "end": 47.5
+  }
+]
