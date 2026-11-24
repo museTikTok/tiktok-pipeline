@@ -50,6 +50,7 @@ import {SmogVideoDe} from './SmogVideoDe';
 import {MaltaVideoEn} from './MaltaVideoEn';
 import {MaltaVideoDe} from './MaltaVideoDe';
 import {MothmanVideoEn} from './MothmanVideoEn';
+import {HessdalenVideoEn} from './HessdalenVideoEn';
 import {Gta6PcVideoEn} from './Gta6PcVideoEn';
 import {Gta6WweMemeEn} from './Gta6WweMemeEn';
 import {Gta6Script2En} from './Gta6Script2En';
@@ -58,6 +59,9 @@ import {Gta6FirstLookEn} from './Gta6FirstLookEn';
 import {Gta6GlitchesEn} from './Gta6GlitchesEn';
 import {Gta6GlitchesPart2En} from './Gta6GlitchesPart2En';
 import {Gta6PcRumorsEn} from './Gta6PcRumorsEn';
+import {Gta6Top5WtfEn} from './Gta6Top5WtfEn';
+import {Gta6Top5WtfV3En} from './Gta6Top5WtfV3En';
+import {Gta6Top5WtfV7En} from './Gta6Top5WtfV7En';
 import {HaboobVideoEn} from './HaboobVideoEn';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -751,6 +755,25 @@ const calculateMothmanEnMetadata: CalculateMetadataFunction<Record<string, never
 	};
 };
 
+// HessdalenVideoEn — video 22, The Hessdalen Lights, Norway 1981–today
+// (Axel 2026-11-24, pick #2). ENGLISH ONLY — DE versions suspended until
+// further order (no DE version of v22). Standard system (NOT grave-topic):
+// Titan One yellow word-by-word subtitles (EN fontSize 62), hook = real
+// 1982 three-lights photo + giant phrase, 1 sentence = 1 shot cut on the
+// VO pause, 2 giant overlays ("188", "8 OUT OF 9"), no separate follow CTA
+// (S11 is the comment question). Kokoro bm_george speed 1.15, VO 57.76 s,
+// -24.4 dB (no gain). Fixed duration 59.26s = 1778 frames (VO + 1.84s tail).
+// The Hauge 2007 spectrum photo (CC BY-NC-SA) is deliberately NOT used
+// (monetisation); all visuals are Project Hessdalen archive material.
+const calculateHessdalenEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1778,
+		props,
+	};
+};
+
 // Gta6PcVideoEn — GTA 6 sur PC, vidéo informative (script 1 redirigé, Axel 2026-11-17).
 // Fixed duration 65.63s = 1969 frames (narration 63.37s + 0.6s silence +
 // CTA 1.66s from 63.97s). Kokoro bm_george speed 1.15 (narration) / 1.3
@@ -871,6 +894,45 @@ const calculateGta6PcRumorsEnMetadata: CalculateMetadataFunction<Record<string, 
 }) => {
 	return {
 		durationInFrames: 1786,
+		props,
+	};
+};
+
+// Gta6Top5WtfEn — « TOP 5 WTF GTA 6 MOMENTS » (Axel, 2026-11-23).
+// Fixed duration 60.0 s = 1800 frames (HARD CAP Axel : 1 minute max).
+// EN ONLY, @raya.swift, countdown 5 -> 1, style Vice Clips.
+const calculateGta6Top5WtfEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1800,
+		props,
+	};
+};
+
+// Gta6Top5WtfV3En — « TOP 5 WTF GTA 6 MOMENTS » v3 (Axel, 2026-11-23).
+// 5 moments FRAIS (shark / tim tase x3 / summit FLIP / crash moto Axel /
+// jerma train), VO Gemini Rasalgethi, #3 flip mis en avant
+// (« Surtout le flip »). #2 = reel IG DgEuD9TE_u5 envoye par Axel,
+// avec zoom dynamique sur le ralenti d'ejection (ordre Axel).
+// Sortie v6 (v5 pris par un fichier SUPERSEDED aux anciens clips).
+const calculateGta6Top5WtfV3EnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1800,
+		props,
+	};
+};
+
+// Gta6Top5WtfV7En — « TOP 5 WTF GTA 6 MOMENTS » v7 (Axel, 2026-11-23).
+// v7 = v6 avec les CLIPS ENTIERS (118.0 s) — la regle 60 s ne s'applique
+// pas quand elle massacre les clips. Sortie v7.
+const calculateGta6Top5WtfV7EnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 3540,
 		props,
 	};
 };
@@ -1397,6 +1459,16 @@ export const RemotionRoot: React.FC = () => {
 				calculateMetadata={calculateMothmanEnMetadata}
 			/>
 			<Composition
+				id="HessdalenVideoEn"
+				component={HessdalenVideoEn as React.FC<unknown>}
+				durationInFrames={1778}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateHessdalenEnMetadata}
+			/>
+			<Composition
 				id="Gta6PcVideoEn"
 				component={Gta6PcVideoEn as React.FC<unknown>}
 				durationInFrames={1969}
@@ -1475,6 +1547,36 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateGta6PcRumorsEnMetadata}
+			/>
+			<Composition
+				id="Gta6Top5WtfEn"
+				component={Gta6Top5WtfEn as React.FC<unknown>}
+				durationInFrames={1800}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6Top5WtfEnMetadata}
+			/>
+			<Composition
+				id="Gta6Top5WtfV3En"
+				component={Gta6Top5WtfV3En as React.FC<unknown>}
+				durationInFrames={1800}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6Top5WtfV3EnMetadata}
+			/>
+			<Composition
+				id="Gta6Top5WtfV7En"
+				component={Gta6Top5WtfV7En as React.FC<unknown>}
+				durationInFrames={3540}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6Top5WtfV7EnMetadata}
 			/>
 			<Composition
 				id="HaboobVideoEn"

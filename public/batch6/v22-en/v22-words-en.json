@@ -1,0 +1,892 @@
+[
+ {
+  "word": "For",
+  "start": 0.0,
+  "end": 0.1
+ },
+ {
+  "word": "forty",
+  "start": 0.1,
+  "end": 0.36
+ },
+ {
+  "word": "years,",
+  "start": 0.36,
+  "end": 0.76
+ },
+ {
+  "word": "strange",
+  "start": 1.0,
+  "end": 1.16
+ },
+ {
+  "word": "lights",
+  "start": 1.16,
+  "end": 1.44
+ },
+ {
+  "word": "have",
+  "start": 1.44,
+  "end": 1.66
+ },
+ {
+  "word": "danced",
+  "start": 1.66,
+  "end": 1.9
+ },
+ {
+  "word": "over",
+  "start": 1.9,
+  "end": 2.18
+ },
+ {
+  "word": "a",
+  "start": 2.18,
+  "end": 2.3
+ },
+ {
+  "word": "valley",
+  "start": 2.3,
+  "end": 2.52
+ },
+ {
+  "word": "in",
+  "start": 2.52,
+  "end": 2.7
+ },
+ {
+  "word": "Norway",
+  "start": 2.7,
+  "end": 3.0
+ },
+ {
+  "word": "and",
+  "start": 3.2,
+  "end": 3.48
+ },
+ {
+  "word": "nobody",
+  "start": 3.48,
+  "end": 3.76
+ },
+ {
+  "word": "knows",
+  "start": 3.76,
+  "end": 4.0
+ },
+ {
+  "word": "what",
+  "start": 4.0,
+  "end": 4.28
+ },
+ {
+  "word": "they",
+  "start": 4.28,
+  "end": 4.52
+ },
+ {
+  "word": "are.",
+  "start": 4.52,
+  "end": 4.7
+ },
+ {
+  "word": "This",
+  "start": 5.16,
+  "end": 5.28
+ },
+ {
+  "word": "is",
+  "start": 5.28,
+  "end": 5.46
+ },
+ {
+  "word": "Hessdalen,",
+  "start": 5.46,
+  "end": 5.88
+ },
+ {
+  "word": "home",
+  "start": 6.16,
+  "end": 6.38
+ },
+ {
+  "word": "to",
+  "start": 6.38,
+  "end": 6.56
+ },
+ {
+  "word": "about",
+  "start": 6.56,
+  "end": 6.8
+ },
+ {
+  "word": "a",
+  "start": 6.8,
+  "end": 6.84
+ },
+ {
+  "word": "hundred",
+  "start": 6.84,
+  "end": 7.13
+ },
+ {
+  "word": "and",
+  "start": 7.13,
+  "end": 7.25
+ },
+ {
+  "word": "fifty",
+  "start": 7.25,
+  "end": 7.46
+ },
+ {
+  "word": "people.",
+  "start": 7.46,
+  "end": 8.0
+ },
+ {
+  "word": "It",
+  "start": 8.4,
+  "end": 8.6
+ },
+ {
+  "word": "started",
+  "start": 8.6,
+  "end": 8.86
+ },
+ {
+  "word": "in",
+  "start": 8.86,
+  "end": 9.1
+ },
+ {
+  "word": "December",
+  "start": 9.1,
+  "end": 9.42
+ },
+ {
+  "word": "nineteen",
+  "start": 9.42,
+  "end": 9.77
+ },
+ {
+  "word": "eighty-one:",
+  "start": 9.77,
+  "end": 10.26
+ },
+ {
+  "word": "a",
+  "start": 10.7,
+  "end": 10.78
+ },
+ {
+  "word": "couple",
+  "start": 10.78,
+  "end": 11.0
+ },
+ {
+  "word": "saw",
+  "start": 11.0,
+  "end": 11.24
+ },
+ {
+  "word": "a",
+  "start": 11.24,
+  "end": 11.38
+ },
+ {
+  "word": "burning",
+  "start": 11.38,
+  "end": 11.6
+ },
+ {
+  "word": "fireball",
+  "start": 11.6,
+  "end": 12.14
+ },
+ {
+  "word": "from",
+  "start": 12.14,
+  "end": 12.36
+ },
+ {
+  "word": "their",
+  "start": 12.36,
+  "end": 12.52
+ },
+ {
+  "word": "kitchen",
+  "start": 12.52,
+  "end": 12.78
+ },
+ {
+  "word": "window.",
+  "start": 12.78,
+  "end": 13.22
+ },
+ {
+  "word": "Within",
+  "start": 13.74,
+  "end": 13.92
+ },
+ {
+  "word": "weeks,",
+  "start": 13.92,
+  "end": 14.16
+ },
+ {
+  "word": "they",
+  "start": 14.54,
+  "end": 14.7
+ },
+ {
+  "word": "appeared",
+  "start": 14.7,
+  "end": 14.98
+ },
+ {
+  "word": "up",
+  "start": 14.98,
+  "end": 15.12
+ },
+ {
+  "word": "to",
+  "start": 15.12,
+  "end": 15.24
+ },
+ {
+  "word": "four",
+  "start": 15.24,
+  "end": 15.46
+ },
+ {
+  "word": "times",
+  "start": 15.46,
+  "end": 15.78
+ },
+ {
+  "word": "a",
+  "start": 15.78,
+  "end": 15.94
+ },
+ {
+  "word": "day",
+  "start": 15.94,
+  "end": 16.06
+ },
+ {
+  "word": "white,",
+  "start": 16.06,
+  "end": 16.42
+ },
+ {
+  "word": "yellow,",
+  "start": 16.8,
+  "end": 17.0
+ },
+ {
+  "word": "sometimes",
+  "start": 17.3,
+  "end": 17.64
+ },
+ {
+  "word": "red",
+  "start": 17.64,
+  "end": 17.96
+ },
+ {
+  "word": "hovering",
+  "start": 18.4,
+  "end": 18.6
+ },
+ {
+  "word": "for",
+  "start": 18.6,
+  "end": 18.82
+ },
+ {
+  "word": "over",
+  "start": 18.82,
+  "end": 19.02
+ },
+ {
+  "word": "an",
+  "start": 19.02,
+  "end": 19.18
+ },
+ {
+  "word": "hour,",
+  "start": 19.18,
+  "end": 19.38
+ },
+ {
+  "word": "then",
+  "start": 19.72,
+  "end": 19.88
+ },
+ {
+  "word": "racing",
+  "start": 19.88,
+  "end": 20.22
+ },
+ {
+  "word": "away.",
+  "start": 20.22,
+  "end": 20.56
+ },
+ {
+  "word": "In",
+  "start": 21.34,
+  "end": 21.39
+ },
+ {
+  "word": "nineteen",
+  "start": 21.39,
+  "end": 21.57
+ },
+ {
+  "word": "eighty-four,",
+  "start": 21.57,
+  "end": 21.84
+ },
+ {
+  "word": "scientists",
+  "start": 22.28,
+  "end": 22.58
+ },
+ {
+  "word": "came",
+  "start": 22.58,
+  "end": 22.9
+ },
+ {
+  "word": "to",
+  "start": 22.9,
+  "end": 23.06
+ },
+ {
+  "word": "find",
+  "start": 23.06,
+  "end": 23.28
+ },
+ {
+  "word": "out",
+  "start": 23.28,
+  "end": 23.5
+ },
+ {
+  "word": "five",
+  "start": 23.5,
+  "end": 23.86
+ },
+ {
+  "word": "weeks,",
+  "start": 23.86,
+  "end": 24.24
+ },
+ {
+  "word": "with",
+  "start": 24.24,
+  "end": 24.7
+ },
+ {
+  "word": "radar,",
+  "start": 24.7,
+  "end": 25.02
+ },
+ {
+  "word": "cameras,",
+  "start": 25.02,
+  "end": 25.52
+ },
+ {
+  "word": "and",
+  "start": 25.52,
+  "end": 25.76
+ },
+ {
+  "word": "a",
+  "start": 25.76,
+  "end": 25.84
+ },
+ {
+  "word": "laser.",
+  "start": 25.84,
+  "end": 26.14
+ },
+ {
+  "word": "They",
+  "start": 26.14,
+  "end": 26.7
+ },
+ {
+  "word": "logged",
+  "start": 26.7,
+  "end": 26.94
+ },
+ {
+  "word": "a",
+  "start": 26.94,
+  "end": 26.99
+ },
+ {
+  "word": "hundred",
+  "start": 26.99,
+  "end": 27.34
+ },
+ {
+  "word": "and",
+  "start": 27.34,
+  "end": 27.49
+ },
+ {
+  "word": "eighty-eight",
+  "start": 27.49,
+  "end": 28.08
+ },
+ {
+  "word": "sightings",
+  "start": 28.08,
+  "end": 28.66
+ },
+ {
+  "word": "radar",
+  "start": 29.0,
+  "end": 29.18
+ },
+ {
+  "word": "once",
+  "start": 29.18,
+  "end": 29.48
+ },
+ {
+  "word": "tracked",
+  "start": 29.48,
+  "end": 29.74
+ },
+ {
+  "word": "one",
+  "start": 29.74,
+  "end": 30.06
+ },
+ {
+  "word": "at",
+  "start": 30.06,
+  "end": 30.2
+ },
+ {
+  "word": "thirty",
+  "start": 30.2,
+  "end": 30.58
+ },
+ {
+  "word": "thousand",
+  "start": 30.58,
+  "end": 31.44
+ },
+ {
+  "word": "kilometres",
+  "start": 31.44,
+  "end": 31.49
+ },
+ {
+  "word": "an",
+  "start": 31.44,
+  "end": 31.66
+ },
+ {
+  "word": "hour.",
+  "start": 31.66,
+  "end": 31.96
+ },
+ {
+  "word": "Then",
+  "start": 32.32,
+  "end": 32.5
+ },
+ {
+  "word": "the",
+  "start": 32.5,
+  "end": 32.64
+ },
+ {
+  "word": "strangest",
+  "start": 32.64,
+  "end": 33.18
+ },
+ {
+  "word": "test:",
+  "start": 33.18,
+  "end": 33.56
+ },
+ {
+  "word": "they",
+  "start": 33.96,
+  "end": 34.04
+ },
+ {
+  "word": "aimed",
+  "start": 34.04,
+  "end": 34.26
+ },
+ {
+  "word": "the",
+  "start": 34.26,
+  "end": 34.42
+ },
+ {
+  "word": "laser",
+  "start": 34.42,
+  "end": 34.72
+ },
+ {
+  "word": "at",
+  "start": 34.72,
+  "end": 34.92
+ },
+ {
+  "word": "a",
+  "start": 34.92,
+  "end": 34.98
+ },
+ {
+  "word": "flashing",
+  "start": 34.98,
+  "end": 35.36
+ },
+ {
+  "word": "light",
+  "start": 35.36,
+  "end": 35.62
+ },
+ {
+  "word": "nine",
+  "start": 35.62,
+  "end": 35.9
+ },
+ {
+  "word": "times",
+  "start": 35.9,
+  "end": 36.44
+ },
+ {
+  "word": "and",
+  "start": 36.88,
+  "end": 36.94
+ },
+ {
+  "word": "eight",
+  "start": 36.94,
+  "end": 37.12
+ },
+ {
+  "word": "times,",
+  "start": 37.12,
+  "end": 37.58
+ },
+ {
+  "word": "it",
+  "start": 37.58,
+  "end": 37.96
+ },
+ {
+  "word": "changed",
+  "start": 37.96,
+  "end": 38.38
+ },
+ {
+  "word": "its",
+  "start": 38.38,
+  "end": 38.64
+ },
+ {
+  "word": "rhythm.",
+  "start": 38.64,
+  "end": 38.88
+ },
+ {
+  "word": "Since",
+  "start": 39.36,
+  "end": 39.5
+ },
+ {
+  "word": "nineteen",
+  "start": 39.5,
+  "end": 39.69
+ },
+ {
+  "word": "ninety-eight,",
+  "start": 39.69,
+  "end": 40.0
+ },
+ {
+  "word": "a",
+  "start": 40.52,
+  "end": 40.62
+ },
+ {
+  "word": "machine",
+  "start": 40.62,
+  "end": 40.86
+ },
+ {
+  "word": "has",
+  "start": 40.86,
+  "end": 41.12
+ },
+ {
+  "word": "watched",
+  "start": 41.12,
+  "end": 41.42
+ },
+ {
+  "word": "the",
+  "start": 41.42,
+  "end": 41.58
+ },
+ {
+  "word": "valley",
+  "start": 41.58,
+  "end": 41.84
+ },
+ {
+  "word": "in",
+  "start": 42.22,
+  "end": 42.26
+ },
+ {
+  "word": "two",
+  "start": 42.26,
+  "end": 42.39
+ },
+ {
+  "word": "thousand",
+  "start": 42.39,
+  "end": 42.75
+ },
+ {
+  "word": "and",
+  "start": 42.75,
+  "end": 42.89
+ },
+ {
+  "word": "seven,",
+  "start": 42.89,
+  "end": 43.16
+ },
+ {
+  "word": "it",
+  "start": 43.54,
+  "end": 43.74
+ },
+ {
+  "word": "caught",
+  "start": 43.74,
+  "end": 43.9
+ },
+ {
+  "word": "a",
+  "start": 43.9,
+  "end": 44.06
+ },
+ {
+  "word": "light's",
+  "start": 44.06,
+  "end": 44.26
+ },
+ {
+  "word": "spectrum:",
+  "start": 44.26,
+  "end": 44.78
+ },
+ {
+  "word": "something",
+  "start": 45.04,
+  "end": 45.4
+ },
+ {
+  "word": "burning.",
+  "start": 45.4,
+  "end": 45.84
+ },
+ {
+  "word": "Scientists",
+  "start": 46.4,
+  "end": 46.78
+ },
+ {
+  "word": "have",
+  "start": 46.78,
+  "end": 47.06
+ },
+ {
+  "word": "answers",
+  "start": 47.06,
+  "end": 47.4
+ },
+ {
+  "word": "charged",
+  "start": 47.4,
+  "end": 48.06
+ },
+ {
+  "word": "dust,",
+  "start": 48.06,
+  "end": 48.4
+ },
+ {
+  "word": "stressed",
+  "start": 48.92,
+  "end": 48.97
+ },
+ {
+  "word": "quartz",
+  "start": 48.92,
+  "end": 49.34
+ },
+ {
+  "word": "but",
+  "start": 49.68,
+  "end": 49.8
+ },
+ {
+  "word": "none",
+  "start": 49.8,
+  "end": 49.94
+ },
+ {
+  "word": "has",
+  "start": 49.94,
+  "end": 50.22
+ },
+ {
+  "word": "been",
+  "start": 50.22,
+  "end": 50.42
+ },
+ {
+  "word": "proven.",
+  "start": 50.42,
+  "end": 50.84
+ },
+ {
+  "word": "Forty",
+  "start": 51.38,
+  "end": 51.58
+ },
+ {
+  "word": "years",
+  "start": 51.58,
+  "end": 51.86
+ },
+ {
+  "word": "of",
+  "start": 51.86,
+  "end": 52.04
+ },
+ {
+  "word": "data,",
+  "start": 52.04,
+  "end": 52.34
+ },
+ {
+  "word": "and",
+  "start": 52.58,
+  "end": 52.76
+ },
+ {
+  "word": "the",
+  "start": 52.76,
+  "end": 52.86
+ },
+ {
+  "word": "lights",
+  "start": 52.86,
+  "end": 53.04
+ },
+ {
+  "word": "of",
+  "start": 53.04,
+  "end": 53.28
+ },
+ {
+  "word": "Hessdalen",
+  "start": 53.28,
+  "end": 53.68
+ },
+ {
+  "word": "are",
+  "start": 53.68,
+  "end": 53.88
+ },
+ {
+  "word": "still",
+  "start": 53.88,
+  "end": 54.1
+ },
+ {
+  "word": "unexplained.",
+  "start": 54.1,
+  "end": 54.9
+ },
+ {
+  "word": "So",
+  "start": 54.9,
+  "end": 55.42
+ },
+ {
+  "word": "what",
+  "start": 55.42,
+  "end": 55.56
+ },
+ {
+  "word": "do",
+  "start": 55.56,
+  "end": 55.66
+ },
+ {
+  "word": "you",
+  "start": 55.66,
+  "end": 55.76
+ },
+ {
+  "word": "think",
+  "start": 55.76,
+  "end": 55.94
+ },
+ {
+  "word": "they",
+  "start": 55.94,
+  "end": 56.14
+ },
+ {
+  "word": "are?",
+  "start": 56.14,
+  "end": 56.34
+ },
+ {
+  "word": "Tell",
+  "start": 56.66,
+  "end": 56.76
+ },
+ {
+  "word": "us",
+  "start": 56.76,
+  "end": 56.92
+ },
+ {
+  "word": "in",
+  "start": 56.92,
+  "end": 57.08
+ },
+ {
+  "word": "the",
+  "start": 57.08,
+  "end": 57.16
+ },
+ {
+  "word": "comments.",
+  "start": 57.16,
+  "end": 57.42
+ }
+]
