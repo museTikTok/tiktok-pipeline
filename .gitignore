@@ -110,6 +110,16 @@ public/batch6/v18-raw/
 !public/batch6/v19-images/*.png
 !public/batch6/v19-en/
 public/batch6/v19-raw/
+# Video 25 "The Jellyfish UFO wave" (EN ONLY, 2026-11-25 — Axel chose the
+# subject 09:35, validated all 6 clips 09:48; Kokoro VO after the Gemini
+# quota died mid-VO and Axel reversed to Kokoro 11:23). All 6 clips + the
+# MUFON email still + mix/words/arrow are used by JellyfishUfoVideoEn.
+# Raw downloads (v25 work/raw/) stay on the VM.
+!public/batch6/v25-clips/
+!public/batch6/v25-en/
+!public/batch6/v25-en/*.png
+!public/batch6/v25-images/
+!public/batch6/v25-images/*.jpg
 # GTA 6 PC video (main chat, 2026-11-17): only the component + words JSON
 # are committed so the repo builds (Root.tsx imports it); its 43 MB of
 # clips/music stay on the VM (VM render only, published 2026-11-17).

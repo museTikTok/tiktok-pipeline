@@ -50,6 +50,8 @@ import {SmogVideoDe} from './SmogVideoDe';
 import {MaltaVideoEn} from './MaltaVideoEn';
 import {MaltaVideoDe} from './MaltaVideoDe';
 import {MothmanVideoEn} from './MothmanVideoEn';
+import {V24StrangestDeepSeaEn} from './V24StrangestDeepSeaEn';
+import {JellyfishUfoVideoEn} from './JellyfishUfoVideoEn';
 import {HessdalenVideoEn} from './HessdalenVideoEn';
 import {Gta6PcVideoEn} from './Gta6PcVideoEn';
 import {Gta6WweMemeEn} from './Gta6WweMemeEn';
@@ -62,6 +64,9 @@ import {Gta6PcRumorsEn} from './Gta6PcRumorsEn';
 import {Gta6Top5WtfEn} from './Gta6Top5WtfEn';
 import {Gta6Top5WtfV3En} from './Gta6Top5WtfV3En';
 import {Gta6Top5WtfV7En} from './Gta6Top5WtfV7En';
+import {Gta6Top5WtfPart2En} from './Gta6Top5WtfPart2En';
+import {Gta6Top5WtfPart3En} from './Gta6Top5WtfPart3En';
+import {Gta6TeleporterNpcEn} from './Gta6TeleporterNpcEn';
 import {HaboobVideoEn} from './HaboobVideoEn';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -774,6 +779,61 @@ const calculateHessdalenEnMetadata: CalculateMetadataFunction<Record<string, nev
 	};
 };
 
+// V24StrangestDeepSeaEn — video 24, "The 5 strangest deep-sea creatures
+// ever filmed" (Axel 2026-11-24 16:50, ordered after the YouTube Shorts
+// reference neQoZbWoF-E — "Regarde. Analyse et fais une video comme celle
+// la" + "avant de commencer la prod fais moi voir les clips"). ENGLISH
+// ONLY — DE versions suspended until further order. Axel VALIDATED all 5
+// clips 2026-11-24 18:15 ("Je valide les 5 clips, lance le montage") —
+// clips stay WHOLE, never shrunk to fit 60 s. REFERENCE STYLE (not the
+// usual numbered-series style): big RED ARROWS on the exact feature the VO
+// names, BOLD WHITE word-by-word captions with BLACK OUTLINE (bottom
+// centre), branding @brainfeeder_uk from 3 s, fast sub-cuts every ~3-5 s
+// (zoom punch, zoom resets at each sub-cut), no black gaps. VO = Gemini
+// Rasalgethi (Axel's chosen voice; Kokoro bm_george 1.15 fallback if the
+// Gemini quota is exhausted — never mix voices). Bed = original dark drone
+// built to be AUDIBLE on a phone (300 Hz-4 kHz content, 300 Hz high-pass
+// RMS -29.6 dBFS; overall -26.8 dB, clearly below the VO at ~-24 dB) — the
+// v23 lesson (87% sub-bass = inaudible on a phone). Clips are silent by
+// design (muted). Fixed duration 70.6s = 2118 frames.
+const calculateV24EnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2118,
+		props,
+	};
+};
+
+// JellyfishUfoVideoEn — video 25, "The Jellyfish UFO wave" (Axel 2026-11-25
+// 09:27, "Prens des sujets qui font le buzz en ce moment" — he chose #1
+// at 09:35). ENGLISH ONLY — DE versions suspended until further order.
+// Axel VALIDATED all 6 clips 2026-11-25 09:48 ("Je valide mais ajoute le
+// son original des clips"). Documentary storytelling (his 09:52 direction):
+// Anchorage (Osborn, rainbow, 15 June 2026) -> the November wave ->
+// verdicts one by one (Las Vegas = kite, Miami = rocket, Michoacan = July
+// clip recycled, Seward = MUFON squid kite) -> back to Anchorage, still
+// unexplained. 3 witness lines featured in the VO gaps (Osborn x2,
+// Nashville filmer x1). Single pre-mixed audio track (v25-mix-en.mp3): VO
+// + ducked original clip sound (<=0.05 under VO, MUTE under the hook) +
+// witness lines. VO = Kokoro bm_george 1.15 (FLAGGED fallback — Gemini
+// Rasalgethi quota exhausted 2026-11-25: s08 failed 3x 429, s09 429;
+// Rasalgethi s01-s07 preserved in work/vo/rasalgethi/ for a future v2).
+// Titan One yellow word-by-word subtitles (EN fontSize 62, bottom 360).
+// Brief red arrows ~1.5 s (v24 v3 pattern), zoom punches centred on the
+// object (transformOrigin), date/name chips, GiantOverlay "A KITE" on S7.
+// NO GTA elements (Axel 2026-11-25 09:53). Fixed duration 74.84 s = 2245
+// frames — FLAG: over the 60 s default (story + witness + 5 verdicts do
+// not fit in 60 s without cutting a verdict).
+const calculateJellyfishUfoEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 2245,
+		props,
+	};
+};
+
 // Gta6PcVideoEn — GTA 6 sur PC, vidéo informative (script 1 redirigé, Axel 2026-11-17).
 // Fixed duration 65.63s = 1969 frames (narration 63.37s + 0.6s silence +
 // CTA 1.66s from 63.97s). Kokoro bm_george speed 1.15 (narration) / 1.3
@@ -933,6 +993,42 @@ const calculateGta6Top5WtfV7EnMetadata: CalculateMetadataFunction<Record<string,
 }) => {
 	return {
 		durationInFrames: 3540,
+		props,
+	};
+};
+
+// Gta6Top5WtfPart2En — « TOP 5 WTF GTA 6 MOMENTS PART 2 » (Axel, 2026-11-24).
+// VO Despina (Gemini). Penta replay coupe [22-30] : 3914 frames = 130.47 s.
+const calculateGta6Top5WtfPart2EnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 3914,
+		props,
+	};
+};
+
+// Gta6Top5WtfPart3En — « TOP 5 WTF GTA 6 MOMENTS PART 3 » (Axel, 2026-11-25).
+// VO Kokoro bm_george 1.15. Animation moderne (badges animes, titres
+// cinetiques synchro VO, whip pans, zoom punch + shake, badge WTF pulsant).
+// Clips resserres valides : 5005 frames = 166.83 s = 2:46.83.
+const calculateGta6Top5WtfPart3EnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 5005,
+		props,
+	};
+};
+
+// Gta6TeleporterNpcEn — « THE TELEPORTER NPC » (Axel, 2026-11-24).
+// Reel IG DgF0F_dTWwf. VO Kokoro bm_george 1.15 (Gemini quota epuise).
+// Jump cut [24-30] sur le scan de la tour : 1509 frames = 50.3 s.
+const calculateGta6TeleporterNpcEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1509,
 		props,
 	};
 };
@@ -1469,6 +1565,26 @@ export const RemotionRoot: React.FC = () => {
 				calculateMetadata={calculateHessdalenEnMetadata}
 			/>
 			<Composition
+				id="V24StrangestDeepSeaEn"
+				component={V24StrangestDeepSeaEn as React.FC<unknown>}
+				durationInFrames={2118}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateV24EnMetadata}
+			/>
+			<Composition
+				id="JellyfishUfoVideoEn"
+				component={JellyfishUfoVideoEn as React.FC<unknown>}
+				durationInFrames={2245}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateJellyfishUfoEnMetadata}
+			/>
+			<Composition
 				id="Gta6PcVideoEn"
 				component={Gta6PcVideoEn as React.FC<unknown>}
 				durationInFrames={1969}
@@ -1577,6 +1693,36 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateGta6Top5WtfV7EnMetadata}
+			/>
+			<Composition
+				id="Gta6Top5WtfPart2En"
+				component={Gta6Top5WtfPart2En as React.FC<unknown>}
+				durationInFrames={3914}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6Top5WtfPart2EnMetadata}
+			/>
+			<Composition
+				id="Gta6Top5WtfPart3En"
+				component={Gta6Top5WtfPart3En as React.FC<unknown>}
+				durationInFrames={5005}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6Top5WtfPart3EnMetadata}
+			/>
+			<Composition
+				id="Gta6TeleporterNpcEn"
+				component={Gta6TeleporterNpcEn as React.FC<unknown>}
+				durationInFrames={1509}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6TeleporterNpcEnMetadata}
 			/>
 			<Composition
 				id="HaboobVideoEn"

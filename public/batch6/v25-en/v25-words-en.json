@@ -1,0 +1,867 @@
+[
+ {
+  "word": "A",
+  "start": 0.0,
+  "end": 0.1
+ },
+ {
+  "word": "jellyfish",
+  "start": 0.1,
+  "end": 0.6
+ },
+ {
+  "word": "in",
+  "start": 0.6,
+  "end": 0.88
+ },
+ {
+  "word": "the",
+  "start": 0.88,
+  "end": 1.0
+ },
+ {
+  "word": "sky.",
+  "start": 1.0,
+  "end": 1.92
+ },
+ {
+  "word": "In",
+  "start": 1.92,
+  "end": 2.02
+ },
+ {
+  "word": "June,",
+  "start": 2.02,
+  "end": 2.7
+ },
+ {
+  "word": "a",
+  "start": 2.7,
+  "end": 2.78
+ },
+ {
+  "word": "woman",
+  "start": 2.78,
+  "end": 3.0
+ },
+ {
+  "word": "in",
+  "start": 3.0,
+  "end": 3.14
+ },
+ {
+  "word": "Alaska",
+  "start": 3.14,
+  "end": 3.38
+ },
+ {
+  "word": "filmed",
+  "start": 3.38,
+  "end": 3.88
+ },
+ {
+  "word": "this",
+  "start": 3.88,
+  "end": 4.2
+ },
+ {
+  "word": "and",
+  "start": 4.2,
+  "end": 4.6
+ },
+ {
+  "word": "nobody",
+  "start": 4.6,
+  "end": 4.92
+ },
+ {
+  "word": "can",
+  "start": 4.92,
+  "end": 5.16
+ },
+ {
+  "word": "explain",
+  "start": 5.16,
+  "end": 5.56
+ },
+ {
+  "word": "it.",
+  "start": 5.56,
+  "end": 6.26
+ },
+ {
+  "word": "June",
+  "start": 6.26,
+  "end": 6.46
+ },
+ {
+  "word": "15th,",
+  "start": 6.46,
+  "end": 7.38
+ },
+ {
+  "word": "2026.",
+  "start": 7.38,
+  "end": 8.22
+ },
+ {
+  "word": "Sarah",
+  "start": 8.86,
+  "end": 9.08
+ },
+ {
+  "word": "Jane",
+  "start": 9.08,
+  "end": 9.42
+ },
+ {
+  "word": "Osborn",
+  "start": 9.42,
+  "end": 9.92
+ },
+ {
+  "word": "was",
+  "start": 9.92,
+  "end": 10.22
+ },
+ {
+  "word": "photographing",
+  "start": 10.22,
+  "end": 10.88
+ },
+ {
+  "word": "a",
+  "start": 10.88,
+  "end": 10.98
+ },
+ {
+  "word": "rainbow",
+  "start": 10.98,
+  "end": 11.34
+ },
+ {
+  "word": "over",
+  "start": 11.34,
+  "end": 11.72
+ },
+ {
+  "word": "anchorage",
+  "start": 11.72,
+  "end": 12.32
+ },
+ {
+  "word": "when",
+  "start": 12.32,
+  "end": 12.72
+ },
+ {
+  "word": "something",
+  "start": 12.72,
+  "end": 13.1
+ },
+ {
+  "word": "drifted",
+  "start": 13.1,
+  "end": 13.58
+ },
+ {
+  "word": "across",
+  "start": 13.58,
+  "end": 13.84
+ },
+ {
+  "word": "it.",
+  "start": 13.84,
+  "end": 14.56
+ },
+ {
+  "word": "It",
+  "start": 14.56,
+  "end": 14.82
+ },
+ {
+  "word": "looks",
+  "start": 14.82,
+  "end": 15.02
+ },
+ {
+  "word": "like",
+  "start": 15.02,
+  "end": 15.24
+ },
+ {
+  "word": "a",
+  "start": 15.24,
+  "end": 15.36
+ },
+ {
+  "word": "friggin",
+  "start": 15.36,
+  "end": 15.7
+ },
+ {
+  "word": "alien.",
+  "start": 15.7,
+  "end": 16.0
+ },
+ {
+  "word": "She",
+  "start": 17.01,
+  "end": 17.15
+ },
+ {
+  "word": "filmed",
+  "start": 17.15,
+  "end": 17.45
+ },
+ {
+  "word": "it",
+  "start": 17.45,
+  "end": 17.57
+ },
+ {
+  "word": "for",
+  "start": 17.57,
+  "end": 17.73
+ },
+ {
+  "word": "fifty-seven",
+  "start": 17.73,
+  "end": 18.29
+ },
+ {
+  "word": "seconds.",
+  "start": 18.29,
+  "end": 19.35
+ },
+ {
+  "word": "Eleven",
+  "start": 19.35,
+  "end": 19.63
+ },
+ {
+  "word": "minutes",
+  "start": 19.63,
+  "end": 19.91
+ },
+ {
+  "word": "later,",
+  "start": 19.91,
+  "end": 20.75
+ },
+ {
+  "word": "the",
+  "start": 20.75,
+  "end": 20.83
+ },
+ {
+  "word": "video",
+  "start": 20.83,
+  "end": 21.11
+ },
+ {
+  "word": "was",
+  "start": 21.11,
+  "end": 21.37
+ },
+ {
+  "word": "online.",
+  "start": 21.37,
+  "end": 22.36
+ },
+ {
+  "word": "The",
+  "start": 22.36,
+  "end": 22.44
+ },
+ {
+  "word": "base",
+  "start": 22.44,
+  "end": 22.78
+ },
+ {
+  "word": "had",
+  "start": 22.78,
+  "end": 23.04
+ },
+ {
+  "word": "no",
+  "start": 23.04,
+  "end": 23.26
+ },
+ {
+  "word": "information.",
+  "start": 23.26,
+  "end": 24.42
+ },
+ {
+  "word": "Osborn",
+  "start": 24.42,
+  "end": 24.72
+ },
+ {
+  "word": "said",
+  "start": 24.72,
+  "end": 25.06
+ },
+ {
+  "word": "it",
+  "start": 25.06,
+  "end": 25.32
+ },
+ {
+  "word": "was",
+  "start": 25.32,
+  "end": 25.42
+ },
+ {
+  "word": "very",
+  "start": 25.42,
+  "end": 25.68
+ },
+ {
+  "word": "clearly",
+  "start": 25.68,
+  "end": 26.1
+ },
+ {
+  "word": "not",
+  "start": 26.1,
+  "end": 26.4
+ },
+ {
+  "word": "a",
+  "start": 26.4,
+  "end": 26.54
+ },
+ {
+  "word": "kite.",
+  "start": 26.54,
+  "end": 26.78
+ },
+ {
+  "word": "It's",
+  "start": 27.4,
+  "end": 28.1
+ },
+ {
+  "word": "moving",
+  "start": 28.1,
+  "end": 28.4
+ },
+ {
+  "word": "very",
+  "start": 28.4,
+  "end": 28.76
+ },
+ {
+  "word": "weirdly.",
+  "start": 28.76,
+  "end": 29.18
+ },
+ {
+  "word": "For",
+  "start": 30.15,
+  "end": 30.25
+ },
+ {
+  "word": "months,",
+  "start": 30.25,
+  "end": 30.85
+ },
+ {
+  "word": "nobody",
+  "start": 30.85,
+  "end": 31.07
+ },
+ {
+  "word": "noticed.",
+  "start": 31.07,
+  "end": 31.55
+ },
+ {
+  "word": "Then",
+  "start": 32.17,
+  "end": 32.27
+ },
+ {
+  "word": "November",
+  "start": 32.27,
+  "end": 32.55
+ },
+ {
+  "word": "came",
+  "start": 32.55,
+  "end": 32.97
+ },
+ {
+  "word": "and",
+  "start": 32.97,
+  "end": 33.35
+ },
+ {
+  "word": "jellyfish",
+  "start": 33.35,
+  "end": 33.87
+ },
+ {
+  "word": "were",
+  "start": 33.87,
+  "end": 34.07
+ },
+ {
+  "word": "everywhere.",
+  "start": 34.07,
+  "end": 35.08
+ },
+ {
+  "word": "Nashville.",
+  "start": 35.08,
+  "end": 35.46
+ },
+ {
+  "word": "Three",
+  "start": 35.46,
+  "end": 35.88
+ },
+ {
+  "word": "million",
+  "start": 35.88,
+  "end": 36.2
+ },
+ {
+  "word": "views.",
+  "start": 36.2,
+  "end": 37.0
+ },
+ {
+  "word": "Still",
+  "start": 37.0,
+  "end": 37.18
+ },
+ {
+  "word": "no",
+  "start": 37.18,
+  "end": 37.42
+ },
+ {
+  "word": "explanation.",
+  "start": 37.42,
+  "end": 38.02
+ },
+ {
+  "word": "The",
+  "start": 38.73,
+  "end": 39.41
+ },
+ {
+  "word": "world's",
+  "start": 39.41,
+  "end": 39.81
+ },
+ {
+  "word": "about",
+  "start": 39.81,
+  "end": 39.87
+ },
+ {
+  "word": "to",
+  "start": 39.87,
+  "end": 40.03
+ },
+ {
+  "word": "end.",
+  "start": 40.03,
+  "end": 40.33
+ },
+ {
+  "word": "How",
+  "start": 42.47,
+  "end": 42.77
+ },
+ {
+  "word": "creepy.",
+  "start": 42.77,
+  "end": 42.99
+ },
+ {
+  "word": "Las",
+  "start": 43.88,
+  "end": 44.08
+ },
+ {
+  "word": "Vegas,",
+  "start": 44.08,
+  "end": 44.7
+ },
+ {
+  "word": "same",
+  "start": 44.7,
+  "end": 44.84
+ },
+ {
+  "word": "shape,",
+  "start": 44.84,
+  "end": 45.52
+ },
+ {
+  "word": "but",
+  "start": 45.52,
+  "end": 45.66
+ },
+ {
+  "word": "look",
+  "start": 45.66,
+  "end": 45.82
+ },
+ {
+  "word": "closer",
+  "start": 45.82,
+  "end": 46.26
+ },
+ {
+  "word": "and",
+  "start": 46.26,
+  "end": 46.46
+ },
+ {
+  "word": "that's",
+  "start": 46.46,
+  "end": 46.68
+ },
+ {
+  "word": "a",
+  "start": 46.68,
+  "end": 46.72
+ },
+ {
+  "word": "kite.",
+  "start": 46.72,
+  "end": 47.52
+ },
+ {
+  "word": "Miami.",
+  "start": 47.52,
+  "end": 48.22
+ },
+ {
+  "word": "A",
+  "start": 48.22,
+  "end": 48.3
+ },
+ {
+  "word": "glowing",
+  "start": 48.3,
+  "end": 48.6
+ },
+ {
+  "word": "jellyfish",
+  "start": 48.6,
+  "end": 49.18
+ },
+ {
+  "word": "in",
+  "start": 49.18,
+  "end": 49.38
+ },
+ {
+  "word": "the",
+  "start": 49.38,
+  "end": 49.5
+ },
+ {
+  "word": "dusk.",
+  "start": 49.5,
+  "end": 50.24
+ },
+ {
+  "word": "That",
+  "start": 50.24,
+  "end": 50.4
+ },
+ {
+  "word": "one",
+  "start": 50.4,
+  "end": 50.56
+ },
+ {
+  "word": "was",
+  "start": 50.56,
+  "end": 50.72
+ },
+ {
+  "word": "a",
+  "start": 50.72,
+  "end": 50.82
+ },
+ {
+  "word": "rocket",
+  "start": 50.82,
+  "end": 51.4
+ },
+ {
+  "word": "Starship,",
+  "start": 51.4,
+  "end": 52.12
+ },
+ {
+  "word": "launched",
+  "start": 52.12,
+  "end": 52.34
+ },
+ {
+  "word": "the",
+  "start": 52.34,
+  "end": 52.58
+ },
+ {
+  "word": "same",
+  "start": 52.58,
+  "end": 52.86
+ },
+ {
+  "word": "day.",
+  "start": 52.86,
+  "end": 53.64
+ },
+ {
+  "word": "Mexico.",
+  "start": 53.64,
+  "end": 54.42
+ },
+ {
+  "word": "This",
+  "start": 54.42,
+  "end": 54.6
+ },
+ {
+  "word": "one",
+  "start": 54.6,
+  "end": 54.76
+ },
+ {
+  "word": "is",
+  "start": 54.76,
+  "end": 54.98
+ },
+ {
+  "word": "from",
+  "start": 54.98,
+  "end": 55.14
+ },
+ {
+  "word": "July.",
+  "start": 55.14,
+  "end": 55.96
+ },
+ {
+  "word": "Four",
+  "start": 55.96,
+  "end": 56.2
+ },
+ {
+  "word": "months",
+  "start": 56.2,
+  "end": 56.38
+ },
+ {
+  "word": "old,",
+  "start": 56.38,
+  "end": 56.98
+ },
+ {
+  "word": "reposted",
+  "start": 56.98,
+  "end": 57.5
+ },
+ {
+  "word": "as",
+  "start": 57.5,
+  "end": 57.66
+ },
+ {
+  "word": "new.",
+  "start": 57.66,
+  "end": 58.43
+ },
+ {
+  "word": "And",
+  "start": 58.43,
+  "end": 58.55
+ },
+ {
+  "word": "Seward,",
+  "start": 58.55,
+  "end": 58.99
+ },
+ {
+  "word": "Alaska.",
+  "start": 58.99,
+  "end": 60.05
+ },
+ {
+  "word": "MUFON",
+  "start": 60.05,
+  "end": 60.39
+ },
+ {
+  "word": "measured",
+  "start": 60.39,
+  "end": 60.77
+ },
+ {
+  "word": "it",
+  "start": 60.77,
+  "end": 61.01
+ },
+ {
+  "word": "a",
+  "start": 61.01,
+  "end": 61.31
+ },
+ {
+  "word": "squid",
+  "start": 61.31,
+  "end": 61.61
+ },
+ {
+  "word": "kite,",
+  "start": 61.61,
+  "end": 61.97
+ },
+ {
+  "word": "seventy-seven",
+  "start": 61.97,
+  "end": 62.79
+ },
+ {
+  "word": "centimetres",
+  "start": 62.79,
+  "end": 63.53
+ },
+ {
+  "word": "wide.",
+  "start": 63.53,
+  "end": 63.99
+ },
+ {
+  "word": "Experts",
+  "start": 65.78,
+  "end": 66.26
+ },
+ {
+  "word": "are",
+  "start": 66.26,
+  "end": 66.34
+ },
+ {
+  "word": "split",
+  "start": 66.34,
+  "end": 66.96
+ },
+ {
+  "word": "kite,",
+  "start": 66.96,
+  "end": 67.42
+ },
+ {
+  "word": "balloon,",
+  "start": 67.42,
+  "end": 67.94
+ },
+ {
+  "word": "or",
+  "start": 67.94,
+  "end": 67.98
+ },
+ {
+  "word": "something",
+  "start": 67.98,
+  "end": 68.28
+ },
+ {
+  "word": "else.",
+  "start": 68.28,
+  "end": 68.94
+ },
+ {
+  "word": "But",
+  "start": 68.94,
+  "end": 69.1
+ },
+ {
+  "word": "the",
+  "start": 69.1,
+  "end": 69.22
+ },
+ {
+  "word": "one",
+  "start": 69.22,
+  "end": 69.36
+ },
+ {
+  "word": "that",
+  "start": 69.36,
+  "end": 69.46
+ },
+ {
+  "word": "started",
+  "start": 69.46,
+  "end": 69.84
+ },
+ {
+  "word": "it",
+  "start": 69.84,
+  "end": 70.04
+ },
+ {
+  "word": "all",
+  "start": 70.04,
+  "end": 70.3
+ },
+ {
+  "word": "is",
+  "start": 70.3,
+  "end": 70.54
+ },
+ {
+  "word": "still",
+  "start": 70.54,
+  "end": 70.8
+ },
+ {
+  "word": "unexplained.",
+  "start": 70.8,
+  "end": 72.18
+ },
+ {
+  "word": "What",
+  "start": 72.18,
+  "end": 72.32
+ },
+ {
+  "word": "do",
+  "start": 72.32,
+  "end": 72.4
+ },
+ {
+  "word": "you",
+  "start": 72.4,
+  "end": 72.5
+ },
+ {
+  "word": "think",
+  "start": 72.5,
+  "end": 72.7
+ },
+ {
+  "word": "it",
+  "start": 72.7,
+  "end": 72.86
+ },
+ {
+  "word": "is?",
+  "start": 72.86,
+  "end": 73.1
+ }
+]
