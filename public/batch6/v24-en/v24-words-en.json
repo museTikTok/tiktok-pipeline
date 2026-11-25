@@ -1,0 +1,952 @@
+[
+ {
+  "word": "Here",
+  "start": 0.0,
+  "end": 0.4
+ },
+ {
+  "word": "are",
+  "start": 0.4,
+  "end": 0.54
+ },
+ {
+  "word": "the",
+  "start": 0.54,
+  "end": 0.6
+ },
+ {
+  "word": "five",
+  "start": 0.6,
+  "end": 1.02
+ },
+ {
+  "word": "strangest",
+  "start": 1.02,
+  "end": 1.72
+ },
+ {
+  "word": "deep-sea",
+  "start": 1.72,
+  "end": 2.24
+ },
+ {
+  "word": "creatures",
+  "start": 2.24,
+  "end": 2.6
+ },
+ {
+  "word": "ever",
+  "start": 2.6,
+  "end": 3.16
+ },
+ {
+  "word": "filmed.",
+  "start": 3.16,
+  "end": 4.08
+ },
+ {
+  "word": "The",
+  "start": 4.08,
+  "end": 4.16
+ },
+ {
+  "word": "last",
+  "start": 4.16,
+  "end": 4.38
+ },
+ {
+  "word": "one",
+  "start": 4.38,
+  "end": 4.56
+ },
+ {
+  "word": "is",
+  "start": 4.56,
+  "end": 4.7
+ },
+ {
+  "word": "so",
+  "start": 4.7,
+  "end": 4.92
+ },
+ {
+  "word": "terrifying,",
+  "start": 4.92,
+  "end": 5.36
+ },
+ {
+  "word": "even",
+  "start": 5.36,
+  "end": 5.8
+ },
+ {
+  "word": "scientists",
+  "start": 5.8,
+  "end": 6.4
+ },
+ {
+  "word": "still",
+  "start": 6.4,
+  "end": 7.0
+ },
+ {
+  "word": "don't",
+  "start": 7.0,
+  "end": 7.26
+ },
+ {
+  "word": "know",
+  "start": 7.26,
+  "end": 7.44
+ },
+ {
+  "word": "what",
+  "start": 7.44,
+  "end": 7.68
+ },
+ {
+  "word": "it",
+  "start": 7.68,
+  "end": 7.8
+ },
+ {
+  "word": "is.",
+  "start": 7.8,
+  "end": 8.02
+ },
+ {
+  "word": "Tell",
+  "start": 8.6,
+  "end": 8.98
+ },
+ {
+  "word": "me",
+  "start": 8.98,
+  "end": 9.14
+ },
+ {
+  "word": "in",
+  "start": 9.14,
+  "end": 9.24
+ },
+ {
+  "word": "the",
+  "start": 9.24,
+  "end": 9.32
+ },
+ {
+  "word": "comments",
+  "start": 9.32,
+  "end": 9.64
+ },
+ {
+  "word": "which",
+  "start": 9.64,
+  "end": 9.96
+ },
+ {
+  "word": "one",
+  "start": 9.96,
+  "end": 10.12
+ },
+ {
+  "word": "shocked",
+  "start": 10.12,
+  "end": 10.34
+ },
+ {
+  "word": "you",
+  "start": 10.34,
+  "end": 10.54
+ },
+ {
+  "word": "the",
+  "start": 10.54,
+  "end": 10.66
+ },
+ {
+  "word": "most,",
+  "start": 10.66,
+  "end": 11.3
+ },
+ {
+  "word": "you'd",
+  "start": 11.3,
+  "end": 11.54
+ },
+ {
+  "word": "be",
+  "start": 11.54,
+  "end": 11.62
+ },
+ {
+  "word": "insanely",
+  "start": 11.62,
+  "end": 12.16
+ },
+ {
+  "word": "lucky",
+  "start": 12.16,
+  "end": 12.62
+ },
+ {
+  "word": "if",
+  "start": 12.62,
+  "end": 12.88
+ },
+ {
+  "word": "you",
+  "start": 12.88,
+  "end": 12.98
+ },
+ {
+  "word": "like",
+  "start": 12.98,
+  "end": 13.18
+ },
+ {
+  "word": "and",
+  "start": 13.18,
+  "end": 13.42
+ },
+ {
+  "word": "subscribe",
+  "start": 13.42,
+  "end": 13.8
+ },
+ {
+  "word": "before",
+  "start": 13.8,
+  "end": 14.22
+ },
+ {
+  "word": "the",
+  "start": 14.22,
+  "end": 14.4
+ },
+ {
+  "word": "end",
+  "start": 14.4,
+  "end": 14.58
+ },
+ {
+  "word": "of",
+  "start": 14.58,
+  "end": 14.66
+ },
+ {
+  "word": "this",
+  "start": 14.66,
+  "end": 14.8
+ },
+ {
+  "word": "video.",
+  "start": 14.8,
+  "end": 15.04
+ },
+ {
+  "word": "First,",
+  "start": 15.04,
+  "end": 15.76
+ },
+ {
+  "word": "the",
+  "start": 15.76,
+  "end": 15.98
+ },
+ {
+  "word": "Dumbo",
+  "start": 15.98,
+  "end": 16.38
+ },
+ {
+  "word": "Octopus,",
+  "start": 16.38,
+  "end": 17.56
+ },
+ {
+  "word": "nearly",
+  "start": 17.56,
+  "end": 17.78
+ },
+ {
+  "word": "7,000",
+  "start": 17.78,
+  "end": 18.92
+ },
+ {
+  "word": "meters",
+  "start": 18.92,
+  "end": 19.16
+ },
+ {
+  "word": "down.",
+  "start": 19.16,
+  "end": 19.5
+ },
+ {
+  "word": "Next,",
+  "start": 20.6,
+  "end": 21.4
+ },
+ {
+  "word": "the",
+  "start": 21.4,
+  "end": 21.5
+ },
+ {
+  "word": "sarcastic",
+  "start": 21.5,
+  "end": 22.16
+ },
+ {
+  "word": "fringe",
+  "start": 22.16,
+  "end": 22.52
+ },
+ {
+  "word": "head.",
+  "start": 22.52,
+  "end": 23.18
+ },
+ {
+  "word": "Not",
+  "start": 23.18,
+  "end": 23.42
+ },
+ {
+  "word": "actually",
+  "start": 23.42,
+  "end": 23.9
+ },
+ {
+  "word": "from",
+  "start": 23.9,
+  "end": 24.16
+ },
+ {
+  "word": "the",
+  "start": 24.16,
+  "end": 24.3
+ },
+ {
+  "word": "deep,",
+  "start": 24.3,
+  "end": 24.78
+ },
+ {
+  "word": "it",
+  "start": 24.78,
+  "end": 24.92
+ },
+ {
+  "word": "lives",
+  "start": 24.92,
+  "end": 25.08
+ },
+ {
+  "word": "in",
+  "start": 25.08,
+  "end": 25.22
+ },
+ {
+  "word": "the",
+  "start": 25.22,
+  "end": 25.3
+ },
+ {
+  "word": "shallows",
+  "start": 25.3,
+  "end": 25.7
+ },
+ {
+  "word": "off",
+  "start": 25.7,
+  "end": 25.9
+ },
+ {
+  "word": "California,",
+  "start": 25.9,
+  "end": 26.62
+ },
+ {
+  "word": "but",
+  "start": 26.62,
+  "end": 26.96
+ },
+ {
+  "word": "when",
+  "start": 26.96,
+  "end": 27.1
+ },
+ {
+  "word": "two",
+  "start": 27.1,
+  "end": 27.32
+ },
+ {
+  "word": "males",
+  "start": 27.32,
+  "end": 27.56
+ },
+ {
+  "word": "meet,",
+  "start": 27.56,
+  "end": 28.3
+ },
+ {
+  "word": "they",
+  "start": 28.3,
+  "end": 28.38
+ },
+ {
+  "word": "open",
+  "start": 28.38,
+  "end": 28.68
+ },
+ {
+  "word": "mouths",
+  "start": 28.68,
+  "end": 29.0
+ },
+ {
+  "word": "four",
+  "start": 29.0,
+  "end": 29.48
+ },
+ {
+  "word": "times",
+  "start": 29.48,
+  "end": 29.78
+ },
+ {
+  "word": "wider",
+  "start": 29.78,
+  "end": 30.14
+ },
+ {
+  "word": "than",
+  "start": 30.14,
+  "end": 30.32
+ },
+ {
+  "word": "their",
+  "start": 30.32,
+  "end": 30.44
+ },
+ {
+  "word": "heads",
+  "start": 30.44,
+  "end": 30.7
+ },
+ {
+  "word": "and",
+  "start": 30.7,
+  "end": 31.04
+ },
+ {
+  "word": "fight",
+  "start": 31.04,
+  "end": 31.34
+ },
+ {
+  "word": "mouth",
+  "start": 31.34,
+  "end": 31.74
+ },
+ {
+  "word": "to",
+  "start": 31.74,
+  "end": 31.92
+ },
+ {
+  "word": "mouth.",
+  "start": 31.92,
+  "end": 32.08
+ },
+ {
+  "word": "Then,",
+  "start": 32.6,
+  "end": 33.4
+ },
+ {
+  "word": "the",
+  "start": 33.4,
+  "end": 33.64
+ },
+ {
+  "word": "blobfish.",
+  "start": 33.64,
+  "end": 35.0
+ },
+ {
+  "word": "Down",
+  "start": 35.0,
+  "end": 35.24
+ },
+ {
+  "word": "here,",
+  "start": 35.24,
+  "end": 35.72
+ },
+ {
+  "word": "it",
+  "start": 35.72,
+  "end": 35.76
+ },
+ {
+  "word": "looks",
+  "start": 35.76,
+  "end": 35.98
+ },
+ {
+  "word": "like",
+  "start": 35.98,
+  "end": 36.2
+ },
+ {
+  "word": "a",
+  "start": 36.2,
+  "end": 36.32
+ },
+ {
+  "word": "normal",
+  "start": 36.32,
+  "end": 36.56
+ },
+ {
+  "word": "fish.",
+  "start": 36.56,
+  "end": 37.48
+ },
+ {
+  "word": "The",
+  "start": 37.48,
+  "end": 37.64
+ },
+ {
+  "word": "famous",
+  "start": 37.64,
+  "end": 37.94
+ },
+ {
+  "word": "melting",
+  "start": 37.94,
+  "end": 38.72
+ },
+ {
+  "word": "face",
+  "start": 38.72,
+  "end": 39.14
+ },
+ {
+  "word": "only",
+  "start": 39.14,
+  "end": 39.78
+ },
+ {
+  "word": "happens",
+  "start": 39.78,
+  "end": 40.1
+ },
+ {
+  "word": "at",
+  "start": 40.1,
+  "end": 40.26
+ },
+ {
+  "word": "the",
+  "start": 40.26,
+  "end": 40.4
+ },
+ {
+  "word": "surface",
+  "start": 40.4,
+  "end": 40.76
+ },
+ {
+  "word": "when",
+  "start": 40.76,
+  "end": 41.18
+ },
+ {
+  "word": "the",
+  "start": 41.18,
+  "end": 41.3
+ },
+ {
+  "word": "pressure",
+  "start": 41.3,
+  "end": 41.6
+ },
+ {
+  "word": "drops.",
+  "start": 41.6,
+  "end": 41.88
+ },
+ {
+  "word": "Then,",
+  "start": 42.6,
+  "end": 43.22
+ },
+ {
+  "word": "the",
+  "start": 43.22,
+  "end": 43.38
+ },
+ {
+  "word": "ghost",
+  "start": 43.38,
+  "end": 43.66
+ },
+ {
+  "word": "shark.",
+  "start": 43.66,
+  "end": 44.44
+ },
+ {
+  "word": "Not",
+  "start": 44.44,
+  "end": 44.74
+ },
+ {
+  "word": "a",
+  "start": 44.74,
+  "end": 44.86
+ },
+ {
+  "word": "shark",
+  "start": 44.86,
+  "end": 45.04
+ },
+ {
+  "word": "at",
+  "start": 45.04,
+  "end": 45.2
+ },
+ {
+  "word": "all.",
+  "start": 45.2,
+  "end": 45.8
+ },
+ {
+  "word": "It's",
+  "start": 45.8,
+  "end": 46.06
+ },
+ {
+  "word": "lineage",
+  "start": 46.06,
+  "end": 46.26
+ },
+ {
+  "word": "split",
+  "start": 46.26,
+  "end": 46.6
+ },
+ {
+  "word": "from",
+  "start": 46.6,
+  "end": 46.8
+ },
+ {
+  "word": "sharks",
+  "start": 46.8,
+  "end": 47.06
+ },
+ {
+  "word": "over",
+  "start": 47.06,
+  "end": 47.38
+ },
+ {
+  "word": "380",
+  "start": 47.38,
+  "end": 48.1
+ },
+ {
+  "word": "million",
+  "start": 48.1,
+  "end": 48.52
+ },
+ {
+  "word": "years",
+  "start": 48.52,
+  "end": 48.8
+ },
+ {
+  "word": "ago",
+  "start": 48.8,
+  "end": 49.1
+ },
+ {
+  "word": "before",
+  "start": 49.1,
+  "end": 49.62
+ },
+ {
+  "word": "the",
+  "start": 49.62,
+  "end": 49.82
+ },
+ {
+  "word": "dinosaurs.",
+  "start": 49.82,
+  "end": 50.78
+ },
+ {
+  "word": "And",
+  "start": 50.78,
+  "end": 51.0
+ },
+ {
+  "word": "its",
+  "start": 51.0,
+  "end": 51.14
+ },
+ {
+  "word": "nose",
+  "start": 51.14,
+  "end": 51.38
+ },
+ {
+  "word": "can",
+  "start": 51.38,
+  "end": 51.84
+ },
+ {
+  "word": "sense",
+  "start": 51.84,
+  "end": 52.1
+ },
+ {
+  "word": "electricity.",
+  "start": 52.1,
+  "end": 52.52
+ },
+ {
+  "word": "And",
+  "start": 52.6,
+  "end": 52.94
+ },
+ {
+  "word": "finally,",
+  "start": 52.94,
+  "end": 53.64
+ },
+ {
+  "word": "the",
+  "start": 53.64,
+  "end": 53.76
+ },
+ {
+  "word": "bigfin",
+  "start": 53.76,
+  "end": 54.24
+ },
+ {
+  "word": "squid,",
+  "start": 54.24,
+  "end": 55.08
+ },
+ {
+  "word": "arms",
+  "start": 55.08,
+  "end": 55.44
+ },
+ {
+  "word": "up",
+  "start": 55.44,
+  "end": 55.6
+ },
+ {
+  "word": "to",
+  "start": 55.6,
+  "end": 55.78
+ },
+ {
+  "word": "8",
+  "start": 55.78,
+  "end": 56.12
+ },
+ {
+  "word": "meters",
+  "start": 56.12,
+  "end": 56.46
+ },
+ {
+  "word": "long,",
+  "start": 56.46,
+  "end": 57.36
+ },
+ {
+  "word": "hanging",
+  "start": 57.36,
+  "end": 57.58
+ },
+ {
+  "word": "like",
+  "start": 57.58,
+  "end": 57.86
+ },
+ {
+  "word": "puppet",
+  "start": 57.86,
+  "end": 58.2
+ },
+ {
+  "word": "strings,",
+  "start": 58.2,
+  "end": 59.04
+ },
+ {
+  "word": "and",
+  "start": 59.04,
+  "end": 59.38
+ },
+ {
+  "word": "nobody",
+  "start": 59.38,
+  "end": 59.72
+ },
+ {
+  "word": "knows",
+  "start": 59.72,
+  "end": 60.02
+ },
+ {
+  "word": "how",
+  "start": 60.02,
+  "end": 60.24
+ },
+ {
+  "word": "it",
+  "start": 60.24,
+  "end": 60.42
+ },
+ {
+  "word": "hunts",
+  "start": 60.42,
+  "end": 60.82
+ },
+ {
+  "word": "or",
+  "start": 60.82,
+  "end": 61.3
+ },
+ {
+  "word": "what",
+  "start": 61.3,
+  "end": 61.58
+ },
+ {
+  "word": "it",
+  "start": 61.58,
+  "end": 61.7
+ },
+ {
+  "word": "eats.",
+  "start": 61.7,
+  "end": 61.92
+ },
+ {
+  "word": "The",
+  "start": 64.6,
+  "end": 65.06
+ },
+ {
+  "word": "ocean",
+  "start": 65.06,
+  "end": 65.36
+ },
+ {
+  "word": "still",
+  "start": 65.36,
+  "end": 65.8
+ },
+ {
+  "word": "hides",
+  "start": 65.8,
+  "end": 66.06
+ },
+ {
+  "word": "creatures",
+  "start": 66.06,
+  "end": 66.48
+ },
+ {
+  "word": "we",
+  "start": 66.48,
+  "end": 66.82
+ },
+ {
+  "word": "were",
+  "start": 66.82,
+  "end": 66.94
+ },
+ {
+  "word": "never",
+  "start": 66.94,
+  "end": 67.26
+ },
+ {
+  "word": "meant",
+  "start": 67.26,
+  "end": 67.44
+ },
+ {
+  "word": "to",
+  "start": 67.44,
+  "end": 67.6
+ },
+ {
+  "word": "see.",
+  "start": 67.6,
+  "end": 68.38
+ },
+ {
+  "word": "Like",
+  "start": 68.38,
+  "end": 68.62
+ },
+ {
+  "word": "and",
+  "start": 68.62,
+  "end": 68.76
+ },
+ {
+  "word": "subscribe",
+  "start": 68.76,
+  "end": 69.16
+ },
+ {
+  "word": "before",
+  "start": 69.16,
+  "end": 69.7
+ },
+ {
+  "word": "it",
+  "start": 69.7,
+  "end": 69.92
+ },
+ {
+  "word": "decides",
+  "start": 69.92,
+  "end": 70.08
+ },
+ {
+  "word": "to",
+  "start": 70.08,
+  "end": 70.3
+ },
+ {
+  "word": "come",
+  "start": 70.3,
+  "end": 70.46
+ },
+ {
+  "word": "up.",
+  "start": 70.46,
+  "end": 70.58
+ }
+]

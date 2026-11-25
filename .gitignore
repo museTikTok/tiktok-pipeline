@@ -148,6 +148,12 @@ public/batch6/v19-raw/
 !public/batch6/gta6-teleporter-npc/words/
 !public/batch6/gta6-teleporter-npc/words/words-en-teleporter.json
 public/batch6/v17-raw/
+# CI build fix 3 (2026-11-25): the v25 CI render failed again with "Can't
+# resolve '../public/batch6/v24-en/v24-words-en.json'" — the v24 component
+# was rendered locally, so its words JSON was never committed, and the CI
+# bundle resolves EVERY component's require(). Words JSON only.
+!public/batch6/v24-en/
+!public/batch6/v24-en/v24-words-en.json
 # GTA 6 hype edit (EN only, no VO): 19 clips + launch-trailer music +
 # end-card background. Raw trailers (68 MB) stay on the VM.
 !public/batch6/gta6-clips/
