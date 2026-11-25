@@ -23,17 +23,20 @@
 // - White bold phrase subtitles (documentary style, NOT Titan One yellow
 //   karaoke), bottom: 470 — clear of the burned-in timestamp / camera-ID
 //   bands at the top and bottom of the CCTV foregrounds (clips 2/3).
-// - VO: FULL Kokoro bm_george speed 1.0 (grave topic — the voice of
-//   videos 19/22). Gemini Rasalgethi (Axel's chosen voice) was tried
-//   first: 7/8 sections generated (s01, s03-s07), but the quota died on
-//   s08 after 5x HTTP 429 with 300 s waits — so the whole VO is Kokoro
-//   (NEVER mix voices). Rasalgethi s01/s03-s07 are preserved in work/vo/
-//   for a possible v2. s02 was generated TWICE in one Rasalgethi file —
-//   trimmed to the first read (3.90 s). Kokoro s05 needed atempo 1.128x
-//   to fit the 12 s drone shot (9.47 s -> 8.40 s); all other sections fit
-//   as spoken. Mix target ~-20 dB (grave system): final mix -20.2 dB,
-//   max -2.0 dB, stereo, 60.0 s. Hook retention line verified fully
-//   intelligible by transcribing the final mix.
+// - V2 (Axel 2026-11-25 23:20: "change the voice off" + VO said
+//   "fifty nine zero zero zero"): VO = FULL Kokoro bm_lewis speed 1.0 —
+//   a DIFFERENT voice from v1's bm_george. Gemini Rasalgethi was tried
+//   first again: s01 + s08 generated, then 3x consecutive HTTP 429 on
+//   s03/s04/s05 — quota flaked again, so the whole VO is Kokoro
+//   (NEVER mix voices). Rasalgethi attempt files in work/vo-v2-rasalgethi/.
+// - NUMBERS IN WORDS (v2 fix for the digit-by-digit bug): the v2 script
+//   writes every number out in full ("four seventeen", "seven point
+//   eight", "nearly sixty thousand people", "two hundred fourteen
+//   thousand buildings") — NO digits anywhere in the VO. Transcription
+//   of the final mix confirms every number reads correctly. Mix target
+//   ~-20 dB (grave system): final mix -20.4 dB, max -1.7 dB, stereo,
+//   60.0 s. Hook retention line verified fully intelligible by
+//   transcribing the final mix.
 // FACTS (verified 2026-11-25, see v26-factsheet.md): Mw 7.8, 6 Feb 2023,
 // 04:17:35 TRT, epicentre Pazarcık; second quake Mw 7.5, 13:24 TRT, ~9 h
 // later; toll ~59,000, NEVER exact (official combined 59,488; some counts
@@ -62,9 +65,9 @@ const MONO = "'Monoton', cursive";
 const SANS = "'Arial', 'Helvetica', sans-serif";
 
 type Phrase = { text: string; start: number; end: number };
-const PHRASES: Phrase[] = require('../public/batch6/v26-en/v26-phrases-en.json');
+const PHRASES: Phrase[] = require('../public/batch6/v26-en/v26-phrases-en-v2.json');
 
-const MIX = staticFile('batch6/v26-en/v26-mix-en-v1.mp3');
+const MIX = staticFile('batch6/v26-en/v26-mix-en-v2.mp3');
 const ARROW = staticFile('batch6/v26-en/arrow-red-down.png');
 const CLIP = (name: string) => staticFile(`batch6/v26-clips/${name}`);
 
@@ -80,11 +83,11 @@ const HOOK_END = 3.0; // hook phrase + no-branding window
 // quota died on s08 after 5x 429; Rasalgethi s01/s03-s07 preserved in
 // work/vo/ for a possible v2 — never mix voices).
 const S06_START = 44.8;
-const S06_END = 47.5;
+const S06_END = 47.35;
 const S07_START = 49.0;
-const S07_END = 53.29;
-const S08_START = 53.64;
-const S08_END = 56.7;
+const S07_END = 53.19;
+const S08_START = 53.54;
+const S08_END = 56.47;
 
 type EnterKind = 'zoom' | 'slideL' | 'slideR' | 'fade';
 

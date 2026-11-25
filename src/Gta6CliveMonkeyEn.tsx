@@ -361,14 +361,19 @@ export const Gta6CliveMonkeyEn: React.FC = () => {
       </Sequence>
 
       {/* OUTRO 1101-1169 (2,27 s) : frame source 28,0 s (Noah + Lucia)
-          + FOLLOW + VO outro. Source MUETTE. */}
+          + FOLLOW + VO outro. Source MUETTE.
+          FIX 2026-11-25 : le titre etait a top 380, SUR la facecam
+          (yeux du streamer couverts, frame t=38). Deplace en bandeau
+          noir style TitleBand a top 660 (sous la facecam, qui finit
+          ~y 610 ; le zoom 1->1,04 la remonte a ~596 max) : le visage
+          reste ENTIER et les yeux DECOUVERTS pendant tout l'outro. */}
       <Sequence from={OUTRO_FROM} durationInFrames={OUTRO_FRAMES}>
         <FullFrameMuted startFrom={28.0} durationInFrames={OUTRO_FRAMES} />
-        <div style={{ position: 'absolute', left: 0, right: 0, top: 380, textAlign: 'center', zIndex: 7, padding: '0 60px' }}>
-          <div style={{ fontFamily: FONT, fontSize: 92, lineHeight: 1.1, color: '#fff', textShadow: '0 5px 0 #000, 0 10px 30px rgba(0,0,0,0.95)' }}>
+        <div style={{ position: 'absolute', top: 660, left: 0, width: 1080, height: 300, background: '#0d0d0d', zIndex: 7, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', borderTop: '4px solid #ffd60a', borderBottom: '4px solid #ffd60a' }}>
+          <div style={{ fontFamily: FONT, fontSize: 88, lineHeight: 1.0, color: '#fff', letterSpacing: 2, textShadow: '0 4px 0 #000, 0 8px 24px rgba(0,0,0,0.9)' }}>
             FOLLOW FOR MORE
           </div>
-          <div style={{ fontFamily: FONT, fontSize: 64, lineHeight: 1.1, color: '#ffd60a', textShadow: '0 5px 0 #000, 0 10px 30px rgba(0,0,0,0.95)', marginTop: 12 }}>
+          <div style={{ fontFamily: FONT, fontSize: 64, lineHeight: 1.1, color: '#ffd60a', letterSpacing: 2, textShadow: '0 4px 0 #000, 0 8px 24px rgba(0,0,0,0.9)', marginTop: 10 }}>
             GTA 6 CLIPS
           </div>
         </div>
