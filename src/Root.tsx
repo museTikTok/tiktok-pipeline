@@ -52,6 +52,7 @@ import {MaltaVideoDe} from './MaltaVideoDe';
 import {MothmanVideoEn} from './MothmanVideoEn';
 import {V24StrangestDeepSeaEn} from './V24StrangestDeepSeaEn';
 import {JellyfishUfoVideoEn} from './JellyfishUfoVideoEn';
+import {TurkeySyriaEarthquakeVideoEn} from './TurkeySyriaEarthquakeVideoEn';
 import {HessdalenVideoEn} from './HessdalenVideoEn';
 import {Gta6PcVideoEn} from './Gta6PcVideoEn';
 import {Gta6WweMemeEn} from './Gta6WweMemeEn';
@@ -67,6 +68,8 @@ import {Gta6Top5WtfV7En} from './Gta6Top5WtfV7En';
 import {Gta6Top5WtfPart2En} from './Gta6Top5WtfPart2En';
 import {Gta6Top5WtfPart3En} from './Gta6Top5WtfPart3En';
 import {Gta6TeleporterNpcEn} from './Gta6TeleporterNpcEn';
+import {Gta6SpeedAlienEn} from './Gta6SpeedAlienEn';
+import {Gta6CliveMonkeyEn} from './Gta6CliveMonkeyEn';
 import {HaboobVideoEn} from './HaboobVideoEn';
 
 // Dynamic duration: voiceover end + 1.5s tail, so videos can exceed 30s
@@ -834,6 +837,33 @@ const calculateJellyfishUfoEnMetadata: CalculateMetadataFunction<Record<string, 
 	};
 };
 
+// TurkeySyriaEarthquakeVideoEn — video 26, "The Turkey–Syria Earthquake,
+// 6 February 2023" (Axel 2026-11-25 17:01, after Marella was dropped for
+// quality: "Fais une sur le tremblement de terre le plus meurtrier...
+// avec des video réelle de CCTV et video prise par les gens"). ENGLISH
+// ONLY — DE versions suspended until further order. Axel VALIDATED all 5
+// clips 2026-11-25 21:50 ("Je valide les clips"). Grave-topic system
+// (@cursednature1, v13/v19): white bold phrase subtitles, no branding on
+// the hook (after 3 s), VO speed 1.0, sober tone, NO meme sounds, NO GTA
+// elements. 5 shots × 12 s = 60.0 s exactly = 1800 frames. Single
+// pre-mixed track (v26-mix-en-v1.mp3): VO + clip-1 archive rumble (ducked
+// ≤0.05 under VO, MUTE under the hook, featured in the 5.29-7.0 s gap) +
+// low grave drone under shots 2-4 only (12-48 s). Clip 1 plays 0-9 s then
+// freezes on the t=9 dust-cloud still — never the t=10-12 s replay tail
+// (building standing again). Brief red arrows (~1.5 s) on the CCTV
+// timestamps only. VO = Gemini Rasalgethi (Axel's chosen voice) if the
+// quota recovered, else FULL Kokoro bm_george 1.0 (never mix voices).
+// Toll "~59,000"/"nearly 60,000", NEVER exact; magnitude 7.8, NEVER 7.9;
+// Şanlıurfa = aftershock, hours later, daylight — never "at 04:17".
+const calculateTurkeySyriaEarthquakeEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1800,
+		props,
+	};
+};
+
 // Gta6PcVideoEn — GTA 6 sur PC, vidéo informative (script 1 redirigé, Axel 2026-11-17).
 // Fixed duration 65.63s = 1969 frames (narration 63.37s + 0.6s silence +
 // CTA 1.66s from 63.97s). Kokoro bm_george speed 1.15 (narration) / 1.3
@@ -1017,6 +1047,33 @@ const calculateGta6Top5WtfPart3EnMetadata: CalculateMetadataFunction<Record<stri
 }) => {
 	return {
 		durationInFrames: 5005,
+		props,
+	};
+};
+
+// Gta6SpeedAlienEn — « SPEED FOUND THE ALIEN IN GTA 6 » (Axel, 2026-11-25).
+// Clip unique yarcoclipz 37.0 s (hook 5.7 s + clip 28.8 s + outro 2.5 s).
+// VO Kokoro bm_george 1.15. Source YouTube 1080p30 verifiee image par image.
+const calculateGta6SpeedAlienEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1110,
+		props,
+	};
+};
+
+// Gta6CliveMonkeyEn — « THE MONKEY DID WHAT?! » (Axel, 2026-11-25).
+// Clip unique yarcoclipz 38,97 s (hook 4,6 s + C1 2,9 s + C2 3,2 s +
+// C3 20,0 s + C4 6,0 s + outro 2,27 s). VO Kokoro bm_george 1.15.
+// Source IG @judopotat0 reel DgIe8JCCnX- 916x1628 60fps, verifiee image
+// par image (jet a 14,4 s, FAHHHH cale a la frame 357, 3 memes plein
+// ecran, aucune bip — consigne Axel 21:52).
+const calculateGta6CliveMonkeyEnMetadata: CalculateMetadataFunction<Record<string, never>> = ({
+	props,
+}) => {
+	return {
+		durationInFrames: 1169,
 		props,
 	};
 };
@@ -1585,6 +1642,16 @@ export const RemotionRoot: React.FC = () => {
 				calculateMetadata={calculateJellyfishUfoEnMetadata}
 			/>
 			<Composition
+				id="TurkeySyriaEarthquakeVideoEn"
+				component={TurkeySyriaEarthquakeVideoEn as React.FC<unknown>}
+				durationInFrames={1800}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateTurkeySyriaEarthquakeEnMetadata}
+			/>
+			<Composition
 				id="Gta6PcVideoEn"
 				component={Gta6PcVideoEn as React.FC<unknown>}
 				durationInFrames={1969}
@@ -1723,6 +1790,26 @@ export const RemotionRoot: React.FC = () => {
 				height={1920}
 				defaultProps={{}}
 				calculateMetadata={calculateGta6TeleporterNpcEnMetadata}
+			/>
+			<Composition
+				id="Gta6SpeedAlienEn"
+				component={Gta6SpeedAlienEn as React.FC<unknown>}
+				durationInFrames={1110}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6SpeedAlienEnMetadata}
+			/>
+			<Composition
+				id="Gta6CliveMonkeyEn"
+				component={Gta6CliveMonkeyEn as React.FC<unknown>}
+				durationInFrames={1169}
+				fps={30}
+				width={1080}
+				height={1920}
+				defaultProps={{}}
+				calculateMetadata={calculateGta6CliveMonkeyEnMetadata}
 			/>
 			<Composition
 				id="HaboobVideoEn"

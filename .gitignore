@@ -120,6 +120,13 @@ public/batch6/v19-raw/
 !public/batch6/v25-en/*.png
 !public/batch6/v25-images/
 !public/batch6/v25-images/*.jpg
+# Video 26 Turkey-Syria earthquake (EN only, 2026-11-25): 5 clips + the
+# t=9 dust-cloud still + mix/phrases/arrow, used by
+# TurkeySyriaEarthquakeVideoEn. Raw downloads (v26 work/raw/) stay on the VM.
+!public/batch6/v26-clips/
+!public/batch6/v26-clips/*.jpg
+!public/batch6/v26-en/
+!public/batch6/v26-en/*.png
 # GTA 6 PC video (main chat, 2026-11-17): only the component + words JSON
 # are committed so the repo builds (Root.tsx imports it); its 43 MB of
 # clips/music stay on the VM (VM render only, published 2026-11-17).
