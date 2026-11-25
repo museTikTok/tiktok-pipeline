@@ -134,6 +134,19 @@ public/batch6/v19-raw/
 !public/batch6/gta5-last-ride/words-en.json
 !public/batch6/gta6-pc-rumors/
 !public/batch6/gta6-pc-rumors/words-en.json
+# CI build fix 2 (2026-11-25): the v25 CI render failed with "Can't resolve
+# './Gta6Top5WtfPart2En'" — Root.tsx imports 3 more GTA components created
+# 2026-11-24/25 (Top5 Part2, Top5 Part3, TeleporterNpc) that were never
+# committed. Same precedent: components + words JSONs only, clips on the VM.
+!public/batch6/gta6-top5-wtf-part2/
+!public/batch6/gta6-top5-wtf-part2/words/
+!public/batch6/gta6-top5-wtf-part2/words/words-en-part2.json
+!public/batch6/gta6-top5-wtf-part3/
+!public/batch6/gta6-top5-wtf-part3/words/
+!public/batch6/gta6-top5-wtf-part3/words/words-en-part3.json
+!public/batch6/gta6-teleporter-npc/
+!public/batch6/gta6-teleporter-npc/words/
+!public/batch6/gta6-teleporter-npc/words/words-en-teleporter.json
 public/batch6/v17-raw/
 # GTA 6 hype edit (EN only, no VO): 19 clips + launch-trailer music +
 # end-card background. Raw trailers (68 MB) stay on the VM.
